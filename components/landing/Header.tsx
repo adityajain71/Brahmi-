@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import AuthButton from "@/components/auth/AuthButton";
 
 export function Header() {
     return (
@@ -29,11 +30,7 @@ export function Header() {
 
             {/* Right: Actions */}
             <div className="flex items-center gap-4">
-                <Link href="/login">
-                    <Button variant="ghost" className="text-[#EDEDED] hover:text-[#D4AF37] hover:bg-[#D4AF37]/10 uppercase tracking-widest text-xs md:text-sm font-bold">
-                        Sign In
-                    </Button>
-                </Link>
+                <AuthButton />
                 <Link href="/courses">
                     <Button className="h-10 px-6 text-sm font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-md hover:bg-[#D4AF37]/90 transition-all uppercase tracking-wide border border-[#9F8224] shadow-sm">
                         Start Learning
