@@ -1,0 +1,188 @@
+{
+    "courseId": "brahmi-introduction",
+    "title": "Learn Brahmi Script",
+    "description": "An introductory course to reading and writing Brahmi script.",
+    "modules": [
+        {
+            "moduleId": "module-swar",
+            "title": "Vowels (Swar)",
+            "lessons": [
+                {
+                    "lessonId": "vowels-1",
+                    "type": "lesson",
+                    "title": "A, Aa, I, Ii",
+                    "content": [
+                        {
+                            "type": "text",
+                            "value": "Let's start with the first four vowels."
+                        },
+                        {
+                            "type": "character-grid",
+                            "items": [
+                                {
+                                    "devanagari": "अ",
+                                    "brahmi": "𑀅",
+                                    "transliteration": "a"
+                                },
+                                {
+                                    "devanagari": "आ",
+                                    "brahmi": "𑀆",
+                                    "transliteration": "aa"
+                                },
+                                {
+                                    "devanagari": "इ",
+                                    "brahmi": "𑀇",
+                                    "transliteration": "i"
+                                },
+                                {
+                                    "devanagari": "ई",
+                                    "brahmi": "𑀈",
+                                    "transliteration": "ii"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "lessonId": "vowels-2",
+                    "type": "lesson",
+                    "title": "U, Uu, E, Ai",
+                    "content": [
+                        {
+                            "type": "text",
+                            "value": "Next set of vowels."
+                        },
+                        {
+                            "type": "character-grid",
+                            "items": [
+                                {
+                                    "devanagari": "उ",
+                                    "brahmi": "𑀉",
+                                    "transliteration": "u"
+                                },
+                                {
+                                    "devanagari": "ऊ",
+                                    "brahmi": "𑀊",
+                                    "transliteration": "uu"
+                                },
+                                {
+                                    "devanagari": "ए",
+                                    "brahmi": "𑀏",
+                                    "transliteration": "e"
+                                },
+                                {
+                                    "devanagari": "ऐ",
+                                    "brahmi": "𑀐",
+                                    "transliteration": "ai"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "lessonId": "vowels-3",
+                    "type": "lesson",
+                    "title": "O, Au, Am, Ah",
+                    "content": [
+                        {
+                            "type": "text",
+                            "value": "Final vowels and modifiers."
+                        },
+                        {
+                            "type": "character-grid",
+                            "items": [
+                                {
+                                    "devanagari": "ओ",
+                                    "brahmi": "𑀑",
+                                    "transliteration": "o"
+                                },
+                                {
+                                    "devanagari": "औ",
+                                    "brahmi": "𑀒",
+                                    "transliteration": "au"
+                                },
+                                {
+                                    "devanagari": "अं",
+                                    "brahmi": "𑀅𑀁",
+                                    "transliteration": "am"
+                                },
+                                {
+                                    "devanagari": "अः",
+                                    "brahmi": "𑀅𑀂",
+                                    "transliteration": "ah"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "moduleId": "module-quiz-1",
+            "title": "Swar Quiz",
+            "lessons": [
+                {
+                    "lessonId": "quiz-swar",
+                    "type": "quiz",
+                    "title": "Test your Swar knowledge",
+                    "questions": [
+                        {
+                            "id": "q1",
+                            "type": "multiple-choice",
+                            "question": "Which character is 'Aa' (आ)?",
+                            "options": [
+                                {
+                                    "value": "𑀅",
+                                    "label": "𑀅"
+                                },
+                                {
+                                    "value": "𑀆",
+                                    "label": "𑀆"
+                                },
+                                {
+                                    "value": "𑀇",
+                                    "label": "𑀇"
+                                }
+                            ],
+                            "correctAnswer": "𑀆"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "moduleId": "module-basics",
+            "title": "Quiz / Trivia",
+            "lessons": [
+                {
+                    "lessonId": "trivia-1",
+                    "type": "quiz",
+                    "title": "General Knowledge",
+                    "questions": [
+                        {
+                            "id": "q_lang",
+                            "type": "boolean",
+                            "question": "Is Brahmi a language? (ब्राम्ही एक भाषा है?)",
+                            "correctAnswer": false,
+                            "explanation": "Brahmi is a script (writing system), not a language. (ब्राम्ही एक लिपि है, भाषा नहीं।)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "moduleId": "module-practice",
+            "title": "Practice",
+            "lessons": [
+                {
+                    "lessonId": "trace-a",
+                    "type": "canvas",
+                    "title": "Trace 'A' (𑀅)",
+                    "config": {
+                        "traceCharacter": "𑀅"
+                    }
+                }
+            ]
+        }
+    ]
+}

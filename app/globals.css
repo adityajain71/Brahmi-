@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  /* Parchment Theme */
+  --background: #F5F1E8;
+  --background-start: #FAF7F0;
+  --background-end: #EBE5D5;
+  --foreground: #2C2C2C;
+
+  /* Accents */
+  --accent-gold: #C5A059;
+  --accent-saffron: #E69138;
+
+  /* UI Elements */
+  --card-bg: #FFFFFF;
+  --border: #E5E0D6;
+
+  /* Heritage Learning Palette (Strict Isolation) */
+  --learning-bg: #1F1D3A;
+  /* Indigo Night - global background */
+  --learning-gold: #D4AF37;
+  /* Antique Saffron Gold - primary actions */
+  --learning-surface: #E6D8B8;
+  /* Warm Stone Beige - content cards */
+  --learning-success: #6F8F72;
+  /* Muted Leaf Green - success/correct */
+  --learning-info: #6C7BAF;
+  /* Soft Sky Blue - info/guide */
+  --learning-error: #C97A63;
+  /* Clay Coral - retry/hint */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent-gold: var(--accent-gold);
+  --color-accent-saffron: var(--accent-saffron);
+  --color-card: var(--card-bg);
+  --color-border: var(--border);
+
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+
+  --color-learning-bg: var(--learning-bg);
+  --color-learning-gold: var(--learning-gold);
+  --color-learning-surface: var(--learning-surface);
+  --color-learning-success: var(--learning-success);
+  --color-learning-info: var(--learning-info);
+  --color-learning-error: var(--learning-error);
+}
+
+body {
+  background: radial-gradient(circle at center, var(--background-start), var(--background-end));
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Subtle Grain Texture */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}
+
+::selection {
+  background-color: var(--accent-gold);
+  color: white;
+}

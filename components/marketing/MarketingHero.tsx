@@ -1,0 +1,43 @@
+import { Button } from "@/components/ui/Button";
+import Link from 'next/link';
+
+export function MarketingHero() {
+    return (
+        <section className="bg-[#1C1C1C] min-h-screen flex items-center justify-center pt-28 pb-12 px-6 border-b border-[#3A3A3A] overflow-hidden">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+
+                {/* Left: Copy (Order 2 on Mobile, Order 1 on Desktop) */}
+                <div className="text-center lg:text-left space-y-6 md:space-y-8 order-2 lg:order-1 relative z-10">
+                    <h1 className="text-5xl md:text-7xl font-serif text-[#EDEDED] font-bold leading-tight tracking-wide drop-shadow-xl">
+                        Ancient Echoes: <br className="hidden lg:block" />
+                        <span className="text-[#D4AF37]">Jain Philosophy</span> in Brahmi Script
+                    </h1>
+                    <h2 className="text-xl md:text-2xl text-[#EDEDED] font-semibold">
+                        Timeless Jain wisdom preserved through the ancient Brahmi Lipi.
+                    </h2>
+                    <p className="text-lg md:text-xl text-[#A6B1C0] font-medium max-w-lg mx-auto lg:mx-0 leading-relaxed">
+                        This learning course presents Brahmi Lipi as the script through which Jain philosophy, values, and sacred concepts have been preserved and transmitted across generations.
+                    </p>
+                    <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <Link href="/courses" className="w-full sm:w-auto">
+                            <Button className="w-full sm:w-auto h-14 md:h-16 px-10 text-lg md:text-xl font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-2xl shadow-[0_4px_0_0_#9F8224] hover:bg-[#D4AF37]/90 active:translate-y-1 active:shadow-none transition-all uppercase tracking-wider">
+                                Start Learning
+                            </Button>
+                        </Link>
+                    </div>
+                </div>
+
+                {/* Right: Mascot (Order 1 on Mobile, Order 2 on Desktop) */}
+                <div className="flex justify-center lg:justify-end order-1 lg:order-2">
+                    <div className="relative w-64 h-64 md:w-[600px] md:h-[600px] animate-float">
+                        <img
+                            src="/assets/mascot_hero.png"
+                            alt="Brahmi Scholar Mascot"
+                            className="w-full h-full object-contain drop-shadow-2xl"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}

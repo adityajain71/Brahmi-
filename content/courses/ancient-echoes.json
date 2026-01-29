@@ -1,0 +1,97 @@
+{
+    "courseId": "ancient-echoes-brahmi",
+    "title": "Ancient Echoes: The Brahmi Script",
+    "description": "Digitize the ancient Brahmi script into a structured 'learn and test' experience. Master the Mother of Scripts through 4 phases.",
+    "modules": [
+        {
+            "moduleId": "phase-1",
+            "title": "Phase 1: Introduction & History",
+            "lessons": [
+                {
+                    "lessonId": "intro-history",
+                    "type": "lesson",
+                    "title": "Brahmi: The Mother of Scripts",
+                    "content": []
+                },
+                {
+                    "lessonId": "concept-lipi",
+                    "type": "lesson",
+                    "title": "Conceptual Clarity: Lipi vs Language",
+                    "content": []
+                }
+            ]
+        },
+        {
+            "moduleId": "phase-2",
+            "title": "Phase 2: Vowels (Svar)",
+            "lessons": [
+                {
+                    "lessonId": "swar-a",
+                    "type": "lesson",
+                    "title": "Swar 'A' (अ) - The First Sound",
+                    "content": []
+                },
+                {
+                    "lessonId": "swar-aa",
+                    "type": "lesson",
+                    "title": "Swar 'Aa' (आ)",
+                    "content": []
+                },
+                {
+                    "lessonId": "swar-i",
+                    "type": "lesson",
+                    "title": "Swar 'I' (इ)",
+                    "content": []
+                },
+                {
+                    "lessonId": "trace-vowels",
+                    "type": "canvas",
+                    "title": "Practice Tracing Vowels",
+                    "config": {}
+                }
+            ]
+        },
+        {
+            "moduleId": "phase-3",
+            "title": "Phase 3: Consonants (Vyanjan)",
+            "lessons": [
+                {
+                    "lessonId": "consonants-guttural",
+                    "type": "lesson",
+                    "title": "Guttural Consonants (Kavarga)",
+                    "content": []
+                },
+                {
+                    "lessonId": "consonants-palatal",
+                    "type": "lesson",
+                    "title": "Palatal Consonants (Chavarga)",
+                    "content": []
+                },
+                {
+                    "lessonId": "consonants-cerebral",
+                    "type": "lesson",
+                    "title": "Cerebral Consonants (Tavarga)",
+                    "content": []
+                }
+            ]
+        },
+        {
+            "moduleId": "phase-4",
+            "title": "Phase 4: Diacritics (Matra)",
+            "lessons": [
+                {
+                    "lessonId": "matra-concept",
+                    "type": "lesson",
+                    "title": "Understanding Matras",
+                    "content": []
+                },
+                {
+                    "lessonId": "matra-placement",
+                    "type": "lesson",
+                    "title": "Matra Placement Rules",
+                    "content": []
+                }
+            ]
+        }
+    ]
+}

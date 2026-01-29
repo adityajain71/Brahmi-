@@ -1,0 +1,31 @@
+{
+  "courseId": "foundations-of-xyz",
+  "title": "Foundations of XYZ",
+  "description": "Prototype course for Sprint 1",
+  "modules": [
+    {
+      "moduleId": "module-1",
+      "title": "Introduction",
+      "lessons": [
+        {
+          "lessonId": "lesson-1",
+          "type": "lesson",
+          "title": "What is XYZ?",
+          "content": []
+        },
+        {
+          "lessonId": "lesson-2",
+          "type": "quiz",
+          "title": "Quick Check",
+          "questions": []
+        },
+        {
+          "lessonId": "lesson-3",
+          "type": "canvas",
+          "title": "Practice Area",
+          "config": {}
+        }
+      ]
+    }
+  ]
+}
