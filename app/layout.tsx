@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/landing/Header";
-import SessionProvider from "@/components/auth/SessionProvider";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -29,12 +29,12 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} antialiased bg-background text-foreground`}
       >
-        <SessionProvider>
+        <ClerkProvider>
           <Header />
           <main className="min-h-screen pt-[72px]">
             {children}
           </main>
-        </SessionProvider>
+        </ClerkProvider>
       </body>
     </html>
   );
