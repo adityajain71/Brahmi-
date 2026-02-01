@@ -55,9 +55,11 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     // Removed strokes state as it's no longer needed
 
     useEffect(() => {
+        /* Guest Mode: Removed forced redirect
         if (isLoaded && !userId) {
             router.push('/login')
         }
+        */
     }, [isLoaded, userId, router])
 
     // Unwrap params
@@ -182,12 +184,16 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
             if (userId && letterId) {
                 try {
                     await markLessonComplete(userId, letterId)
+                    router.push('/letters')
                 } catch (err) {
                     console.error('Code Error:', err)
                     alert('Error saving progress.')
+                    router.push('/letters')
                 }
+            } else if (letterId) {
+                // Guest Mode: Redirect with query param so Letters page handles storage
+                router.push(`/letters?guest_complete=${letterId}`)
             }
-            router.push('/letters')
             return
         }
 

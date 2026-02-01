@@ -1,6 +1,10 @@
 import { createClient } from '@/lib/supabase/client'
 
-export async function getUserProgress(userId: string) {
+export async function getUserProgress(userId: string | null) {
+    if (!userId) {
+        return { completedIds: [], currentId: null }
+    }
+
     const supabase = createClient()
     const { data, error } = await supabase
         .from('user_progress')
@@ -19,7 +23,12 @@ export async function getUserProgress(userId: string) {
     return { completedIds, currentId }
 }
 
-export async function markLessonComplete(userId: string, letterId: string) {
+export async function markLessonComplete(userId: string | null, letterId: string) {
+    if (!userId) {
+        // Guest mode: Do nothing on DB side
+        return
+    }
+
     const supabase = createClient()
 
     // 1. Mark current as completed

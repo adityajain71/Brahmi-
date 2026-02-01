@@ -50,9 +50,11 @@ export default function LettersPage() {
     const router = useRouter()
 
     useEffect(() => {
+        /*
         if (isLoaded && !userId) {
             router.push('/login')
         }
+        */
     }, [isLoaded, userId, router])
 
     // 1. Fetch Letters Configuration
@@ -81,6 +83,54 @@ export default function LettersPage() {
         }
 
         async function fetchUserProgress() {
+            // Guest Mode Logic
+            if (!userId) {
+                // Get local count
+                const localCountStr = localStorage.getItem('brahmi_completed_count')
+                let localCount = localCountStr ? parseInt(localCountStr) : 0
+
+                // Check for "guest_complete" param
+                const params = new URLSearchParams(window.location.search)
+                const completedLetterId = params.get('guest_complete')
+
+                if (completedLetterId && letters.length > 0) {
+                    const completedLetter = letters.find(l => l.id === completedLetterId)
+                    if (completedLetter) {
+                        // Check if this is the NEXT one (order logic)
+                        // This logic is simple: if we finished order X, next is X+1
+                        // Or if we finished a letter whose index is >= localCount?
+                        // Let's rely on order indices.
+                        const completedIndex = letters.findIndex(l => l.id === completedLetterId)
+                        if (completedIndex === localCount) {
+                            console.log('LETTERS_DBG: Guest finished next letter!', completedLetterId)
+                            localCount = localCount + 1
+                            localStorage.setItem('brahmi_completed_count', localCount.toString())
+                            setJustCompletedIndex(completedIndex)
+
+                            // Animation
+                            setTimeout(() => {
+                                setShowCelebration(true)
+                                setTimeout(() => {
+                                    setShowCelebration(false)
+                                    setAnimatingPathIndex(completedIndex) // Draw path
+                                }, 400)
+                                setTimeout(() => {
+                                    setAnimatingPathIndex(null)
+                                    setJustCompletedIndex(null)
+                                    // Clear param to avoid re-animation on refresh? 
+                                    // window.history.replaceState({}, '', '/letters')
+                                }, 1000)
+                            }, 500)
+                        }
+                    }
+                }
+
+                const guestCompletedIds = letters.slice(0, localCount).map(l => l.id)
+                setCompletedIds(guestCompletedIds)
+                setActiveIndex(localCount)
+                return
+            }
+
             console.log('LETTERS_DBG: Fetching progress for', userId)
 
             // Get data from DB
