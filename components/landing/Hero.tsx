@@ -41,7 +41,7 @@ export function Hero() {
                             </h2>
                         </motion.div>
 
-                        <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-[#F5F1E8] leading-[0.9] tracking-tight drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
+                        <h1 className="text-4xl md:text-7xl lg:text-8xl font-serif text-[#F5F1E8] leading-[0.9] tracking-tight drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
                             Master the <br />
                             <span className="italic text-accent-saffron relative inline-block pt-2 drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
                                 Brahmi Lipi
@@ -59,7 +59,7 @@ export function Hero() {
                     </div>
 
                     <div className="flex flex-col sm:flex-row gap-5 pt-4">
-                        <Link href="/courses">
+                        <Link href="/letters">
                             <Button size="lg" variant="primary" className="text-lg px-10 py-6 h-auto shadow-xl hover:shadow-accent-gold/20 hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto">
                                 Begin the Journey
                             </Button>

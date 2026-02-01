@@ -51,7 +51,7 @@ export function LessonPreview() {
                             </div>
                         </div>
 
-                        <Link href="/courses/brahmi-introduction/lesson/trace-a" className="w-full mt-6">
+                        <Link href="/letters" className="w-full mt-6">
                             <Button size="lg" variant="primary" className="w-full">
                                 Start Free Lesson
                             </Button>

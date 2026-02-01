@@ -15,8 +15,8 @@ export function Footer() {
                     <div>
                         <h4 className="font-medium mb-4 text-white">Learn</h4>
                         <ul className="space-y-2 text-sm text-white/60">
-                            <li><Link href="/courses" className="hover:text-accent-gold">Courses</Link></li>
-                            <li><Link href="/courses/brahmi-introduction/lesson/trace-a" className="hover:text-accent-gold">Practice</Link></li>
+                            <li><Link href="/letters" className="hover:text-accent-gold">Courses</Link></li>
+                            <li><Link href="/letters" className="hover:text-accent-gold">Practice</Link></li>
                             <li><Link href="#" className="hover:text-accent-gold">Dictionary</Link></li>
                         </ul>
                     </div>

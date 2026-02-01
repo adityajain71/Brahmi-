@@ -167,10 +167,15 @@ export default function LettersPage() {
             </div>
 
             {/* Journey Canvas */}
-            <div className="max-w-[400px] mx-auto relative mt-16 pb-40 flex flex-col items-center z-10">
+            <div className="w-full max-w-[400px] mx-auto relative mt-16 pb-40 flex flex-col items-center z-10 px-4">
 
                 {/* Connecting Line (Base) */}
-                <svg className="absolute top-12 left-0 w-full h-full pointer-events-none -z-10" style={{ height: '100%', minHeight: '800px' }}>
+                <svg
+                    className="absolute top-12 left-0 w-full h-full pointer-events-none -z-10"
+                    viewBox="0 0 400 800"
+                    preserveAspectRatio="xMidYMin slice"
+                    style={{ minHeight: '800px' }}
+                >
                     <defs>
                         <linearGradient id="pathGradient" x1="0%" y1="0%" x2="0%" y2="100%">
                             <stop offset="0%" stopColor="#D4AF37" stopOpacity="0.6" />

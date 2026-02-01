@@ -264,7 +264,7 @@ export default function LessonTracer({ letterSymbol, onComplete }: LessonTracerP
     }
 
     return (
-        <div className="flex flex-col items-center justify-center w-full max-w-md mx-auto">
+        <div className="flex flex-col items-center justify-center w-full max-w-md mx-auto px-4">
 
             {/* Canvas Area */}
             <div
