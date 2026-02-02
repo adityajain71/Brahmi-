@@ -24,6 +24,63 @@ const PATH_SEGMENTS = [
     "M340 640 Q340 680 200 720"                           // 3 -> 4
 ]
 
+/**
+ * Get last completed lesson (highest order_no)
+ */
+function getLastCompletedLesson(
+    letters: Letter[],
+    completedIds: string[]
+): Letter | null {
+    const completed = letters.filter(l => completedIds.includes(l.id))
+    if (completed.length === 0) return null
+    return completed.sort((a, b) => b.order_no - a.order_no)[0]
+}
+
+/**
+ * Get next incomplete lesson after a given lesson
+ */
+function getNextIncompleteLesson(
+    letters: Letter[],
+    afterLesson: Letter,
+    completedIds: string[]
+): Letter | null {
+    return letters.find(
+        l => l.order_no > afterLesson.order_no &&
+            !completedIds.includes(l.id)
+    ) || null
+}
+
+/**
+ * Determine if animation should trigger
+ * Returns: { shouldAnimate, fromLesson, toLesson }
+ */
+function getAnimationTargets(
+    letters: Letter[],
+    previousCompletedIds: string[],
+    currentCompletedIds: string[]
+) {
+    // No new completions
+    if (currentCompletedIds.length <= previousCompletedIds.length) {
+        return { shouldAnimate: false, fromLesson: null, toLesson: null }
+    }
+
+    const lastCompleted = getLastCompletedLesson(letters, currentCompletedIds)
+    if (!lastCompleted) {
+        return { shouldAnimate: false, fromLesson: null, toLesson: null }
+    }
+
+    const nextLesson = getNextIncompleteLesson(letters, lastCompleted, currentCompletedIds)
+    if (!nextLesson) {
+        return { shouldAnimate: false, fromLesson: null, toLesson: null }
+    }
+
+    return {
+        shouldAnimate: true,
+        fromLesson: lastCompleted,
+        toLesson: nextLesson
+    }
+}
+
 export default function LettersPage() {
     const [identity, setIdentity] = useState<Identity>({ type: 'none', id: null })
     const [isLoaded, setIsLoaded] = useState(false)
@@ -80,52 +137,81 @@ export default function LettersPage() {
         async function fetchProgress() {
             console.log('LETTERS_DBG: Fetching progress for', identity)
 
-            // Get progress using unified API
-            const { completedIds: fetchedCompletedIds } = await getUserProgress(identity)
-            const progressCount = fetchedCompletedIds.length
+            // Get current completion state from database/localStorage
+            const { completedIds: currentCompletedIds } = await getUserProgress(identity)
 
-            // Get local count to detect "Just Completed" event
-            const localCountStr = localStorage.getItem('brahmi_completed_count')
-            const localCount = localCountStr ? parseInt(localCountStr) : 0
+            // Get previous completion state from component state
+            const previousCompletedIds = completedIds
 
             console.log('LETTERS_DBG: State Check:', {
-                progressCount,
-                localCount,
-                completedIds: fetchedCompletedIds,
-                willAnimate: progressCount > localCount
+                previousCount: previousCompletedIds.length,
+                currentCount: currentCompletedIds.length,
+                previousIds: previousCompletedIds,
+                currentIds: currentCompletedIds
             })
 
-            // LOGIC: If progress has MORE items than local, user just finished a lesson
-            if (progressCount > localCount) {
-                console.log(`LETTERS_DBG: Progress Detected: Local ${localCount} -> Progress ${progressCount}`)
+            // Determine animation targets using state-based logic
+            const { shouldAnimate, fromLesson, toLesson } = getAnimationTargets(
+                letters,
+                previousCompletedIds,
+                currentCompletedIds
+            )
 
-                // 1. Set initial state to BEFORE completion to allow animation
-                setCompletedIds(fetchedCompletedIds.slice(0, localCount))
-                setActiveIndex(localCount)
-                setJustCompletedIndex(localCount)
+            console.log('LETTERS_DBG: Animation Decision:', {
+                shouldAnimate,
+                fromLesson: fromLesson ? `${fromLesson.letter_name} (order: ${fromLesson.order_no})` : null,
+                toLesson: toLesson ? `${toLesson.letter_name} (order: ${toLesson.order_no})` : null
+            })
 
-                // 2. Start Animation Sequence
+            if (shouldAnimate && fromLesson && toLesson) {
+                // Find indices for animation
+                const fromIndex = letters.findIndex(l => l.id === fromLesson.id)
+                const toIndex = letters.findIndex(l => l.id === toLesson.id)
+
+                console.log('LETTERS_DBG: Triggering animation:', {
+                    from: `${fromLesson.letter_name} (index: ${fromIndex})`,
+                    to: `${toLesson.letter_name} (index: ${toIndex})`
+                })
+
+                // Set initial state
+                setCompletedIds(currentCompletedIds)
+                setActiveIndex(fromIndex)
+                setJustCompletedIndex(toIndex) // Highlight the next lesson
+
+                // Start animation sequence
                 setTimeout(() => {
+                    console.log('LETTERS_DBG: Showing celebration')
                     setShowCelebration(true)
 
                     setTimeout(() => {
+                        console.log('LETTERS_DBG: Animating path')
                         setShowCelebration(false)
-                        setAnimatingPathIndex(localCount)
+                        setAnimatingPathIndex(fromIndex)
                     }, 400)
 
                     setTimeout(() => {
+                        console.log('LETTERS_DBG: Animation complete')
                         setAnimatingPathIndex(null)
-                        setCompletedIds(fetchedCompletedIds)
-                        setActiveIndex(progressCount)
+                        setActiveIndex(toIndex)
                         setJustCompletedIndex(null)
-                        localStorage.setItem('brahmi_completed_count', progressCount.toString())
                     }, 1000)
                 }, 500)
             } else {
-                // No new progress, just sync
-                setCompletedIds(fetchedCompletedIds)
-                setActiveIndex(progressCount)
-                localStorage.setItem('brahmi_completed_count', progressCount.toString())
+                console.log('LETTERS_DBG: No animation, syncing state')
+                // No animation needed, just sync state
+                setCompletedIds(currentCompletedIds)
+
+                // Set active index to the next incomplete lesson or end
+                const lastCompleted = getLastCompletedLesson(letters, currentCompletedIds)
+                if (lastCompleted) {
+                    const nextIncomplete = getNextIncompleteLesson(letters, lastCompleted, currentCompletedIds)
+                    const activeIdx = nextIncomplete
+                        ? letters.findIndex(l => l.id === nextIncomplete.id)
+                        : letters.findIndex(l => l.id === lastCompleted.id) + 1
+                    setActiveIndex(activeIdx)
+                } else {
+                    setActiveIndex(0)
+                }
             }
         }
 

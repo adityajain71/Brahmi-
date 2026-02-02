@@ -22,7 +22,7 @@ type LetterStep = {
     step_type: 'show' | 'sound' | 'explanation' | 'example' | 'practice' | 'complete'
     content: string
     order_no: number
-    letters: Letter
+    letters: Letter  // Single object, not array
 }
 
 export default function LessonPage({ params }: { params: Promise<{ letter_id: string }> }) {
@@ -44,6 +44,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState<string | null>(null)
     const [letterId, setLetterId] = useState<string | null>(null)
+    const [currentLessonOrderNo, setCurrentLessonOrderNo] = useState<number>(0)
     const [isAnimating, setIsAnimating] = useState(false)
     const [isSpeaking, setIsSpeaking] = useState(false)
 
@@ -105,6 +106,12 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
             }
 
             setSteps(stepsData as unknown as LetterStep[])
+
+            // Store current lesson order number for next lesson navigation
+            const firstStep = stepsData[0] as any
+            if (firstStep?.letters?.order_no !== undefined) {
+                setCurrentLessonOrderNo(firstStep.letters.order_no)
+            }
 
             // 2. Fetch Quiz Questions
             const { data: quizData, error: quizError } = await supabase
@@ -178,11 +185,14 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
 
             if (letterId) {
                 try {
+                    // Mark current lesson as complete
                     await markLessonComplete(identity, letterId)
+
+                    // Return to journey page - animation will play there
                     router.push('/letters')
                 } catch (err) {
                     console.error('Error saving progress:', err)
-                    // Don't block user on error, just log it
+                    // Don't block user on error, just return to journey
                     router.push('/letters')
                 }
             }
@@ -375,13 +385,25 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     return (
         <div className="min-h-screen bg-[#1C1C1C] text-white flex flex-col">
             {/* Header / Progress */}
-            <div className="h-20 border-b border-[#3A3A3A] flex items-center justify-between px-6 md:px-10">
-                <button onClick={() => router.push('/letters')} className="text-gray-400 hover:text-white">✕</button>
-                <div className="flex-1 max-w-md mx-4 h-3 bg-[#2C2C2C] rounded-full overflow-hidden">
-                    <div
-                        className="h-full bg-[#D4AF37] transition-all duration-500"
-                        style={{ width: `${((currentStepIndex + 1) / steps.length) * 100}%` }}
-                    />
+            {/* Header: Progress Bar + Letter Name */}
+            <div className="flex items-center justify-between px-6 py-4 bg-[#2C2C2C] border-b border-[#3A3A3A]">
+                {/* Return to Journey Button */}
+                <button
+                    onClick={() => router.push('/letters')}
+                    className="flex items-center gap-2 text-[#D4AF37] hover:text-[#FFD6A5] transition-colors font-medium text-sm md:text-base"
+                >
+                    <span className="text-lg">←</span>
+                    <span className="hidden sm:inline">Return to Journey</span>
+                    <span className="sm:hidden">Journey</span>
+                </button>
+
+                <div className="flex-1 mx-4 md:mx-8">
+                    <div className="h-2 bg-[#1C1C1C] rounded-full overflow-hidden">
+                        <div
+                            className="h-full bg-gradient-to-r from-[#D4AF37] to-[#F2D06B] transition-all duration-500"
+                            style={{ width: `${((currentStepIndex + 1) / steps.length) * 100}%` }}
+                        />
+                    </div>
                 </div>
                 <div className="w-8" />
             </div>
