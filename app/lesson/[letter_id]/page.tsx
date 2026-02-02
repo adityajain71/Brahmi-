@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { markLessonComplete } from '@/lib/progress'
+import { getCurrentIdentity, Identity } from '@/lib/guestIdentity'
 import { useRouter } from 'next/navigation'
 import LessonQuiz, { McqQuestion, McqOption } from '@/components/lesson/LessonQuiz'
 import LessonTracer from '@/components/lesson/LessonTracer'
@@ -25,19 +26,19 @@ type LetterStep = {
 }
 
 export default function LessonPage({ params }: { params: Promise<{ letter_id: string }> }) {
-    const [userId, setUserId] = useState<string | null>(null)
+    const [identity, setIdentity] = useState<Identity>({ type: 'none', id: null })
     const [isLoaded, setIsLoaded] = useState(false)
     const router = useRouter()
     const [steps, setSteps] = useState<LetterStep[]>([])
     const supabase = createClient()
 
     useEffect(() => {
-        const checkUser = async () => {
-            const { data: { user } } = await supabase.auth.getUser()
-            setUserId(user?.id ?? null)
+        const loadIdentity = async () => {
+            const currentIdentity = await getCurrentIdentity()
+            setIdentity(currentIdentity)
             setIsLoaded(true)
         }
-        checkUser()
+        loadIdentity()
     }, [supabase])
     const [currentStepIndex, setCurrentStepIndex] = useState(0)
     const [loading, setLoading] = useState(true)
@@ -54,13 +55,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     const [traceMode, setTraceMode] = useState(false)
     // Removed strokes state as it's no longer needed
 
-    useEffect(() => {
-        /* Guest Mode: Removed forced redirect
-        if (isLoaded && !userId) {
-            router.push('/login')
-        }
-        */
-    }, [isLoaded, userId, router])
+    // No authentication check needed - guests are allowed
 
     // Unwrap params
     useEffect(() => {
@@ -178,21 +173,18 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
 
         // 2. If currently in Trace mode, finish everything
         if (traceMode) {
-            console.log('Completing lesson...', { userId, letterId })
+            console.log('Completing lesson...', { identity, letterId })
             if (!isLoaded) return
 
-            if (userId && letterId) {
+            if (letterId) {
                 try {
-                    await markLessonComplete(userId, letterId)
+                    await markLessonComplete(identity, letterId)
                     router.push('/letters')
                 } catch (err) {
-                    console.error('Code Error:', err)
-                    alert('Error saving progress.')
+                    console.error('Error saving progress:', err)
+                    // Don't block user on error, just log it
                     router.push('/letters')
                 }
-            } else if (letterId) {
-                // Guest Mode: Redirect with query param so Letters page handles storage
-                router.push(`/letters?guest_complete=${letterId}`)
             }
             return
         }

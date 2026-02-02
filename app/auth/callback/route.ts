@@ -27,7 +27,11 @@ export async function GET(request: Request) {
             }
         )
         const { error } = await supabase.auth.exchangeCodeForSession(code)
+
         if (!error) {
+            // Guest progress migration happens client-side
+            // The letters page will automatically sync progress when user logs in
+            console.log('Auth callback: User authenticated successfully')
             return NextResponse.redirect(`${origin}${next}`)
         }
     }

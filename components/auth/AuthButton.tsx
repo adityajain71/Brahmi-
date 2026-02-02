@@ -5,13 +5,21 @@ import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { User } from '@supabase/supabase-js';
+import { getCurrentIdentity, Identity } from '@/lib/guestIdentity';
 
 export default function AuthButton() {
     const router = useRouter();
     const [user, setUser] = useState<User | null>(null);
+    const [identity, setIdentity] = useState<Identity>({ type: 'none', id: null });
     const supabase = createClient();
 
     useEffect(() => {
+        const loadIdentity = async () => {
+            const currentIdentity = await getCurrentIdentity();
+            setIdentity(currentIdentity);
+        };
+        loadIdentity();
+
         const getUser = async () => {
             const { data: { user } } = await supabase.auth.getUser();
             setUser(user);
@@ -20,6 +28,7 @@ export default function AuthButton() {
 
         const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
             setUser(session?.user ?? null);
+            loadIdentity();
         });
 
         return () => subscription.unsubscribe();
@@ -44,12 +53,19 @@ export default function AuthButton() {
     }
 
     return (
-        <Link href="/login">
-            <button
-                className="text-sm font-bold text-[#EDEDED] hover:text-[#D4AF37] hover:bg-[#D4AF37]/10 px-4 py-2 rounded-md transition-all uppercase tracking-widest border border-transparent hover:border-[#D4AF37]/50"
-            >
-                Sign in
-            </button>
-        </Link>
+        <div className="flex items-center gap-3">
+            {identity.type === 'guest' && (
+                <span className="text-xs text-[#D4AF37]/70 hidden md:inline">
+                    Sign in to save progress
+                </span>
+            )}
+            <Link href="/login">
+                <button
+                    className="text-sm font-bold text-[#EDEDED] hover:text-[#D4AF37] hover:bg-[#D4AF37]/10 px-4 py-2 rounded-md transition-all uppercase tracking-widest border border-transparent hover:border-[#D4AF37]/50"
+                >
+                    Sign in
+                </button>
+            </Link>
+        </div>
     );
 }

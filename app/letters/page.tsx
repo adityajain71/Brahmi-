@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { getUserProgress } from '@/lib/progress'
+import { getCurrentIdentity, Identity } from '@/lib/guestIdentity'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
@@ -24,19 +25,19 @@ const PATH_SEGMENTS = [
 ]
 
 export default function LettersPage() {
-    const [userId, setUserId] = useState<string | null>(null)
+    const [identity, setIdentity] = useState<Identity>({ type: 'none', id: null })
     const [isLoaded, setIsLoaded] = useState(false)
     const [letters, setLetters] = useState<Letter[]>([])
     const [loading, setLoading] = useState(true)
     const supabase = createClient()
 
     useEffect(() => {
-        const checkUser = async () => {
-            const { data: { user } } = await supabase.auth.getUser()
-            setUserId(user?.id ?? null)
+        const loadIdentity = async () => {
+            const currentIdentity = await getCurrentIdentity()
+            setIdentity(currentIdentity)
             setIsLoaded(true)
         }
-        checkUser()
+        loadIdentity()
     }, [supabase])
 
     // Progression State
@@ -49,13 +50,7 @@ export default function LettersPage() {
     const [justCompletedIndex, setJustCompletedIndex] = useState<number | null>(null)
     const router = useRouter()
 
-    useEffect(() => {
-        /*
-        if (isLoaded && !userId) {
-            router.push('/login')
-        }
-        */
-    }, [isLoaded, userId, router])
+    // No authentication check needed - guests are allowed
 
     // 1. Fetch Letters Configuration
     useEffect(() => {
@@ -77,122 +72,67 @@ export default function LettersPage() {
 
     // 2. Fetch User Progress & Trigger Animation
     useEffect(() => {
-        if (!isLoaded || !userId) {
-            console.log('LETTERS_DBG: Waiting for auth...', { isLoaded, userId })
+        if (!isLoaded) {
+            console.log('LETTERS_DBG: Waiting for identity...', { isLoaded })
             return
         }
 
-        async function fetchUserProgress() {
-            // Guest Mode Logic
-            if (!userId) {
-                // Get local count
-                const localCountStr = localStorage.getItem('brahmi_completed_count')
-                let localCount = localCountStr ? parseInt(localCountStr) : 0
+        async function fetchProgress() {
+            console.log('LETTERS_DBG: Fetching progress for', identity)
 
-                // Check for "guest_complete" param
-                const params = new URLSearchParams(window.location.search)
-                const completedLetterId = params.get('guest_complete')
-
-                if (completedLetterId && letters.length > 0) {
-                    const completedLetter = letters.find(l => l.id === completedLetterId)
-                    if (completedLetter) {
-                        // Check if this is the NEXT one (order logic)
-                        // This logic is simple: if we finished order X, next is X+1
-                        // Or if we finished a letter whose index is >= localCount?
-                        // Let's rely on order indices.
-                        const completedIndex = letters.findIndex(l => l.id === completedLetterId)
-                        if (completedIndex === localCount) {
-                            console.log('LETTERS_DBG: Guest finished next letter!', completedLetterId)
-                            localCount = localCount + 1
-                            localStorage.setItem('brahmi_completed_count', localCount.toString())
-                            setJustCompletedIndex(completedIndex)
-
-                            // Animation
-                            setTimeout(() => {
-                                setShowCelebration(true)
-                                setTimeout(() => {
-                                    setShowCelebration(false)
-                                    setAnimatingPathIndex(completedIndex) // Draw path
-                                }, 400)
-                                setTimeout(() => {
-                                    setAnimatingPathIndex(null)
-                                    setJustCompletedIndex(null)
-                                    // Clear param to avoid re-animation on refresh? 
-                                    // window.history.replaceState({}, '', '/letters')
-                                }, 1000)
-                            }, 500)
-                        }
-                    }
-                }
-
-                const guestCompletedIds = letters.slice(0, localCount).map(l => l.id)
-                setCompletedIds(guestCompletedIds)
-                setActiveIndex(localCount)
-                return
-            }
-
-            console.log('LETTERS_DBG: Fetching progress for', userId)
-
-            // Get data from DB
-            const { completedIds: dbCompletedIds, currentId } = await getUserProgress(userId!)
-
-            const dbCount = dbCompletedIds.length
+            // Get progress using unified API
+            const { completedIds: fetchedCompletedIds } = await getUserProgress(identity)
+            const progressCount = fetchedCompletedIds.length
 
             // Get local count to detect "Just Completed" event
             const localCountStr = localStorage.getItem('brahmi_completed_count')
             const localCount = localCountStr ? parseInt(localCountStr) : 0
 
             console.log('LETTERS_DBG: State Check:', {
-                dbCount,
+                progressCount,
                 localCount,
-                dbIds: dbCompletedIds,
-                willAnimate: dbCount > localCount
+                completedIds: fetchedCompletedIds,
+                willAnimate: progressCount > localCount
             })
 
-            // LOGIC: If DB has MORE items than local, user just finished a lesson
-            if (dbCount > localCount) {
-                console.log(`LETTERS_DBG: Progress Detected: Local ${localCount} -> DB ${dbCount}`)
+            // LOGIC: If progress has MORE items than local, user just finished a lesson
+            if (progressCount > localCount) {
+                console.log(`LETTERS_DBG: Progress Detected: Local ${localCount} -> Progress ${progressCount}`)
 
                 // 1. Set initial state to BEFORE completion to allow animation
-                setCompletedIds(dbCompletedIds.slice(0, localCount)) // Temporarily show old state
+                setCompletedIds(fetchedCompletedIds.slice(0, localCount))
                 setActiveIndex(localCount)
-                setJustCompletedIndex(localCount) // The node that was just finished
+                setJustCompletedIndex(localCount)
 
                 // 2. Start Animation Sequence
                 setTimeout(() => {
-                    // Celebrate the node we just finished
                     setShowCelebration(true)
 
-                    // Start drawing path
                     setTimeout(() => {
                         setShowCelebration(false)
-                        setAnimatingPathIndex(localCount) // Draw path from finished node -> next
+                        setAnimatingPathIndex(localCount)
                     }, 400)
 
-                    // Finalize state
                     setTimeout(() => {
                         setAnimatingPathIndex(null)
-                        setCompletedIds(dbCompletedIds) // Sync full state
-                        setActiveIndex(dbCount)
+                        setCompletedIds(fetchedCompletedIds)
+                        setActiveIndex(progressCount)
                         setJustCompletedIndex(null)
-
-                        // Update local storage so we don't re-animate on refresh
-                        localStorage.setItem('brahmi_completed_count', dbCount.toString())
-                    }, 1000) // 400 + 600ms
-                }, 500) // Small delay after load
+                        localStorage.setItem('brahmi_completed_count', progressCount.toString())
+                    }, 1000)
+                }, 500)
             } else {
                 // No new progress, just sync
-                setCompletedIds(dbCompletedIds)
-                setActiveIndex(dbCount)
-                // Ensure local is in sync
-                localStorage.setItem('brahmi_completed_count', dbCount.toString())
+                setCompletedIds(fetchedCompletedIds)
+                setActiveIndex(progressCount)
+                localStorage.setItem('brahmi_completed_count', progressCount.toString())
             }
         }
 
         if (letters.length > 0) {
-            fetchUserProgress()
+            fetchProgress()
         }
-    }, [isLoaded, userId, letters.length]) // Re-run if auth or letters load
+    }, [isLoaded, identity.type, identity.id, letters.length])
 
 
     if (loading || !isLoaded) {
@@ -209,7 +149,24 @@ export default function LettersPage() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_#151428_100%)] pointer-events-none" />
 
             {/* Header */}
-            <div className="w-full border-b border-[#D4AF37]/20 py-8 text-center bg-[#1F1D3A]/95 backdrop-blur-sm sticky top-0 z-50">
+            <div className="w-full border-b border-[#D4AF37]/20 py-8 text-center bg-[#1F1D3A]/95 backdrop-blur-sm sticky top-0 z-50 relative">
+                {/* Back Button */}
+                <button
+                    onClick={() => router.push('/')}
+                    className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 flex items-center gap-2 text-[#D4AF37] hover:text-[#FFD6A5] transition-colors group"
+                    aria-label="Back to home"
+                >
+                    <svg
+                        className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                    <span className="hidden md:inline text-sm font-medium">Back</span>
+                </button>
+
                 <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-xs mb-3 uppercase">Section 1</div>
                 <h1 className="text-4xl font-serif text-white mb-2 font-bold tracking-wide">Vowels</h1>
                 <p className="text-[#E6D8B8]/80 text-sm font-medium">Learn Brahmi vowels step by step</p>

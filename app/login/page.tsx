@@ -3,11 +3,24 @@
 import { createClient } from '@/lib/supabase/client'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { hasGuestIdentity } from '@/lib/guestIdentity'
+import { getGuestProgressForMigration } from '@/lib/progress'
 
 export default function LoginPage() {
     const router = useRouter()
     const supabase = createClient()
     const [error, setError] = useState<string | null>(null)
+    const [hasGuestProgress, setHasGuestProgress] = useState(false)
+
+    useEffect(() => {
+        // Check if user has guest progress
+        if (hasGuestIdentity()) {
+            const guestProgress = getGuestProgressForMigration()
+            if (guestProgress && guestProgress.completedIds.length > 0) {
+                setHasGuestProgress(true)
+            }
+        }
+    }, [])
 
     const handleLogin = async () => {
         const { error } = await supabase.auth.signInWithOAuth({
@@ -28,6 +41,12 @@ export default function LoginPage() {
                 <p className="text-gray-400 text-sm mb-6 text-center">
                     Sign in to continue your journey
                 </p>
+
+                {hasGuestProgress && (
+                    <div className="bg-[#D4AF37]/10 border border-[#D4AF37]/30 text-[#D4AF37] p-3 rounded-lg mb-4 text-sm w-full text-center">
+                        ✨ Your progress will be saved to your account
+                    </div>
+                )}
 
                 {error && (
                     <div className="bg-red-500/10 border border-red-500/50 text-red-500 p-3 rounded-lg mb-4 text-sm w-full text-center">
