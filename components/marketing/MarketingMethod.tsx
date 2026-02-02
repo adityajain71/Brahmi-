@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 
 const STEPS = [
     {
-        title: "Phase 1: Philosophy & Context.",
-        desc: "An introduction to Jain philosophy and the role of Brahmi Lipi in preserving concepts such as Dharma, Ahimsa, Moksha, and spiritual discipline.",
+        title: "चरण 1: दर्शन एवं संदर्भ",
+        desc: "जैन दर्शन का परिचय और ब्राह्मी लिपि की भूमिका। धर्म, अहिंसा, मोक्ष जैसी अवधारणाओं को समझना।",
         image: "/assets/mascot_2.png",
     },
     {
-        title: "Phase 2: Swar & Vyanjan.",
-        desc: "Learning vowels and consonants as they appear in Jain terms, sacred words, and philosophical expressions, with attention to accuracy and discipline.",
+        title: "चरण 2: स्वर एवं व्यंजन",
+        desc: "स्वरों और व्यंजनों की पहचान, अभ्यास और परीक्षण। जैन शब्दों और पवित्र अभिव्यक्तियों में इनका प्रयोग।",
         image: "/assets/mascot_3.png",
     },
     {
-        title: "Phase 3: The Art of Matras.",
-        desc: "Understanding matras to correctly form Jain philosophical terms and expressions, ensuring clarity in reading and writing sacred concepts.",
+        title: "चरण 3: मात्राओं की कला",
+        desc: "मात्राओं का सही प्रयोग और संयोजन। जैन दार्शनिक शब्दों को स्पष्टता से पढ़ने और लिखने के लिए।",
         image: "/assets/mascot_1.png",
     }
 ];

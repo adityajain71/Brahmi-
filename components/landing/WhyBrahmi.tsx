@@ -8,18 +8,18 @@ import { motion } from "framer-motion";
 const features = [
     {
         icon: Landmark,
-        title: "The Mother of Scripts",
-        description: "Brahmi is the ancestor of nearly all Indian scripts, including Devanagari, Tamil, and Telugu. Learning it connects you to the roots of South Asian literacy."
+        title: "पवित्र उत्पत्ति",
+        description: "जैन परंपरा के अनुसार, ब्राह्मी लिपि की रचना भगवान ऋषभदेव — प्रथम तीर्थंकर — द्वारा की गई। उन्होंने यह विद्या अपनी पुत्री ब्रह्मी को प्रदान की।"
     },
     {
         icon: Scroll,
-        title: "Preserved in Stone",
-        description: "From the Edicts of Ashoka to ancient cave inscriptions, Brahmi carries the voice of history. Read the words exactly as they were carved millennia ago."
+        title: "लिपियों की जननी",
+        description: "ब्राह्मी लिपि प्राचीन भारत की अनेक लिपियों की जननी है। एक ही लिपि से अनेक भाषाएँ लिखी जा सकती हैं।"
     },
     {
         icon: BookOpen,
-        title: "Gateway to Wisdom",
-        description: "Unlock original texts and manuscripts in their authentic form. Experience the profound depth of Jain and Buddhist philosophy without translation layers."
+        title: "जैन आगमों की मूल लिपि",
+        description: "ब्राह्मी का अध्ययन हमें जैन दर्शन को उसकी जड़ों से समझने का अवसर देता है। यह जैन आगमों की मूल लिपि रही है।"
     }
 ];
 
@@ -27,10 +27,9 @@ export function WhyBrahmi() {
     return (
         <Section id="about" className="bg-transparent relative z-10">
             <div className="text-center mb-16 space-y-4">
-                <h2 className="text-3xl md:text-4xl font-serif text-foreground">Why Learn Brahmi?</h2>
+                <h2 className="text-3xl md:text-4xl font-serif text-foreground">आज ब्राह्मी का अध्ययन क्यों आवश्यक है?</h2>
                 <p className="text-foreground/70 max-w-2xl mx-auto">
-                    More than just a script, Brahmi is a bridge to the past.
-                    Rediscover the elegance of ancient communication.
+                    ब्राह्मी लिपि जैन आगमों की मूल लिपि रही है। इसका अध्ययन हमें परंपरा से जोड़ता है।
                 </p>
             </div>
 

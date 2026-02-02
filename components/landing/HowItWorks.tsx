@@ -7,23 +7,23 @@ import { PenTool, Repeat, Brain, Trophy } from "lucide-react";
 const steps = [
     {
         icon: PenTool,
-        title: "Interactive Writing",
-        description: "Trace each letter on our digital canvas. Feel the flow of the strokes as you master the form."
+        title: "दर्शन एवं संदर्भ",
+        description: "जैन दर्शन का परिचय और ब्राह्मी लिपि की भूमिका।"
     },
     {
         icon: Repeat,
-        title: "Spaced Repetition",
-        description: "Review characters at optimal intervals. Our algorithm ensures you remember what you learn."
+        title: "स्वर एवं व्यंजन",
+        description: "स्वरों और व्यंजनों की पहचान, अभ्यास और परीक्षण।"
     },
     {
         icon: Brain,
-        title: "Deep Understanding",
-        description: "Learn the phonetics and philosophical significance behind each vowel and consonant."
+        title: "मात्राओं की कला",
+        description: "मात्राओं का सही प्रयोग और संयोजन।"
     },
     {
         icon: Trophy,
-        title: "Gradual Mastery",
-        description: "Progress from simple letters to complex conjuncts and full sentences. Earn your proficiency."
+        title: "अभ्यास और मूल्यांकन",
+        description: "लिखने का अभ्यास (ट्रेसिंग), बहुविकल्पीय प्रश्न और प्रगति के अनुसार मार्गदर्शन।"
     }
 ];
 
@@ -34,11 +34,11 @@ export function HowItWorks() {
                 <div className="space-y-8">
                     <div className="space-y-4">
                         <h2 className="text-3xl md:text-4xl font-serif text-foreground">
-                            A Disciplined Approach
+                            आपकी अध्ययन यात्रा
                         </h2>
                         <p className="text-foreground/70 text-lg leading-relaxed">
-                            Learning Brahmi is not just about memorization; it is a practice of mindfulness.
-                            Our platform guides you through a structured path of discovery.
+                            यह पाठ्यक्रम अनुशासन और धैर्य के साथ सीखने के लिए डिज़ाइन किया गया है।
+                            हर चरण आपको धीरे-धीरे आगे बढ़ाता है — बिना बोझ, बिना जल्दबाज़ी।
                         </p>
                     </div>
 

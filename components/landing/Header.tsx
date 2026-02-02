@@ -40,7 +40,7 @@ export function Header() {
                                 Good Life Jain Foundation
                             </span>
                             <span className="text-[10px] md:text-xs font-medium text-[#A6B1C0] tracking-wider leading-none mt-0.5">
-                                Reviving Brahmi Script
+                                ब्राह्मी लिपि का पुनरुद्धार
                             </span>
                         </div>
                     </Link>
@@ -50,7 +50,7 @@ export function Header() {
                         <AuthButton />
                         <Link href="/letters">
                             <Button className="h-10 px-6 text-sm font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-md hover:bg-[#D4AF37]/90 transition-all uppercase tracking-wide border border-[#9F8224] shadow-sm">
-                                Start Learning
+                                अध्ययन प्रारंभ करें
                             </Button>
                         </Link>
                     </div>
@@ -77,7 +77,7 @@ export function Header() {
                                 <AuthButton />
                                 <Link href="/letters" className="w-full" onClick={() => setIsMobileMenuOpen(false)}>
                                     <Button className="w-full h-12 text-sm font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-md hover:bg-[#D4AF37]/90 transition-all uppercase tracking-wide border border-[#9F8224] shadow-sm">
-                                        Start Learning
+                                        अध्ययन प्रारंभ करें
                                     </Button>
                                 </Link>
                             </div>

@@ -13,14 +13,14 @@ export function MarketingValue() {
                 </div>
                 <div className="space-y-6 text-center md:text-left">
                     <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#EDEDED]">
-                        Lipi, Not Language.
+                        लिपि, भाषा नहीं।
                     </h2>
                     <p className="text-lg text-[#A6B1C0] font-medium leading-relaxed">
-                        In Jain tradition, Brahmi is understood as a <strong>Lipi</strong>—a script, not a spoken language.
-                        It serves as a precise medium for recording and preserving Jain philosophical concepts, scriptures, and teachings.
+                        जैन परंपरा में ब्राह्मी को एक <strong>लिपि</strong> के रूप में समझा जाता है, न कि बोली जाने वाली भाषा के रूप में।
+                        यह जैन दार्शनिक सिद्धांत, आगम, और शिक्षाओं को लिखित रूप में संरक्षित करने का सटीक माध्यम है।
                     </p>
                     <Button variant="ghost" className="text-[#D4AF37] font-bold uppercase tracking-widest hover:bg-[#D4AF37]/10">
-                        Understand the Foundation
+                        मूल आधार को समझिए
                     </Button>
                 </div>
             </div>

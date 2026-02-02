@@ -17,26 +17,26 @@ export function Philosophy() {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-3xl md:text-5xl font-serif leading-tight mb-6">
-                        &quot;Knowledge is the soul&apos;s intrinsic nature.&quot;
+                        लिपि, भाषा नहीं।
                     </h2>
                     <p className="text-accent-gold text-lg font-medium tracking-widest uppercase">
-                        — Jain Philosophy
+                        — जैन परंपरा
                     </p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                     {[
                         {
-                            title: "Right Perception",
-                            desc: "Seeing the script not just as shapes, but as a vessel of truth."
+                            title: "लिपि का स्वरूप",
+                            desc: "जैन परंपरा में ब्राह्मी को एक लिपि के रूप में समझा जाता है, न कि बोली जाने वाली भाषा के रूप में।"
                         },
                         {
-                            title: "Right Knowledge",
-                            desc: "Understanding the structure, phonetics, and history accurately."
+                            title: "ज्ञान का माध्यम",
+                            desc: "ब्राह्मी लिपि वह सटीक माध्यम है जिसके द्वारा जैन दार्शनिक सिद्धांत, आगम, और शिक्षाएँ लिखित रूप में संरक्षित की गईं।"
                         },
                         {
-                            title: "Right Conduct",
-                            desc: "Practicing with discipline, consistency, and respect."
+                            title: "परंपरा की निरंतरता",
+                            desc: "आज उपलब्ध जैन ग्रंथ उसी परंपरा की निरंतरता हैं। भाषा बोली जाती है, जबकि लिपि लिखी जाती है।"
                         }
                     ].map((item, index) => (
                         <motion.div
