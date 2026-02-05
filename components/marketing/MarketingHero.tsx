@@ -19,7 +19,7 @@ export function MarketingHero() {
                         यह पाठ्यक्रम ब्राह्मी लिपि को उस माध्यम के रूप में प्रस्तुत करता है जिसके द्वारा जैन दर्शन, मूल्य और आध्यात्मिक सिद्धांत पीढ़ी दर पीढ़ी सुरक्षित रहे हैं।
                     </p>
                     <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <Link href="/letters" className="w-full sm:w-auto">
+                        <Link href="/learn" className="w-full sm:w-auto">
                             <Button className="w-full sm:w-auto h-14 md:h-16 px-10 text-lg md:text-xl font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-2xl shadow-[0_4px_0_0_#9F8224] hover:bg-[#D4AF37]/90 active:translate-y-1 active:shadow-none transition-all uppercase tracking-wider">
                                 अध्ययन प्रारंभ करें
                             </Button>

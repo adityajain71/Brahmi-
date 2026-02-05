@@ -13,7 +13,7 @@ export function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     // Hide header on App routes (Journey, Lesson, etc.)
-    const isAppPage = pathname?.startsWith('/letters') || pathname?.startsWith('/lesson');
+    const isAppPage = pathname?.startsWith('/letters') || pathname?.startsWith('/lesson') || pathname?.startsWith('/learn');
 
     if (isAppPage) return null;
 
@@ -48,7 +48,7 @@ export function Header() {
                     {/* Desktop Actions */}
                     <div className="hidden md:flex items-center gap-4">
                         <AuthButton />
-                        <Link href="/letters">
+                        <Link href="/learn">
                             <Button className="h-10 px-6 text-sm font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-md hover:bg-[#D4AF37]/90 transition-all uppercase tracking-wide border border-[#9F8224] shadow-sm">
                                 अध्ययन प्रारंभ करें
                             </Button>
@@ -75,7 +75,7 @@ export function Header() {
                         >
                             <div className="flex flex-col gap-4 p-6 items-center">
                                 <AuthButton />
-                                <Link href="/letters" className="w-full" onClick={() => setIsMobileMenuOpen(false)}>
+                                <Link href="/learn" className="w-full" onClick={() => setIsMobileMenuOpen(false)}>
                                     <Button className="w-full h-12 text-sm font-bold bg-[#D4AF37] text-[#1C1C1C] rounded-md hover:bg-[#D4AF37]/90 transition-all uppercase tracking-wide border border-[#9F8224] shadow-sm">
                                         अध्ययन प्रारंभ करें
                                     </Button>

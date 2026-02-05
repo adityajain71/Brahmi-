@@ -14,6 +14,7 @@ type Letter = {
     letter_name: string
     brahmi_symbol: string
     order_no: number
+    letter_type: 'vowel' | 'consonant'
 }
 
 type LetterStep = {
@@ -45,6 +46,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     const [error, setError] = useState<string | null>(null)
     const [letterId, setLetterId] = useState<string | null>(null)
     const [currentLessonOrderNo, setCurrentLessonOrderNo] = useState<number>(0)
+    const [letterType, setLetterType] = useState<'vowel' | 'consonant'>('vowel') // Default to vowel
     const [isAnimating, setIsAnimating] = useState(false)
     const [isSpeaking, setIsSpeaking] = useState(false)
 
@@ -86,7 +88,8 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
             id,
             letter_name,
             brahmi_symbol,
-            order_no
+            order_no,
+            letter_type
           )
         `)
                 .eq('letter_id', letterId)
@@ -107,10 +110,11 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
 
             setSteps(stepsData as unknown as LetterStep[])
 
-            // Store current lesson order number for next lesson navigation
+            // Store current lesson details
             const firstStep = stepsData[0] as any
-            if (firstStep?.letters?.order_no !== undefined) {
+            if (firstStep?.letters) {
                 setCurrentLessonOrderNo(firstStep.letters.order_no)
+                setLetterType(firstStep.letters.letter_type || 'vowel')
             }
 
             // 2. Fetch Quiz Questions
@@ -167,6 +171,12 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
         }
     }
 
+    // Determine return route based on letter type
+    const getReturnRoute = (completedId?: string) => {
+        const baseUrl = letterType === 'consonant' ? '/consonants' : '/letters'
+        return completedId ? `${baseUrl}?completed=${completedId}` : baseUrl
+    }
+
     // Handle lesson/quiz/trace completion flow
     const handleFlowComplete = async () => {
         // FLOW: Lesson Steps -> Quiz (if available) -> Trace -> Complete
@@ -189,11 +199,11 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
                     await markLessonComplete(identity, letterId)
 
                     // Return to journey page - animation will play there
-                    router.push('/letters')
+                    router.push(getReturnRoute(letterId))
                 } catch (err) {
                     console.error('Error saving progress:', err)
                     // Don't block user on error, just return to journey
-                    router.push('/letters')
+                    router.push(getReturnRoute(letterId))
                 }
             }
             return
@@ -258,10 +268,10 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
                     <h2 className="text-red-500 mb-2 font-bold text-xl">Error</h2>
                     <p className="text-gray-400 mb-6">{error || 'No steps available'}</p>
                     <button
-                        onClick={() => router.push('/letters')}
+                        onClick={() => router.push(getReturnRoute())}
                         className="px-8 py-3 bg-[#D4AF37] text-[#1C1C1C] font-bold rounded-xl hover:brightness-110 transition-all"
                     >
-                        Back to Letters
+                        Back to Journey
                     </button>
                 </div>
             </div>
@@ -389,7 +399,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
             <div className="flex items-center justify-between px-6 py-4 bg-[#2C2C2C] border-b border-[#3A3A3A]">
                 {/* Return to Journey Button */}
                 <button
-                    onClick={() => router.push('/letters')}
+                    onClick={() => router.push(getReturnRoute())}
                     className="flex items-center gap-2 text-[#D4AF37] hover:text-[#FFD6A5] transition-colors font-medium text-sm md:text-base"
                 >
                     <span className="text-lg">←</span>

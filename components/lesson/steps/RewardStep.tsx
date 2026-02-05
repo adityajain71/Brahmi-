@@ -11,7 +11,7 @@ interface RewardStepProps {
     nextLessonId?: string | null;
 }
 
-const RewardStep: React.FC<RewardStepProps> = ({ reward, onComplete, nextLessonId }) => {
+const RewardStep: React.FC<RewardStepProps> = ({ reward, step, onComplete, nextLessonId }) => {
     return (
         <div className="flex flex-col items-center justify-center space-y-6 p-8 text-center max-w-lg mx-auto">
             <div className="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center mb-4 text-4xl">
@@ -35,18 +35,19 @@ const RewardStep: React.FC<RewardStepProps> = ({ reward, onComplete, nextLessonI
 
             {nextLessonId ? (
                 <Link
-                    href={`/learn/lesson/${nextLessonId}`}
+                    href={`/learn/lesson/${nextLessonId}?completed=${step.letterId}`}
                     className="mt-8 px-12 py-3 bg-gray-900 hover:bg-black text-white font-medium rounded-full transition-all hover:scale-105 shadow-lg flex items-center gap-2"
                 >
                     Next Lesson <span>→</span>
                 </Link>
             ) : (
-                <button
+                <Link
+                    href={`/letters?completed=${step.letterId}`}
                     onClick={onComplete}
                     className="mt-8 px-12 py-3 bg-gray-900 hover:bg-black text-white font-medium rounded-full transition-all hover:scale-105 shadow-lg"
                 >
                     Finish
-                </button>
+                </Link>
             )}
         </div>
     );

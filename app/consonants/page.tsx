@@ -15,6 +15,7 @@ type Letter = {
     letter_name: string
     brahmi_symbol: string
     order_no: number
+    // Type removed as we are using order_no based filtering
 }
 
 // --- Layout Constants ---
@@ -71,14 +72,11 @@ function generatePathSegments(count: number): string[] {
 function generateSVGPath(count: number): string {
     if (count < 2) return ''
     const segments = generatePathSegments(count)
-
-    // Join segments: Start with Move (M), then append Curves (C)
-    // We can just join them, as M commands re-position the "pen" harmlessly to the same spot
     return segments.join(' ')
 }
 
 
-export default function LettersPage() {
+export default function ConsonantsPage() {
     // --- State ---
     const [identity, setIdentity] = useState<Identity>({ type: 'none', id: null })
     const [isLoaded, setIsLoaded] = useState(false)
@@ -109,35 +107,29 @@ export default function LettersPage() {
         loadIdentity()
     }, [])
 
-    // 2. Fetch Letters (VOWELS ONLY)
+    // 2. Fetch Letters (CONSONANTS ONLY - Order >= 13)
     useEffect(() => {
         async function fetchLetters() {
+            // FIX: Using order_no filter as requested by user
             const { data, error } = await supabase
                 .from('letters')
                 .select('*')
-                .eq('letter_type', 'vowel') // STRICT FILTER
+                .gte('order_no', 13)
                 .order('order_no', { ascending: true })
 
-            if (!error) setLetters(data || [])
+            if (!error) setLetters(data as unknown as Letter[] || [])
             setLoading(false)
         }
         fetchLetters()
     }, [])
 
     // 3. Fetch Progress & Handle New Completions (Via URL Params)
-    // We use a URL parameter '?completed=ID' to robustly detect when to animate.
     useEffect(() => {
         if (!isLoaded || letters.length === 0) return
 
         async function fetchProgress() {
             const { completedIds: fetchedIds } = await getUserProgress(identity)
             setCompletedIds(fetchedIds)
-
-            // Check URL for completion flag
-            // Note: We need to use useSearchParams() but for now accessing via window (or router state if complex) is tricky in minimal setup?
-            // Safer: Just assume standard Next.js SearchParams availability.
-            // Since we are in client component, let's parse window.location.search directly or import useSearchParams.
-            // Let's use simple window check to avoid adding hooks if possible, or better adds `useSearchParams`.
         }
 
         fetchProgress()
@@ -158,16 +150,13 @@ export default function LettersPage() {
                     if (idx < letters.length - 1) {
                         setAnimatingIndex(idx)
 
-                        // Clear param after animation started so it doesn't loop on refresh? 
-                        // Actually router.replace is good.
                         setTimeout(() => {
                             setShowCelebration(true)
-
                             setTimeout(() => {
                                 setShowCelebration(false)
                                 setAnimatingIndex(null)
                                 // Clean up URL
-                                router.replace('/letters', { scroll: false })
+                                router.replace('/consonants', { scroll: false })
                             }, 2000)
                         }, 1000)
                     }
@@ -181,34 +170,9 @@ export default function LettersPage() {
 
 
     // --- Path Logic ---
-    // If I have completed Index 0. 
-    // I want Segment 0 (L0->L1) to be SOLID.
-    // So solid segments = lastCompletedIndex + 1? No.
-    // If L0 is done. lastCompletedIndex = 0.
-    // We want segment 0 to be solid. 
-    // So solidLimit = 1 (slice(0,1) -> [0]).
-
-    // BUT if we are actively animating Segment 0.
-    // We want solidLimit = 0.
-
-    let solidLimit = lastCompletedIndex
-    // WAIT. Logic check:
-    // If L0 is done. CompletedIds=['id_0']. lastCompletedIndex=0.
-    // Next unlocked is L1.
-    // Path L0->L1 should be solid.
-    // That is segment index 0.
-    // So if lastCompletedIndex=0, we want solid up to index 0 (inclusive of segment index).
-    // slice(0, solidLimit).
-    // slice(0, 1) returns [0].
-    // So solidLimit = lastCompletedIndex + 1? -> 1. Correct.
-
-    // Correction: If L0 is NOT done (-1). solidLimit = 0. Correct.
-
-    solidLimit = lastCompletedIndex + 1
+    let solidLimit = lastCompletedIndex + 1
 
     if (animatingIndex !== null) {
-        // If animating segment N. We want segments 0 to N-1 to be solid.
-        // So solidLimit = N.
         solidLimit = animatingIndex
     }
 
@@ -225,7 +189,8 @@ export default function LettersPage() {
                     ← Back
                 </button>
                 <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-xs mb-2 uppercase">Journey</div>
-                <h1 className="text-3xl font-serif text-white font-bold">Vowels</h1>
+                <h1 className="text-3xl font-serif text-white font-bold">Vyanjan (Consonants)</h1>
+                <p className="text-[#6C7BAF] text-[10px] uppercase tracking-widest mt-1">Learn Brahmi Consonants</p>
 
                 {/* Temporary Test Button */}
                 <button
@@ -327,17 +292,13 @@ export default function LettersPage() {
                         nodeClass += "bg-[#D4AF37] border-white text-white animate-pulse shadow-[0_0_30px_rgba(212,175,55,0.6)] scale-110"
                     } else {
                         // Unlocked but not active/completed (Standard State)
-                        // Removed grayscale, made it inviting but neutral
                         nodeClass += "bg-[#1F1D3A] border-[#D4AF37]/50 text-[#D4AF37] hover:border-[#D4AF37] hover:scale-105"
                     }
 
                     // Mascot Logic
-                    // Show on ODD indices (1, 3, 5) to alternate with the timeline curves
-                    // If Node is Right (Index 1), Place Mascot Left.
-                    // If Node is Left (Index 3), Place Mascot Right.
+                    // Reuse same alternating logic
                     const showMascot = (index % 2 !== 0 && index !== letters.length - 1)
                     const side = (index % 4 === 1) ? 'left' : 'right'
-
                     const mascotImg = (index % 3) + 1
 
                     return (
@@ -374,7 +335,6 @@ export default function LettersPage() {
                                 )}
 
                                 {/* LAYER 3: Text Label (Z-30) */}
-                                {/* Added Background Pill for legibility over path */}
                                 <div className="absolute top-[85px] left-1/2 -translate-x-1/2 mt-2 bg-[#1F1D3A] px-3 py-1 rounded-full border border-[#D4AF37]/30 z-30 whitespace-nowrap shadow-lg">
                                     <span className={`text-xs font-bold uppercase tracking-wider ${isLocked ? 'text-gray-500' : 'text-[#D4AF37]'}`}>
                                         {letter.letter_name}
