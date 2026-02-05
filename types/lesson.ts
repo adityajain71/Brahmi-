@@ -12,6 +12,7 @@ export type LessonStepType =
 
 export interface LessonStep {
     id: string;
+    letterId?: string; // Added for navigation tracking
     type: LessonStepType;
     prompt?: string;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
