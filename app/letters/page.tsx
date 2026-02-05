@@ -226,18 +226,6 @@ export default function LettersPage() {
                 </button>
                 <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-xs mb-2 uppercase">Journey</div>
                 <h1 className="text-3xl font-serif text-white font-bold">Vowels</h1>
-
-                {/* Temporary Test Button */}
-                <button
-                    onClick={() => {
-                        localStorage.removeItem('brahmi_guest_progress')
-                        localStorage.removeItem('brahmi_guest_id')
-                        window.location.reload()
-                    }}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 text-xs bg-red-900/50 hover:bg-red-900 text-red-200 px-2 py-1 rounded border border-red-800"
-                >
-                    Reset (Test)
-                </button>
             </div>
 
             {/* Journey Container */}

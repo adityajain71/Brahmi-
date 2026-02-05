@@ -8,11 +8,11 @@ import { motion } from 'framer-motion'
 import { COURSE_MODULES } from '@/lib/courseData'
 
 // --- Layout Constants ---
-const VERTICAL_GAP = 280     // Large vertical spacing for clarity
-const PADDING_TOP = 140
-const SVG_WIDTH = 400
-const CENTER_X = 200
-const OFFSET = 50            // Gentle organic curve
+const VERTICAL_GAP = 220     // Reduced for mobile density
+const PADDING_TOP = 100
+const SVG_WIDTH = 360        // Fits standard mobile width (360px)
+const CENTER_X = 180         // Half of 360
+const OFFSET = 45            // Slightly tighter organic curve
 
 /**
  * Calculate (x, y) coordinates for the snake path
@@ -61,17 +61,17 @@ export default function LearnPage() {
         <div className="min-h-screen w-full bg-[#1F1D3A] text-white flex flex-col items-center relative overflow-hidden font-sans">
 
             {/* 2. Header (Consistent with Vowels Page) */}
-            <div className="w-full border-b border-[#D4AF37]/20 py-6 text-center bg-[#1F1D3A]/95 backdrop-blur-sm sticky top-0 z-50">
-                <button onClick={() => router.push('/')} className="absolute left-6 top-1/2 -translate-y-1/2 text-[#D4AF37] hover:text-white transition-colors text-xs font-bold uppercase tracking-wider flex items-center gap-1">
-                    ← Home
+            <div className="w-full border-b border-[#D4AF37]/20 py-4 md:py-6 text-center bg-[#1F1D3A]/95 backdrop-blur-sm sticky top-0 z-50 px-4">
+                <button onClick={() => router.push('/')} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] hover:text-white transition-colors text-xs font-bold uppercase tracking-wider flex items-center gap-1">
+                    ← <span className="hidden sm:inline">Home</span>
                 </button>
-                <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-[10px] mb-2 uppercase">Ancient Echoes</div>
-                <h1 className="text-3xl font-serif text-white font-bold tracking-wide">Course Overview</h1>
+                <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-[10px] mb-1 uppercase">Ancient Echoes</div>
+                <h1 className="text-2xl md:text-3xl font-serif text-white font-bold tracking-wide">Course Overview</h1>
             </div>
 
             {/* 3. Main Journey Container */}
             <div
-                className="relative w-full max-w-[420px] mx-auto mt-4 pb-48"
+                className="relative w-full max-w-[360px] mx-auto mt-4 pb-32"
                 style={{ height: `${PADDING_TOP + (COURSE_MODULES.length * VERTICAL_GAP)}px` }}
             >
                 {/* LAYER 0: The Path (Z-0) */}
@@ -97,9 +97,9 @@ export default function LearnPage() {
                         fill="none"
                         stroke="#D4AF37"
                         strokeOpacity="0.3"
-                        strokeWidth="8"
+                        strokeWidth="6"
                         strokeLinecap="round"
-                        strokeDasharray="12 12"
+                        strokeDasharray="10 10"
                         initial={{ pathLength: 0, opacity: 0 }}
                         animate={{ pathLength: 1, opacity: 1 }}
                         transition={{ duration: 1.5, ease: "easeOut" }}
@@ -116,8 +116,6 @@ export default function LearnPage() {
 
                     // State Logic
                     const isCompleted = index <= completedUpTo
-                    // Everything is clickable ("Active" visual state for all future modules to imply accessibility)
-                    const isActiveVisual = true
 
                     return (
                         <div
@@ -126,14 +124,14 @@ export default function LearnPage() {
                             style={{ left: pos.x, top: pos.y }}
                         >
                             {/* LAYER 1: Mascots (Z-10) */}
-                            {/* Strictly anchored relative to node center */}
+                            {/* Strictly anchored relative to node center. Closer offset for mobile. */}
                             <div
-                                className={`absolute w-40 pointer-events-none z-10 
-                                    ${mascotSide === 'left' ? '-left-[180px]' : '-right-[180px]'}
+                                className={`absolute w-28 md:w-36 pointer-events-none z-10 opacity-80
+                                    ${mascotSide === 'left' ? '-left-[110px] md:-left-[160px]' : '-right-[110px] md:-right-[160px]'}
                                 `}
                             >
                                 <motion.div
-                                    animate={{ y: [0, -8, 0] }}
+                                    animate={{ y: [0, -6, 0] }}
                                     transition={{
                                         repeat: Infinity,
                                         duration: 4,
@@ -144,8 +142,8 @@ export default function LearnPage() {
                                     <Image
                                         src={`/assets/mascot_${mascotImg}.png`}
                                         alt=""
-                                        width={140} height={140}
-                                        className={`object-contain opacity-90 ${mascotSide === 'right' ? 'scale-x-[-1]' : ''}`}
+                                        width={120} height={120}
+                                        className={`object-contain ${mascotSide === 'right' ? 'scale-x-[-1]' : ''}`}
                                     />
                                 </motion.div>
                             </div>
@@ -157,17 +155,17 @@ export default function LearnPage() {
                                     animate={{ scale: 1, opacity: 1 }}
                                     transition={{ delay: 0.2 + (index * 0.1), type: "spring" }}
                                     className={`
-                                        w-32 h-32 rounded-full flex flex-col items-center justify-center 
+                                        w-28 h-28 md:w-32 md:h-32 rounded-full flex flex-col items-center justify-center 
                                         transition-all duration-300 relative bg-[#1F1D3A]
                                         ${isCompleted
                                             ? 'border-4 border-[#E69138] shadow-[0_0_40px_rgba(230,145,56,0.3)]'
                                             : 'border-2 border-[#D4AF37]/60 shadow-[0_0_20px_rgba(212,175,55,0.1)] hover:border-[#D4AF37] hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]'
                                         }
-                                        group-hover:scale-105
+                                        group-hover:scale-105 active:scale-95
                                     `}
                                 >
                                     {/* Inner Character/Icon */}
-                                    <span className={`text-5xl mb-1 filter drop-shadow-lg ${isCompleted ? 'text-[#E69138]' : 'text-white'}`}>
+                                    <span className={`text-4xl md:text-5xl mb-1 filter drop-shadow-lg ${isCompleted ? 'text-[#E69138]' : 'text-white'}`}>
                                         {module.icon}
                                     </span>
 
@@ -180,11 +178,11 @@ export default function LearnPage() {
                                 </motion.div>
 
                                 {/* Text Label (Below) - Z-30 */}
-                                <div className="absolute top-[140px] left-1/2 -translate-x-1/2 w-64 text-center z-30">
-                                    <h3 className="text-[#D4AF37] font-bold text-xl leading-tight group-hover:text-white transition-colors font-serif">
+                                <div className="absolute top-[120px] md:top-[140px] left-1/2 -translate-x-1/2 w-56 md:w-64 text-center z-30 pointer-events-none">
+                                    <h3 className="text-[#D4AF37] font-bold text-lg md:text-xl leading-tight group-hover:text-white transition-colors font-serif">
                                         {module.title}
                                     </h3>
-                                    <p className="text-[#6C7BAF] text-[10px] uppercase tracking-[0.15em] mt-2 font-bold opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <p className="text-[#6C7BAF] text-[10px] uppercase tracking-[0.15em] mt-1 md:mt-2 font-bold opacity-80 group-hover:opacity-100 transition-opacity">
                                         {module.subtitle}
                                     </p>
                                 </div>

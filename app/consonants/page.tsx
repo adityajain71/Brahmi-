@@ -184,25 +184,14 @@ export default function ConsonantsPage() {
     return (
         <div className="min-h-screen bg-[#1F1D3A] text-white overflow-hidden flex flex-col items-center">
             {/* Header */}
-            <div className="w-full border-b border-[#D4AF37]/20 py-6 text-center bg-[#1F1D3A]/95 backdrop-blur-sm sticky top-0 z-50">
-                <button onClick={() => router.push('/learn')} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] hover:text-white transition-colors text-sm font-bold uppercase tracking-wider">
-                    ← Back
+            {/* Header */}
+            <div className="w-full border-b border-[#D4AF37]/20 py-4 md:py-6 text-center bg-[#1F1D3A]/95 backdrop-blur-sm sticky top-0 z-50 px-4">
+                <button onClick={() => router.push('/learn')} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] hover:text-white transition-colors text-sm font-bold uppercase tracking-wider flex items-center gap-1">
+                    ← <span className="hidden sm:inline">Back</span>
                 </button>
-                <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-xs mb-2 uppercase">Journey</div>
-                <h1 className="text-3xl font-serif text-white font-bold">Vyanjan (Consonants)</h1>
+                <div className="text-[#6C7BAF] font-bold tracking-[0.2em] text-[10px] mb-1 uppercase">Journey</div>
+                <h1 className="text-2xl md:text-3xl font-serif text-white font-bold">Vyanjan (Consonants)</h1>
                 <p className="text-[#6C7BAF] text-[10px] uppercase tracking-widest mt-1">Learn Brahmi Consonants</p>
-
-                {/* Temporary Test Button */}
-                <button
-                    onClick={() => {
-                        localStorage.removeItem('brahmi_guest_progress')
-                        localStorage.removeItem('brahmi_guest_id')
-                        window.location.reload()
-                    }}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 text-xs bg-red-900/50 hover:bg-red-900 text-red-200 px-2 py-1 rounded border border-red-800"
-                >
-                    Reset (Test)
-                </button>
             </div>
 
             {/* Journey Container */}
