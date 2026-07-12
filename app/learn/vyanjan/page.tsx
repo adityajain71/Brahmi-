@@ -61,7 +61,7 @@ export default function VyanjanPage() {
       <div className="sticky top-0 z-40 bg-[#1a1613]/90 backdrop-blur-sm border-b border-[#D4AF37]/15 px-4 py-4">
         <div className="flex items-center gap-3 max-w-2xl mx-auto">
           <button
-            onClick={() => router.back()}
+            onClick={() => router.push('/learn')}
             className="text-[#D4AF37] p-2 rounded-full hover:bg-[#2a2420] transition-all"
           >
             ←
