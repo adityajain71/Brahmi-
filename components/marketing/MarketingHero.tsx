@@ -21,9 +21,7 @@ export function MarketingHero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 pb-12 sm:pb-16 px-4 sm:px-6 bg-transparent">
 
-            {/* Gradient Orbs */}
-            <div className="absolute top-20 right-10 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-[#D4AF37]/10 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-20 left-10 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-[#E6D8B8]/10 rounded-full blur-3xl"></div>
+
 
             <div className="max-w-7xl mx-auto relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center">
@@ -81,8 +79,7 @@ export function MarketingHero() {
                         className="flex justify-center lg:justify-end order-1 lg:order-2"
                     >
                         <div className="relative">
-                            {/* Glow effect behind mascot */}
-                            <div className="absolute inset-0 bg-linear-to-br from-[#D4AF37]/20 to-[#E6D8B8]/20 rounded-full blur-2xl scale-110"></div>
+
                             
                             <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-137.5 md:h-137.5 animate-float">
                                 <img

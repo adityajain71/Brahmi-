@@ -96,9 +96,6 @@ export function MarketingMethod() {
                             {/* Image Card */}
                             <div className="flex-1 flex justify-center w-full">
                                 <div className="relative group">
-                                    {/* Glow effect */}
-                                    <div className="absolute inset-0 bg-linear-to-br from-[#D4AF37]/20 to-[#E6D8B8]/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
-                                    
                                     {/* Card */}
                                     <div className="relative w-full max-w-sm aspect-square bg-linear-to-br from-[#2a2420] to-[#1a1613] rounded-3xl shadow-2xl border border-[#E6D8B8]/20 flex items-center justify-center overflow-hidden backdrop-blur-sm transform group-hover:scale-105 transition-all duration-500">
                                         {/* Inner glow */}

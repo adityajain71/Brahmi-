@@ -35,11 +35,7 @@ export function MarketingTrust() {
     
     return (
         <section id="trust" className="py-20 sm:py-24 md:py-32 bg-transparent relative">
-            {/* Decorative background elements */}
-            <div className="absolute inset-0 opacity-5">
-                <div className="absolute top-1/4 left-1/4 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-[#D4AF37] rounded-full blur-3xl"></div>
-                <div className="absolute bottom-1/4 right-1/4 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-[#E6D8B8] rounded-full blur-3xl"></div>
-            </div>
+
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
                 {/* Header */}
@@ -72,8 +68,7 @@ export function MarketingTrust() {
                             viewport={{ once: true }}
                             className="group relative"
                         >
-                            {/* Card glow effect */}
-                            <div className="absolute inset-0 bg-linear-to-br from-[#D4AF37]/20 to-[#E6D8B8]/10 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
                             
                             {/* Card */}
                             <div className="relative p-6 sm:p-8 lg:p-10 bg-linear-to-br from-[#2a2420]/80 to-[#1a1613]/80 backdrop-blur-sm rounded-3xl border border-[#D4A373]/20 hover:border-[#E69A47]/50 transition-all duration-500 shadow-xl h-full">

@@ -12,9 +12,7 @@ export function MarketingValue() {
 
     return (
         <section className="py-20 sm:py-24 md:py-32 bg-transparent relative">
-            {/* Decorative Elements */}
-            <div className="absolute top-0 left-1/4 w-64 h-64 bg-[#D4AF37]/5 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-[#E6D8B8]/5 rounded-full blur-3xl"></div>
+
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12 md:gap-16 items-center">
