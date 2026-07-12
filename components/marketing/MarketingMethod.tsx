@@ -37,7 +37,7 @@ export function MarketingMethod() {
     }));
     
     return (
-        <section id="method" className="py-20 sm:py-24 md:py-32 bg-transparent relative overflow-hidden">
+        <section id="method" className="py-20 sm:py-24 md:py-32 bg-transparent relative">
             {/* Section Header */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-12 sm:mb-16 md:mb-20 text-center">
                 <motion.div

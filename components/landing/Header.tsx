@@ -31,7 +31,7 @@ export function Header() {
                 initial={{ y: -100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
-                className="fixed top-0 left-0 right-0 z-50 h-16 md:h-[72px] bg-gradient-to-r from-[#1a1613] via-[#2a2420] to-[#1a1613] border-b border-[#E6D8B8]/20 shadow-2xl backdrop-blur-sm"
+                className="fixed top-0 left-0 right-0 z-50 h-16 md:h-[72px] bg-[#1C1C1C] border-b border-[#E6D8B8]/20 shadow-2xl backdrop-blur-sm"
             >
                 <div className="h-full px-3 sm:px-4 md:px-6 flex items-center justify-between">
                     {/* Left: Logo & Brand + Language Dropdown */}
@@ -58,7 +58,7 @@ export function Header() {
                         <div className="hidden md:block relative z-[999]">
                             <button
                                 onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-                                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#2a2420] border border-[#D4AF37]/30 text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-300"
+                                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1C1C1C] border border-[#D4AF37]/30 text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-300"
                             >
                                 <Globe size={18} />
                                 <span className="text-sm font-medium">{language.toUpperCase()}</span>
@@ -69,7 +69,7 @@ export function Header() {
                                         initial={{ opacity: 0, y: -10 }}
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: -10 }}
-                                        className="absolute top-full left-0 mt-2 bg-[#2a2420] border border-[#D4AF37]/30 rounded-lg shadow-2xl overflow-hidden z-[9999] min-w-max"
+                                        className="absolute top-full left-0 mt-2 bg-[#1C1C1C] border border-[#D4AF37]/30 rounded-lg shadow-2xl overflow-hidden z-[9999] min-w-max"
                                     >
                                         <button
                                             onClick={() => {
@@ -134,7 +134,7 @@ export function Header() {
 
                     {/* Mobile Menu Toggle */}
                     <button
-                        className="md:hidden flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#2a2420] border border-[#D4AF37]/30 text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-300 shrink-0"
+                        className="md:hidden flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#1C1C1C] border border-[#D4AF37]/30 text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-300 shrink-0"
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     >
                         {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -148,7 +148,7 @@ export function Header() {
                             initial={{ height: 0, opacity: 0 }}
                             animate={{ height: "auto", opacity: 1 }}
                             exit={{ height: 0, opacity: 0 }}
-                            className="md:hidden border-t border-[#E6D8B8]/20 bg-gradient-to-b from-[#2a2420] to-[#1a1613] overflow-hidden"
+                            className="md:hidden border-t border-[#E6D8B8]/20 bg-[#1C1C1C] overflow-hidden"
                         >
                             <div className="flex flex-col gap-4 p-6 items-center">
                                 {/* Language Dropdown Mobile */}
@@ -161,7 +161,7 @@ export function Header() {
                                         className={`w-full px-4 py-3 rounded-lg text-left font-medium transition-colors ${
                                             language === 'en'
                                                 ? 'bg-[#D4AF37]/20 text-[#E69A47]'
-                                                : 'bg-[#2a2420] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
+                                                : 'bg-[#1C1C1C] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
                                         }`}
                                     >
                                         English
@@ -174,7 +174,7 @@ export function Header() {
                                         className={`w-full px-4 py-3 rounded-lg text-left font-medium transition-colors ${
                                             language === 'kn'
                                                 ? 'bg-[#D4AF37]/20 text-[#E69A47]'
-                                                : 'bg-[#2a2420] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
+                                                : 'bg-[#1C1C1C] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
                                         }`}
                                     >
                                         ಕನ್ನಡ 
@@ -187,7 +187,7 @@ export function Header() {
                                         className={`w-full px-4 py-3 rounded-lg text-left font-medium transition-colors ${
                                             language === 'ta'
                                                 ? 'bg-[#D4AF37]/20 text-[#E69A47]'
-                                                : 'bg-[#2a2420] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
+                                                : 'bg-[#1C1C1C] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
                                         }`}
                                     >
                                         தமிழ் 
@@ -200,7 +200,7 @@ export function Header() {
                                         className={`w-full px-4 py-3 rounded-lg text-left font-medium transition-colors ${
                                             language === 'hi'
                                                 ? 'bg-[#D4AF37]/20 text-[#E69A47]'
-                                                : 'bg-[#2a2420] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
+                                                : 'bg-[#1C1C1C] border border-[#D4AF37]/30 text-[#B8AFA0] hover:bg-[#D4AF37]/10'
                                         }`}
                                     >
                                         हिन्दी 

@@ -3232,8 +3232,7 @@
     {
       "page": 86,
       "type": "path_choice_confirmation",
-      "content": "आप सही मार्ग पर दृढ़ता से आगे बढ़ रहे हैं — आपके इस सुंदर चयन और संकल्प के लिए ढेरों शुभकामनाएं। आपकी यह यात्रा सफलता और गौरव से भरपूर हो!",
-      "note": "This is the confirmation message shown after the choice prompt on page 85 (outside the requested 86-204 range). Included here since it's the first in-scope page and doesn't make sense detached from its trigger."
+      "content": "आप सही मार्ग पर दृढ़ता से आगे बढ़ रहे हैं — आपके इस सुंदर चयन और संकल्प के लिए ढेरों शुभकामनाएं। आपकी यह यात्रा सफलता और गौरव से भरपूर हो!"
     },
     {
       "page": 87,

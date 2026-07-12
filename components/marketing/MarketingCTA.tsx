@@ -15,7 +15,7 @@ export function MarketingCTA() {
     const yearsCount = localizeDigits("2500", language);
 
     return (
-        <section className="py-20 sm:py-24 md:py-32 bg-transparent text-center px-4 sm:px-6 relative overflow-hidden">
+        <section className="py-20 sm:py-24 md:py-32 bg-transparent text-center px-4 sm:px-6 relative">
             {/* Animated background elements */}
             <div className="absolute inset-0">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-140 h-140 sm:w-175 sm:h-175 md:w-200 md:h-200 bg-linear-to-br from-[#D4AF37]/10 via-[#E6D8B8]/5 to-transparent rounded-full blur-3xl"></div>

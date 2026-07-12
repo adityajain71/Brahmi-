@@ -145,16 +145,9 @@ export default function LearnPage() {
 
     return (
         // 1. ISOLATION: Explicit dark background, full height, no footer leakage
-        <div className="min-h-screen w-full bg-linear-to-br from-[#1a1613] via-[#2a2420] to-[#1a1613] text-[#F5F1E8] flex flex-col items-center relative overflow-hidden font-sans">
+        <div className="min-h-screen w-full bg-[#1C1C1C] text-[#F5F1E8] flex flex-col items-center relative overflow-hidden font-sans">
 
-            {/* Subtle background pattern */}
-            <div className="fixed inset-0 opacity-5 pointer-events-none">
-                <div className="absolute inset-0" style={{
-                    backgroundImage: `radial-gradient(circle at 25% 25%, #D4AF37 2px, transparent 2px),
-                                      radial-gradient(circle at 75% 75%, #E6D8B8 2px, transparent 2px)`,
-                    backgroundSize: '50px 50px'
-                }}></div>
-            </div>
+
 
             {/* Animated Birds - Duolingo Style */}
             <div className="fixed inset-0 pointer-events-none overflow-hidden z-5">
@@ -162,7 +155,7 @@ export default function LearnPage() {
             </div>
 
             {/* 2. Header (Consistent with Vowels Page) */}
-            <div className="w-full border-b border-[#D4AF37]/20 py-4 md:py-6 text-center bg-[#1a1613]/95 backdrop-blur-sm sticky top-0 z-50 px-4">
+            <div className="w-full border-b border-[#D4AF37]/20 py-4 md:py-6 text-center bg-[#1C1C1C]/95 backdrop-blur-sm sticky top-0 z-50 px-4">
                 <button onClick={() => router.push('/')} className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37] hover:text-[#E69A47] transition-colors text-xs font-bold uppercase tracking-wider flex items-center gap-1">
                     <span className="text-3xl sm:text-lg leading-none">←</span> <span className="hidden sm:inline">{homeLabel}</span>
                 </button>

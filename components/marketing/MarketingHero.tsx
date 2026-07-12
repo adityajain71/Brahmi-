@@ -19,15 +19,7 @@ export function MarketingHero() {
                 : 'Brahmi Script in';
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 pb-12 sm:pb-16 px-4 sm:px-6 overflow-hidden bg-transparent">
-            {/* Animated Background Pattern */}
-            <div className="absolute inset-0 opacity-5">
-                <div className="absolute inset-0" style={{
-                    backgroundImage: `radial-gradient(circle at 25% 25%, #D4AF37 2px, transparent 2px),
-                                      radial-gradient(circle at 75% 75%, #E6D8B8 2px, transparent 2px)`,
-                    backgroundSize: '50px 50px'
-                }}></div>
-            </div>
+        <section className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 pb-12 sm:pb-16 px-4 sm:px-6 bg-transparent">
 
             {/* Gradient Orbs */}
             <div className="absolute top-20 right-10 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-[#D4AF37]/10 rounded-full blur-3xl"></div>

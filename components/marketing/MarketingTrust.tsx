@@ -34,7 +34,7 @@ export function MarketingTrust() {
     }));
     
     return (
-        <section id="trust" className="py-20 sm:py-24 md:py-32 bg-transparent relative overflow-hidden">
+        <section id="trust" className="py-20 sm:py-24 md:py-32 bg-transparent relative">
             {/* Decorative background elements */}
             <div className="absolute inset-0 opacity-5">
                 <div className="absolute top-1/4 left-1/4 w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-[#D4AF37] rounded-full blur-3xl"></div>
