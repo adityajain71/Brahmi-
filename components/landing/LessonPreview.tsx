@@ -51,7 +51,7 @@ export function LessonPreview() {
                             </div>
                         </div>
 
-                        <Link href="/letters" className="w-full mt-6">
+                        <Link href="/learn/swar" className="w-full mt-6">
                             <Button size="lg" variant="primary" className="w-full">
                                 अभ्यास प्रारंभ करें
                             </Button>

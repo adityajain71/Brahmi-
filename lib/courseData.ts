@@ -24,7 +24,7 @@ export const COURSE_MODULES: CourseModule[] = [
         id: 'module-swar',
         title: 'Swar (Vowels)',
         subtitle: 'The Soul of Script',
-        route: '/letters', // Connected to existing vowels page
+        route: '/learn/swar', // Connected to new swar module
         icon: 'अ',
         iconType: 'text',
         order: 2

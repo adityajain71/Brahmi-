@@ -48,7 +48,7 @@ const RewardStep: React.FC<RewardStepProps> = ({ reward, step, onComplete, nextL
                 </Link>
             ) : (
                 <Link
-                    href={`/letters?completed=${step.letterId}`}
+                    href={`/learn/swar?completed=${step.letterId}`}
                     onClick={onComplete}
                     className="mt-8 px-12 py-3 bg-gray-900 hover:bg-black text-white font-medium rounded-full transition-all hover:scale-105 shadow-lg"
                 >

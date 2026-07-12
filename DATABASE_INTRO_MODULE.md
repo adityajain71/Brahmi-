@@ -24,7 +24,7 @@ Stores all learning modules in the course.
 
 **Inserted Modules:**
 1. Introduction (unlocked) - `/learn/intro`
-2. Swar/Vowels (unlocked) - `/letters`
+2. Swar/Vowels (unlocked) - `/learn/swar`
 3. Vyanjan/Consonants (locked) - `/consonants`
 4. Matra (locked) - `#`
 

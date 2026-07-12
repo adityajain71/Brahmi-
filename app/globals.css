@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Brahmi&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -40,6 +41,7 @@
 
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
+  --font-brahmi: 'Noto Sans Brahmi', serif;
 
   --color-learning-bg: var(--learning-bg);
   --color-learning-gold: var(--learning-gold);

@@ -320,7 +320,7 @@ function buildSwarData(language: LanguageKey) {
         },
         section_10_quiz2_brahmi_to_native: {
           title_hindi: 'ब्राह्मी → देवनागरी',
-          title_english: 'Brahmi → roman/latin',
+          title_english: 'Brahmi → English',
           title_kannada: 'ಬ್ರಾಹ್ಮೀ → ಕನ್ನಡ'
         },
         section_11_reward_2: {

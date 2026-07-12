@@ -1,11 +1,11 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { COURSE_MODULES } from '@/lib/courseData'
+import { getCourseModules } from '@/lib/course'
 import { getCurrentIdentity, Identity } from '@/lib/guestIdentity'
 import { updateLoginStreak, type StreakData } from '@/lib/streak'
 import StreakDisplay from '@/components/StreakDisplay'
@@ -116,6 +116,9 @@ export default function LearnPage() {
     const [streakData, setStreakData] = useState<StreakData | null>(null)
     const [showCelebration, setShowCelebration] = useState(false)
 
+    // JSON-driven course modules — re-derives when language changes
+    const COURSE_MODULES = useMemo(() => getCourseModules(language), [language])
+
     // Load identity and check streak
     useEffect(() => {
         async function loadIdentityAndStreak() {
@@ -134,10 +137,7 @@ export default function LearnPage() {
         loadIdentityAndStreak()
     }, [])
 
-    // In a real implementation, activeModuleIndex would come from DB
-    // For now, let's say "Vowels" (Index 1) is active/in-progress
-    const activeModuleIndex = 1
-    const completedUpTo = 0 // Introduction is done
+    const completedUpTo = 0 // Will come from Supabase progress in Phase 3
     const shouldStripBracketedLanguageText = language === 'hi' || language === 'kn'
     const homeLabel = getHomeLabel(language)
 

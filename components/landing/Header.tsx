@@ -21,7 +21,7 @@ export function Header() {
     };
 
     // Hide header on App routes (Journey, Lesson, etc.) and the dharmastal page
-    const isAppPage = pathname?.startsWith('/letters') || pathname?.startsWith('/lesson') || pathname?.startsWith('/learn') || pathname?.startsWith('/dharmastal');
+    const isAppPage = pathname?.startsWith('/learn') || pathname?.startsWith('/lesson') || pathname?.startsWith('/dharmastal') || pathname?.startsWith('/onboarding');
 
     if (isAppPage) return null;
 

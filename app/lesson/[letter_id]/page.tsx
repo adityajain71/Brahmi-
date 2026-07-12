@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import { markLessonComplete } from '@/lib/progress'
 import { getCurrentIdentity, Identity } from '@/lib/guestIdentity'
@@ -12,16 +11,7 @@ import LessonQuiz, { McqQuestion, McqOption } from '@/components/lesson/LessonQu
 import JainBabaCharacter from '@/components/lesson/JainBabaCharacter'
 import JainBabaSVG from '@/components/lesson/JainBabaSVG'
 import { FloatingSignIn } from '@/components/auth/FloatingSignIn'
-
-// Dynamically import TracerKonva with SSR disabled (Konva requires browser APIs)
-const TracerKonva = dynamic(() => import('@/components/lesson/TracerKonva'), {
-  ssr: false,
-  loading: () => (
-    <div className="flex items-center justify-center w-full aspect-square max-w-md border-2 border-dashed border-gray-600 rounded-2xl bg-[#2C2C2C]">
-      <p className="text-gray-400">Loading tracer...</p>
-    </div>
-  ),
-});
+import SvgTracer from '@/components/tracer/SvgTracer'
 
 // TypeScript types
 type Letter = {
@@ -216,7 +206,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
 
     // Determine return route based on letter type
     const getReturnRoute = (completedId?: string) => {
-        const baseUrl = letterType === 'consonant' ? '/learn/vyanjan' : '/letters'
+        const baseUrl = letterType === 'consonant' ? '/learn/vyanjan' : '/learn/swar'
         return completedId ? `${baseUrl}?completed=${completedId}` : baseUrl
     }
 
@@ -348,6 +338,9 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     if (traceMode) {
         const practiceText = getPracticeText(language)
         const exitText = getExitText(language)
+        
+        const character = steps[0]?.letters.brahmi_symbol || '?'
+
         return (
             <div className="min-h-screen bg-[#1C1C1C] flex flex-col lg:flex-row lg:items-center lg:justify-center lg:p-8 pt-16 pb-20 md:pb-8 relative overflow-hidden">
                 {/* Floating Back Button - marks lesson complete */}
@@ -378,29 +371,14 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
                             Trace the Letter
                         </h2>
                         <div className="flex justify-center">
-                            <TracerKonva
-                                character={steps[0]?.letters.brahmi_symbol || '?'}
-                                width={canvasSize}
-                                height={canvasSize}
-                                showControls={!isMobile}
-                                onScoreComplete={(score) => {
-                                    console.log('[LessonPage] Trace score:', score)
-                                }}
-                                onContinue={() => {
+                            <SvgTracer
+                                character={character}
+                                onComplete={() => {
                                     console.log('[LessonPage] Continue clicked from tracer')
                                     handleFlowComplete()
                                 }}
+                                language={language}
                             />
-                        </div>
-                        
-                        {/* Skip Button - Desktop Only */}
-                        <div className="hidden md:flex justify-center mt-6">
-                            <button
-                                onClick={handleFlowComplete}
-                                className="px-6 py-3 bg-gray-600 hover:bg-gray-500 text-white rounded-lg font-medium transition-all duration-300 flex items-center gap-2"
-                            >
-                                {practiceText}
-                            </button>
                         </div>
                     </div>
                 </div>
