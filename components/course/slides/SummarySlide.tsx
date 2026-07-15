@@ -9,10 +9,76 @@ interface Props {
   consonant: string
   consonantBrahmi: string
   bonusUnlock?: string
+  language?: string
   onNext: () => void
 }
 
-export default function SummarySlide({ title, content, consonant, consonantBrahmi, bonusUnlock, onNext }: Props) {
+const devanagari_to_roman: Record<string, string> = {
+  'क': 'ka', 'ख': 'kha', 'ग': 'ga', 'घ': 'gha', 'ङ': 'nga',
+  'च': 'cha', 'छ': 'chha', 'ज': 'ja', 'झ': 'jha', 'ञ': 'nya',
+  'ट': 'ta', 'ठ': 'tha', 'ಡ': 'da', 'ਢ': 'dha', 'ಣ': 'na', // Wait, 'ಡ' is Kannada but let's keep it safe
+  'ड': 'da',
+  'त': 'ta', 'थ': 'tha', 'द': 'da', 'ध': 'dha', 'न': 'na',
+  'प': 'pa', 'फ': 'pha', 'ब': 'ba', 'भ': 'bha', 'म': 'ma',
+  'य': 'ya', 'र': 'ra', 'ल': 'la', 'व': 'va',
+  'श': 'sha', 'ष': 'sha', 'स': 'sa', 'ह': 'ha'
+};
+
+const devanagari_to_kannada: Record<string, string> = {
+  'क': 'ಕ', 'ख': 'ಖ', 'ग': 'ಗ', 'घ': 'ಘ', 'ङ': 'ಙ',
+  'च': 'ಚ', 'छ': 'ಛ', 'ಜ': 'ಜ', 'झ': 'ಝ', 'ञ': 'ಞ',
+  'ट': 'ಟ', 'ठ': 'ಠ', 'ಡ': 'ಡ', 'ढ': 'ಢ', 'ಣ': 'ಣ',
+  'त': 'ತ', 'थ': 'ಥ', 'ದ': 'ದ', 'ಧ': 'ಧ', 'ನ': 'ನ',
+  'प': 'ಪ', 'फ': 'ಫ', 'ಬ': 'ಬ', 'ಭ': 'ಭ', 'ಮ': 'ಮ',
+  'य': 'ಯ', 'ರ': 'ರ', 'ಲ': 'ಲ', 'ವ': 'ವ',
+  'श': 'ಶ', 'ष': 'ಷ', 'ಸ': 'ಸ', 'ಹ': 'ಹ'
+};
+
+const devanagari_to_tamil: Record<string, string> = {
+  'क': 'க', 'ख': 'க்ஹ', 'ग': 'க', 'घ': 'க்ஹ', 'ङ': 'ங',
+  'च': 'ச', 'छ': 'ச்ஹ', 'ज': 'ஜ', 'झ': 'ஜ்ஹ', 'ञ': 'ஞ',
+  'ट': 'ட', 'ठ': 'ட்ஹ', 'ड': 'ட', 'ढ': 'ட்ஹ', 'ण': 'ண',
+  'त': 'த', 'थ': 'த்ஹ', 'द': 'த', 'ध': 'த்ஹ', 'ந': 'ந',
+  'प': 'ப', 'फ': 'ப்ஹ', 'ब': 'ப', 'भ': 'ப்ஹ', 'ம': 'ம',
+  'य': 'ய', 'ர': 'ர', 'ल': 'ல', 'व': 'வ',
+  'श': 'ஶ', 'ष': 'ஷ', 'ச': 'ஸ', 'ஹ': 'ஹ'
+};
+
+function getLocalizedConsonantLabel(devanagari: string, lang: string): string {
+  if (lang === 'en') {
+    return devanagari_to_roman[devanagari] ? devanagari_to_roman[devanagari].toUpperCase() : devanagari;
+  }
+  if (lang === 'kn') {
+    return devanagari_to_kannada[devanagari] ?? devanagari;
+  }
+  if (lang === 'ta') {
+    return devanagari_to_tamil[devanagari] ?? devanagari;
+  }
+  return devanagari;
+}
+
+export default function SummarySlide({ title, content, consonant, consonantBrahmi, bonusUnlock, language = 'hi', onNext }: Props) {
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      unlock: 'Unlocked',
+      next: 'Next Consonant →'
+    },
+    kn: {
+      unlock: 'ಅನ್ಲಾಕ್',
+      next: 'ಮುಂದಿನ ವ್ಯಂಜನ →'
+    },
+    ta: {
+      unlock: 'திறக்கப்பட்டது',
+      next: 'அடுத்த மெய்யெழுத்து →'
+    },
+    hi: {
+      unlock: 'अनलॉक',
+      next: 'अगला व्यंजन →'
+    }
+  }
+  const t = localMap[language] || localMap.hi
+  const localizedConsonant = getLocalizedConsonantLabel(consonant, language)
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
@@ -53,7 +119,7 @@ export default function SummarySlide({ title, content, consonant, consonantBrahm
             transition={{ delay: 0.25 }}
           >
             <div className="text-[#D4AF37]/60 text-xs uppercase tracking-widest font-bold mb-2">{title}</div>
-            <div className="text-4xl md:text-5xl font-black text-[#D4AF37] font-serif">{consonant}</div>
+            <div className="text-4xl md:text-5xl font-black text-[#D4AF37] font-serif">{localizedConsonant}</div>
           </motion.div>
 
           {/* Content message */}
@@ -76,7 +142,7 @@ export default function SummarySlide({ title, content, consonant, consonantBrahm
             >
               <span className="text-2xl">🏅</span>
               <div className="text-left">
-                <div className="text-[9px] text-[#D4AF37]/60 uppercase tracking-wider font-bold">अनलॉक</div>
+                <div className="text-[9px] text-[#D4AF37]/60 uppercase tracking-wider font-bold">{t.unlock}</div>
                 <div className="text-sm font-bold text-[#D4AF37]">{bonusUnlock}</div>
               </div>
             </motion.div>
@@ -92,7 +158,7 @@ export default function SummarySlide({ title, content, consonant, consonantBrahm
         onClick={onNext}
         className="px-10 py-4 bg-gradient-to-r from-[#D4AF37] to-[#E69A47] text-[#1a1613] text-lg font-black rounded-full hover:scale-105 transition-all shadow-[0_0_25px_rgba(212,175,55,0.4)]"
       >
-        अगला व्यंजन →
+        {t.next}
       </motion.button>
     </motion.div>
   )

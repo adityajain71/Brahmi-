@@ -396,23 +396,26 @@ export default function SvgTracer({
         >
           <defs>
             <mask id={clipId}>
+              {baseGlyphs.map((g, i) => (
+                <path key={`mask-base-${i}`} d={g.svgPathFlipped} fill="white" />
+              ))}
               <g transform={targetTransform || undefined}>
                 <path d={glyph.svgPathFlipped} fill="white" />
               </g>
             </mask>
           </defs>
           
-          {/* Static Base Context (e.g. for combined matra characters) */}
+          {/* Guide outline — faint gold for base glyphs */}
           {baseGlyphs.map((g, i) => (
             <path
-              key={`base-${i}`}
+              key={`guide-base-${i}`}
               d={g.svgPathFlipped}
               fill="#D4AF37"
-              opacity={0.4}
+              opacity={0.15}
             />
           ))}
           
-          {/* Guide outline — faint gold */}
+          {/* Guide outline — faint gold for target/matra glyph */}
           <g transform={targetTransform || undefined}>
             <path
               d={glyph.svgPathFlipped}

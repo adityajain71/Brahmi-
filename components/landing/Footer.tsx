@@ -25,7 +25,7 @@ export function Footer() {
 
                         <div>
                             <h5 className="text-sm text-[#E6B116] font-semibold">Under the Guidance of</h5>
-                            <p className="mt-2 text-[#E6B116]">शृुताराधक सन्त ध्वुलक श्री प्रशांसागर जी गुरुदेव</p>
+                            <p className="mt-2 text-[#E6B116]">श्रुताराधक सन्त क्षुल्लक श्री प्रज्ञांशसागर जी गुरुदेव</p>
                         </div>
 
                         <div>
@@ -66,9 +66,12 @@ export function Footer() {
                     <div className="text-[#B8AFA0]">
                         <h5 className="text-lg text-[#E6B116] font-semibold mb-4">Quick Links</h5>
                         <div className="flex flex-col gap-3 text-sm">
-                            <a href="#method" className="hover:underline">{t('method.tag')}</a>
-                            <a href="#trust" className="hover:underline">{t('trust.badge')}</a>
-                            <Link href="/learn" className="hover:underline">{t('header.startLearning') || 'Start Learning'}</Link>
+                            <Link href="#about" className="hover:underline">About Brahmi</Link>
+                            <Link href="#convertor" className="hover:underline">Convertor</Link>
+                            <Link href="#tools" className="hover:underline">Tools</Link>
+                            <Link href="#resources" className="hover:underline">Resources</Link>
+                            <Link href="#gallery" className="hover:underline">Gallery</Link>
+                            <Link href="#contact" className="hover:underline">Contact</Link>
                         </div>
                     </div>
 
@@ -83,7 +86,7 @@ export function Footer() {
 
                         <div className="mt-2 bg-[#1f1f1f] p-4 rounded-md border border-[#2a2a2a]">
                             <div className="text-sm text-[#9CA3AF]">Brahmi Script</div>
-                            <div className="mt-3 text-2xl text-[#E6B116] font-serif">𑀦𑀫</div>
+                            <div className="mt-3 text-2xl text-[#E6B116] font-serif">𑀦𑀫𑀲𑁆𑀓𑀸𑀭</div>
                             <div className="text-xs text-[#9CA3AF] mt-2">Namaskaar (Greetings)</div>
                         </div>
                     </div>
@@ -91,7 +94,7 @@ export function Footer() {
 
                 <div className="border-t border-[#2a2a2a] mt-8 pt-6 flex items-center justify-between text-sm text-[#9CA3AF]">
                     <div>© {new Date().getFullYear()} Good Life Jain Foundation. All rights reserved.</div>
-                    <div className="hidden md:block text-[#E6B116]">शृुताराधक सन्त ध्वुलक श्री प्रशांसागर जी गुरुदेव</div>
+                    <div className="hidden md:block text-[#E6B116]">श्रुताराधक सन्त क्षुल्लक श्री प्रज्ञांशसागर जी गुरुदेव</div>
                 </div>
             </div>
         </footer>

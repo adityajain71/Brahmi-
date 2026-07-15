@@ -12,17 +12,21 @@ import { useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { getVyanjanSlides } from '@/lib/matraVyanjanData'
+import { useLanguage } from '@/lib/LanguageContext'
+import { getCourse } from '@/lib/course'
 
 function ConsonantCard({
   consonant,
   index,
+  language,
   onSelect,
 }: {
-  consonant: { devanagari: string; brahmi: string; number?: number }
+  consonant: { devanagari: string; brahmi: string; number?: number; localizedLabel?: string }
   index: number
+  language: string
   onSelect: (devanagari: string) => void
 }) {
+  const localizedLabel = consonant.localizedLabel || consonant.devanagari;
   return (
     <motion.button
       initial={{ opacity: 0, scale: 0.85 }}
@@ -31,7 +35,7 @@ function ConsonantCard({
       whileHover={{ scale: 1.08, y: -2 }}
       whileTap={{ scale: 0.95 }}
       onClick={() => onSelect(consonant.devanagari)}
-      className="flex flex-col items-center gap-1 p-3 rounded-2xl bg-[#2a2420] border border-[#D4AF37]/20 hover:border-[#D4AF37] hover:shadow-[0_0_16px_rgba(212,175,55,0.2)] transition-all group"
+      className="flex flex-col items-center gap-1 p-3 rounded-2xl bg-[#2a2420] border border-[#D4AF37]/20 hover:border-[#D4AF37] hover:shadow-[0_0_16px_rgba(212,175,55,0.2)] transition-all group w-full"
     >
       {/* Brahmi glyph */}
       <span
@@ -40,19 +44,67 @@ function ConsonantCard({
       >
         {consonant.brahmi}
       </span>
-      {/* Devanagari label */}
-      <span className="text-sm text-[#E6D8B8]/70 font-medium">{consonant.devanagari}</span>
+      {/* Devanagari / Localized label */}
+      <span className="text-sm text-[#E6D8B8]/70 font-medium">{localizedLabel}</span>
     </motion.button>
   )
 }
 
 export default function VyanjanPage() {
   const router = useRouter()
+  const { language } = useLanguage()
+  
+  const course = useMemo(() => getCourse(language), [language])
   
   const groups = useMemo(() => {
-    const slides = getVyanjanSlides()
-    return slides.filter(s => s.type === 'group_list')
-  }, [])
+    const slides = Array.isArray(course.vyanjan) ? course.vyanjan : []
+    return slides.filter((s: any) => s.type === 'group_list')
+  }, [course])
+
+  const titleMap: Record<string, string> = {
+    hi: 'व्यंजन',
+    en: 'Consonants',
+    kn: 'ವ್ಯಂಜನಗಳು',
+    ta: 'மெய்யெழுத்துக்கள்'
+  }
+  const subtitleMap: Record<string, string> = {
+    hi: 'मात्रा · उच्चारण · अभ्यास',
+    en: 'Matra · Pronunciation · Practice',
+    kn: 'ಮಾತ್ರಾ · ಉಚ್ಚಾರಣೆ · ಅಭ್ಯಾಸ',
+    ta: 'மாத்ரா · உச்சரிப்பு · பயிற்சி'
+  }
+  const startFullLessonMap: Record<string, string> = {
+    hi: 'पूर्ण व्यंजन पाठ',
+    en: 'Full Consonant Lesson',
+    kn: 'ಪೂರ್ಣ ವ್ಯಂಜನ ಪಾಠ',
+    ta: 'முழு மெய்யெழுத்து பாடம்'
+  }
+  const startButtonMap: Record<string, string> = {
+    hi: 'पाठ शुरू →',
+    en: 'Start Lesson →',
+    kn: 'ಪಾಠ ಪ್ರಾರಂಭಿಸಿ →',
+    ta: 'பாடம் தொடங்கு →'
+  }
+  const clickToViewMap: Record<string, string> = {
+    hi: 'किसी भी व्यंजन पर क्लिक करके उसका विवरण देखें',
+    en: 'Click on any consonant to view details',
+    kn: 'ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಯಾವುದೇ ವ್ಯಂಜನದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ',
+    ta: 'விவரங்களைக் காண ஏதேனும் மெய்யெழுத்தை கிளிக் செய்யவும்'
+  }
+  const startFullLessonCTAMap: Record<string, string> = {
+    hi: 'पूर्ण पाठ शुरू करें',
+    en: 'Start Full Lesson',
+    kn: 'ಪೂರ್ಣ ಪಾಠವನ್ನು ಪ್ರಾರಂಭಿಸಿ',
+    ta: 'முழு பாடத்தைத் தொடங்கவும்'
+  }
+  const countLabelMap: Record<string, string> = {
+    hi: 'व्यंजन',
+    en: 'consonants',
+    kn: 'ವ್ಯಂಜನಗಳು',
+    ta: 'மெய்யெழுத்துக்கள்'
+  }
+
+  const totalConsonants = groups.reduce((acc, g) => acc + (g.items?.length || 0), 0)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#1a1613] via-[#2a2420] to-[#1a1613] text-[#F5F1E8]">
@@ -67,11 +119,13 @@ export default function VyanjanPage() {
             ←
           </button>
           <div>
-            <h1 className="text-xl font-bold text-[#D4AF37] font-serif">व्यंजन</h1>
+            <h1 className="text-xl font-bold text-[#D4AF37] font-serif">
+              {titleMap[language] || titleMap.hi}
+            </h1>
             <p className="text-[10px] text-[#E6D8B8]/40 uppercase tracking-widest">Consonants</p>
           </div>
           <div className="ml-auto text-xs text-[#E6D8B8]/40">
-            {groups.reduce((acc, g) => acc + (g.items?.length || 0), 0)} व्यंजन
+            {totalConsonants} {countLabelMap[language] || countLabelMap.hi}
           </div>
         </div>
       </div>
@@ -93,12 +147,16 @@ export default function VyanjanPage() {
               <span className="text-xl" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>𑀓</span>
             </div>
             <div>
-              <div className="text-sm font-bold text-[#D4AF37]">पूर्ण व्यंजन पाठ</div>
-              <div className="text-xs text-[#E6D8B8]/50">मात्रा · उच्चारण · अभ्यास</div>
+              <div className="text-sm font-bold text-[#D4AF37]">
+                {startFullLessonMap[language] || startFullLessonMap.hi}
+              </div>
+              <div className="text-xs text-[#E6D8B8]/50">
+                {subtitleMap[language] || subtitleMap.hi}
+              </div>
             </div>
           </div>
           <div className="flex items-center gap-2 bg-[#D4AF37] text-[#1a1613] rounded-xl px-4 py-2 text-sm font-black group-hover:scale-105 transition-transform shadow-md">
-            पाठ शुरू →
+            {startButtonMap[language] || startButtonMap.hi}
           </div>
         </Link>
       </motion.div>
@@ -129,6 +187,7 @@ export default function VyanjanPage() {
                   key={consonant.number || cIdx}
                   consonant={consonant}
                   index={gIdx * 5 + cIdx}
+                  language={language}
                   onSelect={(dev) => router.push(`/learn/vyanjan/lesson?start=${dev}`)}
                 />
               ))}
@@ -139,18 +198,17 @@ export default function VyanjanPage() {
         {/* Bottom CTA */}
         <div className="text-center pt-4 pb-8 flex flex-col items-center gap-3">
           <p className="text-[#E6D8B8]/30 text-xs">
-            किसी भी व्यंजन पर क्लिक करके उसका विवरण देखें
+            {clickToViewMap[language] || clickToViewMap.hi}
           </p>
           <Link
             href="/learn/vyanjan/lesson"
             className="inline-flex items-center gap-2 text-[#D4AF37]/60 hover:text-[#D4AF37] text-xs font-bold uppercase tracking-widest transition-colors"
           >
-            <span>पूर्ण पाठ शुरू करें</span>
+            <span>{startFullLessonCTAMap[language] || startFullLessonCTAMap.hi}</span>
             <span>→</span>
           </Link>
         </div>
       </div>
-
     </div>
   )
 }

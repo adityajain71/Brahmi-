@@ -47,9 +47,9 @@
       {
         "page": 1,
         "type": "language_select",
-        "title": "भाषा चुनें:",
+        "title": "Choose Language:",
         "options": [
-          "हिंदी",
+          "Hindi",
           "English",
           "தமிழ்",
           "ಕನ್ನಡ"
@@ -118,13 +118,13 @@
       {
         "page": 12,
         "type": "text",
-        "content": "1. \"जिस तरीके से हम बोलते हैं, उसे 'भाषा' कहते हैं।\" जैसे — हिन्दी, बंगाली, तेलुगु, तमिल, गुजराती, कन्नड़, ओड़िया, पंजाबी, अंग्रेज़ी आदि।",
+        "content": "1. \"The way we speak is called 'language'.\" For example — Hindi, Bengali, Telugu, Tamil, Gujarati, Kannada, Odia, Punjabi, English, etc.",
         "button": "Next"
       },
       {
         "page": 13,
         "type": "text",
-        "content": "2. \"जिस माध्यम से किसी भाषा को लिखा जाता है, उसे 'लिपि' कहते हैं।\" जैसे — हिन्दी-देवनागरी, बंगाली-बंगाली, तेलुगु-तेलुगु, तमिल-तमिल, गुजराती-गुजराती, कन्नड़-कन्नड़, ओड़िया-ओड़िया, पंजाबी-गुरुमुखी, अंग्रेज़ी-लैटिन आदि।",
+        "content": "2. \"The medium through which a language is written is called 'script'.\" For example — Hindi-Devanagari, Bengali-Bengali, Telugu-Telugu, Tamil-Tamil, Gujarati-Gujarati, Kannada-Kannada, Odia-Odia, Punjabi-Gurmukhi, English-Latin, etc.",
         "button": "Next"
       },
       {
@@ -162,7 +162,7 @@
       {
         "page": 18,
         "type": "text",
-        "content": "You are truly a special seeker and eager to learn, which is why you have reached this stage of this unique journey.\n\nHeartfelt congratulations and best wishes!",
+        "content": "You are truly curious and eager to learn, which is why you have reached this stage of this unique journey.\n\nHearty congratulations and best wishes!",
         "button": "Next"
       },
       {
@@ -228,7 +228,7 @@
       {
         "page": 27,
         "type": "mcq",
-        "title": "How much time would you like to dedicate to learning every day?",
+        "title": "How much time would you like to dedicate daily to learn me?",
         "options": [
           "3 minutes",
           "5 minutes",
@@ -248,84 +248,84 @@
       {
         "id": "swar-001",
         "order": 1,
-        "devanagari": "A",
+        "devanagari": "अ",
         "brahmi": "𑀅",
         "romanized": "a"
       },
       {
         "id": "swar-002",
         "order": 2,
-        "devanagari": "AA",
+        "devanagari": "आ",
         "brahmi": "𑀆",
         "romanized": "aa"
       },
       {
         "id": "swar-003",
         "order": 3,
-        "devanagari": "I",
+        "devanagari": "इ",
         "brahmi": "𑀇",
         "romanized": "i"
       },
       {
         "id": "swar-004",
         "order": 4,
-        "devanagari": "II",
+        "devanagari": "ई",
         "brahmi": "𑀈",
         "romanized": "ii"
       },
       {
         "id": "swar-005",
         "order": 5,
-        "devanagari": "U",
+        "devanagari": "उ",
         "brahmi": "𑀉",
         "romanized": "u"
       },
       {
         "id": "swar-006",
         "order": 6,
-        "devanagari": "UU",
+        "devanagari": "ऊ",
         "brahmi": "𑀊",
         "romanized": "uu"
       },
       {
         "id": "swar-007",
         "order": 7,
-        "devanagari": "E",
+        "devanagari": "ए",
         "brahmi": "𑀏",
         "romanized": "e"
       },
       {
         "id": "swar-008",
         "order": 8,
-        "devanagari": "AI",
+        "devanagari": "ऐ",
         "brahmi": "𑀐",
         "romanized": "ai"
       },
       {
         "id": "swar-009",
         "order": 9,
-        "devanagari": "O",
+        "devanagari": "ओ",
         "brahmi": "𑀑",
         "romanized": "o"
       },
       {
         "id": "swar-010",
         "order": 10,
-        "devanagari": "AU",
+        "devanagari": "औ",
         "brahmi": "𑀒",
         "romanized": "au"
       },
       {
         "id": "swar-011",
         "order": 11,
-        "devanagari": "AM",
+        "devanagari": "अं",
         "brahmi": "𑀅𑀁",
         "romanized": "am"
       },
       {
         "id": "swar-012",
         "order": 12,
-        "devanagari": "AH",
+        "devanagari": "अः",
         "brahmi": "𑀅𑀂",
         "romanized": "ah"
       }
@@ -333,10 +333,10 @@
     "vowelDisplayGroups": [
       {
         "vowels": [
-          "A",
-          "AA",
-          "I",
-          "II"
+          "अ",
+          "आ",
+          "इ",
+          "ई"
         ],
         "sourcePages": [
           30,
@@ -345,10 +345,10 @@
       },
       {
         "vowels": [
-          "U",
-          "UU",
-          "E",
-          "AI"
+          "उ",
+          "ऊ",
+          "ए",
+          "ऐ"
         ],
         "sourcePages": [
           31,
@@ -357,10 +357,10 @@
       },
       {
         "vowels": [
-          "O",
-          "AU",
-          "AM",
-          "AH"
+          "ओ",
+          "औ",
+          "अं",
+          "अः"
         ],
         "sourcePages": [
           32,
@@ -380,55 +380,51 @@
     "reward1": {
       "title": "Reward: 1",
       "badge": "First Step",
-      "message": "You have successfully completed the first stage! Your \"First Step\" badge is now yours. This is just a beginning — more exciting things await you. With every right step, you will climb higher on the stairs of knowledge.",
+      "message": "You have successfully completed the first step! Your \"First Step\" medal is now yours. This is just the beginning — more exciting things are waiting for you ahead. With every right step you take, you will climb higher on the stairs of knowledge.",
       "sourcePages": [
         49,
         49
       ]
     },
     "reward2": {
-      "badge": "Samyak Pragya Samman",
-      "message": "Successfully recognized Brahmi from English",
+      "badge": "Knowledge Warrior",
+      "message": "You have completed the second step – \"Second Step\" medal awesome! You crossed another milestone, the \"Knowledge Warrior\" medal is now yours. Share/download your victory",
       "sourcePages": [
         63,
         63
-      ],
-      "title": "Reward: 2"
+      ]
     },
     "tracingNote": {
-      "note": "Let's practice writing now. Are you excited to write for me? You can get ready and please give me a perfect trace.",
+      "note": "Writing practice: Every vowel Devanagari→Brahmi tracing slide (pages 65-76) — is present in tracing_sequence of backend/data/hindi/swar.json",
       "sourcePages": [
         64,
         76
       ]
     },
     "reward3": {
-      "badge": "Lipi Aastha Samman",
-      "message": "Successfully recognized English from Brahmi",
+      "badge": "Learning Star",
+      "message": "You have completed the third step – \"Third Step\" medal great! Your confidence is commendable, you have received the \"Star of Learning\" medal. Share/download your victory",
       "sourcePages": [
         77,
         77
-      ],
-      "title": "Reward: 3"
+      ]
     },
     "reward4": {
-      "badge": "Akshar Sadhana",
-      "message": "Successfully wrote all 12 vowels in Brahmi",
+      "badge": "Goal Achiever",
+      "message": "You have completed the fourth step – \"Fourth Step\" medal. You hit the right target - received the honor of \"Goal Achiever\". Share/download your victory",
       "sourcePages": [
         82,
         82
-      ],
-      "title": "Reward: 4"
+      ]
     },
     "reward5": {
-      "badge": "Shreshtha Gyani",
+      "badge": "Knowledgeable",
       "points": 5,
-      "message": "Chose Consonants after learning Vowels",
+      "message": "\"Wise\" Congratulations, champion! Not only did you make the right choice, but you also made better use of your knowledge. Your reward: 5 points + \"Wise\" medal. This medal is proof of your sharp mind and right decision. Message: \"Knowledge is that which is used at the right time in the right place, you have proven this truth!\"",
       "sourcePages": [
         86,
         86
-      ],
-      "title": "Reward: 5"
+      ]
     },
     "matraIntro": {
       "sourcePages": [
@@ -436,12 +432,11 @@
         89
       ],
       "text1": "When vowels are written alone, they have their own distinct symbol, but when they join with a consonant, they become a matra symbol.",
-      "text2": "Matra: A short form of a vowel that attaches to a consonant and changes its sound.",
-      "title": "Matra (Diacritics)"
+      "text2": "Matra: A short form of a vowel that attaches to a consonant and changes its sound."
     },
     "matraTable": [
       {
-        "vowel": "A",
+        "vowel": "अ",
         "matraSign": null,
         "note": "No matra — the consonant inherently contains the 'a' sound",
         "sourcePages": [
@@ -450,7 +445,7 @@
         ]
       },
       {
-        "vowel": "AA",
+        "vowel": "आ",
         "matraSign": "𑀸",
         "sourcePages": [
           106,
@@ -458,7 +453,7 @@
         ]
       },
       {
-        "vowel": "I",
+        "vowel": "इ",
         "matraSign": "𑀺",
         "sourcePages": [
           107,
@@ -466,7 +461,7 @@
         ]
       },
       {
-        "vowel": "II",
+        "vowel": "ई",
         "matraSign": "𑀻",
         "sourcePages": [
           108,
@@ -474,7 +469,7 @@
         ]
       },
       {
-        "vowel": "U",
+        "vowel": "उ",
         "matraSign": "𑀼",
         "sourcePages": [
           109,
@@ -482,7 +477,7 @@
         ]
       },
       {
-        "vowel": "UU",
+        "vowel": "ऊ",
         "matraSign": "𑀽",
         "sourcePages": [
           110,
@@ -490,7 +485,7 @@
         ]
       },
       {
-        "vowel": "E",
+        "vowel": "ए",
         "matraSign": "𑁂",
         "sourcePages": [
           111,
@@ -498,7 +493,7 @@
         ]
       },
       {
-        "vowel": "AI",
+        "vowel": "ऐ",
         "matraSign": "𑁃",
         "sourcePages": [
           112,
@@ -506,7 +501,7 @@
         ]
       },
       {
-        "vowel": "O",
+        "vowel": "ओ",
         "matraSign": "𑁄",
         "sourcePages": [
           113,
@@ -514,7 +509,7 @@
         ]
       },
       {
-        "vowel": "AU",
+        "vowel": "औ",
         "matraSign": "𑁅",
         "sourcePages": [
           114,
@@ -522,7 +517,7 @@
         ]
       },
       {
-        "vowel": "AM",
+        "vowel": "अं",
         "matraSign": "𑀁",
         "sourcePages": [
           115,
@@ -530,7 +525,7 @@
         ]
       },
       {
-        "vowel": "AH",
+        "vowel": "अः",
         "matraSign": "𑀂",
         "sourcePages": [
           116,
@@ -549,34 +544,33 @@
           "title": "Independent Vowels",
           "description": "When vowels are at the beginning of a word or alone, they take their independent form.",
           "examples": [
-            "𑀅 (A)",
-            "𑀆 (AA)",
-            "𑀇 (I)"
+            "𑀅 (a)",
+            "𑀆 (aa)",
+            "𑀇 (i)"
           ]
         },
         {
           "ruleNumber": 2,
           "title": "Matra Symbols",
           "description": "When a vowel comes after a consonant, it becomes a matra and is written attached to the consonant.",
-          "example": "𑀓 + ◌𑀸 → 𑀓𑀸 (का)"
+          "example": "𑀓 + ◌𑀸 → 𑀓𑀸 (kaa)"
         },
         {
           "ruleNumber": 3,
           "title": "Placement of Matra",
           "description": "Matras can be placed in different positions: top, bottom, front, back.",
           "examples": [
-            "कि (𑀓𑀺) – UUपर",
-            "के (𑀓𑁂) – पीछे"
+            "ki (𑀓𑀺) – top",
+            "ke (𑀓𑁂) – back"
           ]
         },
         {
           "ruleNumber": 4,
           "title": "Special Attention",
-          "description": "The shape and placement of matras in the Brahmi script is slightly different from English — observe, practice, and recognize."
+          "description": "The shape and placement of matras in the Brahmi script is slightly different from Devanagari — observe, practice, and recognize."
         }
       ],
-      "_OVERLAP_NOTE": "matraRules.sourcePages [102,106] overlaps matraTable's real per-item range [105,116]. Left both as originally extracted since neither can be corrected without the source PDF -- flagging so the Slide Compiler's sourcePages-sort doesn't silently produce rules-mid-table ordering without anyone noticing.",
-      "title": "Rules for Matra"
+      "_OVERLAP_NOTE": "matraRules.sourcePages [102,106] overlaps matraTable's real per-item range [105,116]. Left both as originally extracted since neither can be corrected without the source PDF -- flagging so the Slide Compiler's sourcePages-sort doesn't silently produce rules-mid-table ordering without anyone noticing."
     },
     "gameTimeQuiz1_devanagariToBrahmi": {
       "sourcePages": [
@@ -584,12 +578,12 @@
         46
       ],
       "verifiedAgainstPdf": true,
-      "note": "Cross-checked every question's wrong_options against the actual PDF slides (pages 35-46). All matched. Found and fixed 2 bugs in the repo's swar.json: quiz1-011 (AM) and quiz1-012 (AH) had correct_answer truncated to just 'A's brahmi form (𑀅), dropping the anusvara/visarga mark.",
+      "note": "Cross-checked every question's wrong_options against the actual PDF slides (pages 35-46). All matched. Found and fixed 2 bugs in the repo's swar.json: quiz1-011 (अं) and quiz1-012 (अः) had correct_answer truncated to just 'अ's brahmi form (𑀅), dropping the anusvara/visarga mark.",
       "items": [
         {
           "id": "quiz1-001",
           "order": 1,
-          "question": "A",
+          "question": "अ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀅",
           "correct_vowel_id": "swar-001",
@@ -610,13 +604,13 @@
               "vowel_id": "swar-005"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for A?",
-          "title_english": "What is the Brahmi symbol for A?"
+          "title_hindi": "What is the Brahmi symbol for a?",
+          "title_english": "What is the Brahmi symbol for अ?"
         },
         {
           "id": "quiz1-002",
           "order": 2,
-          "question": "AA",
+          "question": "आ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀆",
           "correct_vowel_id": "swar-002",
@@ -637,13 +631,13 @@
               "vowel_id": "swar-006"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for AA?",
-          "title_english": "What is the Brahmi symbol for AA?"
+          "title_hindi": "What is the Brahmi symbol for aa?",
+          "title_english": "What is the Brahmi symbol for आ?"
         },
         {
           "id": "quiz1-003",
           "order": 3,
-          "question": "I",
+          "question": "इ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀇",
           "correct_vowel_id": "swar-003",
@@ -664,13 +658,13 @@
               "vowel_id": "swar-001"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for I?",
-          "title_english": "What is the Brahmi symbol for I?"
+          "title_hindi": "What is the Brahmi symbol for i?",
+          "title_english": "What is the Brahmi symbol for इ?"
         },
         {
           "id": "quiz1-004",
           "order": 4,
-          "question": "II",
+          "question": "ई",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀈",
           "correct_vowel_id": "swar-004",
@@ -691,13 +685,13 @@
               "vowel_id": "swar-010"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for II?",
-          "title_english": "What is the Brahmi symbol for II?"
+          "title_hindi": "What is the Brahmi symbol for ee?",
+          "title_english": "What is the Brahmi symbol for ई?"
         },
         {
           "id": "quiz1-005",
           "order": 5,
-          "question": "U",
+          "question": "उ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀉",
           "correct_vowel_id": "swar-005",
@@ -718,13 +712,13 @@
               "vowel_id": "swar-004"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for U?",
-          "title_english": "What is the Brahmi symbol for U?"
+          "title_hindi": "What is the Brahmi symbol for u?",
+          "title_english": "What is the Brahmi symbol for उ?"
         },
         {
           "id": "quiz1-006",
           "order": 6,
-          "question": "UU",
+          "question": "ऊ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀊",
           "correct_vowel_id": "swar-006",
@@ -745,13 +739,13 @@
               "vowel_id": "swar-004"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for UU?",
-          "title_english": "What is the Brahmi symbol for UU?"
+          "title_hindi": "What is the Brahmi symbol for oo?",
+          "title_english": "What is the Brahmi symbol for ऊ?"
         },
         {
           "id": "quiz1-007",
           "order": 7,
-          "question": "E",
+          "question": "ए",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀏",
           "correct_vowel_id": "swar-007",
@@ -772,13 +766,13 @@
               "vowel_id": "swar-002"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for E?",
-          "title_english": "What is the Brahmi symbol for E?"
+          "title_hindi": "What is the Brahmi symbol for e?",
+          "title_english": "What is the Brahmi symbol for ए?"
         },
         {
           "id": "quiz1-008",
           "order": 8,
-          "question": "AI",
+          "question": "ऐ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀐",
           "correct_vowel_id": "swar-008",
@@ -799,13 +793,13 @@
               "vowel_id": "swar-009"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for AI?",
-          "title_english": "What is the Brahmi symbol for AI?"
+          "title_hindi": "What is the Brahmi symbol for ai?",
+          "title_english": "What is the Brahmi symbol for ऐ?"
         },
         {
           "id": "quiz1-009",
           "order": 9,
-          "question": "O",
+          "question": "ओ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀑",
           "correct_vowel_id": "swar-009",
@@ -826,13 +820,13 @@
               "vowel_id": "swar-004"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for O?",
-          "title_english": "What is the Brahmi symbol for O?"
+          "title_hindi": "What is the Brahmi symbol for o?",
+          "title_english": "What is the Brahmi symbol for ओ?"
         },
         {
           "id": "quiz1-010",
           "order": 10,
-          "question": "AU",
+          "question": "औ",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀒",
           "correct_vowel_id": "swar-010",
@@ -853,13 +847,13 @@
               "vowel_id": "swar-003"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for AU?",
-          "title_english": "What is the Brahmi symbol for AU?"
+          "title_hindi": "What is the Brahmi symbol for au?",
+          "title_english": "What is the Brahmi symbol for औ?"
         },
         {
           "id": "quiz1-011",
           "order": 11,
-          "question": "AM",
+          "question": "अं",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀅𑀁",
           "correct_vowel_id": "swar-011",
@@ -880,14 +874,14 @@
               "vowel_id": "swar-004"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for AM? (Aनुस्वार)",
-          "title_english": "What is the Brahmi symbol for AM? (Anusvara)",
+          "title_hindi": "What is the Brahmi symbol for am? (Anusvara)",
+          "title_english": "What is the Brahmi symbol for अं? (Anusvara)",
           "note": "anusvara"
         },
         {
           "id": "quiz1-012",
           "order": 12,
-          "question": "AH",
+          "question": "अः",
           "question_type": "devanagari_to_brahmi",
           "correct_answer": "𑀅𑀂",
           "correct_vowel_id": "swar-012",
@@ -908,12 +902,11 @@
               "vowel_id": "swar-005"
             }
           ],
-          "title_hindi": "What is the Brahmi symbol for AH? (विसर्ग)",
-          "title_english": "What is the Brahmi symbol for AH? (Visarga)",
+          "title_hindi": "What is the Brahmi symbol for ah? (Visarga)",
+          "title_english": "What is the Brahmi symbol for अः? (Visarga)",
           "note": "visarga"
         }
-      ],
-      "title": "Game Time"
+      ]
     },
     "reverseQuiz2_brahmiToDevanagari": {
       "note": "Also audited while checking quiz1. Found the SAME wrong-anusvara-codepoint bug found earlier in matras.json: quiz2-011's question used U+11040 (VOWEL SIGN VOCALIC L) instead of U+11001 (SIGN ANUSVARA). Fixed.",
@@ -923,297 +916,297 @@
           "order": 1,
           "question": "𑀅",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "A",
+          "correct_answer": "अ",
           "correct_vowel_id": "swar-001",
           "wrong_options": [
             {
               "id": "wrong-quiz2-001-a",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             },
             {
               "id": "wrong-quiz2-001-b",
-              "devanagari": "I",
+              "devanagari": "इ",
               "vowel_id": "swar-003"
             },
             {
               "id": "wrong-quiz2-001-c",
-              "devanagari": "U",
+              "devanagari": "उ",
               "vowel_id": "swar-005"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀅?",
-          "title_english": "What is the English symbol for 𑀅?"
+          "title_hindi": "What is the equivalent symbol for 𑀅?",
+          "title_english": "What is the Devanagari symbol for 𑀅?"
         },
         {
           "id": "quiz2-002",
           "order": 2,
           "question": "𑀆",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "AA",
+          "correct_answer": "आ",
           "correct_vowel_id": "swar-002",
           "wrong_options": [
             {
               "id": "wrong-quiz2-002-a",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-002-b",
-              "devanagari": "II",
+              "devanagari": "ई",
               "vowel_id": "swar-004"
             },
             {
               "id": "wrong-quiz2-002-c",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀆?",
-          "title_english": "What is the English symbol for 𑀆?"
+          "title_hindi": "What is the equivalent symbol for 𑀆?",
+          "title_english": "What is the Devanagari symbol for 𑀆?"
         },
         {
           "id": "quiz2-003",
           "order": 3,
           "question": "𑀇",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "I",
+          "correct_answer": "इ",
           "correct_vowel_id": "swar-003",
           "wrong_options": [
             {
               "id": "wrong-quiz2-003-a",
-              "devanagari": "UU",
+              "devanagari": "ऊ",
               "vowel_id": "swar-006"
             },
             {
               "id": "wrong-quiz2-003-b",
-              "devanagari": "E",
+              "devanagari": "ए",
               "vowel_id": "swar-007"
             },
             {
               "id": "wrong-quiz2-003-c",
-              "devanagari": "AI",
+              "devanagari": "ऐ",
               "vowel_id": "swar-008"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀇?",
-          "title_english": "What is the English symbol for 𑀇?"
+          "title_hindi": "What is the equivalent symbol for 𑀇?",
+          "title_english": "What is the Devanagari symbol for 𑀇?"
         },
         {
           "id": "quiz2-004",
           "order": 4,
           "question": "𑀈",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "II",
+          "correct_answer": "ई",
           "correct_vowel_id": "swar-004",
           "wrong_options": [
             {
               "id": "wrong-quiz2-004-a",
-              "devanagari": "E",
+              "devanagari": "ए",
               "vowel_id": "swar-007"
             },
             {
               "id": "wrong-quiz2-004-b",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-004-c",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀈?",
-          "title_english": "What is the English symbol for 𑀈?"
+          "title_hindi": "What is the equivalent symbol for 𑀈?",
+          "title_english": "What is the Devanagari symbol for 𑀈?"
         },
         {
           "id": "quiz2-005",
           "order": 5,
           "question": "𑀉",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "U",
+          "correct_answer": "उ",
           "correct_vowel_id": "swar-005",
           "wrong_options": [
             {
               "id": "wrong-quiz2-005-a",
-              "devanagari": "I",
+              "devanagari": "इ",
               "vowel_id": "swar-003"
             },
             {
               "id": "wrong-quiz2-005-b",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             },
             {
               "id": "wrong-quiz2-005-c",
-              "devanagari": "AH",
+              "devanagari": "अः",
               "vowel_id": "swar-012"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀉?",
-          "title_english": "What is the English symbol for 𑀉?"
+          "title_hindi": "What is the equivalent symbol for 𑀉?",
+          "title_english": "What is the Devanagari symbol for 𑀉?"
         },
         {
           "id": "quiz2-006",
           "order": 6,
           "question": "𑀊",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "UU",
+          "correct_answer": "ऊ",
           "correct_vowel_id": "swar-006",
           "wrong_options": [
             {
               "id": "wrong-quiz2-006-a",
-              "devanagari": "AI",
+              "devanagari": "ऐ",
               "vowel_id": "swar-008"
             },
             {
               "id": "wrong-quiz2-006-b",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-006-c",
-              "devanagari": "E",
+              "devanagari": "ए",
               "vowel_id": "swar-007"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀊?",
-          "title_english": "What is the English symbol for 𑀊?"
+          "title_hindi": "What is the equivalent symbol for 𑀊?",
+          "title_english": "What is the Devanagari symbol for 𑀊?"
         },
         {
           "id": "quiz2-007",
           "order": 7,
           "question": "𑀏",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "E",
+          "correct_answer": "ए",
           "correct_vowel_id": "swar-007",
           "wrong_options": [
             {
               "id": "wrong-quiz2-007-a",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             },
             {
               "id": "wrong-quiz2-007-b",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-007-c",
-              "devanagari": "AH",
+              "devanagari": "अः",
               "vowel_id": "swar-012"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀏?",
-          "title_english": "What is the English symbol for 𑀏?"
+          "title_hindi": "What is the equivalent symbol for 𑀏?",
+          "title_english": "What is the Devanagari symbol for 𑀏?"
         },
         {
           "id": "quiz2-008",
           "order": 8,
           "question": "𑀐",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "AI",
+          "correct_answer": "ऐ",
           "correct_vowel_id": "swar-008",
           "wrong_options": [
             {
               "id": "wrong-quiz2-008-a",
-              "devanagari": "E",
+              "devanagari": "ए",
               "vowel_id": "swar-007"
             },
             {
               "id": "wrong-quiz2-008-b",
-              "devanagari": "UU",
+              "devanagari": "ऊ",
               "vowel_id": "swar-006"
             },
             {
               "id": "wrong-quiz2-008-c",
-              "devanagari": "U",
+              "devanagari": "उ",
               "vowel_id": "swar-005"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀐?",
-          "title_english": "What is the English symbol for 𑀐?"
+          "title_hindi": "What is the equivalent symbol for 𑀐?",
+          "title_english": "What is the Devanagari symbol for 𑀐?"
         },
         {
           "id": "quiz2-009",
           "order": 9,
           "question": "𑀑",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "O",
+          "correct_answer": "ओ",
           "correct_vowel_id": "swar-009",
           "wrong_options": [
             {
               "id": "wrong-quiz2-009-a",
-              "devanagari": "AU",
+              "devanagari": "औ",
               "vowel_id": "swar-010"
             },
             {
               "id": "wrong-quiz2-009-b",
-              "devanagari": "AH",
+              "devanagari": "अः",
               "vowel_id": "swar-012"
             },
             {
               "id": "wrong-quiz2-009-c",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀑?",
-          "title_english": "What is the English symbol for 𑀑?"
+          "title_hindi": "What is the equivalent symbol for 𑀑?",
+          "title_english": "What is the Devanagari symbol for 𑀑?"
         },
         {
           "id": "quiz2-010",
           "order": 10,
           "question": "𑀒",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "AU",
+          "correct_answer": "औ",
           "correct_vowel_id": "swar-010",
           "wrong_options": [
             {
               "id": "wrong-quiz2-010-a",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             },
             {
               "id": "wrong-quiz2-010-b",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-010-c",
-              "devanagari": "AM",
+              "devanagari": "अं",
               "vowel_id": "swar-011"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀒?",
-          "title_english": "What is the English symbol for 𑀒?"
+          "title_hindi": "What is the equivalent symbol for 𑀒?",
+          "title_english": "What is the Devanagari symbol for 𑀒?"
         },
         {
           "id": "quiz2-011",
           "order": 11,
           "question": "𑀅𑀁",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "AM",
+          "correct_answer": "अं",
           "correct_vowel_id": "swar-011",
           "wrong_options": [
             {
               "id": "wrong-quiz2-011-a",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-011-b",
-              "devanagari": "AH",
+              "devanagari": "अः",
               "vowel_id": "swar-012"
             },
             {
               "id": "wrong-quiz2-011-c",
-              "devanagari": "O",
+              "devanagari": "ओ",
               "vowel_id": "swar-009"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀅𑀁? (Aनुस्वार)",
-          "title_english": "What is the English symbol for 𑀅𑀁? (Anusvara)",
+          "title_hindi": "What is the equivalent symbol for 𑀅𑀁? (Anusvara)",
+          "title_english": "What is the Devanagari symbol for 𑀅𑀁? (Anusvara)",
           "note": "anusvara"
         },
         {
@@ -1221,165 +1214,164 @@
           "order": 12,
           "question": "𑀅𑀂",
           "question_type": "brahmi_to_devanagari",
-          "correct_answer": "AH",
+          "correct_answer": "अः",
           "correct_vowel_id": "swar-012",
           "wrong_options": [
             {
               "id": "wrong-quiz2-012-a",
-              "devanagari": "A",
+              "devanagari": "अ",
               "vowel_id": "swar-001"
             },
             {
               "id": "wrong-quiz2-012-b",
-              "devanagari": "E",
+              "devanagari": "ए",
               "vowel_id": "swar-007"
             },
             {
               "id": "wrong-quiz2-012-c",
-              "devanagari": "II",
+              "devanagari": "ई",
               "vowel_id": "swar-004"
             }
           ],
-          "title_hindi": "What is the English symbol for 𑀅𑀂? (विसर्ग)",
-          "title_english": "What is the English symbol for 𑀅𑀂? (Visarga)",
+          "title_hindi": "What is the equivalent symbol for 𑀅𑀂? (Visarga)",
+          "title_english": "What is the Devanagari symbol for 𑀅𑀂? (Visarga)",
           "note": "visarga"
         }
       ],
       "sourcePages": [
         50,
         62
-      ],
-      "title": "Let's play the reverse game now. Brahmi → English"
+      ]
     },
     "trueFalseQuestions": {
-      "note": "tf-011 and tf-012 displayed only 'A's brahmi symbol (𑀅) for AM/AH instead of the full combined form. Fixed to 𑀅𑀁 / 𑀅𑀂.",
+      "note": "tf-011 and tf-012 displayed only 'अ's brahmi symbol (𑀅) for अं/अः instead of the full combined form. Fixed to 𑀅𑀁 / 𑀅𑀂.",
       "items": [
         {
           "id": "tf-001",
           "order": 1,
-          "question_hindi": "Is the symbol for \"A\" [𑀅]?",
-          "question_english": "Is the symbol for \"A\" [𑀅]?",
+          "question_hindi": "\"a\" symbol is [𑀅]?",
+          "question_english": "Is the symbol for \"अ\" [𑀅]?",
           "correct_answer": true,
           "vowel_id": "swar-001",
-          "explanation_hindi": "Yes, [𑀅] is the Brahmi symbol for A.",
-          "explanation_english": "Yes, [𑀅] is the Brahmi symbol for A."
+          "explanation_hindi": "Yes, [𑀅] is the Brahmi symbol for a.",
+          "explanation_english": "Yes, [𑀅] is the Brahmi symbol for अ."
         },
         {
           "id": "tf-002",
           "order": 2,
-          "question_hindi": "Is the symbol for \"AA\" [𑀇]?",
-          "question_english": "Is the symbol for \"AA\" [𑀇]?",
+          "question_hindi": "\"aa\" symbol is [𑀇]?",
+          "question_english": "Is the symbol for \"आ\" [𑀇]?",
           "correct_answer": false,
           "vowel_id": "swar-002",
           "correct_symbol": "𑀆",
-          "explanation_hindi": "No, [𑀇] is the symbol for I. The symbol for AA is [𑀆].",
-          "explanation_english": "No, [𑀇] is the symbol for I. The symbol for AA is [𑀆]."
+          "explanation_hindi": "No, [𑀇] is the symbol for i. The symbol for aa is [𑀆].",
+          "explanation_english": "No, [𑀇] is the symbol for इ. The symbol for आ is [𑀆]."
         },
         {
           "id": "tf-003",
           "order": 3,
-          "question_hindi": "Is the symbol for \"I\" [𑀆]?",
-          "question_english": "Is the symbol for \"I\" [𑀆]?",
+          "question_hindi": "\"i\" symbol is [𑀆]?",
+          "question_english": "Is the symbol for \"इ\" [𑀆]?",
           "correct_answer": false,
           "vowel_id": "swar-003",
           "correct_symbol": "𑀇",
-          "explanation_hindi": "No, [𑀆] is the symbol for AA. The symbol for I is [𑀇].",
-          "explanation_english": "No, [𑀆] is the symbol for AA. The symbol for I is [𑀇]."
+          "explanation_hindi": "No, [𑀆] is the symbol for aa. The symbol for i is [𑀇].",
+          "explanation_english": "No, [𑀆] is the symbol for आ. The symbol for इ is [𑀇]."
         },
         {
           "id": "tf-004",
           "order": 4,
-          "question_hindi": "Is the symbol for \"II\" [𑀈]?",
-          "question_english": "Is the symbol for \"II\" [𑀈]?",
+          "question_hindi": "\"ee\" symbol is [𑀈]?",
+          "question_english": "Is the symbol for \"ई\" [𑀈]?",
           "correct_answer": true,
           "vowel_id": "swar-004",
-          "explanation_hindi": "Yes, [𑀈] is the Brahmi symbol for II.",
-          "explanation_english": "Yes, [𑀈] is the Brahmi symbol for II."
+          "explanation_hindi": "Yes, [𑀈] is the Brahmi symbol for ee.",
+          "explanation_english": "Yes, [𑀈] is the Brahmi symbol for ई."
         },
         {
           "id": "tf-005",
           "order": 5,
-          "question_hindi": "Is the symbol for \"U\" [𑀊]?",
-          "question_english": "Is the symbol for \"U\" [𑀊]?",
+          "question_hindi": "\"u\" symbol is [𑀊]?",
+          "question_english": "Is the symbol for \"उ\" [𑀊]?",
           "correct_answer": false,
           "vowel_id": "swar-005",
           "correct_symbol": "𑀉",
-          "explanation_hindi": "No, [𑀊] is the symbol for UU. The symbol for U is [𑀉].",
-          "explanation_english": "No, [𑀊] is the symbol for UU. The symbol for U is [𑀉]."
+          "explanation_hindi": "No, [𑀊] is the symbol for oo. The symbol for u is [𑀉].",
+          "explanation_english": "No, [𑀊] is the symbol for ऊ. The symbol for उ is [𑀉]."
         },
         {
           "id": "tf-006",
           "order": 6,
-          "question_hindi": "Is the symbol for \"UU\" [𑀐]?",
-          "question_english": "Is the symbol for \"UU\" [𑀐]?",
+          "question_hindi": "\"oo\" symbol is [𑀐]?",
+          "question_english": "Is the symbol for \"ऊ\" [𑀐]?",
           "correct_answer": false,
           "vowel_id": "swar-006",
           "correct_symbol": "𑀊",
-          "explanation_hindi": "No, [𑀐] is the symbol for AI. The symbol for UU is [𑀊].",
-          "explanation_english": "No, [𑀐] is the symbol for AI. The symbol for UU is [𑀊]."
+          "explanation_hindi": "No, [𑀐] is the symbol for ai. The symbol for oo is [𑀊].",
+          "explanation_english": "No, [𑀐] is the symbol for ऐ. The symbol for ऊ is [𑀊]."
         },
         {
           "id": "tf-007",
           "order": 7,
-          "question_hindi": "Is the symbol for \"E\" [𑀏]?",
-          "question_english": "Is the symbol for \"E\" [𑀏]?",
+          "question_hindi": "\"e\" symbol is [𑀏]?",
+          "question_english": "Is the symbol for \"ए\" [𑀏]?",
           "correct_answer": true,
           "vowel_id": "swar-007",
-          "explanation_hindi": "Yes, [𑀏] is the Brahmi symbol for E.",
-          "explanation_english": "Yes, [𑀏] is the Brahmi symbol for E."
+          "explanation_hindi": "Yes, [𑀏] is the Brahmi symbol for e.",
+          "explanation_english": "Yes, [𑀏] is the Brahmi symbol for ए."
         },
         {
           "id": "tf-008",
           "order": 8,
-          "question_hindi": "Is the symbol for \"AI\" [𑀐]?",
-          "question_english": "Is the symbol for \"AI\" [𑀐]?",
+          "question_hindi": "\"ai\" symbol is [𑀐]?",
+          "question_english": "Is the symbol for \"ऐ\" [𑀐]?",
           "correct_answer": true,
           "vowel_id": "swar-008",
-          "explanation_hindi": "Yes, [𑀐] is the Brahmi symbol for AI.",
-          "explanation_english": "Yes, [𑀐] is the Brahmi symbol for AI."
+          "explanation_hindi": "Yes, [𑀐] is the Brahmi symbol for ai.",
+          "explanation_english": "Yes, [𑀐] is the Brahmi symbol for ऐ."
         },
         {
           "id": "tf-009",
           "order": 9,
-          "question_hindi": "Is the symbol for \"O\" [𑀊]?",
-          "question_english": "Is the symbol for \"O\" [𑀊]?",
+          "question_hindi": "\"o\" symbol is [𑀊]?",
+          "question_english": "Is the symbol for \"ओ\" [𑀊]?",
           "correct_answer": false,
           "vowel_id": "swar-009",
           "correct_symbol": "𑀑",
-          "explanation_hindi": "No, [𑀊] is the symbol for UU. The symbol for O is [𑀑].",
-          "explanation_english": "No, [𑀊] is the symbol for UU. The symbol for O is [𑀑]."
+          "explanation_hindi": "No, [𑀊] is the symbol for oo. The symbol for o is [𑀑].",
+          "explanation_english": "No, [𑀊] is the symbol for ऊ. The symbol for ओ is [𑀑]."
         },
         {
           "id": "tf-010",
           "order": 10,
-          "question_hindi": "Is the symbol for \"AU\" [𑀈]?",
-          "question_english": "Is the symbol for \"AU\" [𑀈]?",
+          "question_hindi": "\"au\" symbol is [𑀈]?",
+          "question_english": "Is the symbol for \"औ\" [𑀈]?",
           "correct_answer": false,
           "vowel_id": "swar-010",
           "correct_symbol": "𑀒",
-          "explanation_hindi": "No, [𑀈] is the symbol for II. The symbol for AU is [𑀒].",
-          "explanation_english": "No, [𑀈] is the symbol for II. The symbol for AU is [𑀒]."
+          "explanation_hindi": "No, [𑀈] is the symbol for ee. The symbol for au is [𑀒].",
+          "explanation_english": "No, [𑀈] is the symbol for ई. The symbol for औ is [𑀒]."
         },
         {
           "id": "tf-011",
           "order": 11,
-          "question_hindi": "Is the symbol for \"AM\" [𑀅𑀁]?",
-          "question_english": "Is the symbol for \"AM\" [𑀅𑀁]?",
+          "question_hindi": "\"am\" symbol is [𑀅𑀁]?",
+          "question_english": "Is the symbol for \"अं\" [𑀅𑀁]?",
           "correct_answer": true,
           "vowel_id": "swar-011",
-          "explanation_hindi": "Yes, [𑀅𑀁] is the Brahmi symbol for AM (with Anusvara).",
-          "explanation_english": "Yes, [𑀅𑀁] is the Brahmi symbol for AM (with Anusvara mark).",
+          "explanation_hindi": "Yes, [𑀅𑀁] is the Brahmi symbol for am (with Anusvara).",
+          "explanation_english": "Yes, [𑀅𑀁] is the Brahmi symbol for अं (with Anusvara mark).",
           "note": "anusvara"
         },
         {
           "id": "tf-012",
           "order": 12,
-          "question_hindi": "Is the symbol for \"AH\" [𑀅𑀂]?",
-          "question_english": "Is the symbol for \"AH\" [𑀅𑀂]?",
+          "question_hindi": "\"ah\" symbol is [𑀅𑀂]?",
+          "question_english": "Is the symbol for \"अः\" [𑀅𑀂]?",
           "correct_answer": true,
           "vowel_id": "swar-012",
-          "explanation_hindi": "Yes, [𑀅𑀂] is the Brahmi symbol for AH (with Visarga).",
-          "explanation_english": "Yes, [𑀅𑀂] is the Brahmi symbol for AH (with Visarga mark).",
+          "explanation_hindi": "Yes, [𑀅𑀂] is the Brahmi symbol for ah (with Visarga).",
+          "explanation_english": "Yes, [𑀅𑀂] is the Brahmi symbol for अः (with Visarga mark).",
           "note": "visarga"
         }
       ],
@@ -1394,135 +1386,135 @@
         {
           "id": "trace-001",
           "order": 1,
-          "devanagari": "A",
+          "devanagari": "अ",
           "brahmi": "𑀅",
           "vowel_id": "swar-001",
-          "title_hindi": "A → 𑀅",
+          "title_hindi": "अ → 𑀅",
           "title_english": "A → 𑀅",
-          "instruction_hindi": "Write A in Brahmi script",
-          "instruction_english": "Write A in Brahmi script"
+          "instruction_hindi": "Write a in Brahmi",
+          "instruction_english": "Write अ in Brahmi script"
         },
         {
           "id": "trace-002",
           "order": 2,
-          "devanagari": "AA",
+          "devanagari": "आ",
           "brahmi": "𑀆",
           "vowel_id": "swar-002",
-          "title_hindi": "AA → 𑀆",
+          "title_hindi": "आ → 𑀆",
           "title_english": "AA → 𑀆",
-          "instruction_hindi": "Write AA in Brahmi script",
-          "instruction_english": "Write AA in Brahmi script"
+          "instruction_hindi": "Write aa in Brahmi",
+          "instruction_english": "Write आ in Brahmi script"
         },
         {
           "id": "trace-003",
           "order": 3,
-          "devanagari": "I",
+          "devanagari": "इ",
           "brahmi": "𑀇",
           "vowel_id": "swar-003",
-          "title_hindi": "I → 𑀇",
-          "title_english": "I → 𑀇",
-          "instruction_hindi": "Write I in Brahmi script",
-          "instruction_english": "Write I in Brahmi script"
+          "title_hindi": "इ → 𑀇",
+          "title_english": "i → 𑀇",
+          "instruction_hindi": "Write i in Brahmi",
+          "instruction_english": "Write इ in Brahmi script"
         },
         {
           "id": "trace-004",
           "order": 4,
-          "devanagari": "II",
+          "devanagari": "ई",
           "brahmi": "𑀈",
           "vowel_id": "swar-004",
-          "title_hindi": "II → 𑀈",
-          "title_english": "II → 𑀈",
-          "instruction_hindi": "Write II in Brahmi script",
-          "instruction_english": "Write II in Brahmi script"
+          "title_hindi": "ई → 𑀈",
+          "title_english": "ee → 𑀈",
+          "instruction_hindi": "Write ee in Brahmi",
+          "instruction_english": "Write ई in Brahmi script"
         },
         {
           "id": "trace-005",
           "order": 5,
-          "devanagari": "U",
+          "devanagari": "उ",
           "brahmi": "𑀉",
           "vowel_id": "swar-005",
-          "title_hindi": "U → 𑀉",
+          "title_hindi": "उ → 𑀉",
           "title_english": "U → 𑀉",
-          "instruction_hindi": "Write U in Brahmi script",
-          "instruction_english": "Write U in Brahmi script"
+          "instruction_hindi": "Write u in Brahmi",
+          "instruction_english": "Write उ in Brahmi script"
         },
         {
           "id": "trace-006",
           "order": 6,
-          "devanagari": "UU",
+          "devanagari": "ऊ",
           "brahmi": "𑀊",
           "vowel_id": "swar-006",
-          "title_hindi": "UU → 𑀊",
+          "title_hindi": "ऊ → 𑀊",
           "title_english": "UU → 𑀊",
-          "instruction_hindi": "Write UU in Brahmi script",
-          "instruction_english": "Write UU in Brahmi script"
+          "instruction_hindi": "Write oo in Brahmi",
+          "instruction_english": "Write ऊ in Brahmi script"
         },
         {
           "id": "trace-007",
           "order": 7,
-          "devanagari": "E",
+          "devanagari": "ए",
           "brahmi": "𑀏",
           "vowel_id": "swar-007",
-          "title_hindi": "E → 𑀏",
+          "title_hindi": "ए → 𑀏",
           "title_english": "E → 𑀏",
-          "instruction_hindi": "Write E in Brahmi script",
-          "instruction_english": "Write E in Brahmi script"
+          "instruction_hindi": "Write e in Brahmi",
+          "instruction_english": "Write ए in Brahmi script"
         },
         {
           "id": "trace-008",
           "order": 8,
-          "devanagari": "AI",
+          "devanagari": "ऐ",
           "brahmi": "𑀐",
           "vowel_id": "swar-008",
-          "title_hindi": "AI → 𑀐",
+          "title_hindi": "ऐ → 𑀐",
           "title_english": "AI → 𑀐",
-          "instruction_hindi": "Write AI in Brahmi script",
-          "instruction_english": "Write AI in Brahmi script"
+          "instruction_hindi": "Write ai in Brahmi",
+          "instruction_english": "Write ऐ in Brahmi script"
         },
         {
           "id": "trace-009",
           "order": 9,
-          "devanagari": "O",
+          "devanagari": "ओ",
           "brahmi": "𑀑",
           "vowel_id": "swar-009",
-          "title_hindi": "O → 𑀑",
+          "title_hindi": "ओ → 𑀑",
           "title_english": "O → 𑀑",
-          "instruction_hindi": "Write O in Brahmi script",
-          "instruction_english": "Write O in Brahmi script"
+          "instruction_hindi": "Write o in Brahmi",
+          "instruction_english": "Write ओ in Brahmi script"
         },
         {
           "id": "trace-010",
           "order": 10,
-          "devanagari": "AU",
+          "devanagari": "औ",
           "brahmi": "𑀒",
           "vowel_id": "swar-010",
-          "title_hindi": "AU → 𑀒",
+          "title_hindi": "औ → 𑀒",
           "title_english": "AU → 𑀒",
-          "instruction_hindi": "Write AU in Brahmi script",
-          "instruction_english": "Write AU in Brahmi script"
+          "instruction_hindi": "Write au in Brahmi",
+          "instruction_english": "Write औ in Brahmi script"
         },
         {
           "id": "trace-011",
           "order": 11,
-          "devanagari": "AM",
+          "devanagari": "अं",
           "brahmi": "𑀅𑀁",
           "vowel_id": "swar-011",
-          "title_hindi": "AM → 𑀅𑀁",
+          "title_hindi": "अं → 𑀅𑀁",
           "title_english": "AM (Anusvara) → 𑀅𑀁",
-          "instruction_hindi": "Write AM in Brahmi script (Anusvara)",
-          "instruction_english": "Write AM in Brahmi script (Anusvara)",
+          "instruction_hindi": "Write am in Brahmi (Anusvara)",
+          "instruction_english": "Write अं in Brahmi script (Anusvara)",
           "special_mark": "anusvara"
         },
         {
           "id": "trace-012",
           "order": 12,
-          "devanagari": "AH",
+          "devanagari": "अः",
           "brahmi": "𑀅𑀂",
           "vowel_id": "swar-012",
-          "title_hindi": "AH → 𑀅𑀂",
+          "title_hindi": "अः → 𑀅𑀂",
           "title_english": "AH (Visarga) → 𑀅𑀂",
-          "instruction_hindi": "Write AH in Brahmi script (Visarga)",
-          "instruction_english": "Write AH in Brahmi script (Visarga)",
+          "instruction_hindi": "Write ah in Brahmi (Visarga)",
+          "instruction_english": "Write अः in Brahmi script (Visarga)",
           "special_mark": "visarga"
         }
       ],
@@ -1535,37 +1527,37 @@
       {
         "id": "reward-001",
         "order": 1,
-        "badge_name_hindi": "Samyak Pragya Samman",
+        "badge_name_hindi": "Right Knowledge Award",
         "badge_name_english": "Samyak Prajna Honor",
-        "badge_description_hindi": "Successfully recognized Brahmi from English",
-        "badge_description_english": "Successfully recognized Brahmi symbols from English",
+        "badge_description_hindi": "Successfully recognized Devanagari to Brahmi",
+        "badge_description_english": "Successfully recognized Brahmi symbols from Devanagari",
         "trigger": "completed_quiz1",
         "icon": "🎯",
         "color": "#D4AF37",
-        "unlock_condition": "Complete Quiz 1 (English to Brahmi)",
+        "unlock_condition": "Complete Quiz 1 (Devanagari to Brahmi)",
         "title_english": "",
         "description_english": ""
       },
       {
         "id": "reward-002",
         "order": 2,
-        "badge_name_hindi": "Lipi Aastha Samman",
+        "badge_name_hindi": "Script Devotion Award",
         "badge_name_english": "Lipi Ashtha Honor",
-        "badge_description_hindi": "Successfully recognized English from Brahmi",
-        "badge_description_english": "Successfully recognized English from Brahmi symbols",
+        "badge_description_hindi": "Successfully recognized Brahmi to Devanagari",
+        "badge_description_english": "Successfully recognized Devanagari from Brahmi symbols",
         "trigger": "completed_quiz2",
         "icon": "🔤",
         "color": "#D4AF37",
-        "unlock_condition": "Complete Quiz 2 (Brahmi to English)",
+        "unlock_condition": "Complete Quiz 2 (Brahmi to Devanagari)",
         "title_english": "",
         "description_english": ""
       },
       {
         "id": "reward-003",
         "order": 3,
-        "badge_name_hindi": "Akshar Sadhana",
+        "badge_name_hindi": "Letter Practice",
         "badge_name_english": "Akshara Sadhana",
-        "badge_description_hindi": "Successfully wrote all 12 vowels in Brahmi",
+        "badge_description_hindi": "Wrote all 12 vowels in Brahmi",
         "badge_description_english": "Successfully wrote all 12 vowels in Brahmi script",
         "trigger": "completed_tracing",
         "icon": "✏️",
@@ -1579,7 +1571,7 @@
         "order": 4,
         "badge_name_hindi": "Goal Achiever",
         "badge_name_english": "Goal Achiever",
-        "badge_description_hindi": "Successfully passed True-False questions",
+        "badge_description_hindi": "Succeeded in true-false questions",
         "badge_description_english": "Successfully answered all true/false questions",
         "trigger": "completed_true_false",
         "icon": "🏆",
@@ -1591,9 +1583,9 @@
       {
         "id": "reward-005",
         "order": 5,
-        "badge_name_hindi": "Shreshtha Gyani",
+        "badge_name_hindi": "Supreme Scholar",
         "badge_name_english": "Supreme Scholar",
-        "badge_description_hindi": "Chose Consonants after learning Vowels",
+        "badge_description_hindi": "Chose consonants after learning vowels",
         "badge_description_english": "Chose to learn Vyanjan (Consonants) next after mastering vowels",
         "trigger": "chose_vyanjan_next",
         "icon": "👑",
@@ -1620,21 +1612,21 @@
     },
     "gameTimeTitle1": {
       "content": "Game Time",
-      "direction": "English → Brahmi",
+      "direction": "Devanagari → Brahmi",
       "sourcePages": [
         35,
         35
       ]
     },
     "transitionToQuiz2": {
-      "content": "Let's play the reverse game now. Brahmi → English",
+      "content": "Let's play the reverse game now. Brahmi → Devanagari",
       "sourcePages": [
         49,
         50
       ]
     },
     "transitionToTracing": {
-      "content": "Let's practice writing now. Are you excited to write for me? Give me your best and make it perfect.",
+      "content": "Come on! Let's practice writing now. Are you excited to write? Give it your best shot!",
       "sourcePages": [
         64,
         64
@@ -1643,7 +1635,7 @@
     "encouragementSlides": [
       {
         "page": 77,
-        "content": "You are truly diving into the ocean of knowledge – very well done!",
+        "content": "You are truly diving into the ocean of knowledge – very good!",
         "sourcePages": [
           77,
           77
@@ -1659,7 +1651,7 @@
       },
       {
         "page": 84,
-        "content": "You are moving ahead of everyone, experiencing immense joy!",
+        "content": "You are moving ahead of everyone, bringing immense joy!",
         "sourcePages": [
           84,
           84
@@ -1669,1504 +1661,2037 @@
     "congratsMessage": {
       "title": "Congratulations!",
       "type": "info",
-      "content": "You are truly a special seeker and eager to learn, which is why you have reached this stage of this unique journey.\n\nHeartfelt congratulations and best wishes!",
+      "content": "You are truly curious and eager to learn, which is why you have reached this stage of this unique journey.\n\nHearty congratulations and best wishes!",
       "button": "Next",
       "sourcePages": [
         48,
         48
       ]
-    }
-  },
-  "vyanjan": {
-    "sourcePages": [
-      122,
-      204
-    ],
-    "intro": {
-      "title": "Introduction to Jina",
-      "subtitle": "वर्गानुसार सूची (जिससे सीखने वाला सहजता से पहचान सके)",
-      "sourcePages": [
-        121,
-        121
-      ]
     },
-    "groups": [
-      {
-        "groupName": "Velar (Kanthya)",
-        "groupNote": "Pronounced from the throat",
-        "items": [
-          {
-            "number": 1,
-            "id": "vyanjan-001",
-            "devanagari": "क",
-            "brahmi": "𑀓"
-          },
-          {
-            "number": 2,
-            "id": "vyanjan-002",
-            "devanagari": "ख",
-            "brahmi": "𑀔"
-          },
-          {
-            "number": 3,
-            "id": "vyanjan-003",
-            "devanagari": "ग",
-            "brahmi": "𑀕"
-          },
-          {
-            "number": 4,
-            "id": "vyanjan-004",
-            "devanagari": "घ",
-            "brahmi": "𑀖"
-          },
-          {
-            "number": 5,
-            "id": "vyanjan-005",
-            "devanagari": "ङ",
-            "brahmi": "𑀗"
-          }
-        ],
-        "sourcePages": [
-          122,
-          122
-        ]
-      },
-      {
-        "groupName": "Palatal (Talavya)",
-        "groupNote": "Pronounced from the palate",
-        "items": [
-          {
-            "number": 6,
-            "id": "vyanjan-006",
-            "devanagari": "च",
-            "brahmi": "𑀘"
-          },
-          {
-            "number": 7,
-            "id": "vyanjan-007",
-            "devanagari": "छ",
-            "brahmi": "𑀙"
-          },
-          {
-            "number": 8,
-            "id": "vyanjan-008",
-            "devanagari": "ज",
-            "brahmi": "𑀚"
-          },
-          {
-            "number": 9,
-            "id": "vyanjan-009",
-            "devanagari": "झ",
-            "brahmi": "𑀛"
-          },
-          {
-            "number": 10,
-            "id": "vyanjan-010",
-            "devanagari": "ञ",
-            "brahmi": "𑀜"
-          }
-        ],
-        "sourcePages": [
-          123,
-          123
-        ]
-      },
-      {
-        "groupName": "Retroflex (Murdhanya)",
-        "groupNote": "By folding the tongue back",
-        "items": [
-          {
-            "number": 11,
-            "id": "vyanjan-011",
-            "devanagari": "ट",
-            "brahmi": "𑀝"
-          },
-          {
-            "number": 12,
-            "id": "vyanjan-012",
-            "devanagari": "ठ",
-            "brahmi": "𑀞"
-          },
-          {
-            "number": 13,
-            "id": "vyanjan-013",
-            "devanagari": "ड",
-            "brahmi": "𑀟"
-          },
-          {
-            "number": 14,
-            "id": "vyanjan-014",
-            "devanagari": "ढ",
-            "brahmi": "𑀠"
-          },
-          {
-            "number": 15,
-            "id": "vyanjan-015",
-            "devanagari": "ण",
-            "brahmi": "𑀡"
-          }
-        ],
-        "sourcePages": [
-          124,
-          124
-        ]
-      },
-      {
-        "groupName": "Dental (Dantya)",
-        "groupNote": "Placing the tongue near the teeth",
-        "items": [
-          {
-            "number": 16,
-            "id": "vyanjan-016",
-            "devanagari": "त",
-            "brahmi": "𑀢"
-          },
-          {
-            "number": 17,
-            "id": "vyanjan-017",
-            "devanagari": "थ",
-            "brahmi": "𑀣"
-          },
-          {
-            "number": 18,
-            "id": "vyanjan-018",
-            "devanagari": "द",
-            "brahmi": "𑀤"
-          },
-          {
-            "number": 19,
-            "id": "vyanjan-019",
-            "devanagari": "ध",
-            "brahmi": "𑀥"
-          },
-          {
-            "number": 20,
-            "id": "vyanjan-020",
-            "devanagari": "न",
-            "brahmi": "𑀦"
-          }
-        ],
-        "sourcePages": [
-          125,
-          125
-        ]
-      },
-      {
-        "groupName": "Labial (Oshthya)",
-        "groupNote": "From the lips",
-        "items": [
-          {
-            "number": 21,
-            "id": "vyanjan-021",
-            "devanagari": "प",
-            "brahmi": "𑀧"
-          },
-          {
-            "number": 22,
-            "id": "vyanjan-022",
-            "devanagari": "फ",
-            "brahmi": "𑀨"
-          },
-          {
-            "number": 23,
-            "id": "vyanjan-023",
-            "devanagari": "ब",
-            "brahmi": "𑀩"
-          },
-          {
-            "number": 24,
-            "id": "vyanjan-024",
-            "devanagari": "भ",
-            "brahmi": "𑀪"
-          },
-          {
-            "number": 25,
-            "id": "vyanjan-025",
-            "devanagari": "म",
-            "brahmi": "𑀫"
-          }
-        ],
-        "sourcePages": [
-          126,
-          126
-        ]
-      },
-      {
-        "groupName": "Approximant (Antastha)",
-        "groupNote": "Semi-vowels",
-        "items": [
-          {
-            "number": 26,
-            "id": "vyanjan-026",
-            "devanagari": "य",
-            "brahmi": "𑀬"
-          },
-          {
-            "number": 27,
-            "id": "vyanjan-027",
-            "devanagari": "र",
-            "brahmi": "𑀭"
-          },
-          {
-            "number": 28,
-            "id": "vyanjan-028",
-            "devanagari": "ल",
-            "brahmi": "𑀮"
-          },
-          {
-            "number": 29,
-            "id": "vyanjan-029",
-            "devanagari": "व",
-            "brahmi": "𑀯"
-          }
-        ],
-        "sourcePages": [
-          127,
-          127
-        ]
-      },
-      {
-        "groupName": "Fricative (Ushma)",
-        "groupNote": "Produced by breath",
-        "items": [
-          {
-            "number": 30,
-            "id": "vyanjan-030",
-            "devanagari": "श",
-            "brahmi": "𑀰"
-          },
-          {
-            "number": 31,
-            "id": "vyanjan-031",
-            "devanagari": "ष",
-            "brahmi": "𑀱"
-          },
-          {
-            "number": 32,
-            "id": "vyanjan-032",
-            "devanagari": "स",
-            "brahmi": "𑀲"
-          },
-          {
-            "number": 33,
-            "id": "vyanjan-033",
-            "devanagari": "ह",
-            "brahmi": "𑀳"
-          }
-        ],
-        "sourcePages": [
-          128,
-          128
-        ]
-      }
-    ],
-    "lessonTemplateNote": "REVISED after page-by-page verification: क's lesson (129-146, 18 pages) is the fullest, including 4 general instructional slides (practice modes / quiz modes / mixed quiz) not repeated elsewhere. ख, ग, घ, ङ (147-203) are each a tighter 14-page lesson with the same core steps but real, PDF-specific recognition/reverse examples, matching-game pairs, and fill-blank answers.",
-    "consonantLessons": [
-      {
-        "consonant": "क",
-        "brahmi": "𑀓",
-        "sourcePages": [
-          129,
-          146
-        ],
-        "verifiedAgainstPdf": true,
-        "steps": [
-          {
-            "type": "bonus_title",
-            "content": "बोनस: व्यंजन परिचय – \"क\" (𑀓)",
-            "subtitle": "स्वागतम्! आपने \"क\" व्यंजन चुना है!",
-            "note": "आज हम सीखेंगे – इसका रूप, उच्चारण और मात्राओं के साथ योग पढ़ना और लिखना"
-          },
-          {
-            "type": "form_pronunciation",
-            "content": "ब्राह्मी लिपि में \"क\" का रूप: 𑀓 है। उच्चारण: क (जैसे – कमल, कक्षा)",
-            "drill": "कोशिश कर – जोर से बोलें: क… क… क"
-          },
-          {
-            "type": "bina_matra",
-            "title": "बिना मात्रा",
-            "content": "जब \"क\" अकेला होता है → 𑀓 (ध्वनि: क)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।"
-          },
-          {
-            "type": "matra_combinations",
-            "title": "मात्राओं के साथ \"क\"",
-            "forms": [
-              {
-                "vowel": "A",
-                "matraSign": null,
-                "combinedDevanagari": "क",
-                "combinedBrahmi": "𑀓",
-                "note": "मात्रा चिह्न कुछ नहीं"
-              },
-              {
-                "vowel": "AA",
-                "matraSign": "𑀸",
-                "combinedDevanagari": "का",
-                "combinedBrahmi": "𑀓𑀸"
-              },
-              {
-                "vowel": "I",
-                "matraSign": "𑀺",
-                "combinedDevanagari": "कि",
-                "combinedBrahmi": "𑀓𑀺"
-              },
-              {
-                "vowel": "II",
-                "matraSign": "𑀻",
-                "combinedDevanagari": "की",
-                "combinedBrahmi": "𑀓𑀻"
-              },
-              {
-                "vowel": "U",
-                "matraSign": "𑀼",
-                "combinedDevanagari": "कु",
-                "combinedBrahmi": "𑀓𑀼"
-              },
-              {
-                "vowel": "UU",
-                "matraSign": "𑀽",
-                "combinedDevanagari": "कू",
-                "combinedBrahmi": "𑀓𑀽"
-              },
-              {
-                "vowel": "E",
-                "matraSign": "𑁂",
-                "combinedDevanagari": "के",
-                "combinedBrahmi": "𑀓𑁂"
-              },
-              {
-                "vowel": "AI",
-                "matraSign": "𑁃",
-                "combinedDevanagari": "कै",
-                "combinedBrahmi": "𑀓𑁃"
-              },
-              {
-                "vowel": "O",
-                "matraSign": "𑁄",
-                "combinedDevanagari": "को",
-                "combinedBrahmi": "𑀓𑁄"
-              },
-              {
-                "vowel": "AU",
-                "matraSign": "𑁅",
-                "combinedDevanagari": "कौ",
-                "combinedBrahmi": "𑀓𑁅"
-              },
-              {
-                "vowel": "AM",
-                "matraSign": "𑀁",
-                "combinedDevanagari": "कं",
-                "combinedBrahmi": "𑀓𑀁"
-              },
-              {
-                "vowel": "AH",
-                "matraSign": "𑀂",
-                "combinedDevanagari": "कः",
-                "combinedBrahmi": "𑀓𑀂"
-              }
-            ]
-          },
-          {
-            "type": "pronunciation_drill",
-            "title": "उच्चारण अभ्यास",
-            "content": "ऑडियो सुनें और दोहराएं: क – का – कि – की – कु – कू – के – कै – को – कौ – कं – कः"
-          },
-          {
-            "type": "recognition_mcq",
-            "title": "पहचान अभ्यास (देवनागरी → ब्राह्मी)",
-            "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
-            "examples": [
-              {
-                "prompt": "का",
-                "answer": "𑀓𑀸"
-              },
-              {
-                "prompt": "कि",
-                "answer": "𑀓𑀺"
-              },
-              {
-                "prompt": "कं",
-                "answer": "𑀓𑀁"
-              }
-            ]
-          },
-          {
-            "type": "reverse_mcq",
-            "title": "उल्टा अभ्यास (ब्राह्मी → देवनागरी)",
-            "note": "PDF pages give 3 worked examples",
-            "examples": [
-              {
-                "prompt": "𑀓𑁃",
-                "answer": "कै"
-              },
-              {
-                "prompt": "𑀓𑀻",
-                "answer": "की"
-              },
-              {
-                "prompt": "𑀓𑁅",
-                "answer": "कौ"
-              }
-            ]
-          },
-          {
-            "type": "matching_game",
-            "title": "मिलानी गेम",
-            "columnA": [
-              "𑀓𑀸",
-              "𑀓𑀼",
-              "𑀓𑁄",
-              "𑀓𑀁"
-            ],
-            "columnB": [
-              "का",
-              "को",
-              "कु",
-              "कं"
-            ],
-            "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)"
-          },
-          {
-            "type": "fill_blank",
-            "title": "रिक्त स्थान भरें",
-            "questions": [
-              {
-                "prompt": "𑀓 ___ = क",
-                "answer": "𑀺"
-              },
-              {
-                "prompt": "𑀓 ___ = कौ",
-                "answer": "𑁅"
-              },
-              {
-                "prompt": "𑀓 ___ = के",
-                "answer": "𑁂"
-              },
-              {
-                "prompt": "𑀓 ___ = कः",
-                "answer": "𑀂"
-              },
-              {
-                "prompt": "𑀓 ___ = कं",
-                "answer": "𑀁"
-              }
-            ]
-          },
-          {
-            "type": "trace_practice",
-            "title": "ट्रेसिंग अभ्यास",
-            "content": "अपनी उंगली/पेन से 𑀓 और उसकी सभी मात्राओं वाले रूप ट्रेस करें।",
-            "note": "ट्रेसिंग एनीमेशन दिखाई देगा"
-          },
-          {
-            "type": "matra_recap_intro",
-            "page": 142,
-            "content": "अब तक आपने स्वर सीखे, अब जानिए कि ये व्यंजन के साथ मिलकर कैसे मात्राएं बनाते हैं। हम हर मात्रा का रूप, स्थान और लिखने की पद्धति सीखेंगे — और आप स्वयं उन्हें ट्रेस करेंगे।"
-          },
-          {
-            "type": "practice_modes",
-            "page": 143,
-            "title": "अभ्यास मोड",
-            "modes": [
-              "देखो और ट्रेस करो: एनिमेशन + गाइडेड स्ट्रोक",
-              "स्वयं लिखो: खाली कैनवास पर मात्रा जोड़ो",
-              "ऑटो चैक: सही/गलत का तुरंत चैक"
-            ]
-          },
-          {
-            "type": "quiz_modes",
-            "page": 144,
-            "title": "विज़ मोड",
-            "modes": [
-              "मात्रा देखो → नाम बताओ",
-              "आवाज़ सुनो → मात्रा लगाओ",
-              "ब्राह्मी से देवनागरी और उल्टा अभ्यास"
-            ]
-          },
-          {
-            "type": "mixed_quiz",
-            "page": 145,
-            "title": "मिश्रित विज़",
-            "modes": [
-              "सुनकर सही ब्राह्मी चिह्न चुनें",
-              "फोटो में मात्रा पहचानें",
-              "देवनागरी से ब्राह्मी और ब्राह्मी से देवनागरी बदलें"
-            ]
-          },
-          {
-            "type": "summary",
-            "title": "समापन",
-            "content": "उत्तम! आपने \"क\" व्यंजन का रूप, उच्चारण, और मात्राओं के साथ योग सीख लिया।",
-            "bonusUnlock": "जिन एक्सप्लोरर"
-          }
-        ],
-        "note": "क's lesson (129-146) is longer than ख/ग/घ/ङ — it includes general practice-mode/quiz-mode instructional slides (142-145) that only appear once, here, and apply to all subsequent consonant lessons rather than being repeated."
-      },
-      {
-        "consonant": "ख",
-        "brahmi": "𑀔",
-        "sourcePages": [
-          147,
-          160
-        ],
-        "verifiedAgainstPdf": true,
-        "steps": [
-          {
-            "type": "bonus_title",
-            "content": "बोनस: व्यंजन परिचय – \"ख\" (𑀔)",
-            "subtitle": "स्वागतम्! आपने \"ख\" व्यंजन चुना है!",
-            "note": "आज हम सीखेंगे – इसका रूप, उच्चारण और मात्राओं के साथ योग पढ़ना और लिखना"
-          },
-          {
-            "type": "form_pronunciation",
-            "content": "ब्राह्मी लिपि में \"ख\" का रूप: 𑀔 है। उच्चारण: ख (जैसे – खट, खेल (PDF shows खड़गा, खेल))",
-            "drill": "कोशिश कर – जोर से बोलें: ख… ख… ख"
-          },
-          {
-            "type": "bina_matra",
-            "title": "बिना मात्रा",
-            "content": "जब \"ख\" अकेला होता है → 𑀔 (ध्वनि: ख)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।"
-          },
-          {
-            "type": "matra_combinations",
-            "title": "मात्राओं के साथ \"ख\"",
-            "forms": [
-              {
-                "vowel": "A",
-                "matraSign": null,
-                "combinedDevanagari": "ख",
-                "combinedBrahmi": "𑀔",
-                "note": "मात्रा चिह्न कुछ नहीं"
-              },
-              {
-                "vowel": "AA",
-                "matraSign": "𑀸",
-                "combinedDevanagari": "खा",
-                "combinedBrahmi": "𑀔𑀸"
-              },
-              {
-                "vowel": "I",
-                "matraSign": "𑀺",
-                "combinedDevanagari": "खि",
-                "combinedBrahmi": "𑀔𑀺"
-              },
-              {
-                "vowel": "II",
-                "matraSign": "𑀻",
-                "combinedDevanagari": "खी",
-                "combinedBrahmi": "𑀔𑀻"
-              },
-              {
-                "vowel": "U",
-                "matraSign": "𑀼",
-                "combinedDevanagari": "खु",
-                "combinedBrahmi": "𑀔𑀼"
-              },
-              {
-                "vowel": "UU",
-                "matraSign": "𑀽",
-                "combinedDevanagari": "खू",
-                "combinedBrahmi": "𑀔𑀽"
-              },
-              {
-                "vowel": "E",
-                "matraSign": "𑁂",
-                "combinedDevanagari": "खे",
-                "combinedBrahmi": "𑀔𑁂"
-              },
-              {
-                "vowel": "AI",
-                "matraSign": "𑁃",
-                "combinedDevanagari": "खै",
-                "combinedBrahmi": "𑀔𑁃"
-              },
-              {
-                "vowel": "O",
-                "matraSign": "𑁄",
-                "combinedDevanagari": "खो",
-                "combinedBrahmi": "𑀔𑁄"
-              },
-              {
-                "vowel": "AU",
-                "matraSign": "𑁅",
-                "combinedDevanagari": "खौ",
-                "combinedBrahmi": "𑀔𑁅"
-              },
-              {
-                "vowel": "AM",
-                "matraSign": "𑀁",
-                "combinedDevanagari": "खं",
-                "combinedBrahmi": "𑀔𑀁"
-              },
-              {
-                "vowel": "AH",
-                "matraSign": "𑀂",
-                "combinedDevanagari": "खः",
-                "combinedBrahmi": "𑀔𑀂"
-              }
-            ]
-          },
-          {
-            "type": "pronunciation_drill",
-            "title": "उच्चारण अभ्यास",
-            "content": "ऑडियो सुनें और दोहराएं: ख – खा – खि – खी – खु – खू – खे – खै – खो – खौ – खं – खः"
-          },
-          {
-            "type": "recognition_mcq",
-            "title": "पहचान अभ्यास (देवनागरी → ब्राह्मी)",
-            "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
-            "examples": [
-              {
-                "prompt": "खा",
-                "answer": "𑀔𑀸"
-              },
-              {
-                "prompt": "खु",
-                "answer": "𑀔𑀼"
-              },
-              {
-                "prompt": "खं",
-                "answer": "𑀔𑀁"
-              }
-            ]
-          },
-          {
-            "type": "reverse_mcq",
-            "title": "उल्टा अभ्यास (ब्राह्मी → देवनागरी)",
-            "note": "PDF pages give 3 worked examples",
-            "examples": [
-              {
-                "prompt": "𑀔𑁃",
-                "answer": "खै"
-              },
-              {
-                "prompt": "𑀔𑀻",
-                "answer": "खी"
-              },
-              {
-                "prompt": "𑀔𑁅",
-                "answer": "खौ"
-              }
-            ]
-          },
-          {
-            "type": "matching_game",
-            "title": "मिलानी गेम",
-            "columnA": [
-              "𑀔𑀸",
-              "𑀔𑀼",
-              "𑀔𑁄",
-              "𑀔𑀁"
-            ],
-            "columnB": [
-              "खा",
-              "खो",
-              "खु",
-              "खं"
-            ],
-            "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)"
-          },
-          {
-            "type": "fill_blank",
-            "title": "रिक्त स्थान भरें",
-            "questions": [
-              {
-                "prompt": "𑀔 ___ = ख",
-                "answer": "𑀺"
-              },
-              {
-                "prompt": "𑀔 ___ = खौ",
-                "answer": "𑁅"
-              },
-              {
-                "prompt": "𑀔 ___ = खे",
-                "answer": "𑁂"
-              },
-              {
-                "prompt": "𑀔 ___ = खः",
-                "answer": "𑀂"
-              },
-              {
-                "prompt": "𑀔 ___ = खं",
-                "answer": "𑀁"
-              }
-            ]
-          },
-          {
-            "type": "trace_practice",
-            "title": "ट्रेसिंग अभ्यास",
-            "content": "अपनी उंगली/पेन से 𑀔 और उसकी सभी मात्राओं वाले रूप ट्रेस करें।",
-            "note": "'क' की तरह ही मात्रा ट्रेसिंग लूप (animation reused from क's lesson)"
-          },
-          {
-            "type": "summary",
-            "title": "समापन",
-            "content": "शानदार! आपने \"ख\" व्यंजन का रूप, उच्चारण, और मात्राओं के साथ योग सीख लिया।",
-            "bonusUnlock": "जिन एक्सप्लोरर"
-          }
-        ]
-      },
-      {
-        "consonant": "ग",
-        "brahmi": "𑀕",
-        "sourcePages": [
-          161,
-          174
-        ],
-        "verifiedAgainstPdf": true,
-        "steps": [
-          {
-            "type": "bonus_title",
-            "content": "बोनस: व्यंजन परिचय – \"ग\" (𑀕)",
-            "subtitle": "स्वागतम्! आपने \"ग\" व्यंजन चुना है!",
-            "note": "आज हम सीखेंगे – इसका रूप, उच्चारण और मात्राओं के साथ योग पढ़ना और लिखना"
-          },
-          {
-            "type": "form_pronunciation",
-            "content": "ब्राह्मी लिपि में \"ग\" का रूप: 𑀕 है। उच्चारण: ग (जैसे – गाय, गमन (PDF shows गमला, गद))",
-            "drill": "कोशिश कर – जोर से बोलें: ग… ग… ग"
-          },
-          {
-            "type": "bina_matra",
-            "title": "बिना मात्रा",
-            "content": "जब \"ग\" अकेला होता है → 𑀕 (ध्वनि: ग)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।"
-          },
-          {
-            "type": "matra_combinations",
-            "title": "मात्राओं के साथ \"ग\"",
-            "forms": [
-              {
-                "vowel": "A",
-                "matraSign": null,
-                "combinedDevanagari": "ग",
-                "combinedBrahmi": "𑀕",
-                "note": "मात्रा चिह्न कुछ नहीं"
-              },
-              {
-                "vowel": "AA",
-                "matraSign": "𑀸",
-                "combinedDevanagari": "गा",
-                "combinedBrahmi": "𑀕𑀸"
-              },
-              {
-                "vowel": "I",
-                "matraSign": "𑀺",
-                "combinedDevanagari": "गि",
-                "combinedBrahmi": "𑀕𑀺"
-              },
-              {
-                "vowel": "II",
-                "matraSign": "𑀻",
-                "combinedDevanagari": "गी",
-                "combinedBrahmi": "𑀕𑀻"
-              },
-              {
-                "vowel": "U",
-                "matraSign": "𑀼",
-                "combinedDevanagari": "गु",
-                "combinedBrahmi": "𑀕𑀼"
-              },
-              {
-                "vowel": "UU",
-                "matraSign": "𑀽",
-                "combinedDevanagari": "गू",
-                "combinedBrahmi": "𑀕𑀽"
-              },
-              {
-                "vowel": "E",
-                "matraSign": "𑁂",
-                "combinedDevanagari": "गे",
-                "combinedBrahmi": "𑀕𑁂"
-              },
-              {
-                "vowel": "AI",
-                "matraSign": "𑁃",
-                "combinedDevanagari": "गै",
-                "combinedBrahmi": "𑀕𑁃"
-              },
-              {
-                "vowel": "O",
-                "matraSign": "𑁄",
-                "combinedDevanagari": "गो",
-                "combinedBrahmi": "𑀕𑁄"
-              },
-              {
-                "vowel": "AU",
-                "matraSign": "𑁅",
-                "combinedDevanagari": "गौ",
-                "combinedBrahmi": "𑀕𑁅"
-              },
-              {
-                "vowel": "AM",
-                "matraSign": "𑀁",
-                "combinedDevanagari": "गं",
-                "combinedBrahmi": "𑀕𑀁"
-              },
-              {
-                "vowel": "AH",
-                "matraSign": "𑀂",
-                "combinedDevanagari": "गः",
-                "combinedBrahmi": "𑀕𑀂"
-              }
-            ]
-          },
-          {
-            "type": "pronunciation_drill",
-            "title": "उच्चारण अभ्यास",
-            "content": "ऑडियो सुनें और दोहराएं: ग – गा – गि – गी – गु – गू – गे – गै – गो – गौ – गं – गः"
-          },
-          {
-            "type": "recognition_mcq",
-            "title": "पहचान अभ्यास (देवनागरी → ब्राह्मी)",
-            "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
-            "examples": [
-              {
-                "prompt": "गा",
-                "answer": "𑀕𑀸"
-              },
-              {
-                "prompt": "गु",
-                "answer": "𑀕𑀼"
-              },
-              {
-                "prompt": "गं",
-                "answer": "𑀕𑀁"
-              }
-            ]
-          },
-          {
-            "type": "reverse_mcq",
-            "title": "उल्टा अभ्यास (ब्राह्मी → देवनागरी)",
-            "note": "PDF pages give 3 worked examples",
-            "examples": [
-              {
-                "prompt": "𑀕𑁃",
-                "answer": "गै"
-              },
-              {
-                "prompt": "𑀕𑀻",
-                "answer": "गी"
-              },
-              {
-                "prompt": "𑀕𑁅",
-                "answer": "गौ"
-              }
-            ]
-          },
-          {
-            "type": "matching_game",
-            "title": "मिलानी गेम",
-            "columnA": [
-              "𑀕𑀸",
-              "𑀕𑀼",
-              "𑀕𑁄",
-              "𑀕𑀁"
-            ],
-            "columnB": [
-              "गा",
-              "गो",
-              "गु",
-              "गं"
-            ],
-            "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)"
-          },
-          {
-            "type": "fill_blank",
-            "title": "रिक्त स्थान भरें",
-            "questions": [
-              {
-                "prompt": "𑀕 ___ = ग",
-                "answer": "𑀺"
-              },
-              {
-                "prompt": "𑀕 ___ = गौ",
-                "answer": "𑁅"
-              },
-              {
-                "prompt": "𑀕 ___ = गे",
-                "answer": "𑁂"
-              },
-              {
-                "prompt": "𑀕 ___ = गः",
-                "answer": "𑀂"
-              },
-              {
-                "prompt": "𑀕 ___ = गं",
-                "answer": "𑀁"
-              }
-            ]
-          },
-          {
-            "type": "trace_practice",
-            "title": "ट्रेसिंग अभ्यास",
-            "content": "अपनी उंगली/पेन से 𑀕 और उसकी सभी मात्राओं वाले रूप ट्रेस करें।",
-            "note": "'क' की तरह ही मात्रा ट्रेसिंग लूप (animation reused from क's lesson)"
-          },
-          {
-            "type": "summary",
-            "title": "समापन",
-            "content": "शानदार! आपने \"ग\" व्यंजन का रूप, उच्चारण, और मात्राओं के साथ योग सीख लिया।",
-            "bonusUnlock": "जिन एक्सप्लोरर"
-          }
-        ]
-      },
-      {
-        "consonant": "घ",
-        "brahmi": "𑀖",
-        "sourcePages": [
-          175,
-          188
-        ],
-        "verifiedAgainstPdf": true,
-        "steps": [
-          {
-            "type": "bonus_title",
-            "content": "बोनस: व्यंजन परिचय – \"घ\" (𑀖)",
-            "subtitle": "स्वागतम्! आपने \"घ\" व्यंजन चुना है!",
-            "note": "आज हम सीखेंगे – इसका रूप, उच्चारण और मात्राओं के साथ योग पढ़ना और लिखना"
-          },
-          {
-            "type": "form_pronunciation",
-            "content": "ब्राह्मी लिपि में \"घ\" का रूप: 𑀖 है। उच्चारण: घ (जैसे – घर, घड़ी)",
-            "drill": "कोशिश कर – जोर से बोलें: घ… घ… घ"
-          },
-          {
-            "type": "bina_matra",
-            "title": "बिना मात्रा",
-            "content": "जब \"घ\" अकेला होता है → 𑀖 (ध्वनि: घ)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।"
-          },
-          {
-            "type": "matra_combinations",
-            "title": "मात्राओं के साथ \"घ\"",
-            "forms": [
-              {
-                "vowel": "A",
-                "matraSign": null,
-                "combinedDevanagari": "घ",
-                "combinedBrahmi": "𑀖",
-                "note": "मात्रा चिह्न कुछ नहीं"
-              },
-              {
-                "vowel": "AA",
-                "matraSign": "𑀸",
-                "combinedDevanagari": "घा",
-                "combinedBrahmi": "𑀖𑀸"
-              },
-              {
-                "vowel": "I",
-                "matraSign": "𑀺",
-                "combinedDevanagari": "घि",
-                "combinedBrahmi": "𑀖𑀺"
-              },
-              {
-                "vowel": "II",
-                "matraSign": "𑀻",
-                "combinedDevanagari": "घी",
-                "combinedBrahmi": "𑀖𑀻"
-              },
-              {
-                "vowel": "U",
-                "matraSign": "𑀼",
-                "combinedDevanagari": "घु",
-                "combinedBrahmi": "𑀖𑀼"
-              },
-              {
-                "vowel": "UU",
-                "matraSign": "𑀽",
-                "combinedDevanagari": "घू",
-                "combinedBrahmi": "𑀖𑀽"
-              },
-              {
-                "vowel": "E",
-                "matraSign": "𑁂",
-                "combinedDevanagari": "घे",
-                "combinedBrahmi": "𑀖𑁂"
-              },
-              {
-                "vowel": "AI",
-                "matraSign": "𑁃",
-                "combinedDevanagari": "घै",
-                "combinedBrahmi": "𑀖𑁃"
-              },
-              {
-                "vowel": "O",
-                "matraSign": "𑁄",
-                "combinedDevanagari": "घो",
-                "combinedBrahmi": "𑀖𑁄"
-              },
-              {
-                "vowel": "AU",
-                "matraSign": "𑁅",
-                "combinedDevanagari": "घौ",
-                "combinedBrahmi": "𑀖𑁅"
-              },
-              {
-                "vowel": "AM",
-                "matraSign": "𑀁",
-                "combinedDevanagari": "घं",
-                "combinedBrahmi": "𑀖𑀁"
-              },
-              {
-                "vowel": "AH",
-                "matraSign": "𑀂",
-                "combinedDevanagari": "घः",
-                "combinedBrahmi": "𑀖𑀂"
-              }
-            ]
-          },
-          {
-            "type": "pronunciation_drill",
-            "title": "उच्चारण अभ्यास",
-            "content": "ऑडियो सुनें और दोहराएं: घ – घा – घि – घी – घु – घू – घे – घै – घो – घौ – घं – घः"
-          },
-          {
-            "type": "recognition_mcq",
-            "title": "पहचान अभ्यास (देवनागरी → ब्राह्मी)",
-            "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
-            "examples": [
-              {
-                "prompt": "घा",
-                "answer": "𑀖𑀸"
-              },
-              {
-                "prompt": "घु",
-                "answer": "𑀖𑀼"
-              },
-              {
-                "prompt": "घं",
-                "answer": "𑀖𑀁"
-              }
-            ]
-          },
-          {
-            "type": "reverse_mcq",
-            "title": "उल्टा अभ्यास (ब्राह्मी → देवनागरी)",
-            "note": "PDF pages give 3 worked examples",
-            "examples": [
-              {
-                "prompt": "𑀖𑁃",
-                "answer": "घै"
-              },
-              {
-                "prompt": "𑀖𑀻",
-                "answer": "घी"
-              },
-              {
-                "prompt": "𑀖𑁅",
-                "answer": "घौ"
-              }
-            ]
-          },
-          {
-            "type": "matching_game",
-            "title": "मिलानी गेम",
-            "columnA": [
-              "𑀖𑀸",
-              "𑀖𑀼",
-              "𑀖𑁄",
-              "𑀖𑀁"
-            ],
-            "columnB": [
-              "घा",
-              "घो",
-              "घु",
-              "घं"
-            ],
-            "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)"
-          },
-          {
-            "type": "fill_blank",
-            "title": "रिक्त स्थान भरें",
-            "questions": [
-              {
-                "prompt": "𑀖 ___ = घ",
-                "answer": "𑀺"
-              },
-              {
-                "prompt": "𑀖 ___ = घौ",
-                "answer": "𑁅"
-              },
-              {
-                "prompt": "𑀖 ___ = घे",
-                "answer": "𑁂"
-              },
-              {
-                "prompt": "𑀖 ___ = घः",
-                "answer": "𑀂"
-              },
-              {
-                "prompt": "𑀖 ___ = घं",
-                "answer": "𑀁"
-              }
-            ]
-          },
-          {
-            "type": "trace_practice",
-            "title": "ट्रेसिंग अभ्यास",
-            "content": "अपनी उंगली/पेन से 𑀖 और उसकी सभी मात्राओं वाले रूप ट्रेस करें।",
-            "note": "'क' की तरह ही मात्रा ट्रेसिंग लूप (animation reused from क's lesson)"
-          },
-          {
-            "type": "summary",
-            "title": "समापन",
-            "content": "उत्तम! आपने \"घ\" व्यंजन का रूप, उच्चारण, और मात्राओं के साथ योग सीख लिया।",
-            "bonusUnlock": "जिन एक्सप्लोरर"
-          }
-        ]
-      },
-      {
-        "consonant": "ङ",
-        "brahmi": "𑀗",
-        "sourcePages": [
-          189,
-          203
-        ],
-        "verifiedAgainstPdf": true,
-        "steps": [
-          {
-            "type": "bonus_title",
-            "content": "बोनस: व्यंजन परिचय – \"ङ\" (𑀗)",
-            "subtitle": "स्वागतम्! आपने \"ङ\" व्यंजन चुना है!",
-            "note": "आज हम सीखेंगे – इसका रूप, उच्चारण और मात्राओं के साथ योग पढ़ना और लिखना"
-          },
-          {
-            "type": "form_pronunciation",
-            "content": "ब्राह्मी लिपि में \"ङ\" का रूप: 𑀗 है। उच्चारण: ङ (जैसे – अंग, पंख)",
-            "drill": "कोशिश कर – जोर से बोलें: ङ… ङ… ङ"
-          },
-          {
-            "type": "bina_matra",
-            "title": "बिना मात्रा",
-            "content": "जब \"ङ\" अकेला होता है → 𑀗 (ध्वनि: ङ)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।"
-          },
-          {
-            "type": "matra_combinations",
-            "title": "मात्राओं के साथ \"ङ\"",
-            "forms": [
-              {
-                "vowel": "A",
-                "matraSign": null,
-                "combinedDevanagari": "ङ",
-                "combinedBrahmi": "𑀗",
-                "note": "मात्रा चिह्न कुछ नहीं"
-              },
-              {
-                "vowel": "AA",
-                "matraSign": "𑀸",
-                "combinedDevanagari": "ङा",
-                "combinedBrahmi": "𑀗𑀸"
-              },
-              {
-                "vowel": "I",
-                "matraSign": "𑀺",
-                "combinedDevanagari": "ङि",
-                "combinedBrahmi": "𑀗𑀺"
-              },
-              {
-                "vowel": "II",
-                "matraSign": "𑀻",
-                "combinedDevanagari": "ङी",
-                "combinedBrahmi": "𑀗𑀻"
-              },
-              {
-                "vowel": "U",
-                "matraSign": "𑀼",
-                "combinedDevanagari": "ङु",
-                "combinedBrahmi": "𑀗𑀼"
-              },
-              {
-                "vowel": "UU",
-                "matraSign": "𑀽",
-                "combinedDevanagari": "ङू",
-                "combinedBrahmi": "𑀗𑀽"
-              },
-              {
-                "vowel": "E",
-                "matraSign": "𑁂",
-                "combinedDevanagari": "ङे",
-                "combinedBrahmi": "𑀗𑁂"
-              },
-              {
-                "vowel": "AI",
-                "matraSign": "𑁃",
-                "combinedDevanagari": "ङै",
-                "combinedBrahmi": "𑀗𑁃"
-              },
-              {
-                "vowel": "O",
-                "matraSign": "𑁄",
-                "combinedDevanagari": "ङो",
-                "combinedBrahmi": "𑀗𑁄"
-              },
-              {
-                "vowel": "AU",
-                "matraSign": "𑁅",
-                "combinedDevanagari": "ङौ",
-                "combinedBrahmi": "𑀗𑁅"
-              },
-              {
-                "vowel": "AM",
-                "matraSign": "𑀁",
-                "combinedDevanagari": "ङं",
-                "combinedBrahmi": "𑀗𑀁"
-              },
-              {
-                "vowel": "AH",
-                "matraSign": "𑀂",
-                "combinedDevanagari": "ङः",
-                "combinedBrahmi": "𑀗𑀂"
-              }
-            ]
-          },
-          {
-            "type": "pronunciation_drill",
-            "title": "उच्चारण अभ्यास",
-            "content": "ऑडियो सुनें और दोहराएं: ङ – ङा – ङि – ङी – ङु – ङू – ङे – ङै – ङो – ङौ – ङं – ङः"
-          },
-          {
-            "type": "recognition_mcq",
-            "title": "पहचान अभ्यास (देवनागरी → ब्राह्मी)",
-            "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
-            "examples": [
-              {
-                "prompt": "ङा",
-                "answer": "𑀗𑀸"
-              },
-              {
-                "prompt": "ङु",
-                "answer": "𑀗𑀼"
-              },
-              {
-                "prompt": "ङं",
-                "answer": "𑀗𑀁"
-              }
-            ]
-          },
-          {
-            "type": "reverse_mcq",
-            "title": "उल्टा अभ्यास (ब्राह्मी → देवनागरी)",
-            "note": "PDF pages give 3 worked examples",
-            "examples": [
-              {
-                "prompt": "𑀗𑁃",
-                "answer": "ङै"
-              },
-              {
-                "prompt": "𑀗𑀻",
-                "answer": "ङी"
-              },
-              {
-                "prompt": "𑀗𑁅",
-                "answer": "ङौ"
-              }
-            ]
-          },
-          {
-            "type": "matching_game",
-            "title": "मिलानी गेम",
-            "columnA": [
-              "𑀗𑀸",
-              "𑀗𑀼",
-              "𑀗𑁄",
-              "𑀗𑀁"
-            ],
-            "columnB": [
-              "ङा",
-              "ङो",
-              "ङु",
-              "ङं"
-            ],
-            "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)"
-          },
-          {
-            "type": "fill_blank",
-            "title": "रिक्त स्थान भरें",
-            "questions": [
-              {
-                "prompt": "𑀗 ___ = ङ",
-                "answer": "𑀺"
-              },
-              {
-                "prompt": "𑀗 ___ = ङौ",
-                "answer": "𑁅"
-              },
-              {
-                "prompt": "𑀗 ___ = ङे",
-                "answer": "𑁂"
-              },
-              {
-                "prompt": "𑀗 ___ = ङः",
-                "answer": "𑀂"
-              },
-              {
-                "prompt": "𑀗 ___ = ङं",
-                "answer": "𑀁"
-              }
-            ]
-          },
-          {
-            "type": "trace_practice",
-            "title": "ट्रेसिंग अभ्यास",
-            "content": "अपनी उंगली/पेन से 𑀗 और उसकी सभी मात्राओं वाले रूप ट्रेस करें।",
-            "note": "'क' की तरह ही मात्रा ट्रेसिंग लूप (animation reused from क's lesson)"
-          },
-          {
-            "type": "summary",
-            "title": "समापन",
-            "content": "उत्तम! आपने \"ङ\" व्यंजन का रूप, उच्चारण, और मात्राओं के साथ योग सीख लिया।",
-            "bonusUnlock": "जिन एक्सप्लोरर"
-          }
-        ]
-      }
-    ],
-    "finalNote": {
-      "content": "उत्तम! आपने \"ङ\" व्यंजन का रूप, उच्चारण, और मात्राओं के साथ योग सीख लिया। (इसी कारण सभी व्यंजन के अभ्यास दिए जाएंगे।) जिन: \"आप सही मार्ग पर आगे बढ़ रहे हैं, लेकिन एक अध्याय अभी बाकी है! आपके इस समझदार चुनाव और निरंतर प्रयत्न के लिए ढेरों शुभकामनाएं। चलिए, उस छूटे हुए अध्याय को भी जीतकर इस यात्रा को पूर्ण करते हैं!\"",
-      "sourcePages": [
-        202,
-        204
-      ]
-    },
-    "leadInNarration": {
-      "sourcePages": [
-        117,
-        121
-      ],
-      "steps": [
-        {
-          "page": 117,
-          "content": "(मोशन + इंट्रो) बधाई हो! आप यहां तक शानदार तरीके से पहुंचे हैं – आपकी परिश्रम और जिज्ञासा सराहनीय है!",
-          "sourcePages": [
-            117,
-            117
-          ]
-        },
-        {
-          "page": 118,
-          "content": "लेवल-अप अलर्ट! आपने इतनी लगन से स्वर और मात्राएं सीखी हैं कि अब हम आपको बोनस मॉड्यूल दे रहे हैं। बोनस गिफ्ट:",
-          "sourcePages": [
-            118,
-            118
-          ]
-        },
-        {
-          "page": 119,
-          "content": "आपको अब एक व्यंजन का विशेष परिचय बिल्कुल पाठ से पहले मिलेगा! यह व्यंजन आपको समझने में सहयोग करेगा कि कैसे मात्राएं किसी भी व्यंजन के साथ मिलकर शब्दों को बनाती हैं।",
-          "sourcePages": [
-            119,
-            119
-          ]
-        },
-        {
-          "page": 120,
-          "content": "कैसे काम करेगा? आप अपनी रुचि के अनुसार किसी एक व्यंजन का चयन करें। हम आपको उसका रूप, उच्चारण, लिखावट और मात्रा के साथ योग सिखाएंगे।",
-          "sourcePages": [
-            120,
-            120
-          ]
-        }
-      ],
-      "consonantChoiceScreen": {
-        "prompt": "चयन करें — आपको किस वर्ग चाहिए?",
-        "note": "This is the same screen already captured as vyanjan.intro — user picks a consonant from the वर्गानुसार सूची that follows (pages 122-128).",
-        "sourcePages": [
-          121,
-          121
-        ]
-      }
-    }
-  },
-  "matra": {
-    "sourcePages": [
-      105,
-      117
-    ],
     "pathChoiceScreen": {
-      "sourcePages": [
-        85,
-        87
-      ],
-      "prompt": "Now it's up to you\n, what do you want to learn?",
+      "type": "pathChoice",
+      "prompt": "Now it's up to you, what do you want to learn?",
       "options": [
         "Matra Symbols",
         "Consonants"
       ],
-      "note": "OCR on this screen is not fully clean (option 2 renders ambiguously). This reads as a choice screen, but the app's linear flow (swar -> matra -> vyanjan, confirmed by page order) suggests it may be a motivational/framing screen rather than a true fork — flagging the uncertainty rather than guessing.",
-      "confirmationMessage": "You are advancing firmly on the right path — congratulations on this beautiful choice and determination. May your journey be full of success and pride!"
-    },
-    "matraTracingCards": {
+      "confirmationMessage": "You are firmly moving ahead on the right path — best wishes for this beautiful choice and determination. May your journey be full of success and glory!",
       "sourcePages": [
-        106,
-        117
+        85,
+        87
       ],
-      "note": "Each matra gets its own intro/tracing card. A's card additionally specifies exact UX behavior (from page 106): the letter displays in a light color, the user traces it with finger/pen, and the 'next' button activates after 3 practice attempts. AA-AH cards show a compact format: independent vowel form + matra sign only.",
+      "_comment_verify_ocr": "TODO: Spot-check the text 'Consonant' against the original PDF (page 85) to guarantee accuracy as it was partially extracted via OCR."
+    }
+  },
+  "vyanjan": [
+    {
+      "page": 118,
+      "type": "text",
+      "content": "Congratulations! You have reached this far wonderfully – your hard work and curiosity are commendable!"
+    },
+    {
+      "page": 119,
+      "type": "text",
+      "content": "Level-up Alert! You have learned vowels and matras with such dedication that we are now giving you a bonus module. Bonus Gift:"
+    },
+    {
+      "page": 120,
+      "type": "text",
+      "content": "You will now get a special introduction to a consonant right before the lesson! This consonant will help you understand how matras combine with any consonant to form words."
+    },
+    {
+      "page": 121,
+      "type": "text",
+      "content": "How will it work? Select a consonant of your interest. We will teach you its form, pronunciation, writing, and combination with matras."
+    },
+    {
+      "page": 122,
+      "type": "choice_screen",
+      "prompt": "Select — Which group do you want?"
+    },
+    {
+      "page": 123,
+      "type": "group_list",
+      "groupName": "Velar (Kanthya)",
       "items": [
         {
-          "vowel": "A",
-          "independentForm": "𑀓",
-          "matraSign": null,
-          "uxNote": "1. The letter 𑀓 will appear in a light color. 2. The user will trace it with their finger or pen. 3. The 'Next' button will activate after three practices.",
-          "exampleShown": "क (𑀓)"
+          "number": 1,
+          "devanagari": "क",
+          "brahmi": "𑀓",
+          "localizedLabel": "KA"
         },
         {
-          "vowel": "AA",
-          "independentForm": "𑀆",
-          "matraSign": "◌𑀸"
+          "number": 2,
+          "devanagari": "ख",
+          "brahmi": "𑀔",
+          "localizedLabel": "KHA"
         },
         {
-          "vowel": "I",
-          "independentForm": "𑀇",
-          "matraSign": "◌𑀺"
+          "number": 3,
+          "devanagari": "ग",
+          "brahmi": "𑀕",
+          "localizedLabel": "GA"
         },
         {
-          "vowel": "II",
-          "independentForm": "𑀈",
-          "matraSign": "◌𑀻"
+          "number": 4,
+          "devanagari": "घ",
+          "brahmi": "𑀖",
+          "localizedLabel": "GHA"
         },
         {
-          "vowel": "U",
-          "independentForm": "𑀉",
-          "matraSign": "◌𑀼"
+          "number": 5,
+          "devanagari": "ङ",
+          "brahmi": "𑀗",
+          "localizedLabel": "NGA"
+        }
+      ],
+      "_devNote_groupNote": "Pronounced from the throat"
+    },
+    {
+      "page": 124,
+      "type": "group_list",
+      "groupName": "Palatal (Talavya)",
+      "items": [
+        {
+          "number": 6,
+          "devanagari": "च",
+          "brahmi": "𑀘",
+          "localizedLabel": "CHA"
         },
         {
-          "vowel": "UU",
-          "independentForm": "𑀊",
-          "matraSign": "◌𑀽"
+          "number": 7,
+          "devanagari": "छ",
+          "brahmi": "𑀙",
+          "localizedLabel": "CHHA"
         },
         {
-          "vowel": "E",
-          "independentForm": "𑀏",
-          "matraSign": "◌𑁂"
+          "number": 8,
+          "devanagari": "ज",
+          "brahmi": "𑀚",
+          "localizedLabel": "JA"
         },
         {
-          "vowel": "AI",
-          "independentForm": "𑀐",
-          "matraSign": "◌𑁃"
+          "number": 9,
+          "devanagari": "झ",
+          "brahmi": "𑀛",
+          "localizedLabel": "JHA"
         },
         {
-          "vowel": "O",
-          "independentForm": "𑀑",
-          "matraSign": "◌𑁄"
+          "number": 10,
+          "devanagari": "ञ",
+          "brahmi": "𑀜",
+          "localizedLabel": "NYA"
+        }
+      ],
+      "_devNote_groupNote": "Pronounced from the palate"
+    },
+    {
+      "page": 125,
+      "type": "group_list",
+      "groupName": "Retroflex (Murdhanya)",
+      "items": [
+        {
+          "number": 11,
+          "devanagari": "ट",
+          "brahmi": "𑀝",
+          "localizedLabel": "TA"
         },
         {
-          "vowel": "AU",
-          "independentForm": "𑀒",
-          "matraSign": "◌𑁅"
+          "number": 12,
+          "devanagari": "ठ",
+          "brahmi": "𑀞",
+          "localizedLabel": "THA"
         },
         {
-          "vowel": "AM",
-          "independentForm": "𑀅𑀁",
-          "matraSign": "◌𑀁"
+          "number": 13,
+          "devanagari": "ड",
+          "brahmi": "𑀟",
+          "localizedLabel": "DA"
         },
         {
-          "vowel": "AH",
-          "independentForm": "𑀅𑀂",
-          "matraSign": "◌𑀂"
+          "number": 14,
+          "devanagari": "ढ",
+          "brahmi": "𑀠",
+          "localizedLabel": "DHA"
+        },
+        {
+          "number": 15,
+          "devanagari": "ण",
+          "brahmi": "𑀡",
+          "localizedLabel": "NA"
+        }
+      ],
+      "_devNote_groupNote": "By folding the tongue back"
+    },
+    {
+      "page": 126,
+      "type": "group_list",
+      "groupName": "Dental (Dantya)",
+      "items": [
+        {
+          "number": 16,
+          "devanagari": "त",
+          "brahmi": "𑀢",
+          "localizedLabel": "TA"
+        },
+        {
+          "number": 17,
+          "devanagari": "थ",
+          "brahmi": "𑀣",
+          "localizedLabel": "THA"
+        },
+        {
+          "number": 18,
+          "devanagari": "द",
+          "brahmi": "𑀤",
+          "localizedLabel": "DA"
+        },
+        {
+          "number": 19,
+          "devanagari": "ध",
+          "brahmi": "𑀥",
+          "localizedLabel": "DHA"
+        },
+        {
+          "number": 20,
+          "devanagari": "न",
+          "brahmi": "𑀦",
+          "localizedLabel": "NA"
+        }
+      ],
+      "_devNote_groupNote": "Placing the tongue near the teeth"
+    },
+    {
+      "page": 127,
+      "type": "group_list",
+      "groupName": "Labial (Oshthya)",
+      "items": [
+        {
+          "number": 21,
+          "devanagari": "प",
+          "brahmi": "𑀧",
+          "localizedLabel": "PA"
+        },
+        {
+          "number": 22,
+          "devanagari": "फ",
+          "brahmi": "𑀨",
+          "localizedLabel": "PHA"
+        },
+        {
+          "number": 23,
+          "devanagari": "ब",
+          "brahmi": "𑀩",
+          "localizedLabel": "BA"
+        },
+        {
+          "number": 24,
+          "devanagari": "भ",
+          "brahmi": "𑀪",
+          "localizedLabel": "BHA"
+        },
+        {
+          "number": 25,
+          "devanagari": "म",
+          "brahmi": "𑀫",
+          "localizedLabel": "MA"
+        }
+      ],
+      "_devNote_groupNote": "From the lips"
+    },
+    {
+      "page": 128,
+      "type": "group_list",
+      "groupName": "Approximant (Antastha)",
+      "items": [
+        {
+          "number": 26,
+          "devanagari": "य",
+          "brahmi": "𑀬",
+          "localizedLabel": "YA"
+        },
+        {
+          "number": 27,
+          "devanagari": "र",
+          "brahmi": "𑀭",
+          "localizedLabel": "RA"
+        },
+        {
+          "number": 28,
+          "devanagari": "ल",
+          "brahmi": "𑀮",
+          "localizedLabel": "LA"
+        },
+        {
+          "number": 29,
+          "devanagari": "व",
+          "brahmi": "𑀯",
+          "localizedLabel": "VA"
+        }
+      ],
+      "_devNote_groupNote": "Semi-vowels"
+    },
+    {
+      "page": 129,
+      "type": "group_list",
+      "groupName": "Fricative (Ushma)",
+      "items": [
+        {
+          "number": 30,
+          "devanagari": "श",
+          "brahmi": "𑀰",
+          "localizedLabel": "SHA"
+        },
+        {
+          "number": 31,
+          "devanagari": "ष",
+          "brahmi": "𑀱",
+          "localizedLabel": "SHA"
+        },
+        {
+          "number": 32,
+          "devanagari": "स",
+          "brahmi": "𑀲",
+          "localizedLabel": "SA"
+        },
+        {
+          "number": 33,
+          "devanagari": "ह",
+          "brahmi": "𑀳",
+          "localizedLabel": "HA"
+        }
+      ],
+      "_devNote_groupNote": "Produced by breath"
+    },
+    {
+      "page": 130,
+      "type": "consonant_selection_recap",
+      "instruction": "Instructions: Select your marked consonant below — and soon start learning its introduction, pronunciation, and combination with matras.",
+      "groupsRecap": [
+        {
+          "groupName": "Velar (Kanthya)",
+          "letters": [
+            "क",
+            "ख",
+            "ग",
+            "घ",
+            "ङ"
+          ]
+        },
+        {
+          "groupName": "Palatal (Talavya)",
+          "letters": [
+            "च",
+            "छ",
+            "ज",
+            "झ",
+            "ञ"
+          ]
+        },
+        {
+          "groupName": "Retroflex (Murdhanya)",
+          "letters": [
+            "ट",
+            "ठ",
+            "ड",
+            "ढ",
+            "ण"
+          ]
+        },
+        {
+          "groupName": "Dental (Dantya)",
+          "letters": [
+            "त",
+            "थ",
+            "द",
+            "ध",
+            "न"
+          ]
+        },
+        {
+          "groupName": "Labial (Oshthya)",
+          "letters": [
+            "प",
+            "फ",
+            "ब",
+            "भ",
+            "म"
+          ]
+        },
+        {
+          "groupName": "Approximant (Antastha)",
+          "letters": [
+            "य",
+            "र",
+            "ल",
+            "व"
+          ]
+        },
+        {
+          "groupName": "Fricative (Ushma)",
+          "letters": [
+            "श",
+            "ष",
+            "स",
+            "ह"
+          ]
         }
       ]
     },
-    "matraTable_sourcePages": [
-      105,
-      116
-    ]
-  }
+    {
+      "type": "bonus_title",
+      "content": "Bonus: Consonant Introduction – \"KA\" (𑀓)",
+      "subtitle": "Welcome! You have chosen the \"क\" consonant!",
+      "note": "Today we will learn – its form, pronunciation and reading/writing with matras",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 131
+    },
+    {
+      "type": "form_pronunciation",
+      "content": "In Brahmi script, the form of \"KA\" is: 𑀓. Pronunciation: ka (e.g. – kamal, kaksha)",
+      "drill": "Try it – speak loudly: क… क… क",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 132,
+      "speechSequence": [
+        "क",
+        "kamal",
+        "kaksha"
+      ]
+    },
+    {
+      "type": "bina_matra",
+      "title": "Without Matra",
+      "content": "When \"ka\" is alone → 𑀓 (sound: ka). Without matra = only consonant sound + 'a' vowel is inherently attached.",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 133,
+      "speechSequence": [
+        "क"
+      ]
+    },
+    {
+      "type": "matra_combinations",
+      "title": "\"क\" with Matras",
+      "forms": [
+        {
+          "vowel": "अ",
+          "matraSign": null,
+          "combinedDevanagari": "a",
+          "combinedBrahmi": "𑀓",
+          "note": "Matra Symbol None"
+        },
+        {
+          "vowel": "आ",
+          "matraSign": "𑀸",
+          "combinedDevanagari": "aa",
+          "combinedBrahmi": "𑀓𑀸"
+        },
+        {
+          "vowel": "इ",
+          "matraSign": "𑀺",
+          "combinedDevanagari": "i",
+          "combinedBrahmi": "𑀓𑀺"
+        },
+        {
+          "vowel": "ई",
+          "matraSign": "𑀻",
+          "combinedDevanagari": "ee",
+          "combinedBrahmi": "𑀓𑀻"
+        },
+        {
+          "vowel": "उ",
+          "matraSign": "𑀼",
+          "combinedDevanagari": "u",
+          "combinedBrahmi": "𑀓𑀼"
+        },
+        {
+          "vowel": "ऊ",
+          "matraSign": "𑀽",
+          "combinedDevanagari": "oo",
+          "combinedBrahmi": "𑀓𑀽"
+        },
+        {
+          "vowel": "ए",
+          "matraSign": "𑁂",
+          "combinedDevanagari": "e",
+          "combinedBrahmi": "𑀓𑁂"
+        },
+        {
+          "vowel": "ऐ",
+          "matraSign": "𑁃",
+          "combinedDevanagari": "ai",
+          "combinedBrahmi": "𑀓𑁃"
+        },
+        {
+          "vowel": "ओ",
+          "matraSign": "𑁄",
+          "combinedDevanagari": "o",
+          "combinedBrahmi": "𑀓𑁄"
+        },
+        {
+          "vowel": "औ",
+          "matraSign": "𑁅",
+          "combinedDevanagari": "au",
+          "combinedBrahmi": "𑀓𑁅"
+        },
+        {
+          "vowel": "अं",
+          "matraSign": "𑀁",
+          "combinedDevanagari": "am",
+          "combinedBrahmi": "𑀓𑀁"
+        },
+        {
+          "vowel": "अः",
+          "matraSign": "𑀂",
+          "combinedDevanagari": "ah",
+          "combinedBrahmi": "𑀓𑀂"
+        }
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "sourcePages": [
+        134,
+        136
+      ]
+    },
+    {
+      "type": "pronunciation_drill",
+      "title": "Pronunciation Practice",
+      "content": "Listen to audio and repeat: क – का – कि – की – कु – कू – के – कै – को – कौ – कं – कः",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 137,
+      "speechSequence": [
+        "क",
+        "का",
+        "कि",
+        "की",
+        "कु",
+        "कू",
+        "के",
+        "कै",
+        "को",
+        "कौ",
+        "कं",
+        "कः"
+      ]
+    },
+    {
+      "type": "recognition_mcq",
+      "title": "Recognition Practice (Devanagari → Brahmi)",
+      "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
+      "examples": [
+        {
+          "prompt": "का",
+          "answer": "𑀓𑀸",
+          "speechSequence": [
+            "का"
+          ]
+        },
+        {
+          "prompt": "कि",
+          "answer": "𑀓𑀺",
+          "speechSequence": [
+            "कि"
+          ]
+        },
+        {
+          "prompt": "कं",
+          "answer": "𑀓𑀁",
+          "speechSequence": [
+            "कं"
+          ]
+        }
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 138
+    },
+    {
+      "type": "reverse_mcq",
+      "title": "Reverse Practice (Brahmi → Devanagari)",
+      "note": "PDF pages give 3 worked examples",
+      "examples": [
+        {
+          "prompt": "𑀓𑁃",
+          "answer": "कै",
+          "speechSequence": [
+            "कै"
+          ]
+        },
+        {
+          "prompt": "𑀓𑀻",
+          "answer": "की",
+          "speechSequence": [
+            "की"
+          ]
+        },
+        {
+          "prompt": "𑀓𑁅",
+          "answer": "कौ",
+          "speechSequence": [
+            "कौ"
+          ]
+        }
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 139
+    },
+    {
+      "type": "matching_game",
+      "title": "Matching Game",
+      "columnA": [
+        "𑀓𑀸",
+        "𑀓𑀼",
+        "𑀓𑁄",
+        "𑀓𑀁"
+      ],
+      "columnB": [
+        "का",
+        "कु",
+        "को",
+        "कं"
+      ],
+      "note": "Match the correct pairs (4 pairs, PDF-verified)",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 140
+    },
+    {
+      "type": "fill_blank",
+      "title": "Fill in the blanks",
+      "questions": [
+        {
+          "prompt": "𑀓 ___ = क",
+          "answer": "𑀺"
+        },
+        {
+          "prompt": "𑀓 ___ = कौ",
+          "answer": "𑁅"
+        },
+        {
+          "prompt": "𑀓 ___ = के",
+          "answer": "𑁂"
+        },
+        {
+          "prompt": "𑀓 ___ = कः",
+          "answer": "𑀂"
+        },
+        {
+          "prompt": "𑀓 ___ = कं",
+          "answer": "𑀁"
+        }
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 141
+    },
+    {
+      "type": "trace_practice",
+      "title": "Tracing Practice",
+      "content": "Trace 𑀓 and all its matra forms with your finger/pen.",
+      "note": "Tracing animation will appear",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 142
+    },
+    {
+      "type": "matra_recap_intro",
+      "content": "So far you have learned vowels, now know how they combine with consonants to form matras. We will learn the form, position, and writing method of each matra — and you will trace them yourself.",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 143
+    },
+    {
+      "type": "practice_modes",
+      "title": "Practice Mode",
+      "modes": [
+        "Watch and Trace: Animation + Guided Strokes",
+        "Write Yourself: Add matras on blank canvas",
+        "Auto Check: Instant Correct/Incorrect check"
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 144
+    },
+    {
+      "type": "quiz_modes",
+      "title": "Quiz Mode",
+      "modes": [
+        "See Matra → Name it",
+        "Hear Sound → Apply Matra",
+        "Brahmi to Devanagari and Reverse Practice"
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 145
+    },
+    {
+      "type": "mixed_quiz",
+      "title": "Mixed Quiz",
+      "modes": [
+        "Listen and choose the correct Brahmi symbol",
+        "Recognize matra in photo",
+        "Convert Devanagari to Brahmi and Brahmi to Devanagari"
+      ],
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 146
+    },
+    {
+      "type": "summary",
+      "title": "Conclusion",
+      "content": "Excellent! You have learned the form, pronunciation, and combination with matras of the \"क\" consonant.",
+      "bonusUnlock": "Knowledge Explorer",
+      "consonant": "क",
+      "consonantBrahmi": "𑀓",
+      "page": 147
+    },
+    {
+      "type": "bonus_title",
+      "content": "Bonus: Consonant Introduction – \"KHA\" (𑀔)",
+      "subtitle": "Welcome! You have chosen the \"ख\" consonant!",
+      "note": "Today we will learn – its form, pronunciation and reading/writing with matras",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 148
+    },
+    {
+      "type": "form_pronunciation",
+      "content": "In Brahmi script, the form of \"KHA\" is: 𑀔. Pronunciation: kha (e.g. – khat, khel)",
+      "drill": "Try it – speak loudly: ख… ख… ख",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 149,
+      "speechSequence": [
+        "ख",
+        "khat",
+        "khel"
+      ]
+    },
+    {
+      "type": "bina_matra",
+      "title": "Without Matra",
+      "content": "When \"kha\" is alone → 𑀔 (sound: kha). Without matra = only consonant sound + 'a' vowel is inherently attached.",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 150,
+      "speechSequence": [
+        "ख"
+      ]
+    },
+    {
+      "type": "matra_combinations",
+      "title": "\"ख\" with Matras",
+      "forms": [
+        {
+          "vowel": "अ",
+          "matraSign": null,
+          "combinedDevanagari": "a",
+          "combinedBrahmi": "𑀔",
+          "note": "Matra Symbol None"
+        },
+        {
+          "vowel": "आ",
+          "matraSign": "𑀸",
+          "combinedDevanagari": "aa",
+          "combinedBrahmi": "𑀔𑀸"
+        },
+        {
+          "vowel": "इ",
+          "matraSign": "𑀺",
+          "combinedDevanagari": "i",
+          "combinedBrahmi": "𑀔𑀺"
+        },
+        {
+          "vowel": "ई",
+          "matraSign": "𑀻",
+          "combinedDevanagari": "ee",
+          "combinedBrahmi": "𑀔𑀻"
+        },
+        {
+          "vowel": "उ",
+          "matraSign": "𑀼",
+          "combinedDevanagari": "u",
+          "combinedBrahmi": "𑀔𑀼"
+        },
+        {
+          "vowel": "ऊ",
+          "matraSign": "𑀽",
+          "combinedDevanagari": "oo",
+          "combinedBrahmi": "𑀔𑀽"
+        },
+        {
+          "vowel": "ए",
+          "matraSign": "𑁂",
+          "combinedDevanagari": "e",
+          "combinedBrahmi": "𑀔𑁂"
+        },
+        {
+          "vowel": "ऐ",
+          "matraSign": "𑁃",
+          "combinedDevanagari": "ai",
+          "combinedBrahmi": "𑀔𑁃"
+        },
+        {
+          "vowel": "ओ",
+          "matraSign": "𑁄",
+          "combinedDevanagari": "o",
+          "combinedBrahmi": "𑀔𑁄"
+        },
+        {
+          "vowel": "औ",
+          "matraSign": "𑁅",
+          "combinedDevanagari": "au",
+          "combinedBrahmi": "𑀔𑁅"
+        },
+        {
+          "vowel": "अं",
+          "matraSign": "𑀁",
+          "combinedDevanagari": "am",
+          "combinedBrahmi": "𑀔𑀁"
+        },
+        {
+          "vowel": "अः",
+          "matraSign": "𑀂",
+          "combinedDevanagari": "ah",
+          "combinedBrahmi": "𑀔𑀂"
+        }
+      ],
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "sourcePages": [
+        151,
+        153
+      ]
+    },
+    {
+      "type": "pronunciation_drill",
+      "title": "Pronunciation Practice",
+      "content": "Listen to audio and repeat: ख – खा – खि – खी – खु – खू – खे – खै – खो – खौ – खं – खः",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 154,
+      "speechSequence": [
+        "ख",
+        "खा",
+        "खि",
+        "खी",
+        "खु",
+        "खू",
+        "खे",
+        "खै",
+        "खो",
+        "खौ",
+        "खं",
+        "खः"
+      ]
+    },
+    {
+      "type": "recognition_mcq",
+      "title": "Recognition Practice (Devanagari → Brahmi)",
+      "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
+      "examples": [
+        {
+          "prompt": "खा",
+          "answer": "𑀔𑀸",
+          "speechSequence": [
+            "खा"
+          ]
+        },
+        {
+          "prompt": "खु",
+          "answer": "𑀔𑀼",
+          "speechSequence": [
+            "खु"
+          ]
+        },
+        {
+          "prompt": "खं",
+          "answer": "𑀔𑀁",
+          "speechSequence": [
+            "खं"
+          ]
+        }
+      ],
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 155
+    },
+    {
+      "type": "reverse_mcq",
+      "title": "Reverse Practice (Brahmi → Devanagari)",
+      "note": "PDF pages give 3 worked examples",
+      "examples": [
+        {
+          "prompt": "𑀔𑁃",
+          "answer": "खै",
+          "speechSequence": [
+            "खै"
+          ]
+        },
+        {
+          "prompt": "𑀔𑀻",
+          "answer": "खी",
+          "speechSequence": [
+            "खी"
+          ]
+        },
+        {
+          "prompt": "𑀔𑁅",
+          "answer": "खौ",
+          "speechSequence": [
+            "खौ"
+          ]
+        }
+      ],
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 156
+    },
+    {
+      "type": "matching_game",
+      "title": "Matching Game",
+      "columnA": [
+        "𑀔𑀸",
+        "𑀔𑀼",
+        "𑀔𑁄",
+        "𑀔𑀁"
+      ],
+      "columnB": [
+        "खा",
+        "खु",
+        "खो",
+        "खं"
+      ],
+      "note": "Match the correct pairs (4 pairs, PDF-verified)",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 157
+    },
+    {
+      "type": "fill_blank",
+      "title": "Fill in the blanks",
+      "questions": [
+        {
+          "prompt": "𑀔 ___ = ख",
+          "answer": "𑀺"
+        },
+        {
+          "prompt": "𑀔 ___ = खौ",
+          "answer": "𑁅"
+        },
+        {
+          "prompt": "𑀔 ___ = खे",
+          "answer": "𑁂"
+        },
+        {
+          "prompt": "𑀔 ___ = खः",
+          "answer": "𑀂"
+        },
+        {
+          "prompt": "𑀔 ___ = खं",
+          "answer": "𑀁"
+        }
+      ],
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 158
+    },
+    {
+      "type": "trace_practice",
+      "title": "Tracing Practice",
+      "content": "Trace 𑀔 and all its matra forms with your finger/pen.",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 159
+    },
+    {
+      "type": "trace_loop_reference",
+      "content": "(Matra tracing loop same as \"ka\" here)",
+      "note": "Previously folded into trace_practice.note as text; verified to be its own dedicated page in the source, immediately following the trace_practice instruction page.",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 160
+    },
+    {
+      "type": "summary",
+      "title": "Conclusion",
+      "content": "Awesome! You have learned the form, pronunciation, and combination with matras of the \"ख\" consonant.",
+      "bonusUnlock": "Knowledge Explorer",
+      "consonant": "ख",
+      "consonantBrahmi": "𑀔",
+      "page": 161
+    },
+    {
+      "type": "bonus_title",
+      "content": "Bonus: Consonant Introduction – \"GA\" (𑀕)",
+      "subtitle": "Welcome! You have chosen the \"ग\" consonant!",
+      "note": "Today we will learn – its form, pronunciation and reading/writing with matras",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 162
+    },
+    {
+      "type": "form_pronunciation",
+      "content": "In Brahmi script, the form of \"GA\" is: 𑀕. Pronunciation: ga (e.g. – gaay, gaman)",
+      "drill": "Try it – speak loudly: ग… ग… ग",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 163,
+      "speechSequence": [
+        "ग",
+        "gaay",
+        "gaman"
+      ]
+    },
+    {
+      "type": "bina_matra",
+      "title": "Without Matra",
+      "content": "When \"ga\" is alone → 𑀕 (sound: ga). Without matra = only consonant sound + 'a' vowel is inherently attached.",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 164,
+      "speechSequence": [
+        "ग"
+      ]
+    },
+    {
+      "type": "matra_combinations",
+      "title": "\"ग\" with Matras",
+      "forms": [
+        {
+          "vowel": "अ",
+          "matraSign": null,
+          "combinedDevanagari": "a",
+          "combinedBrahmi": "𑀕",
+          "note": "Matra Symbol None"
+        },
+        {
+          "vowel": "आ",
+          "matraSign": "𑀸",
+          "combinedDevanagari": "aa",
+          "combinedBrahmi": "𑀕𑀸"
+        },
+        {
+          "vowel": "इ",
+          "matraSign": "𑀺",
+          "combinedDevanagari": "i",
+          "combinedBrahmi": "𑀕𑀺"
+        },
+        {
+          "vowel": "ई",
+          "matraSign": "𑀻",
+          "combinedDevanagari": "ee",
+          "combinedBrahmi": "𑀕𑀻"
+        },
+        {
+          "vowel": "उ",
+          "matraSign": "𑀼",
+          "combinedDevanagari": "u",
+          "combinedBrahmi": "𑀕𑀼"
+        },
+        {
+          "vowel": "ऊ",
+          "matraSign": "𑀽",
+          "combinedDevanagari": "oo",
+          "combinedBrahmi": "𑀕𑀽"
+        },
+        {
+          "vowel": "ए",
+          "matraSign": "𑁂",
+          "combinedDevanagari": "e",
+          "combinedBrahmi": "𑀕𑁂"
+        },
+        {
+          "vowel": "ऐ",
+          "matraSign": "𑁃",
+          "combinedDevanagari": "ai",
+          "combinedBrahmi": "𑀕𑁃"
+        },
+        {
+          "vowel": "ओ",
+          "matraSign": "𑁄",
+          "combinedDevanagari": "o",
+          "combinedBrahmi": "𑀕𑁄"
+        },
+        {
+          "vowel": "औ",
+          "matraSign": "𑁅",
+          "combinedDevanagari": "au",
+          "combinedBrahmi": "𑀕𑁅"
+        },
+        {
+          "vowel": "अं",
+          "matraSign": "𑀁",
+          "combinedDevanagari": "am",
+          "combinedBrahmi": "𑀕𑀁"
+        },
+        {
+          "vowel": "अः",
+          "matraSign": "𑀂",
+          "combinedDevanagari": "ah",
+          "combinedBrahmi": "𑀕𑀂"
+        }
+      ],
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "sourcePages": [
+        165,
+        167
+      ]
+    },
+    {
+      "type": "pronunciation_drill",
+      "title": "Pronunciation Practice",
+      "content": "Listen to audio and repeat: ग – गा – गि – गी – गु – गू – गे – गै – गो – गौ – गं – गः",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 168,
+      "speechSequence": [
+        "ग",
+        "गा",
+        "गि",
+        "गी",
+        "गु",
+        "गू",
+        "गे",
+        "गै",
+        "गो",
+        "गौ",
+        "गं",
+        "गः"
+      ]
+    },
+    {
+      "type": "recognition_mcq",
+      "title": "Recognition Practice (Devanagari → Brahmi)",
+      "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
+      "examples": [
+        {
+          "prompt": "गा",
+          "answer": "𑀕𑀸",
+          "speechSequence": [
+            "गा"
+          ]
+        },
+        {
+          "prompt": "गु",
+          "answer": "𑀕𑀼",
+          "speechSequence": [
+            "गु"
+          ]
+        },
+        {
+          "prompt": "गं",
+          "answer": "𑀕𑀁",
+          "speechSequence": [
+            "गं"
+          ]
+        }
+      ],
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 169
+    },
+    {
+      "type": "reverse_mcq",
+      "title": "Reverse Practice (Brahmi → Devanagari)",
+      "note": "PDF pages give 3 worked examples",
+      "examples": [
+        {
+          "prompt": "𑀕𑁃",
+          "answer": "गै",
+          "speechSequence": [
+            "गै"
+          ]
+        },
+        {
+          "prompt": "𑀕𑀻",
+          "answer": "गी",
+          "speechSequence": [
+            "गी"
+          ]
+        },
+        {
+          "prompt": "𑀕𑁅",
+          "answer": "गौ",
+          "speechSequence": [
+            "गौ"
+          ]
+        }
+      ],
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 170
+    },
+    {
+      "type": "matching_game",
+      "title": "Matching Game",
+      "columnA": [
+        "𑀕𑀸",
+        "𑀕𑀼",
+        "𑀕𑁄",
+        "𑀕𑀁"
+      ],
+      "columnB": [
+        "गा",
+        "गु",
+        "गो",
+        "गं"
+      ],
+      "note": "Match the correct pairs (4 pairs, PDF-verified)",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 171
+    },
+    {
+      "type": "fill_blank",
+      "title": "Fill in the blanks",
+      "questions": [
+        {
+          "prompt": "𑀕 ___ = ग",
+          "answer": "𑀺"
+        },
+        {
+          "prompt": "𑀕 ___ = गौ",
+          "answer": "𑁅"
+        },
+        {
+          "prompt": "𑀕 ___ = गे",
+          "answer": "𑁂"
+        },
+        {
+          "prompt": "𑀕 ___ = गः",
+          "answer": "𑀂"
+        },
+        {
+          "prompt": "𑀕 ___ = गं",
+          "answer": "𑀁"
+        }
+      ],
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 172
+    },
+    {
+      "type": "trace_practice",
+      "title": "Tracing Practice",
+      "content": "Trace 𑀕 and all its matra forms with your finger/pen.",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 173
+    },
+    {
+      "type": "trace_loop_reference",
+      "content": "(Matra tracing loop same as \"ka\" here)",
+      "note": "Previously folded into trace_practice.note as text; verified to be its own dedicated page in the source, immediately following the trace_practice instruction page.",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 174
+    },
+    {
+      "type": "summary",
+      "title": "Conclusion",
+      "content": "Awesome! You have learned the form, pronunciation, and combination with matras of the \"ग\" consonant.",
+      "bonusUnlock": "Knowledge Explorer",
+      "consonant": "ग",
+      "consonantBrahmi": "𑀕",
+      "page": 175
+    },
+    {
+      "type": "bonus_title",
+      "content": "Bonus: Consonant Introduction – \"GHA\" (𑀖)",
+      "subtitle": "Welcome! You have chosen the \"घ\" consonant!",
+      "note": "Today we will learn – its form, pronunciation and reading/writing with matras",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 176
+    },
+    {
+      "type": "form_pronunciation",
+      "content": "In Brahmi script, the form of \"GHA\" is: 𑀖. Pronunciation: gha (e.g. – ghar, ghadi)",
+      "drill": "Try it – speak loudly: घ… घ… घ",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 177,
+      "speechSequence": [
+        "घ",
+        "ghar",
+        "ghadi"
+      ]
+    },
+    {
+      "type": "bina_matra",
+      "title": "Without Matra",
+      "content": "When \"gha\" is alone → 𑀖 (sound: gha). Without matra = only consonant sound + 'a' vowel is inherently attached.",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 178,
+      "speechSequence": [
+        "घ"
+      ]
+    },
+    {
+      "type": "matra_combinations",
+      "title": "\"घ\" with Matras",
+      "forms": [
+        {
+          "vowel": "अ",
+          "matraSign": null,
+          "combinedDevanagari": "a",
+          "combinedBrahmi": "𑀖",
+          "note": "Matra Symbol None"
+        },
+        {
+          "vowel": "आ",
+          "matraSign": "𑀸",
+          "combinedDevanagari": "aa",
+          "combinedBrahmi": "𑀖𑀸"
+        },
+        {
+          "vowel": "इ",
+          "matraSign": "𑀺",
+          "combinedDevanagari": "i",
+          "combinedBrahmi": "𑀖𑀺"
+        },
+        {
+          "vowel": "ई",
+          "matraSign": "𑀻",
+          "combinedDevanagari": "ee",
+          "combinedBrahmi": "𑀖𑀻"
+        },
+        {
+          "vowel": "उ",
+          "matraSign": "𑀼",
+          "combinedDevanagari": "u",
+          "combinedBrahmi": "𑀖𑀼"
+        },
+        {
+          "vowel": "ऊ",
+          "matraSign": "𑀽",
+          "combinedDevanagari": "oo",
+          "combinedBrahmi": "𑀖𑀽"
+        },
+        {
+          "vowel": "ए",
+          "matraSign": "𑁂",
+          "combinedDevanagari": "e",
+          "combinedBrahmi": "𑀖𑁂"
+        },
+        {
+          "vowel": "ऐ",
+          "matraSign": "𑁃",
+          "combinedDevanagari": "ai",
+          "combinedBrahmi": "𑀖𑁃"
+        },
+        {
+          "vowel": "ओ",
+          "matraSign": "𑁄",
+          "combinedDevanagari": "o",
+          "combinedBrahmi": "𑀖𑁄"
+        },
+        {
+          "vowel": "औ",
+          "matraSign": "𑁅",
+          "combinedDevanagari": "au",
+          "combinedBrahmi": "𑀖𑁅"
+        },
+        {
+          "vowel": "अं",
+          "matraSign": "𑀁",
+          "combinedDevanagari": "am",
+          "combinedBrahmi": "𑀖𑀁"
+        },
+        {
+          "vowel": "अः",
+          "matraSign": "𑀂",
+          "combinedDevanagari": "ah",
+          "combinedBrahmi": "𑀖𑀂"
+        }
+      ],
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "sourcePages": [
+        179,
+        181
+      ]
+    },
+    {
+      "type": "pronunciation_drill",
+      "title": "Pronunciation Practice",
+      "content": "Listen to audio and repeat: घ – घा – घि – घी – घु – घू – घे – घै – घो – घौ – घं – घः",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 182,
+      "speechSequence": [
+        "घ",
+        "घा",
+        "घि",
+        "घी",
+        "घु",
+        "घू",
+        "घे",
+        "घै",
+        "घो",
+        "घौ",
+        "घं",
+        "घः"
+      ]
+    },
+    {
+      "type": "recognition_mcq",
+      "title": "Recognition Practice (Devanagari → Brahmi)",
+      "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
+      "examples": [
+        {
+          "prompt": "घा",
+          "answer": "𑀖𑀸",
+          "speechSequence": [
+            "घा"
+          ]
+        },
+        {
+          "prompt": "घु",
+          "answer": "𑀖𑀼",
+          "speechSequence": [
+            "घु"
+          ]
+        },
+        {
+          "prompt": "घं",
+          "answer": "𑀖𑀁",
+          "speechSequence": [
+            "घं"
+          ]
+        }
+      ],
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 183
+    },
+    {
+      "type": "reverse_mcq",
+      "title": "Reverse Practice (Brahmi → Devanagari)",
+      "note": "PDF pages give 3 worked examples",
+      "examples": [
+        {
+          "prompt": "𑀖𑁃",
+          "answer": "घै",
+          "speechSequence": [
+            "घै"
+          ]
+        },
+        {
+          "prompt": "𑀖𑀻",
+          "answer": "घी",
+          "speechSequence": [
+            "घी"
+          ]
+        },
+        {
+          "prompt": "𑀖𑁅",
+          "answer": "घौ",
+          "speechSequence": [
+            "घौ"
+          ]
+        }
+      ],
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 184
+    },
+    {
+      "type": "matching_game",
+      "title": "Matching Game",
+      "columnA": [
+        "𑀖𑀸",
+        "𑀖𑀼",
+        "𑀖𑁄",
+        "𑀖𑀁"
+      ],
+      "columnB": [
+        "घा",
+        "घु",
+        "घो",
+        "घं"
+      ],
+      "note": "Match the correct pairs (4 pairs, PDF-verified)",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 185
+    },
+    {
+      "type": "fill_blank",
+      "title": "Fill in the blanks",
+      "questions": [
+        {
+          "prompt": "𑀖 ___ = घ",
+          "answer": "𑀺"
+        },
+        {
+          "prompt": "𑀖 ___ = घौ",
+          "answer": "𑁅"
+        },
+        {
+          "prompt": "𑀖 ___ = घे",
+          "answer": "𑁂"
+        },
+        {
+          "prompt": "𑀖 ___ = घः",
+          "answer": "𑀂"
+        },
+        {
+          "prompt": "𑀖 ___ = घं",
+          "answer": "𑀁"
+        }
+      ],
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 186
+    },
+    {
+      "type": "trace_practice",
+      "title": "Tracing Practice",
+      "content": "Trace 𑀖 and all its matra forms with your finger/pen.",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 187
+    },
+    {
+      "type": "trace_loop_reference",
+      "content": "(Matra tracing loop same as \"ka\" here)",
+      "note": "Previously folded into trace_practice.note as text; verified to be its own dedicated page in the source, immediately following the trace_practice instruction page.",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 188
+    },
+    {
+      "type": "summary",
+      "title": "Conclusion",
+      "content": "Excellent! You have learned the form, pronunciation, and combination with matras of the \"घ\" consonant.",
+      "bonusUnlock": "Knowledge Explorer",
+      "consonant": "घ",
+      "consonantBrahmi": "𑀖",
+      "page": 189
+    },
+    {
+      "type": "bonus_title",
+      "content": "Bonus: Consonant Introduction – \"NGA\" (𑀗)",
+      "subtitle": "Welcome! You have chosen the \"ङ\" consonant!",
+      "note": "Today we will learn – its form, pronunciation and reading/writing with matras",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 190
+    },
+    {
+      "type": "form_pronunciation",
+      "content": "In Brahmi script, the form of \"NGA\" is: 𑀗. Pronunciation: nga (e.g. – ang, pankh)",
+      "drill": "Try it – speak loudly: ङ… ङ… ङ",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 191,
+      "speechSequence": [
+        "ङ",
+        "ang",
+        "pankh"
+      ]
+    },
+    {
+      "type": "bina_matra",
+      "title": "Without Matra",
+      "content": "When \"nga\" is alone → 𑀗 (sound: nga). Without matra = only consonant sound + 'a' vowel is inherently attached.",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 192,
+      "speechSequence": [
+        "ङ"
+      ]
+    },
+    {
+      "type": "matra_combinations",
+      "title": "\"ङ\" with Matras",
+      "forms": [
+        {
+          "vowel": "अ",
+          "matraSign": null,
+          "combinedDevanagari": "a",
+          "combinedBrahmi": "𑀗",
+          "note": "Matra Symbol None"
+        },
+        {
+          "vowel": "आ",
+          "matraSign": "𑀸",
+          "combinedDevanagari": "aa",
+          "combinedBrahmi": "𑀗𑀸"
+        },
+        {
+          "vowel": "इ",
+          "matraSign": "𑀺",
+          "combinedDevanagari": "i",
+          "combinedBrahmi": "𑀗𑀺"
+        },
+        {
+          "vowel": "ई",
+          "matraSign": "𑀻",
+          "combinedDevanagari": "ee",
+          "combinedBrahmi": "𑀗𑀻"
+        },
+        {
+          "vowel": "उ",
+          "matraSign": "𑀼",
+          "combinedDevanagari": "u",
+          "combinedBrahmi": "𑀗𑀼"
+        },
+        {
+          "vowel": "ऊ",
+          "matraSign": "𑀽",
+          "combinedDevanagari": "oo",
+          "combinedBrahmi": "𑀗𑀽"
+        },
+        {
+          "vowel": "ए",
+          "matraSign": "𑁂",
+          "combinedDevanagari": "e",
+          "combinedBrahmi": "𑀗𑁂"
+        },
+        {
+          "vowel": "ऐ",
+          "matraSign": "𑁃",
+          "combinedDevanagari": "ai",
+          "combinedBrahmi": "𑀗𑁃"
+        },
+        {
+          "vowel": "ओ",
+          "matraSign": "𑁄",
+          "combinedDevanagari": "o",
+          "combinedBrahmi": "𑀗𑁄"
+        },
+        {
+          "vowel": "औ",
+          "matraSign": "𑁅",
+          "combinedDevanagari": "au",
+          "combinedBrahmi": "𑀗𑁅"
+        },
+        {
+          "vowel": "अं",
+          "matraSign": "𑀁",
+          "combinedDevanagari": "am",
+          "combinedBrahmi": "𑀗𑀁"
+        },
+        {
+          "vowel": "अः",
+          "matraSign": "𑀂",
+          "combinedDevanagari": "ah",
+          "combinedBrahmi": "𑀗𑀂"
+        }
+      ],
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "sourcePages": [
+        193,
+        195
+      ]
+    },
+    {
+      "type": "pronunciation_drill",
+      "title": "Pronunciation Practice",
+      "content": "Listen to audio and repeat: ङ – ङा – ङि – ङी – ङु – ङू – ङे – ङै – ङो – ङौ – ङं – ङः",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 196,
+      "speechSequence": [
+        "ङ",
+        "ङा",
+        "ङि",
+        "ङी",
+        "ङु",
+        "ङू",
+        "ङे",
+        "ङै",
+        "ङो",
+        "ङौ",
+        "ङं",
+        "ङः"
+      ]
+    },
+    {
+      "type": "recognition_mcq",
+      "title": "Recognition Practice (Devanagari → Brahmi)",
+      "note": "PDF pages give 3 worked examples (not a full MCQ bank)",
+      "examples": [
+        {
+          "prompt": "ङा",
+          "answer": "𑀗𑀸",
+          "speechSequence": [
+            "ङा"
+          ]
+        },
+        {
+          "prompt": "ङु",
+          "answer": "𑀗𑀼",
+          "speechSequence": [
+            "ङु"
+          ]
+        },
+        {
+          "prompt": "ङं",
+          "answer": "𑀗𑀁",
+          "speechSequence": [
+            "ङं"
+          ]
+        }
+      ],
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 197
+    },
+    {
+      "type": "reverse_mcq",
+      "title": "Reverse Practice (Brahmi → Devanagari)",
+      "note": "PDF pages give 3 worked examples",
+      "examples": [
+        {
+          "prompt": "𑀗𑁃",
+          "answer": "ङै",
+          "speechSequence": [
+            "ङै"
+          ]
+        },
+        {
+          "prompt": "𑀗𑀻",
+          "answer": "ङी",
+          "speechSequence": [
+            "ङी"
+          ]
+        },
+        {
+          "prompt": "𑀗𑁅",
+          "answer": "ङौ",
+          "speechSequence": [
+            "ङौ"
+          ]
+        }
+      ],
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 198
+    },
+    {
+      "type": "matching_game",
+      "title": "Matching Game",
+      "columnA": [
+        "𑀗𑀸",
+        "𑀗𑀼",
+        "𑀗𑁄",
+        "𑀗𑀁"
+      ],
+      "columnB": [
+        "ङा",
+        "ङु",
+        "ङो",
+        "ङं"
+      ],
+      "note": "Match the correct pairs (4 pairs, PDF-verified)",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 199
+    },
+    {
+      "type": "fill_blank",
+      "title": "Fill in the blanks",
+      "questions": [
+        {
+          "prompt": "𑀗 ___ = ङ",
+          "answer": "𑀺"
+        },
+        {
+          "prompt": "𑀗 ___ = ङौ",
+          "answer": "𑁅"
+        },
+        {
+          "prompt": "𑀗 ___ = ङे",
+          "answer": "𑁂"
+        },
+        {
+          "prompt": "𑀗 ___ = ङः",
+          "answer": "𑀂"
+        },
+        {
+          "prompt": "𑀗 ___ = ङं",
+          "answer": "𑀁"
+        }
+      ],
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 200
+    },
+    {
+      "type": "trace_practice",
+      "title": "Tracing Practice",
+      "content": "Trace 𑀗 and all its matra forms with your finger/pen.",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 201
+    },
+    {
+      "type": "trace_loop_reference",
+      "content": "(Matra tracing loop same as \"ka\" here)",
+      "note": "Previously folded into trace_practice.note as text; verified to be its own dedicated page in the source, immediately following the trace_practice instruction page.",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 202
+    },
+    {
+      "type": "summary",
+      "title": "Conclusion",
+      "content": "Excellent! You have learned the form, pronunciation, and combination with matras of the \"ङ\" consonant.",
+      "bonusUnlock": "Knowledge Explorer",
+      "consonant": "ङ",
+      "consonantBrahmi": "𑀗",
+      "page": 203,
+      "_devNote_note": "This trailing sentence was previously mis-attributed to finalNote.sourcePages [203,204]. It's actually on the same physical page (203) as this summary step, not a separate page."
+    },
+    {
+      "page": 204,
+      "type": "text",
+      "content": "Jina: \"You are moving forward on the right path, but one chapter is still left! Many wishes for this wise choice and continuous effort of yours. Come, let's conquer that missed chapter and complete this journey!\""
+    }
+  ],
+  "matra": [
+    {
+      "page": 86,
+      "type": "path_choice_confirmation",
+      "content": "You are firmly moving ahead on the right path — best wishes for this beautiful choice and determination. May your journey be full of success and glory!"
+    },
+    {
+      "page": 87,
+      "type": "reward",
+      "badge": "Knowledgeable",
+      "points": 5,
+      "message": "\"Wise\" Congratulations, champion! Not only did you make the right choice, but you also made better use of your knowledge. Your reward: 5 points + \"Wise\" medal. This medal is proof of your sharp mind and right decision. Message: \"Knowledge is that which is used at the right time in the right place, you have proven this truth!\""
+    },
+    {
+      "page": 88,
+      "type": "text",
+      "content": "When vowels are written alone, they have their own distinct symbol, but when they join with a consonant, they become a matra symbol."
+    },
+    {
+      "page": 89,
+      "type": "text",
+      "content": "Matra: A short form of a vowel that attaches to a consonant and changes its sound."
+    },
+    {
+      "page": 90,
+      "type": "matra_table_entry",
+      "vowel": "अ",
+      "matraSign": null,
+      "note": "No matra — the consonant inherently contains the 'a' sound"
+    },
+    {
+      "page": 91,
+      "type": "matra_table_entry",
+      "vowel": "आ",
+      "matraSign": "𑀸",
+      "note": null
+    },
+    {
+      "page": 92,
+      "type": "matra_table_entry",
+      "vowel": "इ",
+      "matraSign": "𑀺",
+      "note": null
+    },
+    {
+      "page": 93,
+      "type": "matra_table_entry",
+      "vowel": "ई",
+      "matraSign": "𑀻",
+      "note": null
+    },
+    {
+      "page": 94,
+      "type": "matra_table_entry",
+      "vowel": "उ",
+      "matraSign": "𑀼",
+      "note": null
+    },
+    {
+      "page": 95,
+      "type": "matra_table_entry",
+      "vowel": "ऊ",
+      "matraSign": "𑀽",
+      "note": null
+    },
+    {
+      "page": 96,
+      "type": "matra_table_entry",
+      "vowel": "ए",
+      "matraSign": "𑁂",
+      "note": null
+    },
+    {
+      "page": 97,
+      "type": "matra_table_entry",
+      "vowel": "ऐ",
+      "matraSign": "𑁃",
+      "note": null
+    },
+    {
+      "page": 98,
+      "type": "matra_table_entry",
+      "vowel": "ओ",
+      "matraSign": "𑁄",
+      "note": null
+    },
+    {
+      "page": 99,
+      "type": "matra_table_entry",
+      "vowel": "औ",
+      "matraSign": "𑁅",
+      "note": null
+    },
+    {
+      "page": 100,
+      "type": "matra_table_entry",
+      "vowel": "अं",
+      "matraSign": "𑀁",
+      "note": null
+    },
+    {
+      "page": 101,
+      "type": "matra_table_entry",
+      "vowel": "अः",
+      "matraSign": "𑀂",
+      "note": null
+    },
+    {
+      "page": 102,
+      "type": "matra_rule",
+      "ruleNumber": 1,
+      "title": "Independent Vowels",
+      "description": "When vowels are at the beginning of a word or alone, they take their independent form.",
+      "examples": [
+        "𑀅 (a)",
+        "𑀆 (aa)",
+        "𑀇 (i)"
+      ]
+    },
+    {
+      "page": 103,
+      "type": "matra_rule",
+      "ruleNumber": 2,
+      "title": "Matra Symbols",
+      "description": "When a vowel comes after a consonant, it becomes a matra and is written attached to the consonant.",
+      "example": "𑀓 + ◌𑀸 → 𑀓𑀸 (kaa)"
+    },
+    {
+      "page": 104,
+      "type": "matra_rule",
+      "ruleNumber": 3,
+      "title": "Placement of Matra",
+      "description": "Matras can be placed in different positions: top, bottom, front, back.",
+      "examples": [
+        "ki (𑀓𑀺) – top",
+        "ke (𑀓𑁂) – back"
+      ]
+    },
+    {
+      "page": 105,
+      "type": "matra_rule",
+      "ruleNumber": 4,
+      "title": "Special Attention",
+      "description": "The shape and placement of matras in the Brahmi script is slightly different from Devanagari — observe, practice, and recognize.",
+      "guidance": "Guidance: Observe carefully, practice, and recognize."
+    },
+    {
+      "page": 106,
+      "type": "matra_tracing_card",
+      "vowel": "अ",
+      "independentForm": "𑀓",
+      "matraSign": null,
+      "exampleShown": "ka (𑀓)",
+      "_devNote_uxNote": "1. The letter 𑀓 will appear in a light color 2. The user will trace it with their finger or pen 3. The 'Next' button will activate after three practices"
+    },
+    {
+      "page": 107,
+      "type": "matra_tracing_card",
+      "vowel": "आ",
+      "independentForm": "𑀆",
+      "matraSign": "◌𑀸"
+    },
+    {
+      "page": 108,
+      "type": "matra_tracing_card",
+      "vowel": "इ",
+      "independentForm": "𑀇",
+      "matraSign": "◌𑀺"
+    },
+    {
+      "page": 109,
+      "type": "matra_tracing_card",
+      "vowel": "ई",
+      "independentForm": "𑀈",
+      "matraSign": "◌𑀻"
+    },
+    {
+      "page": 110,
+      "type": "matra_tracing_card",
+      "vowel": "उ",
+      "independentForm": "𑀉",
+      "matraSign": "◌𑀼"
+    },
+    {
+      "page": 111,
+      "type": "matra_tracing_card",
+      "vowel": "ऊ",
+      "independentForm": "𑀊",
+      "matraSign": "◌𑀽"
+    },
+    {
+      "page": 112,
+      "type": "matra_tracing_card",
+      "vowel": "ए",
+      "independentForm": "𑀏",
+      "matraSign": "◌𑁂"
+    },
+    {
+      "page": 113,
+      "type": "matra_tracing_card",
+      "vowel": "ऐ",
+      "independentForm": "𑀐",
+      "matraSign": "◌𑁃"
+    },
+    {
+      "page": 114,
+      "type": "matra_tracing_card",
+      "vowel": "ओ",
+      "independentForm": "𑀑",
+      "matraSign": "◌𑁄"
+    },
+    {
+      "page": 115,
+      "type": "matra_tracing_card",
+      "vowel": "औ",
+      "independentForm": "𑀒",
+      "matraSign": "◌𑁅"
+    },
+    {
+      "page": 116,
+      "type": "matra_tracing_card",
+      "vowel": "अं",
+      "independentForm": "𑀅𑀁",
+      "matraSign": "◌𑀁"
+    },
+    {
+      "page": 117,
+      "type": "matra_tracing_card",
+      "vowel": "अः",
+      "independentForm": "𑀅𑀂",
+      "matraSign": "◌𑀂"
+    }
+  ]
 }

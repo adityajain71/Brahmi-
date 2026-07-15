@@ -11,11 +11,13 @@ import { useState, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { getMatraSlides, type MatraSlide } from '@/lib/matraVyanjanData'
+import { type MatraSlide } from '@/lib/matraVyanjanData'
 import MatraTableEntrySlide from '@/components/course/slides/MatraTableEntrySlide'
 import MatraRuleSlide from '@/components/course/slides/MatraRuleSlide'
 import MatraTracingSlide from '@/components/course/slides/MatraTracingSlide'
 import InfoSlide from '@/components/course/slides/InfoSlide'
+import { useLanguage } from '@/lib/LanguageContext'
+import { getCourse } from '@/lib/course'
 
 // ── Compile matra slides ──────────────────────────────────────────
 
@@ -33,9 +35,11 @@ function compileMatraSlides(slides: MatraSlide[]) {
 
 function MatraSlideRenderer({
   slide,
+  language,
   onNext,
 }: {
   slide: ReturnType<typeof compileMatraSlides>[number]
+  language: string
   onNext: () => void
 }) {
   const { type, content } = slide
@@ -68,13 +72,14 @@ function MatraSlideRenderer({
     return (
       <MatraTracingSlide
         slide={{ type, content, startPage: content.page, endPage: content.page }}
-        language="hi"
+        language={language}
         onNext={onNext}
       />
     )
   }
 
   if (type === 'reward') {
+    const awardLabel = language === 'en' ? 'Award' : language === 'kn' ? 'ಪ್ರಶಸ್ತಿ' : language === 'ta' ? 'விருது' : 'पुरस्कार';
     return (
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
@@ -84,7 +89,7 @@ function MatraSlideRenderer({
         <div className="w-full bg-[#2a2420] border-y-4 border-[#D4AF37] rounded-3xl p-8 md:p-12 shadow-[0_10px_30px_rgba(0,0,0,0.5)] flex flex-col items-center gap-6 text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,55,0.15)_0%,transparent_70%)] pointer-events-none" />
           <div className="z-10 px-5 py-1.5 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/30 text-[#D4AF37] text-sm font-bold tracking-widest">
-            ✦ पुरस्कार
+            ✦ {awardLabel}
           </div>
           <motion.div
             initial={{ scale: 0, rotate: -180 }}
@@ -123,7 +128,7 @@ function MatraSlideRenderer({
   return (
     <InfoSlide
       slide={{ type, content, startPage: content.page, endPage: content.page }}
-      language="hi"
+      language={language}
     />
   )
 }
@@ -132,13 +137,50 @@ function MatraSlideRenderer({
 
 export default function MatraPage() {
   const router = useRouter()
-  const slides = useMemo(() => compileMatraSlides(getMatraSlides()), [])
+  const { language } = useLanguage()
+  const rawSlides = useMemo(() => {
+    const course = getCourse(language)
+    return Array.isArray(course.matra) ? (course.matra as unknown as MatraSlide[]) : []
+  }, [language])
+  const slides = useMemo(() => compileMatraSlides(rawSlides), [rawSlides])
 
   const [currentSlide, setCurrentSlide] = useState(0)
   const [direction, setDirection] = useState(0)
 
   const isLastSlide = currentSlide === slides.length - 1
   const progress = Math.round(((currentSlide + 1) / slides.length) * 100)
+
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      back: 'Back',
+      title: 'Matra',
+      prev: 'Previous',
+      next: 'Next',
+      finish: 'Finish'
+    },
+    kn: {
+      back: 'ಹಿಂದೆ',
+      title: 'ಮಾತ್ರಾ',
+      prev: 'ಹಿಂದಿನ',
+      next: 'ಮುಂದೆ',
+      finish: 'ಮುಕ್ತಾಯ'
+    },
+    ta: {
+      back: 'திரும்புக',
+      title: 'மாத்ரா',
+      prev: 'முந்தைய',
+      next: 'அடுத்து',
+      finish: 'முற்று'
+    },
+    hi: {
+      back: 'वापस',
+      title: 'मात्रा',
+      prev: 'पिछला',
+      next: 'अगला',
+      finish: 'पूर्ण'
+    }
+  }
+  const t = localMap[language] || localMap.hi
 
   const handleNext = () => {
     if (currentSlide < slides.length - 1) {
@@ -167,12 +209,12 @@ export default function MatraPage() {
         className="fixed top-3 left-3 sm:top-4 sm:left-4 z-50 flex items-center gap-1.5 px-3 py-2 bg-[#2C2C2C]/90 backdrop-blur-sm rounded-full text-[#D4AF37] hover:bg-[#3A3A3A] hover:text-[#FFD6A5] transition-all font-medium text-sm shadow-lg border border-[#D4AF37]/20"
       >
         <span className="text-lg">←</span>
-        <span className="hidden sm:inline">वापस</span>
+        <span className="hidden sm:inline">{t.back}</span>
       </Link>
 
       {/* Module label */}
       <div className="fixed top-3 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center gap-1">
-        <div className="text-[#D4AF37] font-black text-lg font-serif tracking-wider drop-shadow">मात्रा</div>
+        <div className="text-[#D4AF37] font-black text-lg font-serif tracking-wider drop-shadow">{t.title}</div>
         <div className="text-[10px] text-[#E6D8B8]/40 uppercase tracking-widest">Vowel Diacritics</div>
       </div>
 
@@ -215,7 +257,7 @@ export default function MatraPage() {
                 transition={{ duration: 0.3 }}
                 className="w-full py-4"
               >
-                <MatraSlideRenderer slide={slide} onNext={handleNext} />
+                <MatraSlideRenderer slide={slide} language={language} onNext={handleNext} />
               </motion.div>
             </AnimatePresence>
           </div>
@@ -239,7 +281,7 @@ export default function MatraPage() {
             className="flex items-center gap-2 px-4 py-3 rounded-xl bg-[#2C2C2C] text-[#D4AF37] border border-[#D4AF37]/30 font-medium disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-lg text-sm"
           >
             <span className="text-lg">←</span>
-            <span>पिछला</span>
+            <span>{t.prev}</span>
           </button>
 
           <div className="flex flex-col items-center gap-1 px-3 w-full">
@@ -256,7 +298,7 @@ export default function MatraPage() {
             onClick={handleNext}
             className="flex items-center gap-2 px-4 py-3 rounded-xl bg-[#D4AF37] text-[#1C1C1C] font-bold hover:brightness-110 transition-all shadow-lg shadow-[#D4AF37]/30 text-sm whitespace-nowrap"
           >
-            <span>{isLastSlide ? 'पूर्ण' : 'अगला'}</span>
+            <span>{isLastSlide ? t.finish : t.next}</span>
             <span className="text-lg">{isLastSlide ? '✓' : '→'}</span>
           </button>
         </div>

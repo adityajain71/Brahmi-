@@ -11,8 +11,10 @@ import { useState, useMemo, useEffect, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import { getVyanjanSlides, getSlidePageNumber, type VyanjanSlide } from '@/lib/matraVyanjanData'
+import { getSlidePageNumber, type VyanjanSlide } from '@/lib/matraVyanjanData'
 import { SlideManager } from '@/components/course/SlideManager'
+import { useLanguage } from '@/lib/LanguageContext'
+import { getCourse } from '@/lib/course'
 
 // ── Compile ───────────────────────────────────────────────────────
 
@@ -47,7 +49,44 @@ function getConsonantProgress(slides: any[], currentIdx: number) {
 function VyanjanLessonContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
-  const rawSlides = useMemo(() => getVyanjanSlides(), [])
+  const { language } = useLanguage()
+
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      list: 'Consonant List',
+      title: 'Consonant',
+      prev: 'Previous',
+      next: 'Next',
+      finish: 'Finish'
+    },
+    kn: {
+      list: 'ವ್ಯಂಜನ ಪಟ್ಟಿ',
+      title: 'ವ್ಯಂಜನ',
+      prev: 'ಹಿಂದಿನ',
+      next: 'ಮುಂದೆ',
+      finish: 'ಮುಕ್ತಾಯ'
+    },
+    ta: {
+      list: 'மெய்யெழுத்து பட்டியல்',
+      title: 'மெய்யெழுத்து',
+      prev: 'முந்தைய',
+      next: 'அடுத்து',
+      finish: 'முற்று'
+    },
+    hi: {
+      list: 'व्यंजन सूची',
+      title: 'व्यंजन',
+      prev: 'पिछला',
+      next: 'अगला',
+      finish: 'पूर्ण'
+    }
+  }
+  const t = localMap[language] || localMap.hi
+
+  const rawSlides = useMemo(() => {
+    const course = getCourse(language)
+    return Array.isArray(course.vyanjan) ? (course.vyanjan as unknown as VyanjanSlide[]) : []
+  }, [language])
   const slides = useMemo(() => compileVyanjanSlides(rawSlides), [rawSlides])
 
   // Determine initial slide based on ?start=क
@@ -117,7 +156,7 @@ function VyanjanLessonContent() {
         className="fixed top-3 left-3 sm:top-4 sm:left-4 z-50 flex items-center gap-1.5 px-3 py-2 bg-[#2C2C2C]/90 backdrop-blur-sm rounded-full text-[#D4AF37] hover:bg-[#3A3A3A] hover:text-[#FFD6A5] transition-all font-medium text-sm shadow-lg border border-[#D4AF37]/20"
       >
         <span className="text-lg">←</span>
-        <span className="hidden sm:inline">व्यंजन सूची</span>
+        <span className="hidden sm:inline">{t.list}</span>
       </Link>
 
       {/* Sticky header — module name + current consonant */}
@@ -131,11 +170,13 @@ function VyanjanLessonContent() {
             className="flex flex-col items-center"
           >
             <div className="flex items-center gap-2">
-              <span className="text-[#D4AF37] font-black text-lg font-serif tracking-wider">व्यंजन</span>
+              <span className="text-[#D4AF37] font-black text-lg font-serif tracking-wider">{t.title}</span>
               {currentConsonant && (
                 <>
                   <span className="text-[#D4AF37]/40 text-sm">·</span>
-                  <span className="text-[#E6D8B8]/80 text-sm font-serif font-bold">{currentConsonant.devanagari}</span>
+                  <span className="text-[#E6D8B8]/80 text-sm font-serif font-bold">
+                    {currentConsonant.localizedLabel}
+                  </span>
                   <span
                     className="text-[#FFD6A5]/70 text-lg"
                     style={{ fontFamily: "'Noto Sans Brahmi', serif" }}
@@ -196,7 +237,7 @@ function VyanjanLessonContent() {
                 <SlideManager
                   slide={slide}
                   moduleData={rawSlides}
-                  language="hi"
+                  language={language}
                   onNext={handleNext}
                 />
               </motion.div>
@@ -222,7 +263,7 @@ function VyanjanLessonContent() {
             className="flex items-center gap-2 px-4 py-3 rounded-xl bg-[#2C2C2C] text-[#D4AF37] border border-[#D4AF37]/30 font-medium disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-lg text-sm"
           >
             <span className="text-lg">←</span>
-            <span>पिछला</span>
+            <span>{t.prev}</span>
           </button>
 
           <div className="flex flex-col items-center gap-1 px-3 w-full">
@@ -239,7 +280,7 @@ function VyanjanLessonContent() {
             onClick={handleNext}
             className="flex items-center gap-2 px-4 py-3 rounded-xl bg-[#D4AF37] text-[#1C1C1C] font-bold hover:brightness-110 transition-all shadow-lg shadow-[#D4AF37]/30 text-sm whitespace-nowrap"
           >
-            <span>{isLastSlide ? 'पूर्ण' : 'अगला'}</span>
+            <span>{isLastSlide ? t.finish : t.next}</span>
             <span className="text-lg">{isLastSlide ? '✓' : '→'}</span>
           </button>
         </div>

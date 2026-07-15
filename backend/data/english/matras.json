@@ -4,12 +4,12 @@
       "id": 1,
       "module_id": "matras",
       "lesson_id": "matras-lesson-001",
-      "title": "Vowel Signs (Matras) Introduction",
-      "title_english": "Vowel Signs (Matras) Introduction",
+      "title": "maātaraā caihana paraicaya",
+      "title_english": "",
       "subtitle": "Matra Chinh Parichay",
       "matra_symbol": null,
-      "description": "Vowels, when written independently, have their own distinct identity. But when they combine with a consonant, they become vowel signs (matras).",
-      "description_english": "Vowels, when written independently, have their own distinct identity. But when they combine with a consonant, they become vowel signs (matras).",
+      "description": "savaraoṃ kae akaelae laikhanae para unakaī apanaī alaga pahacaāna haotaī haai, laekaina jaba vae kaisaī vayañajana kae saātha mailatae haaiṃ, tao vae maātaraā caihana bana jaātae haaiṃ।",
+      "description_english": "",
       "order_no": 1,
       "estimated_time": 15,
       "language": "hi",
@@ -21,12 +21,12 @@
       "id": 2,
       "module_id": "matras",
       "lesson_id": "matras-lesson-002",
-      "title": "A - Inherent Vowel",
-      "title_english": "A - Inherent Vowel",
-      "subtitle": "अ-ध्वनि",
+      "title": "a - kaoī maātaraā nahaīṃ",
+      "title_english": "",
+      "subtitle": "a-dhavanai",
       "matra_symbol": "None",
-      "description": "When a consonant stands alone, it carries the inherent 'a' sound.",
-      "description_english": "When a consonant stands alone, it carries the inherent 'a' sound.",
+      "description": "jaba kaoī vayañajana akaelaā khaḍaā haotaā haai, tao usakae saātha aṃtaranaihaita 'a' dhavanai haotaī haai",
+      "description_english": "",
       "order_no": 2,
       "estimated_time": 10,
       "language": "hi",
@@ -38,12 +38,12 @@
       "id": 3,
       "module_id": "matras",
       "lesson_id": "matras-lesson-003",
-      "title": "AA - Matra Sign",
-      "title_english": "AA - Matra Sign",
-      "subtitle": "आ-मात्रा",
+      "title": "ā - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "ā-maātaraā",
       "matra_symbol": "𑀸",
-      "description": "The AA sound matra sign, placed after the consonant.",
-      "description_english": "The AA sound matra sign, placed after the consonant.",
+      "description": "ā dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 3,
       "estimated_time": 12,
       "language": "hi",
@@ -55,12 +55,12 @@
       "id": 4,
       "module_id": "matras",
       "lesson_id": "matras-lesson-004",
-      "title": "I - Matra Sign",
-      "title_english": "I - Matra Sign",
-      "subtitle": "इ-मात्रा",
+      "title": "i - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "i-maātaraā",
       "matra_symbol": "𑀹",
-      "description": "The I sound matra sign, placed before/above the consonant.",
-      "description_english": "The I sound matra sign, placed before/above the consonant.",
+      "description": "i dhavanai kaā maātaraā caihana, vayañajana sae pahalae/ūpara lagataā haai",
+      "description_english": "",
       "order_no": 4,
       "estimated_time": 12,
       "language": "hi",
@@ -72,12 +72,12 @@
       "id": 5,
       "module_id": "matras",
       "lesson_id": "matras-lesson-005",
-      "title": "II - Matra Sign",
-      "title_english": "II - Matra Sign",
-      "subtitle": "ई-मात्रा",
+      "title": "ī - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "ī-maātaraā",
       "matra_symbol": "𑀺",
-      "description": "The II sound matra sign, placed after the consonant.",
-      "description_english": "The II sound matra sign, placed after the consonant.",
+      "description": "ī dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 5,
       "estimated_time": 12,
       "language": "hi",
@@ -89,12 +89,12 @@
       "id": 6,
       "module_id": "matras",
       "lesson_id": "matras-lesson-006",
-      "title": "U - Matra Sign",
-      "title_english": "U - Matra Sign",
-      "subtitle": "उ-मात्रा",
+      "title": "u - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "u-maātaraā",
       "matra_symbol": "𑀻",
-      "description": "The U sound matra sign, placed below the consonant.",
-      "description_english": "The U sound matra sign, placed below the consonant.",
+      "description": "u dhavanai kaā maātaraā caihana, vayañajana kae naīcae lagataā haai",
+      "description_english": "",
       "order_no": 6,
       "estimated_time": 12,
       "language": "hi",
@@ -106,12 +106,12 @@
       "id": 7,
       "module_id": "matras",
       "lesson_id": "matras-lesson-007",
-      "title": "UU - Matra Sign",
-      "title_english": "UU - Matra Sign",
-      "subtitle": "ऊ-मात्रा",
+      "title": "ū - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "ū-maātaraā",
       "matra_symbol": "𑀼",
-      "description": "The UU sound matra sign, placed below the consonant.",
-      "description_english": "The UU sound matra sign, placed below the consonant.",
+      "description": "ū dhavanai kaā maātaraā caihana, vayañajana kae naīcae lagataā haai",
+      "description_english": "",
       "order_no": 7,
       "estimated_time": 12,
       "language": "hi",
@@ -123,12 +123,12 @@
       "id": 8,
       "module_id": "matras",
       "lesson_id": "matras-lesson-008",
-      "title": "E - Matra Sign",
-      "title_english": "E - Matra Sign",
-      "subtitle": "ए-मात्रा",
+      "title": "e - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "e-maātaraā",
       "matra_symbol": "𑁂",
-      "description": "The E sound matra sign, placed after the consonant.",
-      "description_english": "The E sound matra sign, placed after the consonant.",
+      "description": "e dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 8,
       "estimated_time": 12,
       "language": "hi",
@@ -140,12 +140,12 @@
       "id": 9,
       "module_id": "matras",
       "lesson_id": "matras-lesson-009",
-      "title": "AI - Matra Sign",
-      "title_english": "AI - Matra Sign",
-      "subtitle": "ऐ-मात्रा",
+      "title": "ai - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "ai-maātaraā",
       "matra_symbol": "𑁃",
-      "description": "The AI sound matra sign, placed after the consonant.",
-      "description_english": "The AI sound matra sign, placed after the consonant.",
+      "description": "ai dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 9,
       "estimated_time": 12,
       "language": "hi",
@@ -157,12 +157,12 @@
       "id": 10,
       "module_id": "matras",
       "lesson_id": "matras-lesson-010",
-      "title": "O - Matra Sign",
-      "title_english": "O - Matra Sign",
-      "subtitle": "ओ-मात्रा",
+      "title": "o - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "o-maātaraā",
       "matra_symbol": "𑁄",
-      "description": "The O sound matra sign, placed after the consonant.",
-      "description_english": "The O sound matra sign, placed after the consonant.",
+      "description": "o dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 10,
       "estimated_time": 12,
       "language": "hi",
@@ -174,12 +174,12 @@
       "id": 11,
       "module_id": "matras",
       "lesson_id": "matras-lesson-011",
-      "title": "AU - Matra Sign",
-      "title_english": "AU - Matra Sign",
-      "subtitle": "औ-मात्रा",
+      "title": "au - maātaraā caihana",
+      "title_english": "",
+      "subtitle": "au-maātaraā",
       "matra_symbol": "𑁅",
-      "description": "The AU sound matra sign, placed after the consonant.",
-      "description_english": "The AU sound matra sign, placed after the consonant.",
+      "description": "au dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 11,
       "estimated_time": 12,
       "language": "hi",
@@ -191,12 +191,12 @@
       "id": 12,
       "module_id": "matras",
       "lesson_id": "matras-lesson-012",
-      "title": "AM - Anusvara",
-      "title_english": "AM - Anusvara",
-      "subtitle": "अनुस्वार",
+      "title": "aṃ - anausavaāra",
+      "title_english": "",
+      "subtitle": "anausavaāra",
       "matra_symbol": "𑁀",
-      "description": "Anusvara - nasal sound sign, placed above the consonant.",
-      "description_english": "Anusvara - nasal sound sign, placed above the consonant.",
+      "description": "anausavaāra - naāsaikaā dhavanai caihana, vayañajana kae ūpara lagataā haai",
+      "description_english": "",
       "order_no": 12,
       "estimated_time": 12,
       "language": "hi",
@@ -208,12 +208,12 @@
       "id": 13,
       "module_id": "matras",
       "lesson_id": "matras-lesson-013",
-      "title": "AH - Visarga",
-      "title_english": "AH - Visarga",
-      "subtitle": "विसर्ग",
+      "title": "aḥ - vaisaraga",
+      "title_english": "",
+      "subtitle": "vaisaraga",
       "matra_symbol": "𑀂",
-      "description": "Visarga - secondary nasal sound, placed after the consonant.",
-      "description_english": "Visarga - secondary nasal sound, placed after the consonant.",
+      "description": "vaisaraga - daūsaraī naāsaikaā dhavanai, vayañajana kae baāda lagataā haai",
+      "description_english": "",
       "order_no": 13,
       "estimated_time": 12,
       "language": "hi",
@@ -226,9 +226,9 @@
     {
       "id": "rule-001",
       "ruleNumber": 1,
-      "title": "स्वतंत्र स्वर (Independent Vowel)",
+      "title": "savataṃtara savara (Independent Vowel)",
       "titleEnglish": "Independent Vowel",
-      "description": "जब स्वर शब्द के आरम्भ में अथवा अकेला हो, तो वे अपना स्वतंत्र रूप लेते हैं।",
+      "description": "jaba savara śabada kae āramabha maeṃ athavaā akaelaā hao, tao vae apanaā savataṃtara raūpa laetae haaiṃ।",
       "descriptionEnglish": "When a vowel appears at the beginning of a word or stands alone, it takes its independent form.",
       "examples": [
         "𑀅 (अ)",
@@ -246,9 +246,9 @@
     {
       "id": "rule-002",
       "ruleNumber": 2,
-      "title": "मात्रा चिह्न (Matra Sign)",
-      "titleEnglish": "Vowel Sign (Matra)",
-      "description": "जब स्वर किसी व्यञ्जन के बाद आता है, तो वह मात्रा बन जाता है और व्यञ्जन से जुड़कर लिखा जाता है।",
+      "title": "maātaraā caihana (Matra Sign)",
+      "titleEnglish": "Matra Sign",
+      "description": "jaba savara kaisaī vayañajana kae baāda ātaā haai, tao vaha maātaraā bana jaātaā haai aura vayañajana sae jauḍakara laikhaā jaātaā haai।",
       "descriptionEnglish": "When a vowel follows a consonant, it becomes a matra and is written attached to the consonant.",
       "examples": [
         "𑀓 + आ-matra = का",
@@ -261,10 +261,10 @@
     {
       "id": "rule-003",
       "ruleNumber": 3,
-      "title": "मात्रा का स्थान (Matra Position)",
+      "title": "maātaraā kaā sathaāna (Matra Position)",
       "titleEnglish": "Matra Position",
-      "description": "मात्राएं विभिन्न स्थानों पर लगती हैं: ऊपर, नीचे, आगे, पीछे।",
-      "descriptionEnglish": "Matras can be placed in different positions: Above, Below, Before, After.",
+      "description": "maātaraāeṃ vaibhainana sathaānaoṃ para lagataī haaiṃ: ūpara, naīcae, āgae, paīchae।",
+      "descriptionEnglish": "Matras are placed in different positions: above, below, before, or after the consonant.",
       "examples": [
         "ऊपर: कि (𑀓𑀹)",
         "नीचे: कु (𑀓𑀻)",
@@ -279,10 +279,10 @@
     {
       "id": "rule-004",
       "ruleNumber": 4,
-      "title": "विशेष ध्यान (Special Note)",
+      "title": "vaiśaeṣa dhayaāna (Special Note)",
       "titleEnglish": "Special Note",
-      "description": "ब्राह्मी में मात्राओं का आकार और स्थान, देवनागरी से कुछ पृथक् है। ध्यान से देखें, ट्रेस करें और पहचानें।",
-      "descriptionEnglish": "In Brahmi script, the shape and position of matras differs somewhat from Devanagari. Observe carefully, trace, and identify.",
+      "description": "baraāhamaī maeṃ maātaraāoṃ kaā ākaāra aura sathaāna, daevanaāgaraī sae kaucha paृthaka haai। dhayaāna sae daekhaeṃ, ṭaraesa karaeṃ aura pahacaānaeṃ।",
+      "descriptionEnglish": "In Brahmi, the shape and position of matras differ slightly from Devanagari. Look carefully, trace, and practice recognizing them.",
       "examples": [],
       "examplesDevanagari": []
     }
@@ -291,391 +291,391 @@
     {
       "id": "matra-001",
       "order": 1,
-      "vowelDevanagari": "अ",
+      "vowelDevanagari": "a",
       "vowelBrahmi": "𑀅",
       "matraName": "None/Inherent",
-      "matraNameHindi": "कोई नहीं (अंतर्निहित)",
+      "matraNameHindi": "kaoī nahaīṃ (aṃtaranaihaita)",
       "matraSign": "",
       "matraUnicode": "None",
       "matraPosition": "none",
-      "exampleDevanagari": "क",
+      "exampleDevanagari": "ka",
       "exampleBrahmi": "𑀓",
       "example_combination": "Consonant alone",
-      "description": "बिना किसी मात्रा के, व्यञ्जन में अंतर्निहित 'अ' ध्वनि होती है",
-      "descriptionEnglish": "Inherent A (no matra sign needed). No sign — inherent vowel",
-      "englishName": "Inherent A (no matra sign needed)",
-      "matraPositionLabel": "No sign — inherent vowel"
+      "description": "bainaā kaisaī maātaraā kae, vayañajana maeṃ aṃtaranaihaita 'a' dhavanai haotaī haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-002",
       "order": 2,
-      "vowelDevanagari": "आ",
+      "vowelDevanagari": "ā",
       "vowelBrahmi": "𑀆",
       "matraName": "AA",
-      "matraNameHindi": "आ-मात्रा",
+      "matraNameHindi": "ā-maātaraā",
       "matraSign": "𑀸",
       "matraUnicode": "U+11038",
       "matraPosition": "after",
-      "exampleDevanagari": "का",
+      "exampleDevanagari": "kaā",
       "exampleBrahmi": "𑀓𑀸",
-      "example_combination": "क + 𑀸 = का",
-      "description": "आ ध्वनि का मात्रा चिह्न, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "AA matra (Long A sign). After consonant",
-      "englishName": "AA matra (Long A sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑀸 = kaā",
+      "description": "ā dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-003",
       "order": 3,
-      "vowelDevanagari": "इ",
+      "vowelDevanagari": "i",
       "vowelBrahmi": "𑀇",
-      "matraName": "I",
-      "matraNameHindi": "इ-मात्रा",
+      "matraName": "i",
+      "matraNameHindi": "i-maātaraā",
       "matraSign": "𑀹",
       "matraUnicode": "U+1103A",
       "matraPosition": "before",
-      "exampleDevanagari": "कि",
+      "exampleDevanagari": "kai",
       "exampleBrahmi": "𑀓𑀹",
-      "example_combination": "क + 𑀹 = कि",
-      "description": "इ ध्वनि का मात्रा चिह्न, व्यञ्जन से पहले/ऊपर लगता है",
-      "descriptionEnglish": "I matra (Short I sign). Before consonant",
-      "englishName": "I matra (Short I sign)",
-      "matraPositionLabel": "Before consonant"
+      "example_combination": "ka + 𑀹 = kai",
+      "description": "i dhavanai kaā maātaraā caihana, vayañajana sae pahalae/ūpara lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-004",
       "order": 4,
-      "vowelDevanagari": "ई",
+      "vowelDevanagari": "ī",
       "vowelBrahmi": "𑀈",
-      "matraName": "II",
-      "matraNameHindi": "ई-मात्रा",
+      "matraName": "ee",
+      "matraNameHindi": "ī-maātaraā",
       "matraSign": "𑀺",
       "matraUnicode": "U+1103B",
       "matraPosition": "after",
-      "exampleDevanagari": "की",
+      "exampleDevanagari": "kaī",
       "exampleBrahmi": "𑀓𑀺",
-      "example_combination": "क + 𑀺 = की",
-      "description": "ई ध्वनि का मात्रा चिह्न, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "II matra (Long I sign). After consonant",
-      "englishName": "II matra (Long I sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑀺 = kaī",
+      "description": "ī dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-005",
       "order": 5,
-      "vowelDevanagari": "उ",
+      "vowelDevanagari": "u",
       "vowelBrahmi": "𑀉",
       "matraName": "U",
-      "matraNameHindi": "उ-मात्रा",
+      "matraNameHindi": "u-maātaraā",
       "matraSign": "𑀻",
       "matraUnicode": "U+1103C",
       "matraPosition": "below",
-      "exampleDevanagari": "कु",
+      "exampleDevanagari": "kau",
       "exampleBrahmi": "𑀓𑀻",
-      "example_combination": "क + 𑀻 = कु",
-      "description": "उ ध्वनि का मात्रा चिह्न, व्यञ्जन के नीचे लगता है",
-      "descriptionEnglish": "U matra (Short U sign). Below",
-      "englishName": "U matra (Short U sign)",
-      "matraPositionLabel": "Below"
+      "example_combination": "ka + 𑀻 = kau",
+      "description": "u dhavanai kaā maātaraā caihana, vayañajana kae naīcae lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-006",
       "order": 6,
-      "vowelDevanagari": "ऊ",
+      "vowelDevanagari": "ū",
       "vowelBrahmi": "𑀊",
       "matraName": "UU",
-      "matraNameHindi": "ऊ-मात्रा",
+      "matraNameHindi": "ū-maātaraā",
       "matraSign": "𑀼",
       "matraUnicode": "U+1103D",
       "matraPosition": "below",
-      "exampleDevanagari": "कू",
+      "exampleDevanagari": "kaū",
       "exampleBrahmi": "𑀓𑀼",
-      "example_combination": "क + 𑀼 = कू",
-      "description": "ऊ ध्वनि का मात्रा चिह्न, व्यञ्जन के नीचे लगता है",
-      "descriptionEnglish": "UU matra (Long U sign). Below",
-      "englishName": "UU matra (Long U sign)",
-      "matraPositionLabel": "Below"
+      "example_combination": "ka + 𑀼 = kaū",
+      "description": "ū dhavanai kaā maātaraā caihana, vayañajana kae naīcae lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-007",
       "order": 7,
-      "vowelDevanagari": "ए",
+      "vowelDevanagari": "e",
       "vowelBrahmi": "𑀏",
       "matraName": "E",
-      "matraNameHindi": "ए-मात्रा",
+      "matraNameHindi": "e-maātaraā",
       "matraSign": "𑁂",
       "matraUnicode": "U+11042",
       "matraPosition": "after",
-      "exampleDevanagari": "के",
+      "exampleDevanagari": "kae",
       "exampleBrahmi": "𑀓𑁂",
-      "example_combination": "क + 𑁂 = के",
-      "description": "ए ध्वनि का मात्रा चिह्न, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "E matra (E sign). After consonant",
-      "englishName": "E matra (E sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑁂 = kae",
+      "description": "e dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-008",
       "order": 8,
-      "vowelDevanagari": "ऐ",
+      "vowelDevanagari": "ai",
       "vowelBrahmi": "𑀐",
       "matraName": "AI",
-      "matraNameHindi": "ऐ-मात्रा",
+      "matraNameHindi": "ai-maātaraā",
       "matraSign": "𑁃",
       "matraUnicode": "U+11043",
       "matraPosition": "after",
-      "exampleDevanagari": "कै",
+      "exampleDevanagari": "kaai",
       "exampleBrahmi": "𑀓𑁃",
-      "example_combination": "क + 𑁃 = कै",
-      "description": "ऐ ध्वनि का मात्रा चिह्न, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "AI matra (AI sign). After consonant",
-      "englishName": "AI matra (AI sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑁃 = kaai",
+      "description": "ai dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-009",
       "order": 9,
-      "vowelDevanagari": "ओ",
+      "vowelDevanagari": "o",
       "vowelBrahmi": "𑀑",
       "matraName": "O",
-      "matraNameHindi": "ओ-मात्रा",
+      "matraNameHindi": "o-maātaraā",
       "matraSign": "𑁄",
       "matraUnicode": "U+11044",
       "matraPosition": "after",
-      "exampleDevanagari": "को",
+      "exampleDevanagari": "kao",
       "exampleBrahmi": "𑀓𑁄",
-      "example_combination": "क + 𑁄 = को",
-      "description": "ओ ध्वनि का मात्रा चिह्न, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "O matra (O sign). After consonant",
-      "englishName": "O matra (O sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑁄 = kao",
+      "description": "o dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-010",
       "order": 10,
-      "vowelDevanagari": "औ",
+      "vowelDevanagari": "au",
       "vowelBrahmi": "𑀒",
       "matraName": "AU",
-      "matraNameHindi": "औ-मात्रा",
+      "matraNameHindi": "au-maātaraā",
       "matraSign": "𑁅",
       "matraUnicode": "U+11045",
       "matraPosition": "after",
-      "exampleDevanagari": "कौ",
+      "exampleDevanagari": "kaau",
       "exampleBrahmi": "𑀓𑁅",
-      "example_combination": "क + 𑁅 = कौ",
-      "description": "औ ध्वनि का मात्रा चिह्न, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "AU matra (AU sign). After consonant",
-      "englishName": "AU matra (AU sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑁅 = kaau",
+      "description": "au dhavanai kaā maātaraā caihana, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-011",
       "order": 11,
-      "vowelDevanagari": "अं",
+      "vowelDevanagari": "aṃ",
       "vowelBrahmi": "𑀅𑁀",
       "matraName": "Anusvara",
-      "matraNameHindi": "अनुस्वार",
+      "matraNameHindi": "anausavaāra",
       "matraSign": "𑁀",
       "matraUnicode": "U+11040",
       "matraPosition": "above",
-      "exampleDevanagari": "कं",
+      "exampleDevanagari": "kaṃ",
       "exampleBrahmi": "𑀓𑁀",
-      "example_combination": "क + 𑁀 = कं",
-      "description": "अनुस्वार - नासिका ध्वनि चिह्न, व्यञ्जन के ऊपर लगता है",
-      "descriptionEnglish": "Anusvara (nasal dot sign). Above",
-      "englishName": "Anusvara (nasal dot sign)",
-      "matraPositionLabel": "Above"
+      "example_combination": "ka + 𑁀 = kaṃ",
+      "description": "anausavaāra - naāsaikaā dhavanai caihana, vayañajana kae ūpara lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-012",
       "order": 12,
-      "vowelDevanagari": "अः",
+      "vowelDevanagari": "aḥ",
       "vowelBrahmi": "𑀅𑀂",
       "matraName": "Visarga",
-      "matraNameHindi": "विसर्ग",
+      "matraNameHindi": "vaisaraga",
       "matraSign": "𑀂",
       "matraUnicode": "U+11002",
       "matraPosition": "after",
-      "exampleDevanagari": "कः",
+      "exampleDevanagari": "kaḥ",
       "exampleBrahmi": "𑀓𑀂",
-      "example_combination": "क + 𑀂 = कः",
-      "description": "विसर्ग - दूसरी नासिका ध्वनि, व्यञ्जन के बाद लगता है",
-      "descriptionEnglish": "Visarga (aspirated-H sign). After consonant",
-      "englishName": "Visarga (aspirated-H sign)",
-      "matraPositionLabel": "After consonant"
+      "example_combination": "ka + 𑀂 = kaḥ",
+      "description": "vaisaraga - daūsaraī naāsaikaā dhavanai, vayañajana kae baāda lagataā haai",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     }
   ],
   "consonants": [
     {
       "id": "vyanjan-001",
-      "devanagari": "क",
-      "brahmi": "𑀓"
+      "brahmi": "𑀓",
+      "iast": "ka"
     },
     {
       "id": "vyanjan-002",
-      "devanagari": "ख",
-      "brahmi": "𑀔"
+      "brahmi": "𑀔",
+      "iast": "kha"
     },
     {
       "id": "vyanjan-003",
-      "devanagari": "ग",
-      "brahmi": "𑀕"
+      "brahmi": "𑀕",
+      "iast": "ga"
     },
     {
       "id": "vyanjan-004",
-      "devanagari": "घ",
-      "brahmi": "𑀖"
+      "brahmi": "𑀖",
+      "iast": "gha"
     },
     {
       "id": "vyanjan-005",
-      "devanagari": "ङ",
-      "brahmi": "𑀗"
+      "brahmi": "𑀗",
+      "iast": "ṅa"
     },
     {
       "id": "vyanjan-006",
-      "devanagari": "च",
-      "brahmi": "𑀘"
+      "brahmi": "𑀘",
+      "iast": "ca"
     },
     {
       "id": "vyanjan-007",
-      "devanagari": "छ",
-      "brahmi": "𑀙"
+      "brahmi": "𑀙",
+      "iast": "cha"
     },
     {
       "id": "vyanjan-008",
-      "devanagari": "ज",
-      "brahmi": "𑀚"
+      "brahmi": "𑀚",
+      "iast": "ja"
     },
     {
       "id": "vyanjan-009",
-      "devanagari": "झ",
-      "brahmi": "𑀛"
+      "brahmi": "𑀛",
+      "iast": "jha"
     },
     {
       "id": "vyanjan-010",
-      "devanagari": "ञ",
-      "brahmi": "𑀜"
+      "brahmi": "𑀜",
+      "iast": "ña"
     },
     {
       "id": "vyanjan-011",
-      "devanagari": "ट",
-      "brahmi": "𑀝"
+      "brahmi": "𑀝",
+      "iast": "ṭa"
     },
     {
       "id": "vyanjan-012",
-      "devanagari": "ठ",
-      "brahmi": "𑀞"
+      "brahmi": "𑀞",
+      "iast": "ṭha"
     },
     {
       "id": "vyanjan-013",
-      "devanagari": "ड",
-      "brahmi": "𑀟"
+      "brahmi": "𑀟",
+      "iast": "ḍa"
     },
     {
       "id": "vyanjan-014",
-      "devanagari": "ढ",
-      "brahmi": "𑀠"
+      "brahmi": "𑀠",
+      "iast": "ḍha"
     },
     {
       "id": "vyanjan-015",
-      "devanagari": "ण",
-      "brahmi": "𑀡"
+      "brahmi": "𑀡",
+      "iast": "ṇa"
     },
     {
       "id": "vyanjan-016",
-      "devanagari": "त",
-      "brahmi": "𑀢"
+      "brahmi": "𑀢",
+      "iast": "ta"
     },
     {
       "id": "vyanjan-017",
-      "devanagari": "थ",
-      "brahmi": "𑀣"
+      "brahmi": "𑀣",
+      "iast": "tha"
     },
     {
       "id": "vyanjan-018",
-      "devanagari": "द",
-      "brahmi": "𑀤"
+      "brahmi": "𑀤",
+      "iast": "da"
     },
     {
       "id": "vyanjan-019",
-      "devanagari": "ध",
-      "brahmi": "𑀥"
+      "brahmi": "𑀥",
+      "iast": "dha"
     },
     {
       "id": "vyanjan-020",
-      "devanagari": "न",
-      "brahmi": "𑀦"
+      "brahmi": "𑀦",
+      "iast": "na"
     },
     {
       "id": "vyanjan-021",
-      "devanagari": "प",
-      "brahmi": "𑀧"
+      "brahmi": "𑀧",
+      "iast": "pa"
     },
     {
       "id": "vyanjan-022",
-      "devanagari": "फ",
-      "brahmi": "𑀨"
+      "brahmi": "𑀨",
+      "iast": "pha"
     },
     {
       "id": "vyanjan-023",
-      "devanagari": "ब",
-      "brahmi": "𑀩"
+      "brahmi": "𑀩",
+      "iast": "ba"
     },
     {
       "id": "vyanjan-024",
-      "devanagari": "भ",
-      "brahmi": "𑀪"
+      "brahmi": "𑀪",
+      "iast": "bha"
     },
     {
       "id": "vyanjan-025",
-      "devanagari": "म",
-      "brahmi": "𑀫"
+      "brahmi": "𑀫",
+      "iast": "ma"
     },
     {
       "id": "vyanjan-026",
-      "devanagari": "य",
-      "brahmi": "𑀬"
+      "brahmi": "𑀬",
+      "iast": "ya"
     },
     {
       "id": "vyanjan-027",
-      "devanagari": "र",
-      "brahmi": "𑀭"
+      "brahmi": "𑀭",
+      "iast": "ra"
     },
     {
       "id": "vyanjan-028",
-      "devanagari": "ल",
-      "brahmi": "𑀮"
+      "brahmi": "𑀮",
+      "iast": "la"
     },
     {
       "id": "vyanjan-029",
-      "devanagari": "व",
-      "brahmi": "𑀯"
+      "brahmi": "𑀯",
+      "iast": "va"
     },
     {
       "id": "vyanjan-030",
-      "devanagari": "श",
-      "brahmi": "𑀰"
+      "brahmi": "𑀰",
+      "iast": "śa"
     },
     {
       "id": "vyanjan-031",
-      "devanagari": "ष",
-      "brahmi": "𑀱"
+      "brahmi": "𑀱",
+      "iast": "ṣa"
     },
     {
       "id": "vyanjan-032",
-      "devanagari": "स",
-      "brahmi": "𑀲"
+      "brahmi": "𑀲",
+      "iast": "sa"
     },
     {
       "id": "vyanjan-033",
-      "devanagari": "ह",
-      "brahmi": "𑀳"
+      "brahmi": "𑀳",
+      "iast": "ha"
     }
   ],
   "consonantMatraCombinations": [
     {
       "consonantId": "vyanjan-001",
-      "consonantDevanagari": "क",
+      "consonantDevanagari": "ka",
       "consonantBrahmi": "𑀓",
       "forms": [
         {
@@ -683,102 +683,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "क",
-          "combinedBrahmi": "𑀓"
+          "combinedBrahmi": "𑀓",
+          "combinedIast": "ka"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "का",
-          "combinedBrahmi": "𑀓𑀸"
+          "combinedBrahmi": "𑀓𑀸",
+          "combinedIast": "kaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "कि",
-          "combinedBrahmi": "𑀓𑀹"
+          "combinedBrahmi": "𑀓𑀹",
+          "combinedIast": "kai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "की",
-          "combinedBrahmi": "𑀓𑀺"
+          "combinedBrahmi": "𑀓𑀺",
+          "combinedIast": "kaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "कु",
-          "combinedBrahmi": "𑀓𑀻"
+          "combinedBrahmi": "𑀓𑀻",
+          "combinedIast": "kau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "कू",
-          "combinedBrahmi": "𑀓𑀼"
+          "combinedBrahmi": "𑀓𑀼",
+          "combinedIast": "kaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "के",
-          "combinedBrahmi": "𑀓𑁂"
+          "combinedBrahmi": "𑀓𑁂",
+          "combinedIast": "kae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "कै",
-          "combinedBrahmi": "𑀓𑁃"
+          "combinedBrahmi": "𑀓𑁃",
+          "combinedIast": "kaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "को",
-          "combinedBrahmi": "𑀓𑁄"
+          "combinedBrahmi": "𑀓𑁄",
+          "combinedIast": "kao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "कौ",
-          "combinedBrahmi": "𑀓𑁅"
+          "combinedBrahmi": "𑀓𑁅",
+          "combinedIast": "kaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "कं",
-          "combinedBrahmi": "𑀓𑁀"
+          "combinedBrahmi": "𑀓𑁀",
+          "combinedIast": "kaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "कः",
-          "combinedBrahmi": "𑀓𑀂"
+          "combinedBrahmi": "𑀓𑀂",
+          "combinedIast": "kaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-002",
-      "consonantDevanagari": "ख",
+      "consonantDevanagari": "kha",
       "consonantBrahmi": "𑀔",
       "forms": [
         {
@@ -786,102 +786,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ख",
-          "combinedBrahmi": "𑀔"
+          "combinedBrahmi": "𑀔",
+          "combinedIast": "kha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "खा",
-          "combinedBrahmi": "𑀔𑀸"
+          "combinedBrahmi": "𑀔𑀸",
+          "combinedIast": "khaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "खि",
-          "combinedBrahmi": "𑀔𑀹"
+          "combinedBrahmi": "𑀔𑀹",
+          "combinedIast": "khai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "खी",
-          "combinedBrahmi": "𑀔𑀺"
+          "combinedBrahmi": "𑀔𑀺",
+          "combinedIast": "khaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "खु",
-          "combinedBrahmi": "𑀔𑀻"
+          "combinedBrahmi": "𑀔𑀻",
+          "combinedIast": "khau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "खू",
-          "combinedBrahmi": "𑀔𑀼"
+          "combinedBrahmi": "𑀔𑀼",
+          "combinedIast": "khaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "खे",
-          "combinedBrahmi": "𑀔𑁂"
+          "combinedBrahmi": "𑀔𑁂",
+          "combinedIast": "khae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "खै",
-          "combinedBrahmi": "𑀔𑁃"
+          "combinedBrahmi": "𑀔𑁃",
+          "combinedIast": "khaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "खो",
-          "combinedBrahmi": "𑀔𑁄"
+          "combinedBrahmi": "𑀔𑁄",
+          "combinedIast": "khao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "खौ",
-          "combinedBrahmi": "𑀔𑁅"
+          "combinedBrahmi": "𑀔𑁅",
+          "combinedIast": "khaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "खं",
-          "combinedBrahmi": "𑀔𑁀"
+          "combinedBrahmi": "𑀔𑁀",
+          "combinedIast": "khaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "खः",
-          "combinedBrahmi": "𑀔𑀂"
+          "combinedBrahmi": "𑀔𑀂",
+          "combinedIast": "khaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-003",
-      "consonantDevanagari": "ग",
+      "consonantDevanagari": "ga",
       "consonantBrahmi": "𑀕",
       "forms": [
         {
@@ -889,102 +889,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ग",
-          "combinedBrahmi": "𑀕"
+          "combinedBrahmi": "𑀕",
+          "combinedIast": "ga"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "गा",
-          "combinedBrahmi": "𑀕𑀸"
+          "combinedBrahmi": "𑀕𑀸",
+          "combinedIast": "gaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "गि",
-          "combinedBrahmi": "𑀕𑀹"
+          "combinedBrahmi": "𑀕𑀹",
+          "combinedIast": "gai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "गी",
-          "combinedBrahmi": "𑀕𑀺"
+          "combinedBrahmi": "𑀕𑀺",
+          "combinedIast": "gaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "गु",
-          "combinedBrahmi": "𑀕𑀻"
+          "combinedBrahmi": "𑀕𑀻",
+          "combinedIast": "gau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "गू",
-          "combinedBrahmi": "𑀕𑀼"
+          "combinedBrahmi": "𑀕𑀼",
+          "combinedIast": "gaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "गे",
-          "combinedBrahmi": "𑀕𑁂"
+          "combinedBrahmi": "𑀕𑁂",
+          "combinedIast": "gae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "गै",
-          "combinedBrahmi": "𑀕𑁃"
+          "combinedBrahmi": "𑀕𑁃",
+          "combinedIast": "gaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "गो",
-          "combinedBrahmi": "𑀕𑁄"
+          "combinedBrahmi": "𑀕𑁄",
+          "combinedIast": "gao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "गौ",
-          "combinedBrahmi": "𑀕𑁅"
+          "combinedBrahmi": "𑀕𑁅",
+          "combinedIast": "gaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "गं",
-          "combinedBrahmi": "𑀕𑁀"
+          "combinedBrahmi": "𑀕𑁀",
+          "combinedIast": "gaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "गः",
-          "combinedBrahmi": "𑀕𑀂"
+          "combinedBrahmi": "𑀕𑀂",
+          "combinedIast": "gaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-004",
-      "consonantDevanagari": "घ",
+      "consonantDevanagari": "gha",
       "consonantBrahmi": "𑀖",
       "forms": [
         {
@@ -992,102 +992,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "घ",
-          "combinedBrahmi": "𑀖"
+          "combinedBrahmi": "𑀖",
+          "combinedIast": "gha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "घा",
-          "combinedBrahmi": "𑀖𑀸"
+          "combinedBrahmi": "𑀖𑀸",
+          "combinedIast": "ghaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "घि",
-          "combinedBrahmi": "𑀖𑀹"
+          "combinedBrahmi": "𑀖𑀹",
+          "combinedIast": "ghai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "घी",
-          "combinedBrahmi": "𑀖𑀺"
+          "combinedBrahmi": "𑀖𑀺",
+          "combinedIast": "ghaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "घु",
-          "combinedBrahmi": "𑀖𑀻"
+          "combinedBrahmi": "𑀖𑀻",
+          "combinedIast": "ghau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "घू",
-          "combinedBrahmi": "𑀖𑀼"
+          "combinedBrahmi": "𑀖𑀼",
+          "combinedIast": "ghaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "घे",
-          "combinedBrahmi": "𑀖𑁂"
+          "combinedBrahmi": "𑀖𑁂",
+          "combinedIast": "ghae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "घै",
-          "combinedBrahmi": "𑀖𑁃"
+          "combinedBrahmi": "𑀖𑁃",
+          "combinedIast": "ghaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "घो",
-          "combinedBrahmi": "𑀖𑁄"
+          "combinedBrahmi": "𑀖𑁄",
+          "combinedIast": "ghao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "घौ",
-          "combinedBrahmi": "𑀖𑁅"
+          "combinedBrahmi": "𑀖𑁅",
+          "combinedIast": "ghaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "घं",
-          "combinedBrahmi": "𑀖𑁀"
+          "combinedBrahmi": "𑀖𑁀",
+          "combinedIast": "ghaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "घः",
-          "combinedBrahmi": "𑀖𑀂"
+          "combinedBrahmi": "𑀖𑀂",
+          "combinedIast": "ghaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-005",
-      "consonantDevanagari": "ङ",
+      "consonantDevanagari": "ṅa",
       "consonantBrahmi": "𑀗",
       "forms": [
         {
@@ -1095,102 +1095,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ङ",
-          "combinedBrahmi": "𑀗"
+          "combinedBrahmi": "𑀗",
+          "combinedIast": "ṅa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ङा",
-          "combinedBrahmi": "𑀗𑀸"
+          "combinedBrahmi": "𑀗𑀸",
+          "combinedIast": "ṅaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "ङि",
-          "combinedBrahmi": "𑀗𑀹"
+          "combinedBrahmi": "𑀗𑀹",
+          "combinedIast": "ṅai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ङी",
-          "combinedBrahmi": "𑀗𑀺"
+          "combinedBrahmi": "𑀗𑀺",
+          "combinedIast": "ṅaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "ङु",
-          "combinedBrahmi": "𑀗𑀻"
+          "combinedBrahmi": "𑀗𑀻",
+          "combinedIast": "ṅau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "ङू",
-          "combinedBrahmi": "𑀗𑀼"
+          "combinedBrahmi": "𑀗𑀼",
+          "combinedIast": "ṅaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ङे",
-          "combinedBrahmi": "𑀗𑁂"
+          "combinedBrahmi": "𑀗𑁂",
+          "combinedIast": "ṅae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "ङै",
-          "combinedBrahmi": "𑀗𑁃"
+          "combinedBrahmi": "𑀗𑁃",
+          "combinedIast": "ṅaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "ङो",
-          "combinedBrahmi": "𑀗𑁄"
+          "combinedBrahmi": "𑀗𑁄",
+          "combinedIast": "ṅao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "ङौ",
-          "combinedBrahmi": "𑀗𑁅"
+          "combinedBrahmi": "𑀗𑁅",
+          "combinedIast": "ṅaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "ङं",
-          "combinedBrahmi": "𑀗𑁀"
+          "combinedBrahmi": "𑀗𑁀",
+          "combinedIast": "ṅaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "ङः",
-          "combinedBrahmi": "𑀗𑀂"
+          "combinedBrahmi": "𑀗𑀂",
+          "combinedIast": "ṅaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-006",
-      "consonantDevanagari": "च",
+      "consonantDevanagari": "ca",
       "consonantBrahmi": "𑀘",
       "forms": [
         {
@@ -1198,102 +1198,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "च",
-          "combinedBrahmi": "𑀘"
+          "combinedBrahmi": "𑀘",
+          "combinedIast": "ca"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "चा",
-          "combinedBrahmi": "𑀘𑀸"
+          "combinedBrahmi": "𑀘𑀸",
+          "combinedIast": "caā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "चि",
-          "combinedBrahmi": "𑀘𑀹"
+          "combinedBrahmi": "𑀘𑀹",
+          "combinedIast": "cai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ची",
-          "combinedBrahmi": "𑀘𑀺"
+          "combinedBrahmi": "𑀘𑀺",
+          "combinedIast": "caī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "चु",
-          "combinedBrahmi": "𑀘𑀻"
+          "combinedBrahmi": "𑀘𑀻",
+          "combinedIast": "cau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "चू",
-          "combinedBrahmi": "𑀘𑀼"
+          "combinedBrahmi": "𑀘𑀼",
+          "combinedIast": "caū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "चे",
-          "combinedBrahmi": "𑀘𑁂"
+          "combinedBrahmi": "𑀘𑁂",
+          "combinedIast": "cae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "चै",
-          "combinedBrahmi": "𑀘𑁃"
+          "combinedBrahmi": "𑀘𑁃",
+          "combinedIast": "caai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "चो",
-          "combinedBrahmi": "𑀘𑁄"
+          "combinedBrahmi": "𑀘𑁄",
+          "combinedIast": "cao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "चौ",
-          "combinedBrahmi": "𑀘𑁅"
+          "combinedBrahmi": "𑀘𑁅",
+          "combinedIast": "caau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "चं",
-          "combinedBrahmi": "𑀘𑁀"
+          "combinedBrahmi": "𑀘𑁀",
+          "combinedIast": "caṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "चः",
-          "combinedBrahmi": "𑀘𑀂"
+          "combinedBrahmi": "𑀘𑀂",
+          "combinedIast": "caḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-007",
-      "consonantDevanagari": "छ",
+      "consonantDevanagari": "cha",
       "consonantBrahmi": "𑀙",
       "forms": [
         {
@@ -1301,102 +1301,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "छ",
-          "combinedBrahmi": "𑀙"
+          "combinedBrahmi": "𑀙",
+          "combinedIast": "cha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "छा",
-          "combinedBrahmi": "𑀙𑀸"
+          "combinedBrahmi": "𑀙𑀸",
+          "combinedIast": "chaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "छि",
-          "combinedBrahmi": "𑀙𑀹"
+          "combinedBrahmi": "𑀙𑀹",
+          "combinedIast": "chai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "छी",
-          "combinedBrahmi": "𑀙𑀺"
+          "combinedBrahmi": "𑀙𑀺",
+          "combinedIast": "chaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "छु",
-          "combinedBrahmi": "𑀙𑀻"
+          "combinedBrahmi": "𑀙𑀻",
+          "combinedIast": "chau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "छू",
-          "combinedBrahmi": "𑀙𑀼"
+          "combinedBrahmi": "𑀙𑀼",
+          "combinedIast": "chaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "छे",
-          "combinedBrahmi": "𑀙𑁂"
+          "combinedBrahmi": "𑀙𑁂",
+          "combinedIast": "chae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "छै",
-          "combinedBrahmi": "𑀙𑁃"
+          "combinedBrahmi": "𑀙𑁃",
+          "combinedIast": "chaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "छो",
-          "combinedBrahmi": "𑀙𑁄"
+          "combinedBrahmi": "𑀙𑁄",
+          "combinedIast": "chao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "छौ",
-          "combinedBrahmi": "𑀙𑁅"
+          "combinedBrahmi": "𑀙𑁅",
+          "combinedIast": "chaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "छं",
-          "combinedBrahmi": "𑀙𑁀"
+          "combinedBrahmi": "𑀙𑁀",
+          "combinedIast": "chaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "छः",
-          "combinedBrahmi": "𑀙𑀂"
+          "combinedBrahmi": "𑀙𑀂",
+          "combinedIast": "chaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-008",
-      "consonantDevanagari": "ज",
+      "consonantDevanagari": "ja",
       "consonantBrahmi": "𑀚",
       "forms": [
         {
@@ -1404,102 +1404,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ज",
-          "combinedBrahmi": "𑀚"
+          "combinedBrahmi": "𑀚",
+          "combinedIast": "ja"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "जा",
-          "combinedBrahmi": "𑀚𑀸"
+          "combinedBrahmi": "𑀚𑀸",
+          "combinedIast": "jaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "जि",
-          "combinedBrahmi": "𑀚𑀹"
+          "combinedBrahmi": "𑀚𑀹",
+          "combinedIast": "jai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "जी",
-          "combinedBrahmi": "𑀚𑀺"
+          "combinedBrahmi": "𑀚𑀺",
+          "combinedIast": "jaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "जु",
-          "combinedBrahmi": "𑀚𑀻"
+          "combinedBrahmi": "𑀚𑀻",
+          "combinedIast": "jau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "जू",
-          "combinedBrahmi": "𑀚𑀼"
+          "combinedBrahmi": "𑀚𑀼",
+          "combinedIast": "jaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "जे",
-          "combinedBrahmi": "𑀚𑁂"
+          "combinedBrahmi": "𑀚𑁂",
+          "combinedIast": "jae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "जै",
-          "combinedBrahmi": "𑀚𑁃"
+          "combinedBrahmi": "𑀚𑁃",
+          "combinedIast": "jaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "जो",
-          "combinedBrahmi": "𑀚𑁄"
+          "combinedBrahmi": "𑀚𑁄",
+          "combinedIast": "jao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "जौ",
-          "combinedBrahmi": "𑀚𑁅"
+          "combinedBrahmi": "𑀚𑁅",
+          "combinedIast": "jaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "जं",
-          "combinedBrahmi": "𑀚𑁀"
+          "combinedBrahmi": "𑀚𑁀",
+          "combinedIast": "jaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "जः",
-          "combinedBrahmi": "𑀚𑀂"
+          "combinedBrahmi": "𑀚𑀂",
+          "combinedIast": "jaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-009",
-      "consonantDevanagari": "झ",
+      "consonantDevanagari": "jha",
       "consonantBrahmi": "𑀛",
       "forms": [
         {
@@ -1507,102 +1507,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "झ",
-          "combinedBrahmi": "𑀛"
+          "combinedBrahmi": "𑀛",
+          "combinedIast": "jha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "झा",
-          "combinedBrahmi": "𑀛𑀸"
+          "combinedBrahmi": "𑀛𑀸",
+          "combinedIast": "jhaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "झि",
-          "combinedBrahmi": "𑀛𑀹"
+          "combinedBrahmi": "𑀛𑀹",
+          "combinedIast": "jhai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "झी",
-          "combinedBrahmi": "𑀛𑀺"
+          "combinedBrahmi": "𑀛𑀺",
+          "combinedIast": "jhaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "झु",
-          "combinedBrahmi": "𑀛𑀻"
+          "combinedBrahmi": "𑀛𑀻",
+          "combinedIast": "jhau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "झू",
-          "combinedBrahmi": "𑀛𑀼"
+          "combinedBrahmi": "𑀛𑀼",
+          "combinedIast": "jhaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "झे",
-          "combinedBrahmi": "𑀛𑁂"
+          "combinedBrahmi": "𑀛𑁂",
+          "combinedIast": "jhae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "झै",
-          "combinedBrahmi": "𑀛𑁃"
+          "combinedBrahmi": "𑀛𑁃",
+          "combinedIast": "jhaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "झो",
-          "combinedBrahmi": "𑀛𑁄"
+          "combinedBrahmi": "𑀛𑁄",
+          "combinedIast": "jhao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "झौ",
-          "combinedBrahmi": "𑀛𑁅"
+          "combinedBrahmi": "𑀛𑁅",
+          "combinedIast": "jhaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "झं",
-          "combinedBrahmi": "𑀛𑁀"
+          "combinedBrahmi": "𑀛𑁀",
+          "combinedIast": "jhaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "झः",
-          "combinedBrahmi": "𑀛𑀂"
+          "combinedBrahmi": "𑀛𑀂",
+          "combinedIast": "jhaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-010",
-      "consonantDevanagari": "ञ",
+      "consonantDevanagari": "ña",
       "consonantBrahmi": "𑀜",
       "forms": [
         {
@@ -1610,102 +1610,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ञ",
-          "combinedBrahmi": "𑀜"
+          "combinedBrahmi": "𑀜",
+          "combinedIast": "ña"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ञा",
-          "combinedBrahmi": "𑀜𑀸"
+          "combinedBrahmi": "𑀜𑀸",
+          "combinedIast": "ñaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "ञि",
-          "combinedBrahmi": "𑀜𑀹"
+          "combinedBrahmi": "𑀜𑀹",
+          "combinedIast": "ñai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ञी",
-          "combinedBrahmi": "𑀜𑀺"
+          "combinedBrahmi": "𑀜𑀺",
+          "combinedIast": "ñaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "ञु",
-          "combinedBrahmi": "𑀜𑀻"
+          "combinedBrahmi": "𑀜𑀻",
+          "combinedIast": "ñau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "ञू",
-          "combinedBrahmi": "𑀜𑀼"
+          "combinedBrahmi": "𑀜𑀼",
+          "combinedIast": "ñaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ञे",
-          "combinedBrahmi": "𑀜𑁂"
+          "combinedBrahmi": "𑀜𑁂",
+          "combinedIast": "ñae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "ञै",
-          "combinedBrahmi": "𑀜𑁃"
+          "combinedBrahmi": "𑀜𑁃",
+          "combinedIast": "ñaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "ञो",
-          "combinedBrahmi": "𑀜𑁄"
+          "combinedBrahmi": "𑀜𑁄",
+          "combinedIast": "ñao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "ञौ",
-          "combinedBrahmi": "𑀜𑁅"
+          "combinedBrahmi": "𑀜𑁅",
+          "combinedIast": "ñaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "ञं",
-          "combinedBrahmi": "𑀜𑁀"
+          "combinedBrahmi": "𑀜𑁀",
+          "combinedIast": "ñaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "ञः",
-          "combinedBrahmi": "𑀜𑀂"
+          "combinedBrahmi": "𑀜𑀂",
+          "combinedIast": "ñaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-011",
-      "consonantDevanagari": "ट",
+      "consonantDevanagari": "ṭa",
       "consonantBrahmi": "𑀝",
       "forms": [
         {
@@ -1713,102 +1713,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ट",
-          "combinedBrahmi": "𑀝"
+          "combinedBrahmi": "𑀝",
+          "combinedIast": "ṭa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "टा",
-          "combinedBrahmi": "𑀝𑀸"
+          "combinedBrahmi": "𑀝𑀸",
+          "combinedIast": "ṭaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "टि",
-          "combinedBrahmi": "𑀝𑀹"
+          "combinedBrahmi": "𑀝𑀹",
+          "combinedIast": "ṭai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "टी",
-          "combinedBrahmi": "𑀝𑀺"
+          "combinedBrahmi": "𑀝𑀺",
+          "combinedIast": "ṭaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "टु",
-          "combinedBrahmi": "𑀝𑀻"
+          "combinedBrahmi": "𑀝𑀻",
+          "combinedIast": "ṭau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "टू",
-          "combinedBrahmi": "𑀝𑀼"
+          "combinedBrahmi": "𑀝𑀼",
+          "combinedIast": "ṭaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "टे",
-          "combinedBrahmi": "𑀝𑁂"
+          "combinedBrahmi": "𑀝𑁂",
+          "combinedIast": "ṭae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "टै",
-          "combinedBrahmi": "𑀝𑁃"
+          "combinedBrahmi": "𑀝𑁃",
+          "combinedIast": "ṭaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "टो",
-          "combinedBrahmi": "𑀝𑁄"
+          "combinedBrahmi": "𑀝𑁄",
+          "combinedIast": "ṭao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "टौ",
-          "combinedBrahmi": "𑀝𑁅"
+          "combinedBrahmi": "𑀝𑁅",
+          "combinedIast": "ṭaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "टं",
-          "combinedBrahmi": "𑀝𑁀"
+          "combinedBrahmi": "𑀝𑁀",
+          "combinedIast": "ṭaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "टः",
-          "combinedBrahmi": "𑀝𑀂"
+          "combinedBrahmi": "𑀝𑀂",
+          "combinedIast": "ṭaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-012",
-      "consonantDevanagari": "ठ",
+      "consonantDevanagari": "ṭha",
       "consonantBrahmi": "𑀞",
       "forms": [
         {
@@ -1816,102 +1816,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ठ",
-          "combinedBrahmi": "𑀞"
+          "combinedBrahmi": "𑀞",
+          "combinedIast": "ṭha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ठा",
-          "combinedBrahmi": "𑀞𑀸"
+          "combinedBrahmi": "𑀞𑀸",
+          "combinedIast": "ṭhaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "ठि",
-          "combinedBrahmi": "𑀞𑀹"
+          "combinedBrahmi": "𑀞𑀹",
+          "combinedIast": "ṭhai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ठी",
-          "combinedBrahmi": "𑀞𑀺"
+          "combinedBrahmi": "𑀞𑀺",
+          "combinedIast": "ṭhaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "ठु",
-          "combinedBrahmi": "𑀞𑀻"
+          "combinedBrahmi": "𑀞𑀻",
+          "combinedIast": "ṭhau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "ठू",
-          "combinedBrahmi": "𑀞𑀼"
+          "combinedBrahmi": "𑀞𑀼",
+          "combinedIast": "ṭhaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ठे",
-          "combinedBrahmi": "𑀞𑁂"
+          "combinedBrahmi": "𑀞𑁂",
+          "combinedIast": "ṭhae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "ठै",
-          "combinedBrahmi": "𑀞𑁃"
+          "combinedBrahmi": "𑀞𑁃",
+          "combinedIast": "ṭhaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "ठो",
-          "combinedBrahmi": "𑀞𑁄"
+          "combinedBrahmi": "𑀞𑁄",
+          "combinedIast": "ṭhao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "ठौ",
-          "combinedBrahmi": "𑀞𑁅"
+          "combinedBrahmi": "𑀞𑁅",
+          "combinedIast": "ṭhaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "ठं",
-          "combinedBrahmi": "𑀞𑁀"
+          "combinedBrahmi": "𑀞𑁀",
+          "combinedIast": "ṭhaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "ठः",
-          "combinedBrahmi": "𑀞𑀂"
+          "combinedBrahmi": "𑀞𑀂",
+          "combinedIast": "ṭhaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-013",
-      "consonantDevanagari": "ड",
+      "consonantDevanagari": "ḍa",
       "consonantBrahmi": "𑀟",
       "forms": [
         {
@@ -1919,102 +1919,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ड",
-          "combinedBrahmi": "𑀟"
+          "combinedBrahmi": "𑀟",
+          "combinedIast": "ḍa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "डा",
-          "combinedBrahmi": "𑀟𑀸"
+          "combinedBrahmi": "𑀟𑀸",
+          "combinedIast": "ḍaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "डि",
-          "combinedBrahmi": "𑀟𑀹"
+          "combinedBrahmi": "𑀟𑀹",
+          "combinedIast": "ḍai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "डी",
-          "combinedBrahmi": "𑀟𑀺"
+          "combinedBrahmi": "𑀟𑀺",
+          "combinedIast": "ḍaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "डु",
-          "combinedBrahmi": "𑀟𑀻"
+          "combinedBrahmi": "𑀟𑀻",
+          "combinedIast": "ḍau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "डू",
-          "combinedBrahmi": "𑀟𑀼"
+          "combinedBrahmi": "𑀟𑀼",
+          "combinedIast": "ḍaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "डे",
-          "combinedBrahmi": "𑀟𑁂"
+          "combinedBrahmi": "𑀟𑁂",
+          "combinedIast": "ḍae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "डै",
-          "combinedBrahmi": "𑀟𑁃"
+          "combinedBrahmi": "𑀟𑁃",
+          "combinedIast": "ḍaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "डो",
-          "combinedBrahmi": "𑀟𑁄"
+          "combinedBrahmi": "𑀟𑁄",
+          "combinedIast": "ḍao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "डौ",
-          "combinedBrahmi": "𑀟𑁅"
+          "combinedBrahmi": "𑀟𑁅",
+          "combinedIast": "ḍaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "डं",
-          "combinedBrahmi": "𑀟𑁀"
+          "combinedBrahmi": "𑀟𑁀",
+          "combinedIast": "ḍaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "डः",
-          "combinedBrahmi": "𑀟𑀂"
+          "combinedBrahmi": "𑀟𑀂",
+          "combinedIast": "ḍaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-014",
-      "consonantDevanagari": "ढ",
+      "consonantDevanagari": "ḍha",
       "consonantBrahmi": "𑀠",
       "forms": [
         {
@@ -2022,102 +2022,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ढ",
-          "combinedBrahmi": "𑀠"
+          "combinedBrahmi": "𑀠",
+          "combinedIast": "ḍha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ढा",
-          "combinedBrahmi": "𑀠𑀸"
+          "combinedBrahmi": "𑀠𑀸",
+          "combinedIast": "ḍhaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "ढि",
-          "combinedBrahmi": "𑀠𑀹"
+          "combinedBrahmi": "𑀠𑀹",
+          "combinedIast": "ḍhai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ढी",
-          "combinedBrahmi": "𑀠𑀺"
+          "combinedBrahmi": "𑀠𑀺",
+          "combinedIast": "ḍhaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "ढु",
-          "combinedBrahmi": "𑀠𑀻"
+          "combinedBrahmi": "𑀠𑀻",
+          "combinedIast": "ḍhau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "ढू",
-          "combinedBrahmi": "𑀠𑀼"
+          "combinedBrahmi": "𑀠𑀼",
+          "combinedIast": "ḍhaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ढे",
-          "combinedBrahmi": "𑀠𑁂"
+          "combinedBrahmi": "𑀠𑁂",
+          "combinedIast": "ḍhae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "ढै",
-          "combinedBrahmi": "𑀠𑁃"
+          "combinedBrahmi": "𑀠𑁃",
+          "combinedIast": "ḍhaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "ढो",
-          "combinedBrahmi": "𑀠𑁄"
+          "combinedBrahmi": "𑀠𑁄",
+          "combinedIast": "ḍhao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "ढौ",
-          "combinedBrahmi": "𑀠𑁅"
+          "combinedBrahmi": "𑀠𑁅",
+          "combinedIast": "ḍhaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "ढं",
-          "combinedBrahmi": "𑀠𑁀"
+          "combinedBrahmi": "𑀠𑁀",
+          "combinedIast": "ḍhaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "ढः",
-          "combinedBrahmi": "𑀠𑀂"
+          "combinedBrahmi": "𑀠𑀂",
+          "combinedIast": "ḍhaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-015",
-      "consonantDevanagari": "ण",
+      "consonantDevanagari": "ṇa",
       "consonantBrahmi": "𑀡",
       "forms": [
         {
@@ -2125,102 +2125,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ण",
-          "combinedBrahmi": "𑀡"
+          "combinedBrahmi": "𑀡",
+          "combinedIast": "ṇa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "णा",
-          "combinedBrahmi": "𑀡𑀸"
+          "combinedBrahmi": "𑀡𑀸",
+          "combinedIast": "ṇaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "णि",
-          "combinedBrahmi": "𑀡𑀹"
+          "combinedBrahmi": "𑀡𑀹",
+          "combinedIast": "ṇai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "णी",
-          "combinedBrahmi": "𑀡𑀺"
+          "combinedBrahmi": "𑀡𑀺",
+          "combinedIast": "ṇaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "णु",
-          "combinedBrahmi": "𑀡𑀻"
+          "combinedBrahmi": "𑀡𑀻",
+          "combinedIast": "ṇau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "णू",
-          "combinedBrahmi": "𑀡𑀼"
+          "combinedBrahmi": "𑀡𑀼",
+          "combinedIast": "ṇaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "णे",
-          "combinedBrahmi": "𑀡𑁂"
+          "combinedBrahmi": "𑀡𑁂",
+          "combinedIast": "ṇae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "णै",
-          "combinedBrahmi": "𑀡𑁃"
+          "combinedBrahmi": "𑀡𑁃",
+          "combinedIast": "ṇaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "णो",
-          "combinedBrahmi": "𑀡𑁄"
+          "combinedBrahmi": "𑀡𑁄",
+          "combinedIast": "ṇao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "णौ",
-          "combinedBrahmi": "𑀡𑁅"
+          "combinedBrahmi": "𑀡𑁅",
+          "combinedIast": "ṇaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "णं",
-          "combinedBrahmi": "𑀡𑁀"
+          "combinedBrahmi": "𑀡𑁀",
+          "combinedIast": "ṇaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "णः",
-          "combinedBrahmi": "𑀡𑀂"
+          "combinedBrahmi": "𑀡𑀂",
+          "combinedIast": "ṇaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-016",
-      "consonantDevanagari": "त",
+      "consonantDevanagari": "ta",
       "consonantBrahmi": "𑀢",
       "forms": [
         {
@@ -2228,102 +2228,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "त",
-          "combinedBrahmi": "𑀢"
+          "combinedBrahmi": "𑀢",
+          "combinedIast": "ta"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ता",
-          "combinedBrahmi": "𑀢𑀸"
+          "combinedBrahmi": "𑀢𑀸",
+          "combinedIast": "taā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "ति",
-          "combinedBrahmi": "𑀢𑀹"
+          "combinedBrahmi": "𑀢𑀹",
+          "combinedIast": "tai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ती",
-          "combinedBrahmi": "𑀢𑀺"
+          "combinedBrahmi": "𑀢𑀺",
+          "combinedIast": "taī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "तु",
-          "combinedBrahmi": "𑀢𑀻"
+          "combinedBrahmi": "𑀢𑀻",
+          "combinedIast": "tau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "तू",
-          "combinedBrahmi": "𑀢𑀼"
+          "combinedBrahmi": "𑀢𑀼",
+          "combinedIast": "taū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ते",
-          "combinedBrahmi": "𑀢𑁂"
+          "combinedBrahmi": "𑀢𑁂",
+          "combinedIast": "tae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "तै",
-          "combinedBrahmi": "𑀢𑁃"
+          "combinedBrahmi": "𑀢𑁃",
+          "combinedIast": "taai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "तो",
-          "combinedBrahmi": "𑀢𑁄"
+          "combinedBrahmi": "𑀢𑁄",
+          "combinedIast": "tao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "तौ",
-          "combinedBrahmi": "𑀢𑁅"
+          "combinedBrahmi": "𑀢𑁅",
+          "combinedIast": "taau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "तं",
-          "combinedBrahmi": "𑀢𑁀"
+          "combinedBrahmi": "𑀢𑁀",
+          "combinedIast": "taṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "तः",
-          "combinedBrahmi": "𑀢𑀂"
+          "combinedBrahmi": "𑀢𑀂",
+          "combinedIast": "taḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-017",
-      "consonantDevanagari": "थ",
+      "consonantDevanagari": "tha",
       "consonantBrahmi": "𑀣",
       "forms": [
         {
@@ -2331,102 +2331,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "थ",
-          "combinedBrahmi": "𑀣"
+          "combinedBrahmi": "𑀣",
+          "combinedIast": "tha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "था",
-          "combinedBrahmi": "𑀣𑀸"
+          "combinedBrahmi": "𑀣𑀸",
+          "combinedIast": "thaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "थि",
-          "combinedBrahmi": "𑀣𑀹"
+          "combinedBrahmi": "𑀣𑀹",
+          "combinedIast": "thai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "थी",
-          "combinedBrahmi": "𑀣𑀺"
+          "combinedBrahmi": "𑀣𑀺",
+          "combinedIast": "thaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "थु",
-          "combinedBrahmi": "𑀣𑀻"
+          "combinedBrahmi": "𑀣𑀻",
+          "combinedIast": "thau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "थू",
-          "combinedBrahmi": "𑀣𑀼"
+          "combinedBrahmi": "𑀣𑀼",
+          "combinedIast": "thaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "थे",
-          "combinedBrahmi": "𑀣𑁂"
+          "combinedBrahmi": "𑀣𑁂",
+          "combinedIast": "thae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "थै",
-          "combinedBrahmi": "𑀣𑁃"
+          "combinedBrahmi": "𑀣𑁃",
+          "combinedIast": "thaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "थो",
-          "combinedBrahmi": "𑀣𑁄"
+          "combinedBrahmi": "𑀣𑁄",
+          "combinedIast": "thao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "थौ",
-          "combinedBrahmi": "𑀣𑁅"
+          "combinedBrahmi": "𑀣𑁅",
+          "combinedIast": "thaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "थं",
-          "combinedBrahmi": "𑀣𑁀"
+          "combinedBrahmi": "𑀣𑁀",
+          "combinedIast": "thaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "थः",
-          "combinedBrahmi": "𑀣𑀂"
+          "combinedBrahmi": "𑀣𑀂",
+          "combinedIast": "thaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-018",
-      "consonantDevanagari": "द",
+      "consonantDevanagari": "da",
       "consonantBrahmi": "𑀤",
       "forms": [
         {
@@ -2434,102 +2434,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "द",
-          "combinedBrahmi": "𑀤"
+          "combinedBrahmi": "𑀤",
+          "combinedIast": "da"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "दा",
-          "combinedBrahmi": "𑀤𑀸"
+          "combinedBrahmi": "𑀤𑀸",
+          "combinedIast": "daā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "दि",
-          "combinedBrahmi": "𑀤𑀹"
+          "combinedBrahmi": "𑀤𑀹",
+          "combinedIast": "dai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "दी",
-          "combinedBrahmi": "𑀤𑀺"
+          "combinedBrahmi": "𑀤𑀺",
+          "combinedIast": "daī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "दु",
-          "combinedBrahmi": "𑀤𑀻"
+          "combinedBrahmi": "𑀤𑀻",
+          "combinedIast": "dau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "दू",
-          "combinedBrahmi": "𑀤𑀼"
+          "combinedBrahmi": "𑀤𑀼",
+          "combinedIast": "daū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "दे",
-          "combinedBrahmi": "𑀤𑁂"
+          "combinedBrahmi": "𑀤𑁂",
+          "combinedIast": "dae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "दै",
-          "combinedBrahmi": "𑀤𑁃"
+          "combinedBrahmi": "𑀤𑁃",
+          "combinedIast": "daai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "दो",
-          "combinedBrahmi": "𑀤𑁄"
+          "combinedBrahmi": "𑀤𑁄",
+          "combinedIast": "dao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "दौ",
-          "combinedBrahmi": "𑀤𑁅"
+          "combinedBrahmi": "𑀤𑁅",
+          "combinedIast": "daau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "दं",
-          "combinedBrahmi": "𑀤𑁀"
+          "combinedBrahmi": "𑀤𑁀",
+          "combinedIast": "daṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "दः",
-          "combinedBrahmi": "𑀤𑀂"
+          "combinedBrahmi": "𑀤𑀂",
+          "combinedIast": "daḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-019",
-      "consonantDevanagari": "ध",
+      "consonantDevanagari": "dha",
       "consonantBrahmi": "𑀥",
       "forms": [
         {
@@ -2537,102 +2537,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ध",
-          "combinedBrahmi": "𑀥"
+          "combinedBrahmi": "𑀥",
+          "combinedIast": "dha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "धा",
-          "combinedBrahmi": "𑀥𑀸"
+          "combinedBrahmi": "𑀥𑀸",
+          "combinedIast": "dhaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "धि",
-          "combinedBrahmi": "𑀥𑀹"
+          "combinedBrahmi": "𑀥𑀹",
+          "combinedIast": "dhai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "धी",
-          "combinedBrahmi": "𑀥𑀺"
+          "combinedBrahmi": "𑀥𑀺",
+          "combinedIast": "dhaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "धु",
-          "combinedBrahmi": "𑀥𑀻"
+          "combinedBrahmi": "𑀥𑀻",
+          "combinedIast": "dhau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "धू",
-          "combinedBrahmi": "𑀥𑀼"
+          "combinedBrahmi": "𑀥𑀼",
+          "combinedIast": "dhaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "धे",
-          "combinedBrahmi": "𑀥𑁂"
+          "combinedBrahmi": "𑀥𑁂",
+          "combinedIast": "dhae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "धै",
-          "combinedBrahmi": "𑀥𑁃"
+          "combinedBrahmi": "𑀥𑁃",
+          "combinedIast": "dhaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "धो",
-          "combinedBrahmi": "𑀥𑁄"
+          "combinedBrahmi": "𑀥𑁄",
+          "combinedIast": "dhao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "धौ",
-          "combinedBrahmi": "𑀥𑁅"
+          "combinedBrahmi": "𑀥𑁅",
+          "combinedIast": "dhaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "धं",
-          "combinedBrahmi": "𑀥𑁀"
+          "combinedBrahmi": "𑀥𑁀",
+          "combinedIast": "dhaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "धः",
-          "combinedBrahmi": "𑀥𑀂"
+          "combinedBrahmi": "𑀥𑀂",
+          "combinedIast": "dhaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-020",
-      "consonantDevanagari": "न",
+      "consonantDevanagari": "na",
       "consonantBrahmi": "𑀦",
       "forms": [
         {
@@ -2640,102 +2640,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "न",
-          "combinedBrahmi": "𑀦"
+          "combinedBrahmi": "𑀦",
+          "combinedIast": "na"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ना",
-          "combinedBrahmi": "𑀦𑀸"
+          "combinedBrahmi": "𑀦𑀸",
+          "combinedIast": "naā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "नि",
-          "combinedBrahmi": "𑀦𑀹"
+          "combinedBrahmi": "𑀦𑀹",
+          "combinedIast": "nai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "नी",
-          "combinedBrahmi": "𑀦𑀺"
+          "combinedBrahmi": "𑀦𑀺",
+          "combinedIast": "naī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "नु",
-          "combinedBrahmi": "𑀦𑀻"
+          "combinedBrahmi": "𑀦𑀻",
+          "combinedIast": "nau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "नू",
-          "combinedBrahmi": "𑀦𑀼"
+          "combinedBrahmi": "𑀦𑀼",
+          "combinedIast": "naū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ने",
-          "combinedBrahmi": "𑀦𑁂"
+          "combinedBrahmi": "𑀦𑁂",
+          "combinedIast": "nae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "नै",
-          "combinedBrahmi": "𑀦𑁃"
+          "combinedBrahmi": "𑀦𑁃",
+          "combinedIast": "naai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "नो",
-          "combinedBrahmi": "𑀦𑁄"
+          "combinedBrahmi": "𑀦𑁄",
+          "combinedIast": "nao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "नौ",
-          "combinedBrahmi": "𑀦𑁅"
+          "combinedBrahmi": "𑀦𑁅",
+          "combinedIast": "naau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "नं",
-          "combinedBrahmi": "𑀦𑁀"
+          "combinedBrahmi": "𑀦𑁀",
+          "combinedIast": "naṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "नः",
-          "combinedBrahmi": "𑀦𑀂"
+          "combinedBrahmi": "𑀦𑀂",
+          "combinedIast": "naḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-021",
-      "consonantDevanagari": "प",
+      "consonantDevanagari": "pa",
       "consonantBrahmi": "𑀧",
       "forms": [
         {
@@ -2743,102 +2743,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "प",
-          "combinedBrahmi": "𑀧"
+          "combinedBrahmi": "𑀧",
+          "combinedIast": "pa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "पा",
-          "combinedBrahmi": "𑀧𑀸"
+          "combinedBrahmi": "𑀧𑀸",
+          "combinedIast": "paā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "पि",
-          "combinedBrahmi": "𑀧𑀹"
+          "combinedBrahmi": "𑀧𑀹",
+          "combinedIast": "pai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "पी",
-          "combinedBrahmi": "𑀧𑀺"
+          "combinedBrahmi": "𑀧𑀺",
+          "combinedIast": "paī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "पु",
-          "combinedBrahmi": "𑀧𑀻"
+          "combinedBrahmi": "𑀧𑀻",
+          "combinedIast": "pau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "पू",
-          "combinedBrahmi": "𑀧𑀼"
+          "combinedBrahmi": "𑀧𑀼",
+          "combinedIast": "paū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "पे",
-          "combinedBrahmi": "𑀧𑁂"
+          "combinedBrahmi": "𑀧𑁂",
+          "combinedIast": "pae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "पै",
-          "combinedBrahmi": "𑀧𑁃"
+          "combinedBrahmi": "𑀧𑁃",
+          "combinedIast": "paai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "पो",
-          "combinedBrahmi": "𑀧𑁄"
+          "combinedBrahmi": "𑀧𑁄",
+          "combinedIast": "pao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "पौ",
-          "combinedBrahmi": "𑀧𑁅"
+          "combinedBrahmi": "𑀧𑁅",
+          "combinedIast": "paau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "पं",
-          "combinedBrahmi": "𑀧𑁀"
+          "combinedBrahmi": "𑀧𑁀",
+          "combinedIast": "paṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "पः",
-          "combinedBrahmi": "𑀧𑀂"
+          "combinedBrahmi": "𑀧𑀂",
+          "combinedIast": "paḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-022",
-      "consonantDevanagari": "फ",
+      "consonantDevanagari": "pha",
       "consonantBrahmi": "𑀨",
       "forms": [
         {
@@ -2846,102 +2846,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "फ",
-          "combinedBrahmi": "𑀨"
+          "combinedBrahmi": "𑀨",
+          "combinedIast": "pha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "फा",
-          "combinedBrahmi": "𑀨𑀸"
+          "combinedBrahmi": "𑀨𑀸",
+          "combinedIast": "phaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "फि",
-          "combinedBrahmi": "𑀨𑀹"
+          "combinedBrahmi": "𑀨𑀹",
+          "combinedIast": "phai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "फी",
-          "combinedBrahmi": "𑀨𑀺"
+          "combinedBrahmi": "𑀨𑀺",
+          "combinedIast": "phaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "फु",
-          "combinedBrahmi": "𑀨𑀻"
+          "combinedBrahmi": "𑀨𑀻",
+          "combinedIast": "phau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "फू",
-          "combinedBrahmi": "𑀨𑀼"
+          "combinedBrahmi": "𑀨𑀼",
+          "combinedIast": "phaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "फे",
-          "combinedBrahmi": "𑀨𑁂"
+          "combinedBrahmi": "𑀨𑁂",
+          "combinedIast": "phae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "फै",
-          "combinedBrahmi": "𑀨𑁃"
+          "combinedBrahmi": "𑀨𑁃",
+          "combinedIast": "phaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "फो",
-          "combinedBrahmi": "𑀨𑁄"
+          "combinedBrahmi": "𑀨𑁄",
+          "combinedIast": "phao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "फौ",
-          "combinedBrahmi": "𑀨𑁅"
+          "combinedBrahmi": "𑀨𑁅",
+          "combinedIast": "phaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "फं",
-          "combinedBrahmi": "𑀨𑁀"
+          "combinedBrahmi": "𑀨𑁀",
+          "combinedIast": "phaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "फः",
-          "combinedBrahmi": "𑀨𑀂"
+          "combinedBrahmi": "𑀨𑀂",
+          "combinedIast": "phaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-023",
-      "consonantDevanagari": "ब",
+      "consonantDevanagari": "ba",
       "consonantBrahmi": "𑀩",
       "forms": [
         {
@@ -2949,102 +2949,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ब",
-          "combinedBrahmi": "𑀩"
+          "combinedBrahmi": "𑀩",
+          "combinedIast": "ba"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "बा",
-          "combinedBrahmi": "𑀩𑀸"
+          "combinedBrahmi": "𑀩𑀸",
+          "combinedIast": "baā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "बि",
-          "combinedBrahmi": "𑀩𑀹"
+          "combinedBrahmi": "𑀩𑀹",
+          "combinedIast": "bai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "बी",
-          "combinedBrahmi": "𑀩𑀺"
+          "combinedBrahmi": "𑀩𑀺",
+          "combinedIast": "baī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "बु",
-          "combinedBrahmi": "𑀩𑀻"
+          "combinedBrahmi": "𑀩𑀻",
+          "combinedIast": "bau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "बू",
-          "combinedBrahmi": "𑀩𑀼"
+          "combinedBrahmi": "𑀩𑀼",
+          "combinedIast": "baū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "बे",
-          "combinedBrahmi": "𑀩𑁂"
+          "combinedBrahmi": "𑀩𑁂",
+          "combinedIast": "bae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "बै",
-          "combinedBrahmi": "𑀩𑁃"
+          "combinedBrahmi": "𑀩𑁃",
+          "combinedIast": "baai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "बो",
-          "combinedBrahmi": "𑀩𑁄"
+          "combinedBrahmi": "𑀩𑁄",
+          "combinedIast": "bao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "बौ",
-          "combinedBrahmi": "𑀩𑁅"
+          "combinedBrahmi": "𑀩𑁅",
+          "combinedIast": "baau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "बं",
-          "combinedBrahmi": "𑀩𑁀"
+          "combinedBrahmi": "𑀩𑁀",
+          "combinedIast": "baṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "बः",
-          "combinedBrahmi": "𑀩𑀂"
+          "combinedBrahmi": "𑀩𑀂",
+          "combinedIast": "baḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-024",
-      "consonantDevanagari": "भ",
+      "consonantDevanagari": "bha",
       "consonantBrahmi": "𑀪",
       "forms": [
         {
@@ -3052,102 +3052,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "भ",
-          "combinedBrahmi": "𑀪"
+          "combinedBrahmi": "𑀪",
+          "combinedIast": "bha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "भा",
-          "combinedBrahmi": "𑀪𑀸"
+          "combinedBrahmi": "𑀪𑀸",
+          "combinedIast": "bhaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "भि",
-          "combinedBrahmi": "𑀪𑀹"
+          "combinedBrahmi": "𑀪𑀹",
+          "combinedIast": "bhai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "भी",
-          "combinedBrahmi": "𑀪𑀺"
+          "combinedBrahmi": "𑀪𑀺",
+          "combinedIast": "bhaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "भु",
-          "combinedBrahmi": "𑀪𑀻"
+          "combinedBrahmi": "𑀪𑀻",
+          "combinedIast": "bhau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "भू",
-          "combinedBrahmi": "𑀪𑀼"
+          "combinedBrahmi": "𑀪𑀼",
+          "combinedIast": "bhaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "भे",
-          "combinedBrahmi": "𑀪𑁂"
+          "combinedBrahmi": "𑀪𑁂",
+          "combinedIast": "bhae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "भै",
-          "combinedBrahmi": "𑀪𑁃"
+          "combinedBrahmi": "𑀪𑁃",
+          "combinedIast": "bhaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "भो",
-          "combinedBrahmi": "𑀪𑁄"
+          "combinedBrahmi": "𑀪𑁄",
+          "combinedIast": "bhao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "भौ",
-          "combinedBrahmi": "𑀪𑁅"
+          "combinedBrahmi": "𑀪𑁅",
+          "combinedIast": "bhaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "भं",
-          "combinedBrahmi": "𑀪𑁀"
+          "combinedBrahmi": "𑀪𑁀",
+          "combinedIast": "bhaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "भः",
-          "combinedBrahmi": "𑀪𑀂"
+          "combinedBrahmi": "𑀪𑀂",
+          "combinedIast": "bhaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-025",
-      "consonantDevanagari": "म",
+      "consonantDevanagari": "ma",
       "consonantBrahmi": "𑀫",
       "forms": [
         {
@@ -3155,102 +3155,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "म",
-          "combinedBrahmi": "𑀫"
+          "combinedBrahmi": "𑀫",
+          "combinedIast": "ma"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "मा",
-          "combinedBrahmi": "𑀫𑀸"
+          "combinedBrahmi": "𑀫𑀸",
+          "combinedIast": "maā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "मि",
-          "combinedBrahmi": "𑀫𑀹"
+          "combinedBrahmi": "𑀫𑀹",
+          "combinedIast": "mai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "मी",
-          "combinedBrahmi": "𑀫𑀺"
+          "combinedBrahmi": "𑀫𑀺",
+          "combinedIast": "maī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "मु",
-          "combinedBrahmi": "𑀫𑀻"
+          "combinedBrahmi": "𑀫𑀻",
+          "combinedIast": "mau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "मू",
-          "combinedBrahmi": "𑀫𑀼"
+          "combinedBrahmi": "𑀫𑀼",
+          "combinedIast": "maū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "मे",
-          "combinedBrahmi": "𑀫𑁂"
+          "combinedBrahmi": "𑀫𑁂",
+          "combinedIast": "mae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "मै",
-          "combinedBrahmi": "𑀫𑁃"
+          "combinedBrahmi": "𑀫𑁃",
+          "combinedIast": "maai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "मो",
-          "combinedBrahmi": "𑀫𑁄"
+          "combinedBrahmi": "𑀫𑁄",
+          "combinedIast": "mao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "मौ",
-          "combinedBrahmi": "𑀫𑁅"
+          "combinedBrahmi": "𑀫𑁅",
+          "combinedIast": "maau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "मं",
-          "combinedBrahmi": "𑀫𑁀"
+          "combinedBrahmi": "𑀫𑁀",
+          "combinedIast": "maṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "मः",
-          "combinedBrahmi": "𑀫𑀂"
+          "combinedBrahmi": "𑀫𑀂",
+          "combinedIast": "maḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-026",
-      "consonantDevanagari": "य",
+      "consonantDevanagari": "ya",
       "consonantBrahmi": "𑀬",
       "forms": [
         {
@@ -3258,102 +3258,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "य",
-          "combinedBrahmi": "𑀬"
+          "combinedBrahmi": "𑀬",
+          "combinedIast": "ya"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "या",
-          "combinedBrahmi": "𑀬𑀸"
+          "combinedBrahmi": "𑀬𑀸",
+          "combinedIast": "yaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "यि",
-          "combinedBrahmi": "𑀬𑀹"
+          "combinedBrahmi": "𑀬𑀹",
+          "combinedIast": "yai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "यी",
-          "combinedBrahmi": "𑀬𑀺"
+          "combinedBrahmi": "𑀬𑀺",
+          "combinedIast": "yaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "यु",
-          "combinedBrahmi": "𑀬𑀻"
+          "combinedBrahmi": "𑀬𑀻",
+          "combinedIast": "yau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "यू",
-          "combinedBrahmi": "𑀬𑀼"
+          "combinedBrahmi": "𑀬𑀼",
+          "combinedIast": "yaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ये",
-          "combinedBrahmi": "𑀬𑁂"
+          "combinedBrahmi": "𑀬𑁂",
+          "combinedIast": "yae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "यै",
-          "combinedBrahmi": "𑀬𑁃"
+          "combinedBrahmi": "𑀬𑁃",
+          "combinedIast": "yaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "यो",
-          "combinedBrahmi": "𑀬𑁄"
+          "combinedBrahmi": "𑀬𑁄",
+          "combinedIast": "yao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "यौ",
-          "combinedBrahmi": "𑀬𑁅"
+          "combinedBrahmi": "𑀬𑁅",
+          "combinedIast": "yaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "यं",
-          "combinedBrahmi": "𑀬𑁀"
+          "combinedBrahmi": "𑀬𑁀",
+          "combinedIast": "yaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "यः",
-          "combinedBrahmi": "𑀬𑀂"
+          "combinedBrahmi": "𑀬𑀂",
+          "combinedIast": "yaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-027",
-      "consonantDevanagari": "र",
+      "consonantDevanagari": "ra",
       "consonantBrahmi": "𑀭",
       "forms": [
         {
@@ -3361,102 +3361,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "र",
-          "combinedBrahmi": "𑀭"
+          "combinedBrahmi": "𑀭",
+          "combinedIast": "ra"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "रा",
-          "combinedBrahmi": "𑀭𑀸"
+          "combinedBrahmi": "𑀭𑀸",
+          "combinedIast": "raā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "रि",
-          "combinedBrahmi": "𑀭𑀹"
+          "combinedBrahmi": "𑀭𑀹",
+          "combinedIast": "rai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "री",
-          "combinedBrahmi": "𑀭𑀺"
+          "combinedBrahmi": "𑀭𑀺",
+          "combinedIast": "raī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "रु",
-          "combinedBrahmi": "𑀭𑀻"
+          "combinedBrahmi": "𑀭𑀻",
+          "combinedIast": "rau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "रू",
-          "combinedBrahmi": "𑀭𑀼"
+          "combinedBrahmi": "𑀭𑀼",
+          "combinedIast": "raū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "रे",
-          "combinedBrahmi": "𑀭𑁂"
+          "combinedBrahmi": "𑀭𑁂",
+          "combinedIast": "rae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "रै",
-          "combinedBrahmi": "𑀭𑁃"
+          "combinedBrahmi": "𑀭𑁃",
+          "combinedIast": "raai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "रो",
-          "combinedBrahmi": "𑀭𑁄"
+          "combinedBrahmi": "𑀭𑁄",
+          "combinedIast": "rao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "रौ",
-          "combinedBrahmi": "𑀭𑁅"
+          "combinedBrahmi": "𑀭𑁅",
+          "combinedIast": "raau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "रं",
-          "combinedBrahmi": "𑀭𑁀"
+          "combinedBrahmi": "𑀭𑁀",
+          "combinedIast": "raṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "रः",
-          "combinedBrahmi": "𑀭𑀂"
+          "combinedBrahmi": "𑀭𑀂",
+          "combinedIast": "raḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-028",
-      "consonantDevanagari": "ल",
+      "consonantDevanagari": "la",
       "consonantBrahmi": "𑀮",
       "forms": [
         {
@@ -3464,102 +3464,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ल",
-          "combinedBrahmi": "𑀮"
+          "combinedBrahmi": "𑀮",
+          "combinedIast": "la"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "ला",
-          "combinedBrahmi": "𑀮𑀸"
+          "combinedBrahmi": "𑀮𑀸",
+          "combinedIast": "laā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "लि",
-          "combinedBrahmi": "𑀮𑀹"
+          "combinedBrahmi": "𑀮𑀹",
+          "combinedIast": "lai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ली",
-          "combinedBrahmi": "𑀮𑀺"
+          "combinedBrahmi": "𑀮𑀺",
+          "combinedIast": "laī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "लु",
-          "combinedBrahmi": "𑀮𑀻"
+          "combinedBrahmi": "𑀮𑀻",
+          "combinedIast": "lau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "लू",
-          "combinedBrahmi": "𑀮𑀼"
+          "combinedBrahmi": "𑀮𑀼",
+          "combinedIast": "laū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "ले",
-          "combinedBrahmi": "𑀮𑁂"
+          "combinedBrahmi": "𑀮𑁂",
+          "combinedIast": "lae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "लै",
-          "combinedBrahmi": "𑀮𑁃"
+          "combinedBrahmi": "𑀮𑁃",
+          "combinedIast": "laai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "लो",
-          "combinedBrahmi": "𑀮𑁄"
+          "combinedBrahmi": "𑀮𑁄",
+          "combinedIast": "lao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "लौ",
-          "combinedBrahmi": "𑀮𑁅"
+          "combinedBrahmi": "𑀮𑁅",
+          "combinedIast": "laau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "लं",
-          "combinedBrahmi": "𑀮𑁀"
+          "combinedBrahmi": "𑀮𑁀",
+          "combinedIast": "laṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "लः",
-          "combinedBrahmi": "𑀮𑀂"
+          "combinedBrahmi": "𑀮𑀂",
+          "combinedIast": "laḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-029",
-      "consonantDevanagari": "व",
+      "consonantDevanagari": "va",
       "consonantBrahmi": "𑀯",
       "forms": [
         {
@@ -3567,102 +3567,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "व",
-          "combinedBrahmi": "𑀯"
+          "combinedBrahmi": "𑀯",
+          "combinedIast": "va"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "वा",
-          "combinedBrahmi": "𑀯𑀸"
+          "combinedBrahmi": "𑀯𑀸",
+          "combinedIast": "vaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "वि",
-          "combinedBrahmi": "𑀯𑀹"
+          "combinedBrahmi": "𑀯𑀹",
+          "combinedIast": "vai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "वी",
-          "combinedBrahmi": "𑀯𑀺"
+          "combinedBrahmi": "𑀯𑀺",
+          "combinedIast": "vaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "वु",
-          "combinedBrahmi": "𑀯𑀻"
+          "combinedBrahmi": "𑀯𑀻",
+          "combinedIast": "vau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "वू",
-          "combinedBrahmi": "𑀯𑀼"
+          "combinedBrahmi": "𑀯𑀼",
+          "combinedIast": "vaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "वे",
-          "combinedBrahmi": "𑀯𑁂"
+          "combinedBrahmi": "𑀯𑁂",
+          "combinedIast": "vae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "वै",
-          "combinedBrahmi": "𑀯𑁃"
+          "combinedBrahmi": "𑀯𑁃",
+          "combinedIast": "vaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "वो",
-          "combinedBrahmi": "𑀯𑁄"
+          "combinedBrahmi": "𑀯𑁄",
+          "combinedIast": "vao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "वौ",
-          "combinedBrahmi": "𑀯𑁅"
+          "combinedBrahmi": "𑀯𑁅",
+          "combinedIast": "vaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "वं",
-          "combinedBrahmi": "𑀯𑁀"
+          "combinedBrahmi": "𑀯𑁀",
+          "combinedIast": "vaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "वः",
-          "combinedBrahmi": "𑀯𑀂"
+          "combinedBrahmi": "𑀯𑀂",
+          "combinedIast": "vaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-030",
-      "consonantDevanagari": "श",
+      "consonantDevanagari": "śa",
       "consonantBrahmi": "𑀰",
       "forms": [
         {
@@ -3670,102 +3670,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "श",
-          "combinedBrahmi": "𑀰"
+          "combinedBrahmi": "𑀰",
+          "combinedIast": "śa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "शा",
-          "combinedBrahmi": "𑀰𑀸"
+          "combinedBrahmi": "𑀰𑀸",
+          "combinedIast": "śaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "शि",
-          "combinedBrahmi": "𑀰𑀹"
+          "combinedBrahmi": "𑀰𑀹",
+          "combinedIast": "śai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "शी",
-          "combinedBrahmi": "𑀰𑀺"
+          "combinedBrahmi": "𑀰𑀺",
+          "combinedIast": "śaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "शु",
-          "combinedBrahmi": "𑀰𑀻"
+          "combinedBrahmi": "𑀰𑀻",
+          "combinedIast": "śau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "शू",
-          "combinedBrahmi": "𑀰𑀼"
+          "combinedBrahmi": "𑀰𑀼",
+          "combinedIast": "śaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "शे",
-          "combinedBrahmi": "𑀰𑁂"
+          "combinedBrahmi": "𑀰𑁂",
+          "combinedIast": "śae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "शै",
-          "combinedBrahmi": "𑀰𑁃"
+          "combinedBrahmi": "𑀰𑁃",
+          "combinedIast": "śaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "शो",
-          "combinedBrahmi": "𑀰𑁄"
+          "combinedBrahmi": "𑀰𑁄",
+          "combinedIast": "śao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "शौ",
-          "combinedBrahmi": "𑀰𑁅"
+          "combinedBrahmi": "𑀰𑁅",
+          "combinedIast": "śaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "शं",
-          "combinedBrahmi": "𑀰𑁀"
+          "combinedBrahmi": "𑀰𑁀",
+          "combinedIast": "śaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "शः",
-          "combinedBrahmi": "𑀰𑀂"
+          "combinedBrahmi": "𑀰𑀂",
+          "combinedIast": "śaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-031",
-      "consonantDevanagari": "ष",
+      "consonantDevanagari": "ṣa",
       "consonantBrahmi": "𑀱",
       "forms": [
         {
@@ -3773,102 +3773,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ष",
-          "combinedBrahmi": "𑀱"
+          "combinedBrahmi": "𑀱",
+          "combinedIast": "ṣa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "षा",
-          "combinedBrahmi": "𑀱𑀸"
+          "combinedBrahmi": "𑀱𑀸",
+          "combinedIast": "ṣaā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "षि",
-          "combinedBrahmi": "𑀱𑀹"
+          "combinedBrahmi": "𑀱𑀹",
+          "combinedIast": "ṣai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "षी",
-          "combinedBrahmi": "𑀱𑀺"
+          "combinedBrahmi": "𑀱𑀺",
+          "combinedIast": "ṣaī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "षु",
-          "combinedBrahmi": "𑀱𑀻"
+          "combinedBrahmi": "𑀱𑀻",
+          "combinedIast": "ṣau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "षू",
-          "combinedBrahmi": "𑀱𑀼"
+          "combinedBrahmi": "𑀱𑀼",
+          "combinedIast": "ṣaū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "षे",
-          "combinedBrahmi": "𑀱𑁂"
+          "combinedBrahmi": "𑀱𑁂",
+          "combinedIast": "ṣae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "षै",
-          "combinedBrahmi": "𑀱𑁃"
+          "combinedBrahmi": "𑀱𑁃",
+          "combinedIast": "ṣaai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "षो",
-          "combinedBrahmi": "𑀱𑁄"
+          "combinedBrahmi": "𑀱𑁄",
+          "combinedIast": "ṣao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "षौ",
-          "combinedBrahmi": "𑀱𑁅"
+          "combinedBrahmi": "𑀱𑁅",
+          "combinedIast": "ṣaau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "षं",
-          "combinedBrahmi": "𑀱𑁀"
+          "combinedBrahmi": "𑀱𑁀",
+          "combinedIast": "ṣaṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "षः",
-          "combinedBrahmi": "𑀱𑀂"
+          "combinedBrahmi": "𑀱𑀂",
+          "combinedIast": "ṣaḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-032",
-      "consonantDevanagari": "स",
+      "consonantDevanagari": "sa",
       "consonantBrahmi": "𑀲",
       "forms": [
         {
@@ -3876,102 +3876,102 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "स",
-          "combinedBrahmi": "𑀲"
+          "combinedBrahmi": "𑀲",
+          "combinedIast": "sa"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "सा",
-          "combinedBrahmi": "𑀲𑀸"
+          "combinedBrahmi": "𑀲𑀸",
+          "combinedIast": "saā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "सि",
-          "combinedBrahmi": "𑀲𑀹"
+          "combinedBrahmi": "𑀲𑀹",
+          "combinedIast": "sai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "सी",
-          "combinedBrahmi": "𑀲𑀺"
+          "combinedBrahmi": "𑀲𑀺",
+          "combinedIast": "saī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "सु",
-          "combinedBrahmi": "𑀲𑀻"
+          "combinedBrahmi": "𑀲𑀻",
+          "combinedIast": "sau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "सू",
-          "combinedBrahmi": "𑀲𑀼"
+          "combinedBrahmi": "𑀲𑀼",
+          "combinedIast": "saū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "से",
-          "combinedBrahmi": "𑀲𑁂"
+          "combinedBrahmi": "𑀲𑁂",
+          "combinedIast": "sae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "सै",
-          "combinedBrahmi": "𑀲𑁃"
+          "combinedBrahmi": "𑀲𑁃",
+          "combinedIast": "saai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "सो",
-          "combinedBrahmi": "𑀲𑁄"
+          "combinedBrahmi": "𑀲𑁄",
+          "combinedIast": "sao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "सौ",
-          "combinedBrahmi": "𑀲𑁅"
+          "combinedBrahmi": "𑀲𑁅",
+          "combinedIast": "saau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "सं",
-          "combinedBrahmi": "𑀲𑁀"
+          "combinedBrahmi": "𑀲𑁀",
+          "combinedIast": "saṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "सः",
-          "combinedBrahmi": "𑀲𑀂"
+          "combinedBrahmi": "𑀲𑀂",
+          "combinedIast": "saḥ"
         }
       ]
     },
     {
       "consonantId": "vyanjan-033",
-      "consonantDevanagari": "ह",
+      "consonantDevanagari": "ha",
       "consonantBrahmi": "𑀳",
       "forms": [
         {
@@ -3979,96 +3979,96 @@
           "matraName": "None",
           "matraDevanagari": "",
           "matraSign": "",
-          "combinedDevanagari": "ह",
-          "combinedBrahmi": "𑀳"
+          "combinedBrahmi": "𑀳",
+          "combinedIast": "ha"
         },
         {
           "matraOrder": 2,
-          "matraName": "आ",
-          "matraDevanagari": "ा",
+          "matraName": "ā",
+          "matraDevanagari": "ā",
           "matraSign": "𑀸",
-          "combinedDevanagari": "हा",
-          "combinedBrahmi": "𑀳𑀸"
+          "combinedBrahmi": "𑀳𑀸",
+          "combinedIast": "haā"
         },
         {
           "matraOrder": 3,
-          "matraName": "इ",
-          "matraDevanagari": "ि",
+          "matraName": "i",
+          "matraDevanagari": "i",
           "matraSign": "𑀹",
-          "combinedDevanagari": "हि",
-          "combinedBrahmi": "𑀳𑀹"
+          "combinedBrahmi": "𑀳𑀹",
+          "combinedIast": "hai"
         },
         {
           "matraOrder": 4,
-          "matraName": "ई",
-          "matraDevanagari": "ी",
+          "matraName": "ī",
+          "matraDevanagari": "ī",
           "matraSign": "𑀺",
-          "combinedDevanagari": "ही",
-          "combinedBrahmi": "𑀳𑀺"
+          "combinedBrahmi": "𑀳𑀺",
+          "combinedIast": "haī"
         },
         {
           "matraOrder": 5,
-          "matraName": "उ",
-          "matraDevanagari": "ु",
+          "matraName": "u",
+          "matraDevanagari": "u",
           "matraSign": "𑀻",
-          "combinedDevanagari": "हु",
-          "combinedBrahmi": "𑀳𑀻"
+          "combinedBrahmi": "𑀳𑀻",
+          "combinedIast": "hau"
         },
         {
           "matraOrder": 6,
-          "matraName": "ऊ",
-          "matraDevanagari": "ू",
+          "matraName": "ū",
+          "matraDevanagari": "ū",
           "matraSign": "𑀼",
-          "combinedDevanagari": "हू",
-          "combinedBrahmi": "𑀳𑀼"
+          "combinedBrahmi": "𑀳𑀼",
+          "combinedIast": "haū"
         },
         {
           "matraOrder": 7,
-          "matraName": "ए",
-          "matraDevanagari": "े",
+          "matraName": "e",
+          "matraDevanagari": "e",
           "matraSign": "𑁂",
-          "combinedDevanagari": "हे",
-          "combinedBrahmi": "𑀳𑁂"
+          "combinedBrahmi": "𑀳𑁂",
+          "combinedIast": "hae"
         },
         {
           "matraOrder": 8,
-          "matraName": "ऐ",
-          "matraDevanagari": "ै",
+          "matraName": "ai",
+          "matraDevanagari": "ai",
           "matraSign": "𑁃",
-          "combinedDevanagari": "है",
-          "combinedBrahmi": "𑀳𑁃"
+          "combinedBrahmi": "𑀳𑁃",
+          "combinedIast": "haai"
         },
         {
           "matraOrder": 9,
-          "matraName": "ओ",
-          "matraDevanagari": "ो",
+          "matraName": "o",
+          "matraDevanagari": "o",
           "matraSign": "𑁄",
-          "combinedDevanagari": "हो",
-          "combinedBrahmi": "𑀳𑁄"
+          "combinedBrahmi": "𑀳𑁄",
+          "combinedIast": "hao"
         },
         {
           "matraOrder": 10,
-          "matraName": "औ",
-          "matraDevanagari": "ौ",
+          "matraName": "au",
+          "matraDevanagari": "au",
           "matraSign": "𑁅",
-          "combinedDevanagari": "हौ",
-          "combinedBrahmi": "𑀳𑁅"
+          "combinedBrahmi": "𑀳𑁅",
+          "combinedIast": "haau"
         },
         {
           "matraOrder": 11,
-          "matraName": "अं",
-          "matraDevanagari": "ं",
+          "matraName": "aṃ",
+          "matraDevanagari": "ṃ",
           "matraSign": "𑁀",
-          "combinedDevanagari": "हं",
-          "combinedBrahmi": "𑀳𑁀"
+          "combinedBrahmi": "𑀳𑁀",
+          "combinedIast": "haṃ"
         },
         {
           "matraOrder": 12,
-          "matraName": "अः",
-          "matraDevanagari": "ः",
+          "matraName": "aḥ",
+          "matraDevanagari": "ḥ",
           "matraSign": "𑀂",
-          "combinedDevanagari": "हः",
-          "combinedBrahmi": "𑀳𑀂"
+          "combinedBrahmi": "𑀳𑀂",
+          "combinedIast": "haḥ"
         }
       ]
     }
@@ -4076,62 +4076,62 @@
   "practiceExercises": {
     "template": {
       "exercise1": {
-        "title": "पूरा कीजिए (Fill in the blank)",
+        "title": "paūraā kaījaie (Fill in the blank)",
         "titleEnglish": "Fill in the Blank",
-        "description": "खाली जगह में सही मात्रा का नाम भरिए",
-        "instructions": "[consonant] + ___ = परिणाम",
+        "description": "khaālaī jagaha maeṃ sahaī maātaraā kaā naāma bharaie",
+        "instructions": "[consonant] + ___ = paraiṇaāma",
         "format": "Fill in the matra name for each combination",
         "questionCount": 3,
         "sampleQuestions": [
           {
             "id": "ex1-q1",
-            "question": "[consonant] + इ-matra (𑀹) = ___",
-            "expectedAnswer": "[consonant]ि",
+            "question": "[consonant] + i-matra (𑀹) = ___",
+            "expectedAnswer": "[consonant]i",
             "format": "consonant + matra = result"
           },
           {
             "id": "ex1-q2",
-            "question": "[consonant] + ऊ-matra (𑀼) = ___",
-            "expectedAnswer": "[consonant]ू",
+            "question": "[consonant] + ū-matra (𑀼) = ___",
+            "expectedAnswer": "[consonant]ū",
             "format": "consonant + matra = result"
           },
           {
             "id": "ex1-q3",
-            "question": "[consonant] + ऐ-matra (𑁃) = ___",
-            "expectedAnswer": "[consonant]ै",
+            "question": "[consonant] + ai-matra (𑁃) = ___",
+            "expectedAnswer": "[consonant]ai",
             "format": "consonant + matra = result"
           }
         ]
       },
       "exercise2": {
-        "title": "सही मिलान कीजिए (Match the correct pair)",
+        "title": "sahaī mailaāna kaījaie (Match the correct pair)",
         "titleEnglish": "Match the Correct Pair",
-        "description": "ब्राह्मी रूपों को देवनागरी से मेल करें",
+        "description": "baraāhamaī raūpaoṃ kao daevanaāgaraī sae maela karaeṃ",
         "instructions": "Match Brahmi matra combinations with Devanagari",
         "format": "Matching pairs",
         "pairCount": 3,
         "samplePairs": [
           {
-            "columnA": "[consonant] + आ-matra",
+            "columnA": "[consonant] + ā-matra",
             "columnB": "[brahmi_consonant𑀸]",
-            "answer": "[consonant]ा"
+            "answer": "[consonant]ā"
           },
           {
-            "columnA": "[consonant] + उ-matra",
+            "columnA": "[consonant] + u-matra",
             "columnB": "[brahmi_consonant𑀻]",
-            "answer": "[consonant]ु"
+            "answer": "[consonant]u"
           },
           {
-            "columnA": "[consonant] + ओ-matra",
+            "columnA": "[consonant] + o-matra",
             "columnB": "[brahmi_consonant𑁄]",
-            "answer": "[consonant]ो"
+            "answer": "[consonant]o"
           }
         ]
       },
       "exercise3": {
-        "title": "उल्टा अभ्यास (Reverse exercise)",
+        "title": "ulaṭaā abhayaāsa (Reverse exercise)",
         "titleEnglish": "Reverse Exercise - Brahmi to Devanagari",
-        "description": "ब्राह्मी रूप को देखकर मात्रा की पहचान करें",
+        "description": "baraāhamaī raūpa kao daekhakara maātaraā kaī pahacaāna karaeṃ",
         "instructions": "Identify which matra is used in each Brahmi form",
         "format": "Brahmi to Devanagari with matra identification",
         "questionCount": 3,
@@ -4139,8 +4139,8 @@
           {
             "id": "ex3-q1",
             "brahmiForm": "[brahmi_consonant𑀹]",
-            "question": "यह कौन सी मात्रा है?",
-            "expectedAnswer": "इ-मात्रा",
+            "question": "yaha kaauna saī maātaraā haai?",
+            "expectedAnswer": "i-maātaraā",
             "options": [
               "इ-मात्रा",
               "ई-मात्रा",
@@ -4150,8 +4150,8 @@
           {
             "id": "ex3-q2",
             "brahmiForm": "[brahmi_consonant𑁃]",
-            "question": "यह कौन सी मात्रा है?",
-            "expectedAnswer": "ऐ-मात्रा",
+            "question": "yaha kaauna saī maātaraā haai?",
+            "expectedAnswer": "ai-maātaraā",
             "options": [
               "ऐ-मात्रा",
               "औ-मात्रा",
@@ -4161,8 +4161,8 @@
           {
             "id": "ex3-q3",
             "brahmiForm": "[brahmi_consonant𑁀]",
-            "question": "यह कौन सा चिह्न है?",
-            "expectedAnswer": "अनुस्वार",
+            "question": "yaha kaauna saā caihana haai?",
+            "expectedAnswer": "anausavaāra",
             "options": [
               "अनुस्वार",
               "विसर्ग",
@@ -4172,9 +4172,9 @@
         ]
       },
       "exercise4": {
-        "title": "ट्रेसिंग अभ्यास (Tracing practice)",
+        "title": "ṭaraesaiṃga abhayaāsa (Tracing practice)",
         "titleEnglish": "Tracing Practice",
-        "description": "प्रत्येक रूप को 3 बार लिखने का अभ्यास करें",
+        "description": "paratayaeka raūpa kao 3 baāra laikhanae kaā abhayaāsa karaeṃ",
         "instructions": "Trace each form 3 times each",
         "format": "Handwriting tracing",
         "formsToTrace": 6,
@@ -4184,23 +4184,23 @@
             "brahmi": "[consonant_brahmi]"
           },
           {
-            "form": "[consonant + आ]",
+            "form": "[consonant + ā]",
             "brahmi": "[consonant_brahmi𑀸]"
           },
           {
-            "form": "[consonant + इ]",
+            "form": "[consonant + i]",
             "brahmi": "[consonant_brahmi𑀹]"
           },
           {
-            "form": "[consonant + उ]",
+            "form": "[consonant + u]",
             "brahmi": "[consonant_brahmi𑀻]"
           },
           {
-            "form": "[consonant + ए]",
+            "form": "[consonant + e]",
             "brahmi": "[consonant_brahmi𑁂]"
           },
           {
-            "form": "[consonant + अं]",
+            "form": "[consonant + aṃ]",
             "brahmi": "[consonant_brahmi𑁀]"
           }
         ]
@@ -4211,170 +4211,170 @@
     {
       "id": "tracing-001",
       "order": 1,
-      "slideTitle": "कोई मात्रा नहीं - अंतर्निहित अ",
+      "slideTitle": "kaoī maātaraā nahaīṃ - aṃtaranaihaita a",
       "slideTitleEnglish": "No Matra - Inherent A",
       "matraOrder": 1,
       "matraName": "None",
       "matraSign": "",
-      "example": "क",
+      "example": "ka",
       "exampleBrahmi": "𑀓",
-      "description": "ब्राह्मी मात्रा रूप: कुछ भी नहीं लगता। उदाहरण: क (𑀓)",
-      "descriptionEnglish": "Brahmi matra form: Nothing is added. Example: क (𑀓)",
-      "instructions": "ध्यान से देखें कि यह कैसे लिखा जाता है"
+      "description": "baraāhamaī maātaraā raūpa: kaucha bhaī nahaīṃ lagataā। udaāharaṇa: ka (𑀓)",
+      "descriptionEnglish": "Brahmi matra form: Nothing is added. Example: ka (𑀓)",
+      "instructions": "dhayaāna sae daekhaeṃ kai yaha kaaisae laikhaā jaātaā haai"
     },
     {
       "id": "tracing-002",
       "order": 2,
-      "slideTitle": "आ - मात्रा",
+      "slideTitle": "ā - maātaraā",
       "slideTitleEnglish": "AA Matra",
       "matraOrder": 2,
-      "matraName": "आ",
+      "matraName": "ā",
       "matraSign": "𑀸",
-      "example": "का",
+      "example": "kaā",
       "exampleBrahmi": "𑀓𑀸",
-      "description": "आ-मात्रा: व्यञ्जन के बाद लगता है। उदाहरण: का (𑀓𑀸)",
-      "descriptionEnglish": "AA matra: Placed after consonant. Example: का (𑀓𑀸)",
-      "instructions": "मात्रा को व्यञ्जन से जोड़कर लिखें"
+      "description": "ā-maātaraā: vayañajana kae baāda lagataā haai। udaāharaṇa: kaā (𑀓𑀸)",
+      "descriptionEnglish": "AA matra: Placed after consonant. Example: kaā (𑀓𑀸)",
+      "instructions": "maātaraā kao vayañajana sae jaoḍakara laikhaeṃ"
     },
     {
       "id": "tracing-003",
       "order": 3,
-      "slideTitle": "इ - मात्रा",
-      "slideTitleEnglish": "I Matra",
+      "slideTitle": "i - maātaraā",
+      "slideTitleEnglish": "i Matra",
       "matraOrder": 3,
-      "matraName": "इ",
+      "matraName": "i",
       "matraSign": "𑀹",
-      "example": "कि",
+      "example": "kai",
       "exampleBrahmi": "𑀓𑀹",
-      "description": "इ-मात्रा: व्यञ्जन से पहले/ऊपर लगता है। उदाहरण: कि (𑀓𑀹)",
-      "descriptionEnglish": "I matra: Placed before/above consonant. Example: कि (𑀓𑀹)",
-      "instructions": "मात्रा को व्यञ्जन के साथ सही जगह पर लिखें"
+      "description": "i-maātaraā: vayañajana sae pahalae/ūpara lagataā haai। udaāharaṇa: kai (𑀓𑀹)",
+      "descriptionEnglish": "i matra: Placed before/above consonant. Example: kai (𑀓𑀹)",
+      "instructions": "maātaraā kao vayañajana kae saātha sahaī jagaha para laikhaeṃ"
     },
     {
       "id": "tracing-004",
       "order": 4,
-      "slideTitle": "ई - मात्रा",
-      "slideTitleEnglish": "II Matra",
+      "slideTitle": "ī - maātaraā",
+      "slideTitleEnglish": "ee Matra",
       "matraOrder": 4,
-      "matraName": "ई",
+      "matraName": "ī",
       "matraSign": "𑀺",
-      "example": "की",
+      "example": "kaī",
       "exampleBrahmi": "𑀓𑀺",
-      "description": "ई-मात्रा: व्यञ्जन के बाद लगता है। उदाहरण: की (𑀓𑀺)",
-      "descriptionEnglish": "II matra: Placed after consonant. Example: की (𑀓𑀺)",
-      "instructions": "मात्रा को व्यञ्जन से जोड़कर लिखें"
+      "description": "ī-maātaraā: vayañajana kae baāda lagataā haai। udaāharaṇa: kaī (𑀓𑀺)",
+      "descriptionEnglish": "ee matra: Placed after consonant. Example: kaī (𑀓𑀺)",
+      "instructions": "maātaraā kao vayañajana sae jaoḍakara laikhaeṃ"
     },
     {
       "id": "tracing-005",
       "order": 5,
-      "slideTitle": "उ - मात्रा",
+      "slideTitle": "u - maātaraā",
       "slideTitleEnglish": "U Matra",
       "matraOrder": 5,
-      "matraName": "उ",
+      "matraName": "u",
       "matraSign": "𑀻",
-      "example": "कु",
+      "example": "kau",
       "exampleBrahmi": "𑀓𑀻",
-      "description": "उ-मात्रा: व्यञ्जन के नीचे लगता है। उदाहरण: कु (𑀓𑀻)",
-      "descriptionEnglish": "U matra: Placed below consonant. Example: कु (𑀓𑀻)",
-      "instructions": "व्यञ्जन के नीचे मात्रा लगाकर लिखें"
+      "description": "u-maātaraā: vayañajana kae naīcae lagataā haai। udaāharaṇa: kau (𑀓𑀻)",
+      "descriptionEnglish": "U matra: Placed below consonant. Example: kau (𑀓𑀻)",
+      "instructions": "vayañajana kae naīcae maātaraā lagaākara laikhaeṃ"
     },
     {
       "id": "tracing-006",
       "order": 6,
-      "slideTitle": "ऊ - मात्रा",
+      "slideTitle": "ū - maātaraā",
       "slideTitleEnglish": "UU Matra",
       "matraOrder": 6,
-      "matraName": "ऊ",
+      "matraName": "ū",
       "matraSign": "𑀼",
-      "example": "कू",
+      "example": "kaū",
       "exampleBrahmi": "𑀓𑀼",
-      "description": "ऊ-मात्रा: व्यञ्जन के नीचे लगता है। उदाहरण: कू (𑀓𑀼)",
-      "descriptionEnglish": "UU matra: Placed below consonant. Example: कू (𑀓𑀼)",
-      "instructions": "व्यञ्जन के नीचे मात्रा लगाकर लिखें"
+      "description": "ū-maātaraā: vayañajana kae naīcae lagataā haai। udaāharaṇa: kaū (𑀓𑀼)",
+      "descriptionEnglish": "UU matra: Placed below consonant. Example: kaū (𑀓𑀼)",
+      "instructions": "vayañajana kae naīcae maātaraā lagaākara laikhaeṃ"
     },
     {
       "id": "tracing-007",
       "order": 7,
-      "slideTitle": "ए - मात्रा",
+      "slideTitle": "e - maātaraā",
       "slideTitleEnglish": "E Matra",
       "matraOrder": 7,
-      "matraName": "ए",
+      "matraName": "e",
       "matraSign": "𑁂",
-      "example": "के",
+      "example": "kae",
       "exampleBrahmi": "𑀓𑁂",
-      "description": "ए-मात्रा: व्यञ्जन के बाद लगता है। उदाहरण: के (𑀓𑁂)",
-      "descriptionEnglish": "E matra: Placed after consonant. Example: के (𑀓𑁂)",
-      "instructions": "मात्रा को व्यञ्जन से जोड़कर लिखें"
+      "description": "e-maātaraā: vayañajana kae baāda lagataā haai। udaāharaṇa: kae (𑀓𑁂)",
+      "descriptionEnglish": "E matra: Placed after consonant. Example: kae (𑀓𑁂)",
+      "instructions": "maātaraā kao vayañajana sae jaoḍakara laikhaeṃ"
     },
     {
       "id": "tracing-008",
       "order": 8,
-      "slideTitle": "ऐ - मात्रा",
+      "slideTitle": "ai - maātaraā",
       "slideTitleEnglish": "AI Matra",
       "matraOrder": 8,
-      "matraName": "ऐ",
+      "matraName": "ai",
       "matraSign": "𑁃",
-      "example": "कै",
+      "example": "kaai",
       "exampleBrahmi": "𑀓𑁃",
-      "description": "ऐ-मात्रा: व्यञ्जन के बाद लगता है। उदाहरण: कै (𑀓𑁃)",
-      "descriptionEnglish": "AI matra: Placed after consonant. Example: कै (𑀓𑁃)",
-      "instructions": "मात्रा को व्यञ्जन से जोड़कर लिखें"
+      "description": "ai-maātaraā: vayañajana kae baāda lagataā haai। udaāharaṇa: kaai (𑀓𑁃)",
+      "descriptionEnglish": "AI matra: Placed after consonant. Example: kaai (𑀓𑁃)",
+      "instructions": "maātaraā kao vayañajana sae jaoḍakara laikhaeṃ"
     },
     {
       "id": "tracing-009",
       "order": 9,
-      "slideTitle": "ओ - मात्रा",
+      "slideTitle": "o - maātaraā",
       "slideTitleEnglish": "O Matra",
       "matraOrder": 9,
-      "matraName": "ओ",
+      "matraName": "o",
       "matraSign": "𑁄",
-      "example": "को",
+      "example": "kao",
       "exampleBrahmi": "𑀓𑁄",
-      "description": "ओ-मात्रा: व्यञ्जन के बाद लगता है। उदाहरण: को (𑀓𑁄)",
-      "descriptionEnglish": "O matra: Placed after consonant. Example: को (𑀓𑁄)",
-      "instructions": "मात्रा को व्यञ्जन से जोड़कर लिखें"
+      "description": "o-maātaraā: vayañajana kae baāda lagataā haai। udaāharaṇa: kao (𑀓𑁄)",
+      "descriptionEnglish": "O matra: Placed after consonant. Example: kao (𑀓𑁄)",
+      "instructions": "maātaraā kao vayañajana sae jaoḍakara laikhaeṃ"
     },
     {
       "id": "tracing-010",
       "order": 10,
-      "slideTitle": "औ - मात्रा",
+      "slideTitle": "au - maātaraā",
       "slideTitleEnglish": "AU Matra",
       "matraOrder": 10,
-      "matraName": "औ",
+      "matraName": "au",
       "matraSign": "𑁅",
-      "example": "कौ",
+      "example": "kaau",
       "exampleBrahmi": "𑀓𑁅",
-      "description": "औ-मात्रा: व्यञ्जन के बाद लगता है। उदाहरण: कौ (𑀓𑁅)",
-      "descriptionEnglish": "AU matra: Placed after consonant. Example: कौ (𑀓𑁅)",
-      "instructions": "मात्रा को व्यञ्जन से जोड़कर लिखें"
+      "description": "au-maātaraā: vayañajana kae baāda lagataā haai। udaāharaṇa: kaau (𑀓𑁅)",
+      "descriptionEnglish": "AU matra: Placed after consonant. Example: kaau (𑀓𑁅)",
+      "instructions": "maātaraā kao vayañajana sae jaoḍakara laikhaeṃ"
     },
     {
       "id": "tracing-011",
       "order": 11,
-      "slideTitle": "अं - अनुस्वार",
+      "slideTitle": "aṃ - anausavaāra",
       "slideTitleEnglish": "Anusvara",
       "matraOrder": 11,
-      "matraName": "अनुस्वार",
+      "matraName": "anausavaāra",
       "matraSign": "𑁀",
-      "example": "कं",
+      "example": "kaṃ",
       "exampleBrahmi": "𑀓𑁀",
-      "description": "अनुस्वार: व्यञ्जन के ऊपर लगता है। उदाहरण: कं (𑀓𑁀)",
-      "descriptionEnglish": "Anusvara: Placed above consonant. Example: कं (𑀓𑁀)",
-      "instructions": "व्यञ्जन के ऊपर चिह्न लगाकर लिखें"
+      "description": "anausavaāra: vayañajana kae ūpara lagataā haai। udaāharaṇa: kaṃ (𑀓𑁀)",
+      "descriptionEnglish": "Anusvara: Placed above consonant. Example: kaṃ (𑀓𑁀)",
+      "instructions": "vayañajana kae ūpara caihana lagaākara laikhaeṃ"
     },
     {
       "id": "tracing-012",
       "order": 12,
-      "slideTitle": "अः - विसर्ग",
+      "slideTitle": "aḥ - vaisaraga",
       "slideTitleEnglish": "Visarga",
       "matraOrder": 12,
-      "matraName": "विसर्ग",
+      "matraName": "vaisaraga",
       "matraSign": "𑀂",
-      "example": "कः",
+      "example": "kaḥ",
       "exampleBrahmi": "𑀓𑀂",
-      "description": "विसर्ग: व्यञ्जन के बाद लगता है। उदाहरण: कः (𑀓𑀂)",
-      "descriptionEnglish": "Visarga: Placed after consonant. Example: कः (𑀓𑀂)",
-      "instructions": "व्यञ्जन के बाद चिह्न लगाकर लिखें"
+      "description": "vaisaraga: vayañajana kae baāda lagataā haai। udaāharaṇa: kaḥ (𑀓𑀂)",
+      "descriptionEnglish": "Visarga: Placed after consonant. Example: kaḥ (𑀓𑀂)",
+      "instructions": "vayañajana kae baāda caihana lagaākara laikhaeṃ"
     }
   ]
 }

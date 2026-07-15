@@ -1,0 +1,33 @@
+{
+  "page": 123,
+  "type": "group_list",
+  "groupName": "कण्ठ्य",
+  "items": [
+    {
+      "number": 1,
+      "devanagari": "क",
+      "brahmi": "𑀓"
+    },
+    {
+      "number": 2,
+      "devanagari": "ख",
+      "brahmi": "𑀔"
+    },
+    {
+      "number": 3,
+      "devanagari": "ग",
+      "brahmi": "𑀕"
+    },
+    {
+      "number": 4,
+      "devanagari": "घ",
+      "brahmi": "𑀖"
+    },
+    {
+      "number": 5,
+      "devanagari": "ङ",
+      "brahmi": "𑀗"
+    }
+  ],
+  "_devNote_groupNote": "गले से उच्चरित"
+}

@@ -9,10 +9,62 @@ interface Props {
   consonant: string
   consonantBrahmi: string
   forms: MatraCombinationForm[]
+  language?: string
 }
 
-export default function MatraCombinationsSlide({ title, consonant, consonantBrahmi, forms }: Props) {
+const devanagari_to_roman: Record<string, string> = {
+  'क': 'ka', 'ख': 'kha', 'ग': 'ga', 'घ': 'gha', 'ङ': 'nga',
+  'च': 'cha', 'छ': 'chha', 'ज': 'ja', 'झ': 'jha', 'ञ': 'nya',
+  'ट': 'ta', 'ठ': 'tha', 'ड': 'da', 'ढ': 'dha', 'ण': 'na',
+  'त': 'ta', 'थ': 'tha', 'द': 'da', 'ध': 'dha', 'न': 'na',
+  'प': 'pa', 'फ': 'pha', 'ब': 'ba', 'भ': 'bha', 'म': 'ma',
+  'य': 'ya', 'र': 'ra', 'ल': 'la', 'व': 'va',
+  'श': 'sha', 'ष': 'sha', 'स': 'sa', 'ह': 'ha'
+};
+
+const devanagari_to_kannada: Record<string, string> = {
+  'क': 'ಕ', 'ख': 'ಖ', 'ग': 'ಗ', 'घ': 'ಘ', 'ङ': 'ಙ',
+  'च': 'ಚ', 'छ': 'ಛ', 'ಜ': 'ಜ', 'झ': 'ಝ', 'ञ': 'ಞ',
+  'ट': 'ಟ', 'ठ': 'ಠ', 'ಡ': 'ಡ', 'ढ': 'ಢ', 'ಣ': 'ಣ',
+  'त': 'ತ', 'थ': 'ಥ', 'ದ': 'ದ', 'ಧ': 'ಧ', 'ನ': 'ನ',
+  'प': 'ಪ', 'फ': 'ಫ', 'ಬ': 'ಬ', 'ಭ': 'ಭ', 'ಮ': 'ಮ',
+  'य': 'ಯ', 'ರ': 'ರ', 'ಲ': 'ಲ', 'ವ': 'ವ',
+  'श': 'ಶ', 'ष': 'ಷ', 'ಸ': 'ಸ', 'ಹ': 'ಹ'
+};
+
+const devanagari_to_tamil: Record<string, string> = {
+  'क': 'க', 'ख': 'க்ஹ', 'ग': 'க', 'घ': 'க்ஹ', 'ङ': 'ங',
+  'च': 'ச', 'छ': 'ச்ஹ', 'ज': 'ஜ', 'झ': 'ஜ்ஹ', 'ञ': 'ஞ',
+  'ट': 'ட', 'ठ': 'ட்ஹ', 'ड': 'ட', 'ढ': 'ட்ஹ', 'ण': 'ண',
+  'त': 'த', 'थ': 'த்ஹ', 'द': 'த', 'ध': 'த்ஹ', 'ந': 'ந',
+  'प': 'ப', 'फ': 'ப்ஹ', 'ब': 'ப', 'भ': 'ப்ஹ', 'ம': 'ம',
+  'य': 'ய', 'ர': 'ர', 'ल': 'ல', 'व': 'வ',
+  'श': 'ஶ', 'ष': 'ஷ', 'ச': 'ஸ', 'ஹ': 'ஹ'
+};
+
+function getLocalizedConsonantLabel(devanagari: string, lang: string): string {
+  if (lang === 'en') {
+    return devanagari_to_roman[devanagari] ? devanagari_to_roman[devanagari].toUpperCase() : devanagari;
+  }
+  if (lang === 'kn') {
+    return devanagari_to_kannada[devanagari] ?? devanagari;
+  }
+  if (lang === 'ta') {
+    return devanagari_to_tamil[devanagari] ?? devanagari;
+  }
+  return devanagari;
+}
+
+export default function MatraCombinationsSlide({ title, consonant, consonantBrahmi, forms, language = 'hi' }: Props) {
   const [selected, setSelected] = useState<number | null>(null)
+
+  const instructionMap: Record<string, string> = {
+    hi: 'किसी चिह्न पर टैप करें',
+    en: 'Tap on a symbol',
+    kn: 'ಯಾವುದಾದರೂ ಒಂದು ಚಿಹ್ನೆಯನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ',
+    ta: 'ஏதேனும் ஒரு குறியீட்டைத் தட்டவும்'
+  }
+  const localizedConsonant = getLocalizedConsonantLabel(consonant, language)
 
   return (
     <motion.div
@@ -29,10 +81,10 @@ export default function MatraCombinationsSlide({ title, consonant, consonantBrah
           >
             {consonantBrahmi}
           </span>
-          <span className="text-[#D4AF37]/60 text-sm font-bold">({consonant})</span>
+          <span className="text-[#D4AF37]/60 text-sm font-bold">({localizedConsonant})</span>
         </div>
         <h2 className="text-xl md:text-2xl font-bold text-[#E6D8B8] font-serif">{title}</h2>
-        <p className="text-xs text-[#E6D8B8]/40 mt-1">किसी चिह्न पर टैप करें</p>
+        <p className="text-xs text-[#E6D8B8]/40 mt-1">{instructionMap[language] || instructionMap.hi}</p>
       </div>
 
       {/* Grid */}
@@ -102,7 +154,7 @@ export default function MatraCombinationsSlide({ title, consonant, consonantBrah
                 {forms[selected].combinedDevanagari}
               </div>
               <div className="text-sm text-[#E6D8B8]/50">
-                {consonant} + {forms[selected].vowel}
+                {localizedConsonant} + {forms[selected].vowel}
                 {forms[selected].note && <span className="italic ml-2">— {forms[selected].note}</span>}
               </div>
             </div>

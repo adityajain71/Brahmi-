@@ -1,422 +1,792 @@
 {
-  "module_title": "Vowels",
+  "module_title": "savara",
   "section_1_module_title": {
-    "LanguageValueHindi": "स्वर",
+    "LanguageValueHindi": "savara",
     "English": "Vowels",
     "Kannada": "ಸ್ವರಗಳು"
   },
   "section_2_vowel_display_cards": {
     "group_1": {
       "vowels_shown": {
-        "English": "a aa i ee",
+        "Hindi": "a ā i ī",
         "Brahmi": "𑀅 𑀆 𑀇 𑀈",
-        "Hindi": "अ आ इ ई",
+        "English": "a aa i ee",
         "Kannada": "ಅ ಆ ಇ ಈ"
       },
       "next_button": {
+        "Hindi": "agalaā",
         "English": "Next",
-        "Hindi": "अगला",
         "Kannada": "ಮುಂದೆ"
       }
     },
     "group_2": {
       "vowels_shown": {
-        "English": "u oo e ai",
+        "Hindi": "u ū e ai",
         "Brahmi": "𑀉 𑀊 𑀏 𑀐",
-        "Hindi": "उ ऊ ए ऐ",
+        "English": "u oo e ai",
         "Kannada": "ಉ ಊ ಏ ಐ"
       },
       "next_button": {
+        "Hindi": "agalaā",
         "English": "Next",
-        "Hindi": "अगला",
         "Kannada": "ಮುಂದೆ"
       }
     },
     "group_3": {
       "vowels_shown": {
-        "English": "o au am ah",
+        "Hindi": "o au aṃ aḥ",
         "Brahmi": "𑀑 𑀒 𑀅𑀁 𑀅𑀂",
-        "Hindi": "ओ औ अं अः",
+        "English": "o au am ah",
         "Kannada": "ಒ ಔ ಅಂ ಅಃ"
       },
       "next_button": {
+        "Hindi": "agalaā",
         "English": "Next",
-        "Hindi": "अगला",
         "Kannada": "ಮುಂದೆ"
       }
     }
   },
   "section_3_practice_prompt": {
-    "prompt": "Would you now like to practice with me?",
-    "yes": "Yes",
-    "no": "No"
+    "prompt": "kayaā aba āpa maerae saātha abhayaāsa karanaā caāhaeṃgae?",
+    "yes": "haāṃ",
+    "no": "nahaīṃ"
   },
   "section_4_game_time": {
-    "game_title": "Game Time",
-    "direction_label": "Roman/Latin → Brahmi",
-    "next_button": "Next"
+    "game_title": "gaema ṭaāima",
+    "direction_label": "daevanaāgaraī → baraāhamaī",
+    "next_button": "agalaā"
   },
   "section_5_quiz1_native_to_brahmi": {
     "instructions": "Each question shows a native-script vowel. The user picks the correct Brahmi symbol from 4 options. The 4 Brahmi option symbols are IDENTICAL across all 3 languages — only the question vowel label changes.",
     "questions": [
-      { "id": "Q1", "question": "a", "options_brahmi": ["𑀆","𑀇","𑀉","𑀅𑀅"], "correct": "𑀅" },
-      { "id": "Q2", "question": "aa", "options_brahmi": ["𑀐","𑀏","𑀆","𑀊𑀆"], "correct": "𑀆" },
-      { "id": "Q3", "question": "i", "options_brahmi": ["𑀇","𑀑","𑀉","𑀅𑀂𑀇"], "correct": "𑀇" },
-      { "id": "Q4", "question": "ee", "options_brahmi": ["𑀐","𑀊","𑀒","𑀈𑀈"], "correct": "𑀈" },
-      { "id": "Q5", "question": "u", "options_brahmi": ["𑀒","𑀉","𑀏","𑀈𑀉"], "correct": "𑀉" },
-      { "id": "Q6", "question": "oo", "options_brahmi": ["𑀐","𑀅","𑀊","𑀈𑀊"], "correct": "𑀊" },
-      { "id": "Q7", "question": "e", "options_brahmi": ["𑀈","𑀏","𑀅𑀁","𑀆𑀏"], "correct": "𑀏" },
-      { "id": "Q8", "question": "ai", "options_brahmi": ["𑀒","𑀉","𑀑","𑀐𑀐"], "correct": "𑀐" },
-      { "id": "Q9", "question": "o", "options_brahmi": ["𑀊","𑀏","𑀑","𑀈𑀑"], "correct": "𑀑" },
-      { "id": "Q10", "question": "au", "options_brahmi": ["𑀉","𑀒","𑀐","𑀇𑀒"], "correct": "𑀒" },
-      { "id": "Q11", "question": "am", "options_brahmi": ["𑀅𑀁","𑀆","𑀒","𑀈𑀅𑀁"], "correct": "𑀅𑀁" },
-      { "id": "Q12", "question": "ah", "options_brahmi": ["𑀏","𑀅𑀂","𑀑","𑀉𑀅𑀂"], "correct": "𑀅𑀂" }
+      {
+        "id": "Q1",
+        "question": "a",
+        "options_brahmi": [
+          "𑀆",
+          "𑀇",
+          "𑀉",
+          "𑀅𑀅"
+        ],
+        "correct": "𑀅"
+      },
+      {
+        "id": "Q2",
+        "question": "ā",
+        "options_brahmi": [
+          "𑀐",
+          "𑀏",
+          "𑀆",
+          "𑀊𑀆"
+        ],
+        "correct": "𑀆"
+      },
+      {
+        "id": "Q3",
+        "question": "i",
+        "options_brahmi": [
+          "𑀇",
+          "𑀑",
+          "𑀉",
+          "𑀅𑀂𑀇"
+        ],
+        "correct": "𑀇"
+      },
+      {
+        "id": "Q4",
+        "question": "ī",
+        "options_brahmi": [
+          "𑀐",
+          "𑀊",
+          "𑀒",
+          "𑀈𑀈"
+        ],
+        "correct": "𑀈"
+      },
+      {
+        "id": "Q5",
+        "question": "u",
+        "options_brahmi": [
+          "𑀒",
+          "𑀉",
+          "𑀏",
+          "𑀈𑀉"
+        ],
+        "correct": "𑀉"
+      },
+      {
+        "id": "Q6",
+        "question": "ū",
+        "options_brahmi": [
+          "𑀐",
+          "𑀅",
+          "𑀊",
+          "𑀈𑀊"
+        ],
+        "correct": "𑀊"
+      },
+      {
+        "id": "Q7",
+        "question": "e",
+        "options_brahmi": [
+          "𑀈",
+          "𑀏",
+          "𑀅𑀁",
+          "𑀆𑀏"
+        ],
+        "correct": "𑀏"
+      },
+      {
+        "id": "Q8",
+        "question": "ai",
+        "options_brahmi": [
+          "𑀒",
+          "𑀉",
+          "𑀑",
+          "𑀐𑀐"
+        ],
+        "correct": "𑀐"
+      },
+      {
+        "id": "Q9",
+        "question": "o",
+        "options_brahmi": [
+          "𑀊",
+          "𑀏",
+          "𑀑",
+          "𑀈𑀑"
+        ],
+        "correct": "𑀑"
+      },
+      {
+        "id": "Q10",
+        "question": "au",
+        "options_brahmi": [
+          "𑀉",
+          "𑀒",
+          "𑀐",
+          "𑀇𑀒"
+        ],
+        "correct": "𑀒"
+      },
+      {
+        "id": "Q11",
+        "question": "aṃ",
+        "options_brahmi": [
+          "𑀅𑀁",
+          "𑀆",
+          "𑀒",
+          "𑀈𑀅𑀁"
+        ],
+        "correct": "𑀅𑀁"
+      },
+      {
+        "id": "Q12",
+        "question": "aḥ",
+        "options_brahmi": [
+          "𑀏",
+          "𑀅𑀂",
+          "𑀑",
+          "𑀉𑀅𑀂"
+        ],
+        "correct": "𑀅𑀂"
+      }
     ],
-    "next_button": "Next"
+    "next_button": "agalaā"
   },
   "section_6_post_quiz1_encouragement": {
-    "hurray": "Hurray!",
-    "encouragement_message": "You are truly curious and eager to learn, that is why you have reached this stage of this unique journey.",
-    "congratulations_line": "Heartfelt congratulations and best wishes!"
+    "hurray": "haurarae!",
+    "encouragement_message": "āpa vaāsatavaikataā maeṃ vaiśaeṣa jaijañaāsau aura saīkhanae kae icachauka haaiṃ, tabhaī tao āpa isa anaokhaī yaātaraā kae isa paḍaāva taka pahauṃca paāe haaiṃ।",
+    "congratulations_line": "haāradaika badhaāī aura śaubhakaāmanaāeṃ!"
   },
   "section_7_true_false_bonus": {
-    "label": "True / False",
-    "bonus_question": "\"Is Brahmi a language?\"",
-    "answer_buttons": { "true": "True", "false": "False" }
+    "label": "sahaī / galata",
+    "bonus_question": "\"baraāhamaī eka bhaāṣaā haai?\"",
+    "answer_buttons": {
+      "true": "sahaī",
+      "false": "galata"
+    }
   },
   "section_8_reward_1": {
-    "header": "Reward: 1",
-    "body": "You have successfully completed the first stage. \"Samyak Pragya Award\" is now yours.",
-    "motivational_message": "This is just a beginning— more exciting levels await you ahead. With every right step, you will keep climbing higher on the ladder of knowledge.",
-    "share_download": "Share/Download your achievement"
+    "header": "paurasakaāra : 1",
+    "body": "āpanae pahalaā caraṇa saphalataā-paūravaka paūraā kaiyaā। \"samayaka parajañaā samamaāna\" aba āpakaā haai।",
+    "motivational_message": "yaha sairapha eka śaurauāta haai– āgae aura bhaī raomaāñacaka satara āpakaā inatajaāra kara rahae haaiṃ। āpakae hara sahaī kadama kae saātha, āpa jañaāna kaī saīḍhaiyaoṃ para aura ūpara baḍhatae jaāeṃgae।",
+    "share_download": "apanaī jaīta kao saājhaā karaeṃ/ḍaāunalaoḍa karaeṃ"
   },
   "section_9_quiz2_intro": {
-    "announcement": "Now let us play the reverse game.",
-    "direction_label": "Brahmi → roman/latin",
-    "next_button": "Next"
+    "announcement": "calaie aba hama ulaṭaā gaema khaelatae haaiṃ।",
+    "direction_label": "baraāhamaī → daevanaāgaraī",
+    "next_button": "agalaā"
   },
   "section_10_quiz2_brahmi_to_native": {
     "instructions": "Each question shows a Brahmi symbol. The user picks the correct native-script vowel from 4 options. The Brahmi symbol shown is IDENTICAL across all languages — only the 4 answer options change per language.",
     "questions": [
-      { "id": "Q1", "brahmi": "𑀅", "options": ["aa","aa","i","u"], "correct": "a" },
-      { "id": "Q2", "brahmi": "𑀆", "options": ["a","aa","ee","o"], "correct": "aa" },
-      { "id": "Q3", "brahmi": "𑀇", "options": ["oo","i","e","ai"], "correct": "i" },
-      { "id": "Q4", "brahmi": "𑀈", "options": ["e","aam","aee","e"], "correct": "ee" },
-      { "id": "Q5", "brahmi": "𑀉", "options": ["i","o","u","ah"], "correct": "u" },
-      { "id": "Q6", "brahmi": "𑀊", "options": ["oo","ai","am","eo"], "correct": "oo" },
-      { "id": "Q7", "brahmi": "𑀏", "options": ["o","am","ah","e"], "correct": "o" },
-      { "id": "Q8", "brahmi": "𑀐", "options": ["e","ai","oou","ai"], "correct": "ai" },
-      { "id": "Q9", "brahmi": "𑀑", "options": ["au","o","ah","aa"], "correct": "au" },
-      { "id": "Q10", "brahmi": "𑀒", "options": ["o","a","am","au"], "correct": "au" },
-      { "id": "Q11", "brahmi": "𑀅𑀁", "options": ["am","ah","ou","am"], "correct": "am" },
-      { "id": "Q12", "brahmi": "𑀅𑀂", "options": ["am","ea","ah","ea"], "correct": "ah" }
+      {
+        "id": "Q1",
+        "brahmi": "𑀅",
+        "options": [
+          "अ",
+          "आ",
+          "इ",
+          "उ"
+        ],
+        "correct": "a"
+      },
+      {
+        "id": "Q2",
+        "brahmi": "𑀆",
+        "options": [
+          "अ",
+          "आ",
+          "ई",
+          "ओ"
+        ],
+        "correct": "ā"
+      },
+      {
+        "id": "Q3",
+        "brahmi": "𑀇",
+        "options": [
+          "ऊ",
+          "इ",
+          "ए",
+          "ऐ"
+        ],
+        "correct": "i"
+      },
+      {
+        "id": "Q4",
+        "brahmi": "𑀈",
+        "options": [
+          "ए",
+          "अं",
+          "आई",
+          "ई"
+        ],
+        "correct": "ī"
+      },
+      {
+        "id": "Q5",
+        "brahmi": "𑀉",
+        "options": [
+          "इ",
+          "ओ",
+          "उ",
+          "अः"
+        ],
+        "correct": "u"
+      },
+      {
+        "id": "Q6",
+        "brahmi": "𑀊",
+        "options": [
+          "ऊ",
+          "ऐ",
+          "अं",
+          "ए"
+        ],
+        "correct": "ū"
+      },
+      {
+        "id": "Q7",
+        "brahmi": "𑀏",
+        "options": [
+          "ओ",
+          "अं",
+          "अः",
+          "ए"
+        ],
+        "correct": "e"
+      },
+      {
+        "id": "Q8",
+        "brahmi": "𑀐",
+        "options": [
+          "ए",
+          "ऐ",
+          "ऊ",
+          "उ"
+        ],
+        "correct": "ai"
+      },
+      {
+        "id": "Q9",
+        "brahmi": "𑀑",
+        "options": [
+          "औ",
+          "ओ",
+          "अः",
+          "आ"
+        ],
+        "correct": "o"
+      },
+      {
+        "id": "Q10",
+        "brahmi": "𑀒",
+        "options": [
+          "ओ",
+          "अ",
+          "अं",
+          "औ"
+        ],
+        "correct": "au"
+      },
+      {
+        "id": "Q11",
+        "brahmi": "𑀅𑀁",
+        "options": [
+          "अं",
+          "अः",
+          "ओ",
+          "उ"
+        ],
+        "correct": "aṃ"
+      },
+      {
+        "id": "Q12",
+        "brahmi": "𑀅𑀂",
+        "options": [
+          "अं",
+          "ए",
+          "अः",
+          "ई"
+        ],
+        "correct": "aḥ"
+      }
     ]
   },
   "section_11_reward_2": {
-    "header": "Reward: 2",
-    "body": "You have completed the second stage – Excellent! You have achieved another milestone. \"Lipi Aastha Samman\" is now yours.",
-    "share_download": "Share/Download your achievement"
+    "header": "paurasakaāra : 2",
+    "body": "āpanae daūsaraā caraṇa paūraā kaiyaā – śaānadaāra! āpanae eka aura maīla kaā patathara paāra kaiyaā \"laipai āsathaā samamaāna\" aba āpakaā haai।",
+    "share_download": "apanaī jaīta kao saājhaā karaeṃ/ḍaāunalaoḍa karaeṃ"
   },
   "section_12_writing_practice_intro": {
-    "invitation": "Come! Now let us practice writing.",
-    "excitement_check": "Are you excited to write me?",
-    "feedback_request": "You can give me feedback, and yes, please give me honest and unbiased feedback.",
-    "next_button": "Next"
+    "invitation": "āie! aba laikhanae kaā abhayaāsa karatae haaiṃ।",
+    "excitement_check": "kayaā āpa maujhae laikhanae kae laie utasaāhaita haaiṃ?",
+    "feedback_request": "āpa maujhae phaīḍabaaika dae sakatae haaiṃ aura haāṃ, maujhae naiṣapakaṣa phaīḍabaaika haī daījaiegaā।",
+    "next_button": "agalaā"
   },
   "section_13_tracing_slides": {
     "slides": [
-      { "number": 1, "label": "a → 𑀅" },
-      { "number": 2, "label": "aa → 𑀆" },
-      { "number": 3, "label": "i → 𑀇" },
-      { "number": 4, "label": "ee → 𑀈" },
-      { "number": 5, "label": "u → 𑀉" },
-      { "number": 6, "label": "oo → 𑀊" },
-      { "number": 7, "label": "e → 𑀏" },
-      { "number": 8, "label": "ai → 𑀐" },
-      { "number": 9, "label": "o → 𑀑" },
-      { "number": 10, "label": "au → 𑀒" },
-      { "number": 11, "label": "am → 𑀅𑀁" },
-      { "number": 12, "label": "ah → 𑀅𑀂" }
+      {
+        "number": 1,
+        "label": "a → 𑀅"
+      },
+      {
+        "number": 2,
+        "label": "ā → 𑀆"
+      },
+      {
+        "number": 3,
+        "label": "i → 𑀇"
+      },
+      {
+        "number": 4,
+        "label": "ī → 𑀈"
+      },
+      {
+        "number": 5,
+        "label": "u → 𑀉"
+      },
+      {
+        "number": 6,
+        "label": "ū → 𑀊"
+      },
+      {
+        "number": 7,
+        "label": "e → 𑀏"
+      },
+      {
+        "number": 8,
+        "label": "ai → 𑀐"
+      },
+      {
+        "number": 9,
+        "label": "o → 𑀑"
+      },
+      {
+        "number": 10,
+        "label": "au → 𑀒"
+      },
+      {
+        "number": 11,
+        "label": "aṃ → 𑀅𑀁"
+      },
+      {
+        "number": 12,
+        "label": "aḥ → 𑀅𑀂"
+      }
     ]
   },
   "section_14_reward_3": {
-    "praise": "You are truly diving into the ocean of knowledge – very good!",
-    "header": "Reward: 3",
-    "body": "You have completed the third stage – Excellent! Your confidence is admirable, You have earned the \"Akshar Sadhana\" award.",
-    "share_download": "Share/Download your achievement"
+    "praise": "āpa sacamauca jañaāna kae saāgara maeṃ gaotaā lagaā rahae haaiṃ – bahauta acachae!",
+    "header": "paurasakaāra : 3",
+    "body": "āpanae taīsaraā caraṇa paūraā kaiyaā – baḍhaiyaā! āpakaā ātamavaiśavaāsa paraśaṃsanaīya haai, āpanae \"akaṣara saādhanaā\" kaā samamaāna paraāpata kaiyaā।",
+    "share_download": "apanaī jaīta kao saājhaā karaeṃ/ḍaāunalaoḍa karaeṃ"
   },
   "section_15_true_false_quiz_stage_4": {
-    "header": "Vowel Practice – roman/latin → Brahmi / Choose True/False",
+    "header": "savara abhayaāsa – daevanaāgaraī → baraāhamaī / sataya/asataya caunaie",
     "pages": {
       "page_1": {
-        "Q1": { "text": "Is the symbol of \"a\" [𑀅]?", "answer": true },
-        "Q2": { "text": "Is the symbol of \"aa\" [𑀇]?", "answer": false },
-        "Q3": { "text": "Is the symbol of \"i\" [𑀆]?", "answer": false },
-        "Q4": { "text": "Is the symbol of \"ee\" [𑀈]?", "answer": true }
+        "Q1": {
+          "text": "\"a\" kaā caihana [𑀅] haai?",
+          "answer": true
+        },
+        "Q2": {
+          "text": "\"ā\" kaā caihana [𑀇] haai?",
+          "answer": false
+        },
+        "Q3": {
+          "text": "\"i\" kaā caihana [𑀆] haai?",
+          "answer": false
+        },
+        "Q4": {
+          "text": "\"ī\" kaā caihana [𑀈] haai?",
+          "answer": true
+        }
       },
       "page_2": {
-        "Q5": { "text": "Is the symbol of \"u\" [𑀊]?", "answer": false },
-        "Q6": { "text": "Is the symbol of \"oo\" [𑀐]?", "answer": false },
-        "Q7": { "text": "Is the symbol of \"e\" [𑀏]?", "answer": true },
-        "Q8": { "text": "Is the symbol of \"ai\" [𑀐]?", "answer": true }
+        "Q5": {
+          "text": "\"u\" kaā caihana [𑀊] haai?",
+          "answer": false
+        },
+        "Q6": {
+          "text": "\"ū\" kaā caihana [𑀐] haai?",
+          "answer": false
+        },
+        "Q7": {
+          "text": "\"e\" kaā caihana [𑀏] haai?",
+          "answer": true
+        },
+        "Q8": {
+          "text": "\"ai\" kaā caihana [𑀐] haai?",
+          "answer": true
+        }
       },
       "page_3": {
-        "Q9": { "text": "Is the symbol of \"o\" [𑀊]?", "answer": false },
-        "Q10": { "text": "Is the symbol of \"au\" [𑀈]?", "answer": false },
-        "Q11": { "text": "Is the symbol of \"am\" [𑀅𑀁]?", "answer": true },
-        "Q12": { "text": "Is the symbol of \"ah\" [𑀅𑀂]?", "answer": true }
+        "Q9": {
+          "text": "\"o\" kaā caihana [𑀊] haai?",
+          "answer": false
+        },
+        "Q10": {
+          "text": "\"au\" kaā caihana [𑀈] haai?",
+          "answer": false
+        },
+        "Q11": {
+          "text": "\"aṃ\" kaā caihana [𑀅𑀁] haai?",
+          "answer": true
+        },
+        "Q12": {
+          "text": "\"aḥ\" kaā caihana [𑀅𑀂] haai?",
+          "answer": true
+        }
       }
     },
-    "next_button": "Next"
+    "next_button": "agalaā"
   },
   "section_16_reward_4": {
-    "praise_before": "You are shining like the sun – keep spreading your light!",
-    "header": "Reward: 4",
-    "body_line_1": "You have completed the fourth stage",
-    "body_line_2": "You hit the right target – you have earned the \"Lakshya Sadhak\" honor.",
-    "enthusiasm_message": "You are moving ahead of everyone, it is a great joy!",
-    "share_download": "Share/Download your achievement",
-    "next_button": "Next"
+    "praise_before": "āpa saūraya kaī taraha camaka rahae haaiṃ – parakaāśa parasaāraita karatae rahaie!",
+    "header": "paurasakaāra : 4",
+    "body_line_1": "āpanae caauthaā caraṇa paūraā kaiyaā",
+    "body_line_2": "āpanae sahaī naiśaānaā lagaāyaā - \"lakaṣaya saādhaka\" kaā samamaāna paraāpata kaiyaā।",
+    "enthusiasm_message": "āpa sabasae āgae naikala rahae haaiṃ, apaāra ānanada ā rahaā haai!",
+    "share_download": "apanaī jaīta kao saājhaā karaeṃ/ḍaāunalaoḍa karaeṃ",
+    "next_button": "agalaā"
   },
   "section_17_next_section_choice": {
-    "question": "Now it is up to you, what do you want to learn?",
-    "option_a": "Vowel Signs (Matra)",
-    "option_b": "Consonants"
+    "question": "aba āpakae ūpara haai, kayaā saīkhanaā caāhatae haaiṃ?",
+    "option_a": "maātaraā caihana",
+    "option_b": "vayañajana"
   },
   "section_18_reward_5": {
-    "confirmation": "Vowel Signs / You have selected the correct option in sequence",
-    "motivational_message": "\"You are moving firmly on the right path – many congratulations for your beautiful choice and determination. May your journey be full of success and pride!\"",
-    "reward_title": "\"Excellent Scholar\"",
-    "champion_congratulation": "Congratulations, Champion! You not only made the right choice, but also applied your knowledge in the best way.",
-    "reward_line": "Your Reward: 5 Points + \"Excellent Scholar\" Title / This honor is a proof of your sharp mind and correct decision.",
-    "message_label": "Message:",
-    "message_content": "\"True knowledge is that which is applied at the right time and at the right place. You have proven this!\""
+    "confirmation": "maātaraā caihana / āpanae sahaī vaikalapa cayana kaiyaā haai karamaānausaāra",
+    "motivational_message": "\"āpa sahaī maāraga para daृḍhataā sae āgae baḍha rahae haaiṃ– āpakae isa saunadara cayana aura saṅakalapa kae laie ḍhaeraoṃ śaubhakaāmanaāeṃ। āpakaī yaha yaātaraā saphalataā aura gaaurava sae bharapaūra hao!\"",
+    "reward_title": "\"śaraeṣaṭha jañaānaī\"",
+    "champion_congratulation": "badhaāī hao, caaimapaiyana! āpanae na sairapha sahaī cayana kaiyaā, apaitau apanae jañaāna kaā baehataraīna parayaoga bhaī kaiyaā haai।",
+    "reward_line": "āpakaā paurasakaāra : 5 paॉiṃṭasa + \"śaraeṣaṭha jañaānaī\" samamaāna / yaha samamaāna āpakae taeja daimaāga aura sahaī nairaṇaya kaā paramaāṇa haai।",
+    "message_label": "sanadaeśa :",
+    "message_content": "\"jañaāna vahaī haai, jao ucaita samaya para ucaita sathaāna para parayaoga maeṃ āvae। āpanae yaha satayaāpaita kara daiyaā haai!\""
   },
   "vowels": [
     {
       "id": "swar-001",
       "order": 1,
-      "devanagari": "अ",
       "brahmi": "𑀅",
       "unicode_codepoint": "U+11005",
       "romanized": "a",
       "matra_sign": null,
       "matra_unicode": null,
       "matra_position": "none",
-      "title_hindi": "अ",
-      "title_english": "a (Short A)",
-      "description_hindi": "पहला स्वर - सबसे बुनियादी ध्वनि",
-      "description_english": "First vowel - the most basic sound",
-      "pronunciation": "uh",
-      "englishName": "a (Short A)",
-      "matra_position_label": "No sign"
+      "title_hindi": "a",
+      "title_english": "a",
+      "title_kannada": "ಅ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "a",
+      "pronunciation_kannada": "ಅ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "a"
     },
     {
       "id": "swar-002",
       "order": 2,
-      "devanagari": "आ",
       "brahmi": "𑀆",
       "unicode_codepoint": "U+11006",
       "romanized": "aa",
-      "matra_sign": "𑀸",
-      "matra_unicode": "U+11038",
-      "matra_position": "after",
-      "title_hindi": "आ",
-      "title_english": "aa (Long A)",
-      "description_hindi": "लंबा 'अ' ध्वनि",
-      "description_english": "Extended 'a' sound",
-      "pronunciation": "aah",
-      "englishName": "aa (Long A)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "ā",
+      "title_english": "aa",
+      "title_kannada": "ಆ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "aa",
+      "pronunciation_kannada": "ಆ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "ā"
     },
     {
       "id": "swar-003",
       "order": 3,
-      "devanagari": "इ",
       "brahmi": "𑀇",
       "unicode_codepoint": "U+11007",
       "romanized": "i",
-      "matra_sign": "𑀹",
-      "matra_unicode": "U+1103A",
-      "matra_position": "before",
-      "title_hindi": "इ",
-      "title_english": "i (Short I)",
-      "description_hindi": "'इ' की ध्वनि - छोटा रूप",
-      "description_english": "Short 'i' sound",
-      "pronunciation": "ih",
-      "englishName": "i (Short I)",
-      "matra_position_label": "Before"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "i",
+      "title_english": "i",
+      "title_kannada": "ಇ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "i",
+      "pronunciation_kannada": "ಇ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "i"
     },
     {
       "id": "swar-004",
       "order": 4,
-      "devanagari": "ई",
       "brahmi": "𑀈",
       "unicode_codepoint": "U+11008",
-      "romanized": "ii",
-      "matra_sign": "𑀺",
-      "matra_unicode": "U+1103B",
-      "matra_position": "after",
-      "title_hindi": "ई",
-      "title_english": "ii (Long I)",
-      "description_hindi": "लंबा 'इ' ध्वनि",
-      "description_english": "Extended 'i' sound",
+      "romanized": "ee",
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "ī",
+      "title_english": "ee",
+      "title_kannada": "ಈ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
       "pronunciation": "ee",
-      "englishName": "ii (Long I)",
-      "matra_position_label": "After"
+      "pronunciation_kannada": "ಈ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "ī"
     },
     {
       "id": "swar-005",
       "order": 5,
-      "devanagari": "उ",
       "brahmi": "𑀉",
       "unicode_codepoint": "U+11009",
       "romanized": "u",
-      "matra_sign": "𑀻",
-      "matra_unicode": "U+1103C",
-      "matra_position": "below",
-      "title_hindi": "उ",
-      "title_english": "u (Short U)",
-      "description_hindi": "'उ' की ध्वनि - छोटा रूप",
-      "description_english": "Short 'u' sound",
-      "pronunciation": "uh",
-      "englishName": "u (Short U)",
-      "matra_position_label": "Below"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "u",
+      "title_english": "u",
+      "title_kannada": "ಉ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "u",
+      "pronunciation_kannada": "ಉ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "u"
     },
     {
       "id": "swar-006",
       "order": 6,
-      "devanagari": "ऊ",
       "brahmi": "𑀊",
-      "unicode_codepoint": "U+1100A",
-      "romanized": "uu",
-      "matra_sign": "𑀼",
-      "matra_unicode": "U+1103D",
-      "matra_position": "below",
-      "title_hindi": "ऊ",
-      "title_english": "uu (Long U)",
-      "description_hindi": "लंबा 'उ' ध्वनि",
-      "description_english": "Extended 'u' sound",
+      "unicode_codepoint": "U+110010",
+      "romanized": "oo",
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "ū",
+      "title_english": "oo",
+      "title_kannada": "ಊ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
       "pronunciation": "oo",
-      "englishName": "uu (Long U)",
-      "matra_position_label": "Below"
+      "pronunciation_kannada": "ಊ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "ū"
     },
     {
       "id": "swar-007",
       "order": 7,
-      "devanagari": "ए",
       "brahmi": "𑀏",
-      "unicode_codepoint": "U+1100F",
+      "unicode_codepoint": "U+110011",
       "romanized": "e",
-      "matra_sign": "𑁂",
-      "matra_unicode": "U+11042",
-      "matra_position": "after",
-      "title_hindi": "ए",
-      "title_english": "e (E)",
-      "description_hindi": "'ए' की ध्वनि",
-      "description_english": "'E' sound",
-      "pronunciation": "eh",
-      "englishName": "e (E)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "e",
+      "title_english": "e",
+      "title_kannada": "ಏ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "e",
+      "pronunciation_kannada": "ಏ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "e"
     },
     {
       "id": "swar-008",
       "order": 8,
-      "devanagari": "ऐ",
       "brahmi": "𑀐",
-      "unicode_codepoint": "U+11010",
+      "unicode_codepoint": "U+110012",
       "romanized": "ai",
-      "matra_sign": "𑁃",
-      "matra_unicode": "U+11043",
-      "matra_position": "after",
-      "title_hindi": "ऐ",
-      "title_english": "ai (AI)",
-      "description_hindi": "'ऐ' की ध्वनि",
-      "description_english": "'AI' sound",
-      "pronunciation": "eye",
-      "englishName": "ai (AI)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "ai",
+      "title_english": "ai",
+      "title_kannada": "ಐ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "ai",
+      "pronunciation_kannada": "ಐ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "ai"
     },
     {
       "id": "swar-009",
       "order": 9,
-      "devanagari": "ओ",
       "brahmi": "𑀑",
-      "unicode_codepoint": "U+11011",
+      "unicode_codepoint": "U+110013",
       "romanized": "o",
-      "matra_sign": "𑁄",
-      "matra_unicode": "U+11044",
-      "matra_position": "after",
-      "title_hindi": "ओ",
-      "title_english": "o (O)",
-      "description_hindi": "'ओ' की ध्वनि",
-      "description_english": "'O' sound",
-      "pronunciation": "oh",
-      "englishName": "o (O)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "o",
+      "title_english": "o",
+      "title_kannada": "ಒ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "o",
+      "pronunciation_kannada": "ಒ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "o"
     },
     {
       "id": "swar-010",
       "order": 10,
-      "devanagari": "औ",
       "brahmi": "𑀒",
-      "unicode_codepoint": "U+11012",
+      "unicode_codepoint": "U+110014",
       "romanized": "au",
-      "matra_sign": "𑁅",
-      "matra_unicode": "U+11045",
-      "matra_position": "after",
-      "title_hindi": "औ",
-      "title_english": "au (AU)",
-      "description_hindi": "'औ' की ध्वनि",
-      "description_english": "'AU' sound",
-      "pronunciation": "ow",
-      "englishName": "au (AU)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "au",
+      "title_english": "au",
+      "title_kannada": "ಔ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "au",
+      "pronunciation_kannada": "ಔ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "au"
     },
     {
       "id": "swar-011",
       "order": 11,
-      "devanagari": "अं",
-      "brahmi": "𑀅𑁀",
+      "brahmi": "𑀅𑀁",
       "unicode_codepoint": "U+11005 + U+11040",
       "romanized": "am",
-      "matra_sign": "𑁀",
-      "matra_unicode": "U+11040",
-      "matra_position": "after",
-      "title_hindi": "अं",
-      "title_english": "am (Anusvara — nasal sound)",
-      "description_hindi": "अनुस्वार - नाक से आने वाली ध्वनि",
-      "description_english": "Anusvara - nasal sound",
-      "pronunciation": "um",
-      "special_mark": "anusvara",
-      "englishName": "am (Anusvara — nasal sound)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "aṃ",
+      "title_english": "am",
+      "title_kannada": "ಅಂ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "am",
+      "pronunciation_kannada": "ಅಂ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "aṃ"
     },
     {
       "id": "swar-012",
       "order": 12,
-      "devanagari": "अः",
       "brahmi": "𑀅𑀂",
       "unicode_codepoint": "U+11005 + U+11002",
       "romanized": "ah",
-      "matra_sign": "𑀂",
-      "matra_unicode": "U+11002",
-      "matra_position": "after",
-      "title_hindi": "अः",
-      "title_english": "ah (Visarga — aspirated h)",
-      "description_hindi": "विसर्ग - हल्की हवा की ध्वनि",
-      "description_english": "Visarga - aspirate sound",
-      "pronunciation": "uh-huh",
-      "special_mark": "visarga",
-      "englishName": "ah (Visarga — aspirated h)",
-      "matra_position_label": "After"
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "aḥ",
+      "title_english": "ah",
+      "title_kannada": "ಅಃ",
+      "description_hindi": "",
+      "description_english": "",
+      "description_kannada": "",
+      "pronunciation": "ah",
+      "pronunciation_kannada": "ಅಃ",
+      "englishName": "",
+      "matra_position_label": "",
+      "iast": "aḥ"
+    },
+    {
+      "id": "practice-time",
+      "order": 13,
+      "brahmi": "▶",
+      "unicode_codepoint": "",
+      "romanized": "practice",
+      "matra_sign": null,
+      "matra_unicode": null,
+      "matra_position": "none",
+      "title_hindi": "abhayaāsa samaya",
+      "title_english": "abhayaāsa samaya",
+      "title_kannada": "abhayaāsa samaya",
+      "description_hindi": "abhayaāsa samaya",
+      "description_english": "abhayaāsa samaya",
+      "description_kannada": "abhayaāsa samaya",
+      "pronunciation": "abhayaāsa samaya",
+      "pronunciation_kannada": "abhayaāsa samaya",
+      "englishName": "abhayaāsa samaya",
+      "matra_position_label": "",
+      "iast": "abhayaāsa samaya"
     }
   ],
   "quiz1_devanagari_to_brahmi": [
     {
       "id": "quiz1-001",
       "order": 1,
-      "question": "अ",
+      "question": "a",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀅",
       "correct_vowel_id": "swar-001",
@@ -437,13 +807,13 @@
           "vowel_id": "swar-005"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for अ?",
-      "title_english": "What is the Brahmi symbol for अ?"
+      "title_hindi": "a kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for a?"
     },
     {
       "id": "quiz1-002",
       "order": 2,
-      "question": "आ",
+      "question": "ā",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀆",
       "correct_vowel_id": "swar-002",
@@ -464,13 +834,13 @@
           "vowel_id": "swar-006"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for आ?",
-      "title_english": "What is the Brahmi symbol for आ?"
+      "title_hindi": "ā kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for aa?"
     },
     {
       "id": "quiz1-003",
       "order": 3,
-      "question": "इ",
+      "question": "i",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀇",
       "correct_vowel_id": "swar-003",
@@ -491,13 +861,13 @@
           "vowel_id": "swar-001"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for इ?",
-      "title_english": "What is the Brahmi symbol for इ?"
+      "title_hindi": "i kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for i?"
     },
     {
       "id": "quiz1-004",
       "order": 4,
-      "question": "ई",
+      "question": "ī",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀈",
       "correct_vowel_id": "swar-004",
@@ -518,13 +888,13 @@
           "vowel_id": "swar-010"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for ई?",
-      "title_english": "What is the Brahmi symbol for ई?"
+      "title_hindi": "ī kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for ee?"
     },
     {
       "id": "quiz1-005",
       "order": 5,
-      "question": "उ",
+      "question": "u",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀉",
       "correct_vowel_id": "swar-005",
@@ -545,13 +915,13 @@
           "vowel_id": "swar-004"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for उ?",
-      "title_english": "What is the Brahmi symbol for उ?"
+      "title_hindi": "u kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for u?"
     },
     {
       "id": "quiz1-006",
       "order": 6,
-      "question": "ऊ",
+      "question": "ū",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀊",
       "correct_vowel_id": "swar-006",
@@ -572,13 +942,13 @@
           "vowel_id": "swar-004"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for ऊ?",
-      "title_english": "What is the Brahmi symbol for ऊ?"
+      "title_hindi": "ū kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for oo?"
     },
     {
       "id": "quiz1-007",
       "order": 7,
-      "question": "ए",
+      "question": "e",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀏",
       "correct_vowel_id": "swar-007",
@@ -599,13 +969,13 @@
           "vowel_id": "swar-002"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for ए?",
-      "title_english": "What is the Brahmi symbol for ए?"
+      "title_hindi": "e kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for e?"
     },
     {
       "id": "quiz1-008",
       "order": 8,
-      "question": "ऐ",
+      "question": "ai",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀐",
       "correct_vowel_id": "swar-008",
@@ -626,13 +996,13 @@
           "vowel_id": "swar-009"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for ऐ?",
-      "title_english": "What is the Brahmi symbol for ऐ?"
+      "title_hindi": "ai kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for ai?"
     },
     {
       "id": "quiz1-009",
       "order": 9,
-      "question": "ओ",
+      "question": "o",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀑",
       "correct_vowel_id": "swar-009",
@@ -653,13 +1023,13 @@
           "vowel_id": "swar-004"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for ओ?",
-      "title_english": "What is the Brahmi symbol for ओ?"
+      "title_hindi": "o kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for o?"
     },
     {
       "id": "quiz1-010",
       "order": 10,
-      "question": "औ",
+      "question": "au",
       "question_type": "devanagari_to_brahmi",
       "correct_answer": "𑀒",
       "correct_vowel_id": "swar-010",
@@ -680,15 +1050,15 @@
           "vowel_id": "swar-003"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for औ?",
-      "title_english": "What is the Brahmi symbol for औ?"
+      "title_hindi": "au kaā baraāhamaī caihana kayaā haai?",
+      "title_english": "What is the Brahmi symbol for au?"
     },
     {
       "id": "quiz1-011",
       "order": 11,
-      "question": "अं",
+      "question": "aṃ",
       "question_type": "devanagari_to_brahmi",
-      "correct_answer": "𑀅",
+      "correct_answer": "𑀅𑀁",
       "correct_vowel_id": "swar-011",
       "wrong_options": [
         {
@@ -707,16 +1077,16 @@
           "vowel_id": "swar-004"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for अं?",
-      "title_english": "What is the Brahmi symbol for अं?",
+      "title_hindi": "aṃ kaā baraāhamaī caihana kayaā haai? (anausavaāra)",
+      "title_english": "What is the Brahmi symbol for am? (Anusvara)",
       "note": "anusvara"
     },
     {
       "id": "quiz1-012",
       "order": 12,
-      "question": "अः",
+      "question": "aḥ",
       "question_type": "devanagari_to_brahmi",
-      "correct_answer": "𑀅",
+      "correct_answer": "𑀅𑀂",
       "correct_vowel_id": "swar-012",
       "wrong_options": [
         {
@@ -735,8 +1105,8 @@
           "vowel_id": "swar-005"
         }
       ],
-      "title_hindi": "What is the Brahmi symbol for अः?",
-      "title_english": "What is the Brahmi symbol for अः?",
+      "title_hindi": "aḥ kaā baraāhamaī caihana kayaā haai? (vaisaraga)",
+      "title_english": "What is the Brahmi symbol for ah? (Visarga)",
       "note": "visarga"
     }
   ],
@@ -746,26 +1116,26 @@
       "order": 1,
       "question": "𑀅",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "अ",
+      "correct_answer": "a",
       "correct_vowel_id": "swar-001",
       "wrong_options": [
         {
           "id": "wrong-quiz2-001-a",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         },
         {
           "id": "wrong-quiz2-001-b",
-          "devanagari": "इ",
-          "vowel_id": "swar-003"
+          "vowel_id": "swar-003",
+          "iast": "i"
         },
         {
           "id": "wrong-quiz2-001-c",
-          "devanagari": "उ",
-          "vowel_id": "swar-005"
+          "vowel_id": "swar-005",
+          "iast": "u"
         }
       ],
-      "title_hindi": "𑀅 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀅 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀅?"
     },
     {
@@ -773,26 +1143,26 @@
       "order": 2,
       "question": "𑀆",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "आ",
+      "correct_answer": "ā",
       "correct_vowel_id": "swar-002",
       "wrong_options": [
         {
           "id": "wrong-quiz2-002-a",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-001",
+          "iast": "a"
         },
         {
           "id": "wrong-quiz2-002-b",
-          "devanagari": "ई",
-          "vowel_id": "swar-004"
+          "vowel_id": "swar-004",
+          "iast": "ī"
         },
         {
           "id": "wrong-quiz2-002-c",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         }
       ],
-      "title_hindi": "𑀆 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀆 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀆?"
     },
     {
@@ -800,26 +1170,26 @@
       "order": 3,
       "question": "𑀇",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "इ",
+      "correct_answer": "i",
       "correct_vowel_id": "swar-003",
       "wrong_options": [
         {
           "id": "wrong-quiz2-003-a",
-          "devanagari": "ऊ",
-          "vowel_id": "swar-006"
+          "vowel_id": "swar-006",
+          "iast": "ū"
         },
         {
           "id": "wrong-quiz2-003-b",
-          "devanagari": "ए",
-          "vowel_id": "swar-007"
+          "vowel_id": "swar-007",
+          "iast": "e"
         },
         {
           "id": "wrong-quiz2-003-c",
-          "devanagari": "ऐ",
-          "vowel_id": "swar-008"
+          "vowel_id": "swar-008",
+          "iast": "ai"
         }
       ],
-      "title_hindi": "𑀇 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀇 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀇?"
     },
     {
@@ -827,26 +1197,26 @@
       "order": 4,
       "question": "𑀈",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "ई",
+      "correct_answer": "ī",
       "correct_vowel_id": "swar-004",
       "wrong_options": [
         {
           "id": "wrong-quiz2-004-a",
-          "devanagari": "ए",
-          "vowel_id": "swar-007"
+          "vowel_id": "swar-007",
+          "iast": "e"
         },
         {
           "id": "wrong-quiz2-004-b",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-001",
+          "iast": "a"
         },
         {
           "id": "wrong-quiz2-004-c",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         }
       ],
-      "title_hindi": "𑀈 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀈 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀈?"
     },
     {
@@ -854,26 +1224,26 @@
       "order": 5,
       "question": "𑀉",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "उ",
+      "correct_answer": "u",
       "correct_vowel_id": "swar-005",
       "wrong_options": [
         {
           "id": "wrong-quiz2-005-a",
-          "devanagari": "इ",
-          "vowel_id": "swar-003"
+          "vowel_id": "swar-003",
+          "iast": "i"
         },
         {
           "id": "wrong-quiz2-005-b",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         },
         {
           "id": "wrong-quiz2-005-c",
-          "devanagari": "अः",
-          "vowel_id": "swar-012"
+          "vowel_id": "swar-012",
+          "iast": "aḥ"
         }
       ],
-      "title_hindi": "𑀉 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀉 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀉?"
     },
     {
@@ -881,26 +1251,26 @@
       "order": 6,
       "question": "𑀊",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "ऊ",
+      "correct_answer": "ū",
       "correct_vowel_id": "swar-006",
       "wrong_options": [
         {
           "id": "wrong-quiz2-006-a",
-          "devanagari": "ऐ",
-          "vowel_id": "swar-008"
+          "vowel_id": "swar-008",
+          "iast": "ai"
         },
         {
           "id": "wrong-quiz2-006-b",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-001",
+          "iast": "a"
         },
         {
           "id": "wrong-quiz2-006-c",
-          "devanagari": "ए",
-          "vowel_id": "swar-007"
+          "vowel_id": "swar-007",
+          "iast": "e"
         }
       ],
-      "title_hindi": "𑀊 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀊 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀊?"
     },
     {
@@ -908,26 +1278,26 @@
       "order": 7,
       "question": "𑀏",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "ए",
+      "correct_answer": "e",
       "correct_vowel_id": "swar-007",
       "wrong_options": [
         {
           "id": "wrong-quiz2-007-a",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         },
         {
           "id": "wrong-quiz2-007-b",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-001",
+          "iast": "a"
         },
         {
           "id": "wrong-quiz2-007-c",
-          "devanagari": "अः",
-          "vowel_id": "swar-012"
+          "vowel_id": "swar-012",
+          "iast": "aḥ"
         }
       ],
-      "title_hindi": "𑀏 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀏 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀏?"
     },
     {
@@ -935,26 +1305,26 @@
       "order": 8,
       "question": "𑀐",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "ऐ",
+      "correct_answer": "ai",
       "correct_vowel_id": "swar-008",
       "wrong_options": [
         {
           "id": "wrong-quiz2-008-a",
-          "devanagari": "ए",
-          "vowel_id": "swar-007"
+          "vowel_id": "swar-007",
+          "iast": "e"
         },
         {
           "id": "wrong-quiz2-008-b",
-          "devanagari": "ऊ",
-          "vowel_id": "swar-006"
+          "vowel_id": "swar-006",
+          "iast": "ū"
         },
         {
           "id": "wrong-quiz2-008-c",
-          "devanagari": "उ",
-          "vowel_id": "swar-005"
+          "vowel_id": "swar-005",
+          "iast": "u"
         }
       ],
-      "title_hindi": "𑀐 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀐 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀐?"
     },
     {
@@ -962,26 +1332,26 @@
       "order": 9,
       "question": "𑀑",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "ओ",
+      "correct_answer": "o",
       "correct_vowel_id": "swar-009",
       "wrong_options": [
         {
           "id": "wrong-quiz2-009-a",
-          "devanagari": "औ",
-          "vowel_id": "swar-010"
+          "vowel_id": "swar-010",
+          "iast": "au"
         },
         {
           "id": "wrong-quiz2-009-b",
-          "devanagari": "अः",
-          "vowel_id": "swar-012"
+          "vowel_id": "swar-012",
+          "iast": "aḥ"
         },
         {
           "id": "wrong-quiz2-009-c",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         }
       ],
-      "title_hindi": "𑀑 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀑 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀑?"
     },
     {
@@ -989,423 +1359,556 @@
       "order": 10,
       "question": "𑀒",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "औ",
+      "correct_answer": "au",
       "correct_vowel_id": "swar-010",
       "wrong_options": [
         {
           "id": "wrong-quiz2-010-a",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-009",
+          "iast": "o"
         },
         {
           "id": "wrong-quiz2-010-b",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-001",
+          "iast": "a"
         },
         {
           "id": "wrong-quiz2-010-c",
-          "devanagari": "अं",
-          "vowel_id": "swar-011"
+          "vowel_id": "swar-011",
+          "iast": "aṃ"
         }
       ],
-      "title_hindi": "𑀒 का देवनागरी चिह्न क्या है?",
+      "title_hindi": "𑀒 kaā daevanaāgaraī caihana kayaā haai?",
       "title_english": "What is the Devanagari symbol for 𑀒?"
     },
     {
       "id": "quiz2-011",
       "order": 11,
-      "question": "𑀅𑁀",
+      "question": "𑀅𑀁",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "अं",
+      "correct_answer": "aṃ",
       "correct_vowel_id": "swar-011",
       "wrong_options": [
         {
           "id": "wrong-quiz2-011-a",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-012",
+          "iast": "aḥ"
         },
         {
           "id": "wrong-quiz2-011-b",
-          "devanagari": "अः",
-          "vowel_id": "swar-012"
+          "vowel_id": "swar-009",
+          "iast": "o"
         },
         {
           "id": "wrong-quiz2-011-c",
-          "devanagari": "ओ",
-          "vowel_id": "swar-009"
+          "vowel_id": "swar-005",
+          "iast": "u"
         }
       ],
-      "title_hindi": "𑀅𑁀 का देवनागरी चिह्न क्या है? (अनुस्वार)",
-      "title_english": "What is the Devanagari symbol for 𑀅𑁀?",
-      "note": "anusvara"
+      "title_hindi": "𑀅𑀁 kaā daevanaāgaraī caihana kayaā haai?",
+      "title_english": "What is the Devanagari symbol for 𑀅𑀁?"
     },
     {
       "id": "quiz2-012",
       "order": 12,
       "question": "𑀅𑀂",
       "question_type": "brahmi_to_devanagari",
-      "correct_answer": "अः",
+      "correct_answer": "aḥ",
       "correct_vowel_id": "swar-012",
       "wrong_options": [
         {
           "id": "wrong-quiz2-012-a",
-          "devanagari": "अ",
-          "vowel_id": "swar-001"
+          "vowel_id": "swar-011",
+          "iast": "aṃ"
         },
         {
           "id": "wrong-quiz2-012-b",
-          "devanagari": "ए",
-          "vowel_id": "swar-007"
+          "vowel_id": "swar-007",
+          "iast": "e"
         },
         {
           "id": "wrong-quiz2-012-c",
-          "devanagari": "ई",
-          "vowel_id": "swar-004"
+          "vowel_id": "swar-004",
+          "iast": "ī"
         }
       ],
-      "title_hindi": "𑀅𑀂 का देवनागरी चिह्न क्या है? (विसर्ग)",
-      "title_english": "What is the Devanagari symbol for 𑀅𑀂?",
-      "note": "visarga"
+      "title_hindi": "𑀅𑀂 kaā daevanaāgaraī caihana kayaā haai?",
+      "title_english": "What is the Devanagari symbol for 𑀅𑀂?"
     }
   ],
   "tracing_sequence": [
     {
       "id": "trace-001",
       "order": 1,
-      "devanagari": "अ",
       "brahmi": "𑀅",
       "vowel_id": "swar-001",
-      "title_hindi": "अ → 𑀅",
-      "title_english": "A → 𑀅",
-      "instruction_hindi": "अ को ब्राह्मी में लिखें",
-      "instruction_english": "Write अ in Brahmi script"
+      "title_hindi": "a",
+      "title_english": "a",
+      "title_kannada": "ಅ",
+      "instruction_hindi": "a",
+      "instruction_english": "a",
+      "instruction_kannada": "ಅ",
+      "iast": "a"
     },
     {
       "id": "trace-002",
       "order": 2,
-      "devanagari": "आ",
       "brahmi": "𑀆",
       "vowel_id": "swar-002",
-      "title_hindi": "आ → 𑀆",
-      "title_english": "AA → 𑀆",
-      "instruction_hindi": "आ को ब्राह्मी में लिखें",
-      "instruction_english": "Write आ in Brahmi script"
+      "title_hindi": "ā",
+      "title_english": "aa",
+      "title_kannada": "ಆ",
+      "instruction_hindi": "ā",
+      "instruction_english": "aa",
+      "instruction_kannada": "ಆ",
+      "iast": "ā"
     },
     {
       "id": "trace-003",
       "order": 3,
-      "devanagari": "इ",
       "brahmi": "𑀇",
       "vowel_id": "swar-003",
-      "title_hindi": "इ → 𑀇",
-      "title_english": "I → 𑀇",
-      "instruction_hindi": "इ को ब्राह्मी में लिखें",
-      "instruction_english": "Write इ in Brahmi script"
+      "title_hindi": "i",
+      "title_english": "i",
+      "title_kannada": "ಇ",
+      "instruction_hindi": "i",
+      "instruction_english": "i",
+      "instruction_kannada": "ಇ",
+      "iast": "i"
     },
     {
       "id": "trace-004",
       "order": 4,
-      "devanagari": "ई",
       "brahmi": "𑀈",
       "vowel_id": "swar-004",
-      "title_hindi": "ई → 𑀈",
-      "title_english": "II → 𑀈",
-      "instruction_hindi": "ई को ब्राह्मी में लिखें",
-      "instruction_english": "Write ई in Brahmi script"
+      "title_hindi": "ī",
+      "title_english": "ee",
+      "title_kannada": "ಈ",
+      "instruction_hindi": "ī",
+      "instruction_english": "ee",
+      "instruction_kannada": "ಈ",
+      "iast": "ī"
     },
     {
       "id": "trace-005",
       "order": 5,
-      "devanagari": "उ",
       "brahmi": "𑀉",
       "vowel_id": "swar-005",
-      "title_hindi": "उ → 𑀉",
-      "title_english": "U → 𑀉",
-      "instruction_hindi": "उ को ब्राह्मी में लिखें",
-      "instruction_english": "Write उ in Brahmi script"
+      "title_hindi": "u",
+      "title_english": "u",
+      "title_kannada": "ಉ",
+      "instruction_hindi": "u",
+      "instruction_english": "u",
+      "instruction_kannada": "ಉ",
+      "iast": "u"
     },
     {
       "id": "trace-006",
       "order": 6,
-      "devanagari": "ऊ",
       "brahmi": "𑀊",
       "vowel_id": "swar-006",
-      "title_hindi": "ऊ → 𑀊",
-      "title_english": "UU → 𑀊",
-      "instruction_hindi": "ऊ को ब्राह्मी में लिखें",
-      "instruction_english": "Write ऊ in Brahmi script"
+      "title_hindi": "ū",
+      "title_english": "oo",
+      "title_kannada": "ಊ",
+      "instruction_hindi": "ū",
+      "instruction_english": "oo",
+      "instruction_kannada": "ಊ",
+      "iast": "ū"
     },
     {
       "id": "trace-007",
       "order": 7,
-      "devanagari": "ए",
       "brahmi": "𑀏",
       "vowel_id": "swar-007",
-      "title_hindi": "ए → 𑀏",
-      "title_english": "E → 𑀏",
-      "instruction_hindi": "ए को ब्राह्मी में लिखें",
-      "instruction_english": "Write ए in Brahmi script"
+      "title_hindi": "e",
+      "title_english": "e",
+      "title_kannada": "ಏ",
+      "instruction_hindi": "e",
+      "instruction_english": "e",
+      "instruction_kannada": "ಏ",
+      "iast": "e"
     },
     {
       "id": "trace-008",
       "order": 8,
-      "devanagari": "ऐ",
       "brahmi": "𑀐",
       "vowel_id": "swar-008",
-      "title_hindi": "ऐ → 𑀐",
-      "title_english": "AI → 𑀐",
-      "instruction_hindi": "ऐ को ब्राह्मी में लिखें",
-      "instruction_english": "Write ऐ in Brahmi script"
+      "title_hindi": "ai",
+      "title_english": "ai",
+      "title_kannada": "ಐ",
+      "instruction_hindi": "ai",
+      "instruction_english": "ai",
+      "instruction_kannada": "ಐ",
+      "iast": "ai"
     },
     {
       "id": "trace-009",
       "order": 9,
-      "devanagari": "ओ",
       "brahmi": "𑀑",
       "vowel_id": "swar-009",
-      "title_hindi": "ओ → 𑀑",
-      "title_english": "O → 𑀑",
-      "instruction_hindi": "ओ को ब्राह्मी में लिखें",
-      "instruction_english": "Write ओ in Brahmi script"
+      "title_hindi": "o",
+      "title_english": "o",
+      "title_kannada": "ಒ",
+      "instruction_hindi": "o",
+      "instruction_english": "o",
+      "instruction_kannada": "ಒ",
+      "iast": "o"
     },
     {
       "id": "trace-010",
       "order": 10,
-      "devanagari": "औ",
       "brahmi": "𑀒",
       "vowel_id": "swar-010",
-      "title_hindi": "औ → 𑀒",
-      "title_english": "AU → 𑀒",
-      "instruction_hindi": "औ को ब्राह्मी में लिखें",
-      "instruction_english": "Write औ in Brahmi script"
+      "title_hindi": "au",
+      "title_english": "au",
+      "title_kannada": "ಔ",
+      "instruction_hindi": "au",
+      "instruction_english": "au",
+      "instruction_kannada": "ಔ",
+      "iast": "au"
     },
     {
       "id": "trace-011",
       "order": 11,
-      "devanagari": "अं",
-      "brahmi": "𑀅𑁀",
+      "brahmi": "𑀅𑀁",
       "vowel_id": "swar-011",
-      "title_hindi": "अं → 𑀅𑁀",
-      "title_english": "AM (Anusvara) → 𑀅𑁀",
-      "instruction_hindi": "अं को ब्राह्मी में लिखें (अनुस्वार)",
-      "instruction_english": "Write अं in Brahmi script (Anusvara)",
-      "special_mark": "anusvara"
+      "title_hindi": "aṃ",
+      "title_english": "am",
+      "title_kannada": "ಅಂ",
+      "instruction_hindi": "aṃ",
+      "instruction_english": "am",
+      "instruction_kannada": "ಅಂ",
+      "iast": "aṃ"
     },
     {
       "id": "trace-012",
       "order": 12,
-      "devanagari": "अः",
       "brahmi": "𑀅𑀂",
       "vowel_id": "swar-012",
-      "title_hindi": "अः → 𑀅𑀂",
-      "title_english": "AH (Visarga) → 𑀅𑀂",
-      "instruction_hindi": "अः को ब्राह्मी में लिखें (विसर्ग)",
-      "instruction_english": "Write अः in Brahmi script (Visarga)",
-      "special_mark": "visarga"
+      "title_hindi": "aḥ",
+      "title_english": "ah",
+      "title_kannada": "ಅಃ",
+      "instruction_hindi": "aḥ",
+      "instruction_english": "ah",
+      "instruction_kannada": "ಅಃ",
+      "iast": "aḥ"
     }
   ],
   "true_false_questions": [
     {
       "id": "tf-001",
       "order": 1,
-      "question_hindi": "\"अ\" का चिह्न [𑀅] है?",
-      "question_english": "Is the symbol for \"अ\" [𑀅]?",
+      "question": "\"a\" kaā caihana [𑀅] haai?",
       "correct_answer": true,
-      "vowel_id": "swar-001",
-      "explanation_hindi": "हाँ, [𑀅] अ का ब्राह्मी चिह्न है।",
-      "explanation_english": "Yes, [𑀅] is the Brahmi symbol for अ."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-002",
       "order": 2,
-      "question_hindi": "\"आ\" का चिह्न [𑀇] है?",
-      "question_english": "Is the symbol for \"आ\" [𑀇]?",
+      "question": "\"ā\" kaā caihana [𑀇] haai?",
       "correct_answer": false,
-      "vowel_id": "swar-002",
-      "correct_symbol": "𑀆",
-      "explanation_hindi": "नहीं, [𑀇] इ का चिह्न है। आ का चिह्न [𑀆] है।",
-      "explanation_english": "No, [𑀇] is the symbol for इ. The symbol for आ is [𑀆]."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-003",
       "order": 3,
-      "question_hindi": "\"इ\" का चिह्न [𑀆] है?",
-      "question_english": "Is the symbol for \"इ\" [𑀆]?",
+      "question": "\"i\" kaā caihana [𑀆] haai?",
       "correct_answer": false,
-      "vowel_id": "swar-003",
-      "correct_symbol": "𑀇",
-      "explanation_hindi": "नहीं, [𑀆] आ का चिह्न है। इ का चिह्न [𑀇] है।",
-      "explanation_english": "No, [𑀆] is the symbol for आ. The symbol for इ is [𑀇]."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-004",
       "order": 4,
-      "question_hindi": "\"ई\" का चिह्न [𑀈] है?",
-      "question_english": "Is the symbol for \"ई\" [𑀈]?",
+      "question": "\"ī\" kaā caihana [𑀈] haai?",
       "correct_answer": true,
-      "vowel_id": "swar-004",
-      "explanation_hindi": "हाँ, [𑀈] ई का ब्राह्मी चिह्न है।",
-      "explanation_english": "Yes, [𑀈] is the Brahmi symbol for ई."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-005",
       "order": 5,
-      "question_hindi": "\"उ\" का चिह्न [𑀊] है?",
-      "question_english": "Is the symbol for \"उ\" [𑀊]?",
+      "question": "\"u\" kaā caihana [𑀊] haai?",
       "correct_answer": false,
-      "vowel_id": "swar-005",
-      "correct_symbol": "𑀉",
-      "explanation_hindi": "नहीं, [𑀊] ऊ का चिह्न है। उ का चिह्न [𑀉] है।",
-      "explanation_english": "No, [𑀊] is the symbol for ऊ. The symbol for उ is [𑀉]."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-006",
       "order": 6,
-      "question_hindi": "\"ऊ\" का चिह्न [𑀐] है?",
-      "question_english": "Is the symbol for \"ऊ\" [𑀐]?",
+      "question": "\"ū\" kaā caihana [𑀐] haai?",
       "correct_answer": false,
-      "vowel_id": "swar-006",
-      "correct_symbol": "𑀊",
-      "explanation_hindi": "नहीं, [𑀐] ऐ का चिह्न है। ऊ का चिह्न [𑀊] है।",
-      "explanation_english": "No, [𑀐] is the symbol for ऐ. The symbol for ऊ is [𑀊]."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-007",
       "order": 7,
-      "question_hindi": "\"ए\" का चिह्न [𑀏] है?",
-      "question_english": "Is the symbol for \"ए\" [𑀏]?",
+      "question": "\"e\" kaā caihana [𑀏] haai?",
       "correct_answer": true,
-      "vowel_id": "swar-007",
-      "explanation_hindi": "हाँ, [𑀏] ए का ब्राह्मी चिह्न है।",
-      "explanation_english": "Yes, [𑀏] is the Brahmi symbol for ए."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-008",
       "order": 8,
-      "question_hindi": "\"ऐ\" का चिह्न [𑀐] है?",
-      "question_english": "Is the symbol for \"ऐ\" [𑀐]?",
+      "question": "\"ai\" kaā caihana [𑀐] haai?",
       "correct_answer": true,
-      "vowel_id": "swar-008",
-      "explanation_hindi": "हाँ, [𑀐] ऐ का ब्राह्मी चिह्न है।",
-      "explanation_english": "Yes, [𑀐] is the Brahmi symbol for ऐ."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-009",
       "order": 9,
-      "question_hindi": "\"ओ\" का चिह्न [𑀊] है?",
-      "question_english": "Is the symbol for \"ओ\" [𑀊]?",
+      "question": "\"o\" kaā caihana [𑀊] haai?",
       "correct_answer": false,
-      "vowel_id": "swar-009",
-      "correct_symbol": "𑀑",
-      "explanation_hindi": "नहीं, [𑀊] ऊ का चिह्न है। ओ का चिह्न [𑀑] है।",
-      "explanation_english": "No, [𑀊] is the symbol for ऊ. The symbol for ओ is [𑀑]."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-010",
       "order": 10,
-      "question_hindi": "\"औ\" का चिह्न [𑀈] है?",
-      "question_english": "Is the symbol for \"औ\" [𑀈]?",
+      "question": "\"au\" kaā caihana [𑀈] haai?",
       "correct_answer": false,
-      "vowel_id": "swar-010",
-      "correct_symbol": "𑀒",
-      "explanation_hindi": "नहीं, [𑀈] ई का चिह्न है। औ का चिह्न [𑀒] है।",
-      "explanation_english": "No, [𑀈] is the symbol for ई. The symbol for औ is [𑀒]."
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-011",
       "order": 11,
-      "question_hindi": "\"अं\" का चिह्न [𑀅] है?",
-      "question_english": "Is the symbol for \"अं\" [𑀅]?",
+      "question": "\"aṃ\" kaā caihana [𑀅𑀁] haai?",
       "correct_answer": true,
-      "vowel_id": "swar-011",
-      "explanation_hindi": "हाँ, [𑀅] अं का ब्राह्मी चिह्न है (अनुस्वार के साथ)।",
-      "explanation_english": "Yes, [𑀅] is the Brahmi symbol for अं (with Anusvara mark).",
-      "note": "anusvara"
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     },
     {
       "id": "tf-012",
       "order": 12,
-      "question_hindi": "\"अः\" का चिह्न [𑀅] है?",
-      "question_english": "Is the symbol for \"अः\" [𑀅]?",
+      "question": "\"aḥ\" kaā caihana [𑀅𑀂] haai?",
       "correct_answer": true,
-      "vowel_id": "swar-012",
-      "explanation_hindi": "हाँ, [𑀅] अः का ब्राह्मी चिह्न है (विसर्ग के साथ)।",
-      "explanation_english": "Yes, [𑀅] is the Brahmi symbol for अः (with Visarga mark).",
-      "note": "visarga"
+      "title_hindi": "sahaī / galata",
+      "title_english": "True / False"
     }
   ],
   "rewards": [
     {
-      "id": "reward-001",
+      "id": "reward-1",
       "order": 1,
-      "badge_name_hindi": "सम्यक् प्रज्ञा सम्मान",
-      "badge_name_english": "Samyak Prajna Honor",
-      "badge_description_hindi": "देवनागरी से ब्राह्मी पहचान कर सफल हुआ",
-      "badge_description_english": "Successfully recognized Brahmi symbols from Devanagari",
-      "trigger": "completed_quiz1",
-      "icon": "🎯",
-      "color": "#D4AF37",
-      "unlock_condition": "Complete Quiz 1 (Devanagari to Brahmi)",
-      "title_english": "Samyak Pragya Award",
-      "description_english": "You have successfully completed the first stage — 'Samyak Pragya Samman' is now yours!"
+      "title_hindi": "paurasakaāra : 1",
+      "title_english": "Reward: 1",
+      "badge_description_hindi": "āpanae pahalaā caraṇa saphalataā-paūravaka paūraā kaiyaā। \"samayaka parajañaā samamaāna\" aba āpakaā haai।",
+      "badge_description_english": "You have successfully completed the first stage. \"Samyak Pragya Award\" is now yours."
     },
     {
-      "id": "reward-002",
+      "id": "reward-2",
       "order": 2,
-      "badge_name_hindi": "लिपि आस्था सम्मान",
-      "badge_name_english": "Lipi Ashtha Honor",
-      "badge_description_hindi": "ब्राह्मी से देवनागरी पहचान कर सफल हुआ",
-      "badge_description_english": "Successfully recognized Devanagari from Brahmi symbols",
-      "trigger": "completed_quiz2",
-      "icon": "🔤",
-      "color": "#D4AF37",
-      "unlock_condition": "Complete Quiz 2 (Brahmi to Devanagari)",
-      "title_english": "Lipi Astha Award",
-      "description_english": "You completed the second stage — outstanding! You've crossed another milestone. 'Lipi Astha Samman' is now yours."
+      "title_hindi": "paurasakaāra : 2",
+      "title_english": "Reward: 2",
+      "badge_description_hindi": "āpanae daūsaraā caraṇa paūraā kaiyaā – śaānadaāra! āpanae eka aura maīla kaā patathara paāra kaiyaā \"laipai āsathaā samamaāna\" aba āpakaā haai।",
+      "badge_description_english": "You have completed the second stage – Excellent! You have achieved another milestone. \"Lipi Aastha Samman\" is now yours."
     },
     {
-      "id": "reward-003",
+      "id": "reward-3",
       "order": 3,
-      "badge_name_hindi": "अक्षर साधना",
-      "badge_name_english": "Akshara Sadhana",
-      "badge_description_hindi": "सभी 12 स्वरों को ब्राह्मी में लिखा",
-      "badge_description_english": "Successfully wrote all 12 vowels in Brahmi script",
-      "trigger": "completed_tracing",
-      "icon": "✏️",
-      "color": "#D4AF37",
-      "unlock_condition": "Complete all tracing exercises",
-      "title_english": "Akshar Sadhana Award",
-      "description_english": "You completed the third stage — excellent! Your confidence is admirable. You have earned the 'Akshar Sadhana' honour."
+      "title_hindi": "paurasakaāra : 3",
+      "title_english": "Reward: 3",
+      "badge_description_hindi": "āpanae taīsaraā caraṇa paūraā kaiyaā – baḍhaiyaā! āpakaā ātamavaiśavaāsa paraśaṃsanaīya haai, āpanae \"akaṣara saādhanaā\" kaā samamaāna paraāpata kaiyaā।",
+      "badge_description_english": "You have completed the third stage – Excellent! Your confidence is admirable, You have earned the \"Akshar Sadhana\" award."
     },
     {
-      "id": "reward-004",
+      "id": "reward-4",
       "order": 4,
-      "badge_name_hindi": "लक्ष्य साधक",
-      "badge_name_english": "Goal Achiever",
-      "badge_description_hindi": "सत्य-असत्य प्रश्नों में सफल हुआ",
-      "badge_description_english": "Successfully answered all true/false questions",
-      "trigger": "completed_true_false",
-      "icon": "🏆",
-      "color": "#D4AF37",
-      "unlock_condition": "Complete all true/false questions",
-      "title_english": "Lakshya Sadhak Award",
-      "description_english": "You completed the fourth stage. You hit the mark perfectly — you have earned the 'Lakshya Sadhak' honour."
+      "title_hindi": "paurasakaāra : 4",
+      "title_english": "Reward: 4",
+      "badge_description_hindi": "āpanae caauthaā caraṇa paūraā kaiyaā",
+      "badge_description_english": "You have completed the fourth stage"
     },
     {
-      "id": "reward-005",
+      "id": "reward-5",
       "order": 5,
-      "badge_name_hindi": "श्रेष्ठ ज्ञानी",
-      "badge_name_english": "Supreme Scholar",
-      "badge_description_hindi": "स्वर सीखने के बाद व्यञ्जन (consonants) को चुना",
-      "badge_description_english": "Chose to learn Vyanjan (Consonants) next after mastering vowels",
-      "trigger": "chose_vyanjan_next",
-      "icon": "👑",
-      "color": "#FFD700",
-      "unlock_condition": "Advance to Vyanjan module (recommended path)",
-      "bonus": true,
-      "xp_reward": 100,
-      "title_english": "Shreshtha Gyani Award",
-      "description_english": "Congratulations, Champion! You not only made the right choice but also made the best use of your knowledge. Bonus: 5 points + 'Shreshtha Gyani' honour."
+      "title_hindi": "\"śaraeṣaṭha jañaānaī\"",
+      "title_english": "\"Excellent Scholar\"",
+      "badge_description_hindi": "āpakaā paurasakaāra : 5 paॉiṃṭasa + \"śaraeṣaṭha jañaānaī\" samamaāna / yaha samamaāna āpakae taeja daimaāga aura sahaī nairaṇaya kaā paramaāṇa haai।",
+      "badge_description_english": "Your Reward: 5 Points + \"Excellent Scholar\" Title / This honor is a proof of your sharp mind and correct decision."
     }
-  ]
+  ],
+  "practice_time": {
+    "title_hindi": "abhayaāsa samaya",
+    "title_english": "Practice Time",
+    "title_kannada": "ಅಭ್ಯಾಸ ಸಮಯ",
+    "sections": {
+      "section_4_game_time": {
+        "game_title_hindi": "gaema ṭaāima",
+        "game_title_english": "Game Time",
+        "game_title_kannada": "ಆಟದ ಸಮಯ",
+        "direction_hindi": "daevanaāgaraī → baraāhamaī",
+        "direction_english": "Roman/Latin → Brahmi",
+        "direction_kannada": "ಕನ್ನಡ → ಬ್ರಾಹ್ಮೀ"
+      },
+      "section_5_quiz1_native_to_brahmi": {
+        "title_hindi": "daevanaāgaraī → baraāhamaī",
+        "title_english": "Native Script → Brahmi",
+        "title_kannada": "ಸ್ಥಾನಿಕ ಲಿಪಿ → ಬ್ರಾಹ್ಮೀ",
+        "questions": [
+          {
+            "order": 1,
+            "question_hindi": "a",
+            "question_english": "a",
+            "question_kannada": "ಅ",
+            "correct_answer": "𑀅"
+          },
+          {
+            "order": 2,
+            "question_hindi": "ā",
+            "question_english": "aa",
+            "question_kannada": "ಆ",
+            "correct_answer": "𑀆"
+          },
+          {
+            "order": 3,
+            "question_hindi": "i",
+            "question_english": "i",
+            "question_kannada": "ಇ",
+            "correct_answer": "𑀇"
+          },
+          {
+            "order": 4,
+            "question_hindi": "ī",
+            "question_english": "ee",
+            "question_kannada": "ಈ",
+            "correct_answer": "𑀈"
+          },
+          {
+            "order": 5,
+            "question_hindi": "u",
+            "question_english": "u",
+            "question_kannada": "ಉ",
+            "correct_answer": "𑀉"
+          },
+          {
+            "order": 6,
+            "question_hindi": "ū",
+            "question_english": "oo",
+            "question_kannada": "ಊ",
+            "correct_answer": "𑀊"
+          },
+          {
+            "order": 7,
+            "question_hindi": "e",
+            "question_english": "e",
+            "question_kannada": "ಏ",
+            "correct_answer": "𑀏"
+          },
+          {
+            "order": 8,
+            "question_hindi": "ai",
+            "question_english": "ai",
+            "question_kannada": "ಐ",
+            "correct_answer": "𑀐"
+          },
+          {
+            "order": 9,
+            "question_hindi": "o",
+            "question_english": "o",
+            "question_kannada": "ಒ",
+            "correct_answer": "𑀑"
+          },
+          {
+            "order": 10,
+            "question_hindi": "au",
+            "question_english": "au",
+            "question_kannada": "ಔ",
+            "correct_answer": "𑀒"
+          },
+          {
+            "order": 11,
+            "question_hindi": "aṃ",
+            "question_english": "am",
+            "question_kannada": "ಅಂ",
+            "correct_answer": "𑀅𑀁"
+          },
+          {
+            "order": 12,
+            "question_hindi": "aḥ",
+            "question_english": "ah",
+            "question_kannada": "ಅಃ",
+            "correct_answer": "𑀅𑀂"
+          }
+        ]
+      },
+      "section_6_post_quiz1_encouragement": {
+        "title_hindi": "haurarae!",
+        "title_english": "Hurray!",
+        "title_kannada": "ಹುರ್ರೆ!",
+        "message_hindi": "āpa vaāsatavaikataā maeṃ vaiśaeṣa jaijañaāsau aura saīkhanae kae icachauka haaiṃ, tabhaī tao āpa isa anaokhaī yaātaraā kae isa paḍaāva taka pahauṃca paāe haaiṃ।",
+        "message_english": "You are truly curious and eager to learn, that is why you have reached this stage of this unique journey.",
+        "message_kannada": "ನೀವು ನಿಜವಾಗಿಯೂ ಕುತೂಹಲವುಳ್ಳವರು ಮತ್ತು ಕಲಿಯುವ ಆಸೆ ಹೊಂದಿದ್ದೀರಿ, ಆದ್ದರಿಂದಲೇ ನೀವು ಈ ಅನನ್ಯ ಪ್ರಯಾಣದ ಈ ಹಂತಕ್ಕೆ ಬಂದಿದ್ದೀರಿ。"
+      },
+      "section_7_true_false_bonus": {
+        "label_hindi": "sahaī / galata",
+        "label_english": "True / False",
+        "label_kannada": "ಸರಿ ತಪ್ಪು",
+        "question_hindi": "\"baraāhamaī eka bhaāṣaā haai?\"",
+        "question_english": "\"Is Brahmi a language?\"",
+        "question_kannada": "\"ಬ್ರಾಹ್ಮೀ ಒಂದು ಭಾಷೆಯೇ?\""
+      },
+      "section_8_reward_1": {
+        "title_hindi": "paurasakaāra : 1",
+        "title_english": "Reward: 1",
+        "title_kannada": "ಬಹುಮಾನ: 1"
+      },
+      "section_9_quiz2_intro": {
+        "title_hindi": "calaie aba hama ulaṭaā gaema khaelatae haaiṃ।",
+        "title_english": "Now let us play the reverse game.",
+        "title_kannada": "ಈಗ ನಾವು ವಿರುದ್ಧ ಆಟವನ್ನು ಆಡೋಣ。"
+      },
+      "section_10_quiz2_brahmi_to_native": {
+        "title_hindi": "baraāhamaī → daevanaāgaraī",
+        "title_english": "Brahmi → English",
+        "title_kannada": "ಬ್ರಾಹ್ಮೀ → ಕನ್ನಡ"
+      },
+      "section_11_reward_2": {
+        "title_hindi": "paurasakaāra : 2",
+        "title_english": "Reward: 2",
+        "title_kannada": "ಬಹುಮಾನ: 2"
+      },
+      "section_12_writing_practice_intro": {
+        "title_hindi": "āie! aba laikhanae kaā abhayaāsa অনুশীল کرتے haaiṃ।",
+        "title_english": "Come! Now let us practice writing.",
+        "title_kannada": "ಬನ್ನಿ! ಈಗ ಬರೆಯುವ ಅಭ್ಯಾಸ ಮಾಡೋಣ。"
+      },
+      "section_13_tracing_slides": {
+        "title_hindi": "a → 𑀅",
+        "title_english": "a → 𑀅",
+        "title_kannada": "ಅ → 𑀅"
+      },
+      "section_14_reward_3": {
+        "title_hindi": "paurasakaāra : 3",
+        "title_english": "Reward: 3",
+        "title_kannada": "ಬಹುಮಾನ: 3"
+      },
+      "section_15_true_false_quiz_stage_4": {
+        "title_hindi": "savara abhayaāsa – daevanaāgaraī → baraāhamaī / sataya/asataya caunaie",
+        "title_english": "Vowel Practice – roman/latin → Brahmi / Choose True/False",
+        "title_kannada": "ಸ್ವರ ಅಭ್ಯಾಸ – ಕನ್ನಡ → ಬ್ರಾಹ್ಮೀ / ಸರಿ/ತಪ್ಪು ಆಯ್ಕೆಮಾಡಿ"
+      },
+      "section_16_reward_4": {
+        "title_hindi": "paurasakaāra : 4",
+        "title_english": "Reward: 4",
+        "title_kannada": "ಬಹುಮಾನ: 4"
+      },
+      "section_17_next_section_choice": {
+        "title_hindi": "aba āpakae ūpara haai, kayaā saīkhanaā caāhatae haaiṃ?",
+        "title_english": "Now it is up to you, what do you want to learn?",
+        "title_kannada": "ಈಗ ನಿಮ್ಮ ಮೇಲೆ ಇದೆ, ನೀವು ಏನು ಕಲಿಯಲು ಬಯಸುತ್ತೀರಿ?"
+      },
+      "section_18_reward_5": {
+        "title_hindi": "\"śaraeṣaṭha jañaānaī\"",
+        "title_english": "\"Excellent Scholar\"",
+        "title_kannada": "\"ಶ್ರೇಷ್ಠ ಜ್ಞಾನಿ\""
+      }
+    }
+  }
 }

@@ -4,17 +4,15 @@
       "id": 1,
       "module_id": "matras",
       "lesson_id": "matras-lesson-001",
-      "title": "உயிர் குறிகள் (மாத்ராக்கள்) அறிமுகம்",
-      "title_english": "Vowel Signs (Matras) Introduction",
-      "title_tamil": "உயிர் குறிகள் (மாத்ராக்கள்) அறிமுகம்",
-      "subtitle": "மாத்ரா பரிச்ச",
+      "title": "மாத்ரா சிஹ்ந பரிசய",
+      "title_english": "",
+      "subtitle": "Matra Chinh Parichay",
       "matra_symbol": null,
-      "description": "உயிரெழுத்துக்கள் தனியாக எழுதப்படும்போது அவை தங்களின் சொந்த வேறுபட்ட அடையாளத்தைக் கொண்டிருக்கும். ஆனால் அவை மெய்யெழுத்துடன் இணைந்தால், அவை உயிர் குறிகளாக (மாத்ராக்கள்) மாறுகின்றன.",
-      "description_english": "Vowels, when written independently, have their own distinct identity. But when they combine with a consonant, they become vowel signs (matras).",
-      "description_tamil": "உயிரெழுத்துக்கள் தனியாக எழுதப்படும்போது அவை தங்களின் சொந்த வேறுபட்ட அடையாளத்தைக் கொண்டிருக்கும். ஆனால் அவை மெய்யெழுத்துடன் இணைந்தால், அவை உயிர் குறிகளாக (மாத்ராக்கள்) மாறுகின்றன.",
+      "description": "ஸ்வரோம் கே அகேலே லிக்ஹநே பர உநகீ அபநீ அலக பஹசாந ஹோதீ ஹை, லேகிந ஜப வே கிஸீ வ்யஞ்ஜந கே ஸாத்ஹ மிலதே ஹைம், தோ வே மாத்ரா சிஹ்ந பந ஜாதே ஹைம்।",
+      "description_english": "",
       "order_no": 1,
       "estimated_time": 15,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -23,17 +21,15 @@
       "id": 2,
       "module_id": "matras",
       "lesson_id": "matras-lesson-002",
-      "title": "அ - உள்ளார்ந்த உயிரெழுத்து",
-      "title_english": "A - Inherent Vowel",
-      "title_tamil": "அ - உள்ளார்ந்த உயிரெழுத்து",
-      "subtitle": "அ-ஒலி",
+      "title": "அ - கோஈ மாத்ரா நஹீம்",
+      "title_english": "",
+      "subtitle": "அ-த்ஹ்வநி",
       "matra_symbol": "None",
-      "description": "மெய்யெழுத்து தனியாக நிற்கும்போது, அது உள்ளார்ந்த 'அ' ஒலியைக் கொண்டிருக்கும்.",
-      "description_english": "When a consonant stands alone, it carries the inherent 'a' sound.",
-      "description_tamil": "மெய்யெழுத்து தனியாக நிற்கும்போது, அது உள்ளார்ந்த 'அ' ஒலியைக் கொண்டிருக்கும்.",
+      "description": "ஜப கோஈ வ்யஞ்ஜந அகேலா க்ஹடா ஹோதா ஹை, தோ உஸகே ஸாத்ஹ அம்தர்நிஹித 'அ' த்ஹ்வநி ஹோதீ ஹை",
+      "description_english": "",
       "order_no": 2,
       "estimated_time": 10,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -42,17 +38,15 @@
       "id": 3,
       "module_id": "matras",
       "lesson_id": "matras-lesson-003",
-      "title": "ஆ - மாத்ரா குறி",
-      "title_english": "AA - Matra Sign",
-      "title_tamil": "ஆ - மாத்ரா குறி",
+      "title": "ஆ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "ஆ-மாத்ரா",
       "matra_symbol": "𑀸",
-      "description": "ஆ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "The AA sound matra sign, placed after the consonant.",
-      "description_tamil": "ஆ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "ஆ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 3,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -61,17 +55,15 @@
       "id": 4,
       "module_id": "matras",
       "lesson_id": "matras-lesson-004",
-      "title": "இ - மாத்ரா குறி",
-      "title_english": "I - Matra Sign",
-      "title_tamil": "இ - மாத்ரா குறி",
+      "title": "இ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "இ-மாத்ரா",
       "matra_symbol": "𑀹",
-      "description": "இ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு முன்/மேலே வைக்கப்படுகிறது.",
-      "description_english": "The I sound matra sign, placed before/above the consonant.",
-      "description_tamil": "இ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு முன்/மேலே வைக்கப்படுகிறது.",
+      "description": "இ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந ஸே பஹலே/ஊபர லகதா ஹை",
+      "description_english": "",
       "order_no": 4,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -80,17 +72,15 @@
       "id": 5,
       "module_id": "matras",
       "lesson_id": "matras-lesson-005",
-      "title": "ஈ - மாத்ரா குறி",
-      "title_english": "II - Matra Sign",
-      "title_tamil": "ஈ - மாத்ரா குறி",
+      "title": "ஈ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "ஈ-மாத்ரா",
       "matra_symbol": "𑀺",
-      "description": "ஈ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "The II sound matra sign, placed after the consonant.",
-      "description_tamil": "ஈ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "ஈ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 5,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -99,17 +89,15 @@
       "id": 6,
       "module_id": "matras",
       "lesson_id": "matras-lesson-006",
-      "title": "உ - மாத்ரா குறி",
-      "title_english": "U - Matra Sign",
-      "title_tamil": "உ - மாத்ரா குறி",
+      "title": "உ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "உ-மாத்ரா",
       "matra_symbol": "𑀻",
-      "description": "உ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு கீழே வைக்கப்படுகிறது.",
-      "description_english": "The U sound matra sign, placed below the consonant.",
-      "description_tamil": "உ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு கீழே வைக்கப்படுகிறது.",
+      "description": "உ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே நீசே லகதா ஹை",
+      "description_english": "",
       "order_no": 6,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -118,17 +106,15 @@
       "id": 7,
       "module_id": "matras",
       "lesson_id": "matras-lesson-007",
-      "title": "ஊ - மாத்ரா குறி",
-      "title_english": "UU - Matra Sign",
-      "title_tamil": "ஊ - மாத்ரா குறி",
+      "title": "ஊ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "ஊ-மாத்ரா",
       "matra_symbol": "𑀼",
-      "description": "ஊ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு கீழே வைக்கப்படுகிறது.",
-      "description_english": "The UU sound matra sign, placed below the consonant.",
-      "description_tamil": "ஊ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு கீழே வைக்கப்படுகிறது.",
+      "description": "ஊ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே நீசே லகதா ஹை",
+      "description_english": "",
       "order_no": 7,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -137,17 +123,15 @@
       "id": 8,
       "module_id": "matras",
       "lesson_id": "matras-lesson-008",
-      "title": "ஏ - மாத்ரா குறி",
-      "title_english": "E - Matra Sign",
-      "title_tamil": "ஏ - மாத்ரா குறி",
+      "title": "ஏ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "ஏ-மாத்ரா",
       "matra_symbol": "𑁂",
-      "description": "ஏ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "The E sound matra sign, placed after the consonant.",
-      "description_tamil": "ஏ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "ஏ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 8,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -156,17 +140,15 @@
       "id": 9,
       "module_id": "matras",
       "lesson_id": "matras-lesson-009",
-      "title": "ஐ - மாத்ரா குறி",
-      "title_english": "AI - Matra Sign",
-      "title_tamil": "ஐ - மாத்ரா குறி",
+      "title": "ஐ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "ஐ-மாத்ரா",
       "matra_symbol": "𑁃",
-      "description": "ஐ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "The AI sound matra sign, placed after the consonant.",
-      "description_tamil": "ஐ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "ஐ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 9,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -175,17 +157,15 @@
       "id": 10,
       "module_id": "matras",
       "lesson_id": "matras-lesson-010",
-      "title": "ஒ - மாத்ரா குறி",
-      "title_english": "O - Matra Sign",
-      "title_tamil": "ஒ - மாத்ரா குறி",
-      "subtitle": "ஒ-மாத்ரா",
+      "title": "ஓ - மாத்ரா சிஹ்ந",
+      "title_english": "",
+      "subtitle": "ஓ-மாத்ரா",
       "matra_symbol": "𑁄",
-      "description": "ஒ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "The O sound matra sign, placed after the consonant.",
-      "description_tamil": "ஒ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "ஓ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 10,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -194,17 +174,15 @@
       "id": 11,
       "module_id": "matras",
       "lesson_id": "matras-lesson-011",
-      "title": "ஔ - மாத்ரா குறி",
-      "title_english": "AU - Matra Sign",
-      "title_tamil": "ஔ - மாத்ரா குறி",
+      "title": "ஔ - மாத்ரா சிஹ்ந",
+      "title_english": "",
       "subtitle": "ஔ-மாத்ரா",
       "matra_symbol": "𑁅",
-      "description": "ஔ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "The AU sound matra sign, placed after the consonant.",
-      "description_tamil": "ஔ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "ஔ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 11,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -213,17 +191,15 @@
       "id": 12,
       "module_id": "matras",
       "lesson_id": "matras-lesson-012",
-      "title": "அம் - அனுஸ்வாரம்",
-      "title_english": "AM - Anusvara",
-      "title_tamil": "அம் - அனுஸ்வாரம்",
-      "subtitle": "அனுஸ்வாரம்",
+      "title": "அம் - அநுஸ்வார",
+      "title_english": "",
+      "subtitle": "அநுஸ்வார",
       "matra_symbol": "𑁀",
-      "description": "அனுஸ்வாரம் - நாசிக ஒலி குறி, மெய்யெழுத்துக்கு மேலே வைக்கப்படுகிறது.",
-      "description_english": "Anusvara - nasal sound sign, placed above the consonant.",
-      "description_tamil": "அனுஸ்வாரம் - நாசிக ஒலி குறி, மெய்யெழுத்துக்கு மேலே வைக்கப்படுகிறது.",
+      "description": "அநுஸ்வார - நாஸிகா த்ஹ்வநி சிஹ்ந, வ்யஞ்ஜந கே ஊபர லகதா ஹை",
+      "description_english": "",
       "order_no": 12,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -232,17 +208,15 @@
       "id": 13,
       "module_id": "matras",
       "lesson_id": "matras-lesson-013",
-      "title": "அஃ - விசர்கம்",
-      "title_english": "AH - Visarga",
-      "title_tamil": "அஃ - விசர்கம்",
-      "subtitle": "விசர்கம்",
+      "title": "அஃ - விஸர்க",
+      "title_english": "",
+      "subtitle": "விஸர்க",
       "matra_symbol": "𑀂",
-      "description": "விசர்கம் - இரண்டாம் நாசிக ஒலி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
-      "description_english": "Visarga - secondary nasal sound, placed after the consonant.",
-      "description_tamil": "விசர்கம் - இரண்டாம் நாசிக ஒலி, மெய்யெழுத்துக்கு பின்னால் வைக்கப்படுகிறது.",
+      "description": "விஸர்க - தூஸரீ நாஸிகா த்ஹ்வநி, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "description_english": "",
       "order_no": 13,
       "estimated_time": 12,
-      "language": "ta",
+      "language": "hi",
       "created_at": "2025-01-01T00:00:00Z",
       "status": "not_started",
       "progress_percentage": 0
@@ -252,71 +226,63 @@
     {
       "id": "rule-001",
       "ruleNumber": 1,
-      "title": "சுயாதீன உயிர் (Independent Vowel)",
+      "title": "ஸ்வதம்த்ர ஸ்வர (Independent Vowel)",
       "titleEnglish": "Independent Vowel",
-      "titleTamil": "சுயாதீன உயிர்",
-      "description": "உயிரெழுத்து சொல்லின் முதல்மாறு அல்லது தனியாக இருக்கும்போது, அது சுயாதீன வடிவத்தை எடுக்கிறது.",
+      "description": "ஜப ஸ்வர ஶப்த கே ஆரம்ப்ஹ மேம் அத்ஹவா அகேலா ஹோ, தோ வே அபநா ஸ்வதம்த்ர ரூப லேதே ஹைம்।",
       "descriptionEnglish": "When a vowel appears at the beginning of a word or stands alone, it takes its independent form.",
-      "descriptionTamil": "உயிரெழுத்து சொல்லின் முதல்மாறு அல்லது தனியாக இருக்கும்போது, அது சுயாதீன வடிவத்தை எடுக்கிறது.",
       "examples": [
-        "𑀅 (அ)",
-        "𑀆 (ஆ)",
-        "𑀇 (இ)",
-        "𑀈 (ஈ)"
+        "𑀅 (अ)",
+        "𑀆 (आ)",
+        "𑀇 (इ)",
+        "𑀈 (ई)"
       ],
       "examplesDevanagari": [
-        "அ",
-        "ஆ",
-        "இ",
-        "ஈ"
+        "अ",
+        "आ",
+        "इ",
+        "ई"
       ]
     },
     {
       "id": "rule-002",
       "ruleNumber": 2,
-      "title": "மாத்ரா குறி (Matra Sign)",
-      "titleEnglish": "Vowel Sign (Matra)",
-      "titleTamil": "மாத்ரா குறி",
-      "description": "உயிரெழுத்து மெய்யெழுத்துக்கு பின்னால் வரும்போது, அது மாத்ராவாக மாறி மெய்யெழுத்துடன் இணைந்து எழுதப்படுகிறது.",
+      "title": "மாத்ரா சிஹ்ந (Matra Sign)",
+      "titleEnglish": "Matra Sign",
+      "description": "ஜப ஸ்வர கிஸீ வ்யஞ்ஜந கே பாத ஆதா ஹை, தோ வஹ மாத்ரா பந ஜாதா ஹை ஔர வ்யஞ்ஜந ஸே ஜுடகர லிக்ஹா ஜாதா ஹை।",
       "descriptionEnglish": "When a vowel follows a consonant, it becomes a matra and is written attached to the consonant.",
-      "descriptionTamil": "உயிரெழுத்து மெய்யெழுத்துக்கு பின்னால் வரும்போது, அது மாத்ராவாக மாறி மெய்யெழுத்துடன் இணைந்து எழுதப்படுகிறது.",
       "examples": [
-        "𑀕 + ஆ-மாத்ரா = கா",
-        "𑀕𑀸 = கா"
+        "𑀓 + आ-matra = का",
+        "𑀓𑀸 + = का"
       ],
       "examplesDevanagari": [
-        "க + ஆ-மாத்ரா = கா"
+        "क + आ-मात्रा = का"
       ]
     },
     {
       "id": "rule-003",
       "ruleNumber": 3,
-      "title": "மாத்ராவின் நிலை (Matra Position)",
+      "title": "மாத்ரா கா ஸ்த்ஹாந (Matra Position)",
       "titleEnglish": "Matra Position",
-      "titleTamil": "மாத்ராவின் நிலை",
-      "description": "மாத்ராக்கள் பல்வேறு நிலைகளில் அமைக்கப்படுகின்றன: மேலே, கீழே, முன்னே, பின்னே.",
-      "descriptionEnglish": "Matras can be placed in different positions: Above, Below, Before, After.",
-      "descriptionTamil": "மாத்ராக்கள் பல்வேறு நிலைகளில் அமைக்கப்படுகின்றன: மேலே, கீழே, முன்னே, பின்னே.",
+      "description": "மாத்ராஏம் விப்ஹிந்ந ஸ்த்ஹாநோம் பர லகதீ ஹைம்: ஊபர, நீசே, ஆகே, பீச்ஹே।",
+      "descriptionEnglish": "Matras are placed in different positions: above, below, before, or after the consonant.",
       "examples": [
-        "மேலே: கி (𑀕𑀹)",
-        "கீழே: கு (𑀕𑀻)",
-        "பின்னே: கா (𑀕𑀸)"
+        "ऊपर: कि (𑀓𑀹)",
+        "नीचे: कु (𑀓𑀻)",
+        "पीछे: का (𑀓𑀸)"
       ],
       "examplesDevanagari": [
-        "மேலே: கி",
-        "கீழே: கு",
-        "பின்னே: கா"
+        "ऊपर: कि",
+        "नीचे: कु",
+        "पीछे: का"
       ]
     },
     {
       "id": "rule-004",
       "ruleNumber": 4,
-      "title": "சிறப்பு குறிப்பு (Special Note)",
+      "title": "விஶேஷ த்ஹ்யாந (Special Note)",
       "titleEnglish": "Special Note",
-      "titleTamil": "சிறப்பு குறிப்பு",
-      "description": "பிராமி ஸ்கிரிப்ட்டில் மாத்ராக்களின் வடிவம் மற்றும் நிலை, தமிழ் ஸ்கிரிப்ட்டிலிருந்து சற்றுவேறாக உள்ளது. கவனமாகக் கற்றுக்கொள்ளுங்கள், சிதைக்கவும் மற்றும் அடையாளம் கண்டுபிடிக்கவும்.",
-      "descriptionEnglish": "In Brahmi script, the shape and position of matras differs somewhat from Tamil script. Observe carefully, trace, and identify.",
-      "descriptionTamil": "பிராமி ஸ்கிரிப்ட்டில் மாத்ராக்களின் வடிவம் மற்றும் நிலை, தமிழ் ஸ்கிரிப்ட்டிலிருந்து சற்றுவேறாக உள்ளது. கவனமாகக் கற்றுக்கொள்ளுங்கள், சிதைக்கவும் மற்றும் அடையாளம் கண்டுபிடிக்கவும்.",
+      "description": "ப்ராஹ்மீ மேம் மாத்ராஓம் கா ஆகார ஔர ஸ்த்ஹாந, தேவநாகரீ ஸே குச்ஹ பृத்ஹக் ஹை। த்ஹ்யாந ஸே தேக்ஹேம், ட்ரேஸ கரேம் ஔர பஹசாநேம்।",
+      "descriptionEnglish": "In Brahmi, the shape and position of matras differ slightly from Devanagari. Look carefully, trace, and practice recognizing them.",
       "examples": [],
       "examplesDevanagari": []
     }
@@ -328,20 +294,17 @@
       "vowelDevanagari": "அ",
       "vowelBrahmi": "𑀅",
       "matraName": "None/Inherent",
-      "matraNameHindi": "இல்லை (உள்ளார்ந்த)",
-      "matraNameTamil": "இல்லை (உள்ளார்ந்த)",
+      "matraNameHindi": "கோஈ நஹீம் (அம்தர்நிஹித)",
       "matraSign": "",
       "matraUnicode": "None",
       "matraPosition": "none",
       "exampleDevanagari": "க",
-      "exampleBrahmi": "𑀕",
-      "example_combination": "மெய்யெழுத்து தனியாக",
-      "description": "மாத்ரா குறி இல்லாமல், மெய்யெழுத்துக்கு உள்ளார்ந்த 'அ' ஒலி உள்ளது",
-      "descriptionEnglish": "Inherent A (no matra sign needed). No sign — inherent vowel",
-      "descriptionTamil": "உள்ளார்ந்த அ (மாத்ரா குறி தேவை இல்லை). குறி இல்லை — உள்ளார்ந்த உயிர்",
-      "englishName": "Inherent A (no matra sign needed)",
-      "tamilName": "உள்ளார்ந்த அ (மாத்ரா குறி தேவை இல்லை)",
-      "matraPositionLabel": "குறி இல்லை — உள்ளார்ந்த உயிர்"
+      "exampleBrahmi": "𑀓",
+      "example_combination": "Consonant alone",
+      "description": "பிநா கிஸீ மாத்ரா கே, வ்யஞ்ஜந மேம் அம்தர்நிஹித 'அ' த்ஹ்வநி ஹோதீ ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-002",
@@ -350,61 +313,52 @@
       "vowelBrahmi": "𑀆",
       "matraName": "AA",
       "matraNameHindi": "ஆ-மாத்ரா",
-      "matraNameTamil": "ஆ-மாத்ரா",
       "matraSign": "𑀸",
       "matraUnicode": "U+11038",
       "matraPosition": "after",
       "exampleDevanagari": "கா",
-      "exampleBrahmi": "𑀕𑀸",
-      "example_combination": "𑀕 + 𑀸 = 𑀕𑀸",
-      "description": "ஆ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "AA matra (Long A sign). After consonant",
-      "descriptionTamil": "ஆ மாத்ரா (நீண்ட அ குறி). மெய்யெழுத்துக்குப் பின்னால்",
-      "englishName": "AA matra (Long A sign)",
-      "tamilName": "ஆ மாத்ரா (நீண்ட அ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்குப் பின்னால்"
+      "exampleBrahmi": "𑀓𑀸",
+      "example_combination": "க + 𑀸 = கா",
+      "description": "ஆ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-003",
       "order": 3,
       "vowelDevanagari": "இ",
       "vowelBrahmi": "𑀇",
-      "matraName": "I",
+      "matraName": "i",
       "matraNameHindi": "இ-மாத்ரா",
-      "matraNameTamil": "இ-மாத்ரா",
       "matraSign": "𑀹",
       "matraUnicode": "U+1103A",
       "matraPosition": "before",
       "exampleDevanagari": "கி",
-      "exampleBrahmi": "𑀕𑀹",
-      "example_combination": "𑀕 + 𑀹 = 𑀕𑀹",
-      "description": "இ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு முன்/மேலே அமைக்கப்படுகிறது",
-      "descriptionEnglish": "I matra (Short I sign). Before consonant",
-      "descriptionTamil": "இ மாத்ரா (சிறு இ குறி). மெய்யெழுத்துக்கு முன்னால்",
-      "englishName": "I matra (Short I sign)",
-      "tamilName": "இ மாத்ரா (சிறு இ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்கு முன்னால்"
+      "exampleBrahmi": "𑀓𑀹",
+      "example_combination": "க + 𑀹 = கி",
+      "description": "இ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந ஸே பஹலே/ஊபர லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-004",
       "order": 4,
       "vowelDevanagari": "ஈ",
       "vowelBrahmi": "𑀈",
-      "matraName": "II",
+      "matraName": "ee",
       "matraNameHindi": "ஈ-மாத்ரா",
-      "matraNameTamil": "ஈ-மாத்ரா",
       "matraSign": "𑀺",
       "matraUnicode": "U+1103B",
       "matraPosition": "after",
       "exampleDevanagari": "கீ",
-      "exampleBrahmi": "𑀕𑀺",
-      "example_combination": "𑀕 + 𑀺 = 𑀕𑀺",
-      "description": "ஈ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "II matra (Long I sign). After consonant",
-      "descriptionTamil": "ஈ மாத்ரா (நீண்ட இ குறி). மெய்யெழுத்துக்குப் பின்னால்",
-      "englishName": "II matra (Long I sign)",
-      "tamilName": "ஈ மாத்ரா (நீண்ட இ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்குப் பின்னால்"
+      "exampleBrahmi": "𑀓𑀺",
+      "example_combination": "க + 𑀺 = கீ",
+      "description": "ஈ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-005",
@@ -413,19 +367,16 @@
       "vowelBrahmi": "𑀉",
       "matraName": "U",
       "matraNameHindi": "உ-மாத்ரா",
-      "matraNameTamil": "உ-மாத்ரா",
       "matraSign": "𑀻",
       "matraUnicode": "U+1103C",
       "matraPosition": "below",
       "exampleDevanagari": "கு",
-      "exampleBrahmi": "𑀕𑀻",
-      "example_combination": "𑀕 + 𑀻 = 𑀕𑀻",
-      "description": "உ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு கீழே அமைக்கப்படுகிறது",
-      "descriptionEnglish": "U matra (Short U sign). Below",
-      "descriptionTamil": "உ மாத்ரா (சிறு உ குறி). கீழே",
-      "englishName": "U matra (Short U sign)",
-      "tamilName": "உ மாத்ரா (சிறு உ குறி)",
-      "matraPositionLabel": "கீழே"
+      "exampleBrahmi": "𑀓𑀻",
+      "example_combination": "க + 𑀻 = கு",
+      "description": "உ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே நீசே லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-006",
@@ -434,19 +385,16 @@
       "vowelBrahmi": "𑀊",
       "matraName": "UU",
       "matraNameHindi": "ஊ-மாத்ரா",
-      "matraNameTamil": "ஊ-மாத்ரா",
       "matraSign": "𑀼",
       "matraUnicode": "U+1103D",
       "matraPosition": "below",
       "exampleDevanagari": "கூ",
-      "exampleBrahmi": "𑀕𑀼",
-      "example_combination": "𑀕 + 𑀼 = 𑀕𑀼",
-      "description": "ஊ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு கீழே அமைக்கப்படுகிறது",
-      "descriptionEnglish": "UU matra (Long U sign). Below",
-      "descriptionTamil": "ஊ மாத்ரா (நீண்ட உ குறி). கீழே",
-      "englishName": "UU matra (Long U sign)",
-      "tamilName": "ஊ மாத்ரா (நீண்ட உ குறி)",
-      "matraPositionLabel": "கீழே"
+      "exampleBrahmi": "𑀓𑀼",
+      "example_combination": "க + 𑀼 = கூ",
+      "description": "ஊ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே நீசே லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-007",
@@ -455,19 +403,16 @@
       "vowelBrahmi": "𑀏",
       "matraName": "E",
       "matraNameHindi": "ஏ-மாத்ரா",
-      "matraNameTamil": "ஏ-மாத்ரா",
       "matraSign": "𑁂",
       "matraUnicode": "U+11042",
       "matraPosition": "after",
       "exampleDevanagari": "கே",
-      "exampleBrahmi": "𑀕𑁂",
-      "example_combination": "𑀕 + 𑁂 = 𑀕𑁂",
-      "description": "ஏ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "E matra (E sign). After consonant",
-      "descriptionTamil": "ஏ மாத்ரா (ஏ குறி). மெய்யெழுத்துக்குப் பின்னால்",
-      "englishName": "E matra (E sign)",
-      "tamilName": "ஏ மாத்ரா (ஏ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்குப் பின்னால்"
+      "exampleBrahmi": "𑀓𑁂",
+      "example_combination": "க + 𑁂 = கே",
+      "description": "ஏ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-008",
@@ -476,40 +421,34 @@
       "vowelBrahmi": "𑀐",
       "matraName": "AI",
       "matraNameHindi": "ஐ-மாத்ரா",
-      "matraNameTamil": "ஐ-மாத்ரா",
       "matraSign": "𑁃",
       "matraUnicode": "U+11043",
       "matraPosition": "after",
       "exampleDevanagari": "கை",
-      "exampleBrahmi": "𑀕𑁃",
-      "example_combination": "𑀕 + 𑁃 = 𑀕𑁃",
-      "description": "ஐ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "AI matra (AI sign). After consonant",
-      "descriptionTamil": "ஐ மாத்ரா (ஐ குறி). மெய்யெழுத்துக்குப் பின்னால்",
-      "englishName": "AI matra (AI sign)",
-      "tamilName": "ஐ மாத்ரா (ஐ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்குப் பின்னால்"
+      "exampleBrahmi": "𑀓𑁃",
+      "example_combination": "க + 𑁃 = கை",
+      "description": "ஐ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-009",
       "order": 9,
-      "vowelDevanagari": "ஒ",
+      "vowelDevanagari": "ஓ",
       "vowelBrahmi": "𑀑",
       "matraName": "O",
-      "matraNameHindi": "ஒ-மாத்ரா",
-      "matraNameTamil": "ஒ-மாத்ரா",
+      "matraNameHindi": "ஓ-மாத்ரா",
       "matraSign": "𑁄",
       "matraUnicode": "U+11044",
       "matraPosition": "after",
       "exampleDevanagari": "கோ",
-      "exampleBrahmi": "𑀕𑁄",
-      "example_combination": "𑀕 + 𑁄 = 𑀕𑁄",
-      "description": "ஒ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "O matra (O sign). After consonant",
-      "descriptionTamil": "ஒ மாத்ரா (ஒ குறி). மெய்யெழுத்துக்குப் பின்னால்",
-      "englishName": "O matra (O sign)",
-      "tamilName": "ஒ மாத்ரா (ஒ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்குப் பின்னால்"
+      "exampleBrahmi": "𑀓𑁄",
+      "example_combination": "க + 𑁄 = கோ",
+      "description": "ஓ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-010",
@@ -518,61 +457,3924 @@
       "vowelBrahmi": "𑀒",
       "matraName": "AU",
       "matraNameHindi": "ஔ-மாத்ரா",
-      "matraNameTamil": "ஔ-மாத்ரா",
       "matraSign": "𑁅",
       "matraUnicode": "U+11045",
       "matraPosition": "after",
       "exampleDevanagari": "கௌ",
-      "exampleBrahmi": "𑀕𑁅",
-      "example_combination": "𑀕 + 𑁅 = 𑀕𑁅",
-      "description": "ஔ ஒலி மாத்ரா குறி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "AU matra (AU sign). After consonant",
-      "descriptionTamil": "ஔ மாத்ரா (ஔ குறி). மெய்யெழுத்துக்குப் பின்னால்",
-      "englishName": "AU matra (AU sign)",
-      "tamilName": "ஔ மாத்ரா (ஔ குறி)",
-      "matraPositionLabel": "மெய்யெழுத்துக்குப் பின்னால்"
+      "exampleBrahmi": "𑀓𑁅",
+      "example_combination": "க + 𑁅 = கௌ",
+      "description": "ஔ த்ஹ்வநி கா மாத்ரா சிஹ்ந, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-011",
       "order": 11,
       "vowelDevanagari": "அம்",
       "vowelBrahmi": "𑀅𑁀",
-      "matraName": "AM",
-      "matraNameHindi": "அனுஸ்வாரம்",
-      "matraNameTamil": "அனுஸ்வாரம்",
+      "matraName": "Anusvara",
+      "matraNameHindi": "அநுஸ்வார",
       "matraSign": "𑁀",
       "matraUnicode": "U+11040",
       "matraPosition": "above",
       "exampleDevanagari": "கம்",
-      "exampleBrahmi": "𑀕𑁀",
-      "example_combination": "𑀕 + 𑁀 = 𑀕𑁀",
-      "description": "அனுஸ்வாரம் - நாசிக ஒலி குறி, மெய்யெழுத்துக்கு மேலே அமைக்கப்படுகிறது",
-      "descriptionEnglish": "Anusvara - nasal sound sign, placed above the consonant.",
-      "descriptionTamil": "அனுஸ்வாரம் - நாசிக ஒலி குறி, மெய்யெழுத்துக்கு மேலே அமைக்கப்படுகிறது.",
-      "englishName": "Anusvara (nasal sound)",
-      "tamilName": "அனுஸ்வாரம் (நாசிக ஒலி)",
-      "matraPositionLabel": "மேலே"
+      "exampleBrahmi": "𑀓𑁀",
+      "example_combination": "க + 𑁀 = கம்",
+      "description": "அநுஸ்வார - நாஸிகா த்ஹ்வநி சிஹ்ந, வ்யஞ்ஜந கே ஊபர லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
     },
     {
       "id": "matra-012",
       "order": 12,
       "vowelDevanagari": "அஃ",
       "vowelBrahmi": "𑀅𑀂",
-      "matraName": "AH",
-      "matraNameHindi": "விசர்கம்",
-      "matraNameTamil": "விசர்கம்",
+      "matraName": "Visarga",
+      "matraNameHindi": "விஸர்க",
       "matraSign": "𑀂",
       "matraUnicode": "U+11002",
       "matraPosition": "after",
       "exampleDevanagari": "கஃ",
-      "exampleBrahmi": "𑀕𑀂",
-      "example_combination": "𑀕 + 𑀂 = 𑀕𑀂",
-      "description": "விசர்கம் - இரண்டாம் நாசிக ஒலி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது",
-      "descriptionEnglish": "Visarga - secondary nasal sound, placed after the consonant.",
-      "descriptionTamil": "விசர்கம் - இரண்டாம் நாசிக ஒலி, மெய்யெழுத்துக்கு பின்னால் அமைக்கப்படுகிறது.",
-      "englishName": "Visarga (secondary nasal)",
-      "tamilName": "விசர்கம் (இரண்டாம் நாசிக)",
-      "matraPositionLabel": "பின்னால்"
+      "exampleBrahmi": "𑀓𑀂",
+      "example_combination": "க + 𑀂 = கஃ",
+      "description": "விஸர்க - தூஸரீ நாஸிகா த்ஹ்வநி, வ்யஞ்ஜந கே பாத லகதா ஹை",
+      "descriptionEnglish": "",
+      "englishName": "",
+      "matraPositionLabel": ""
+    }
+  ],
+  "consonants": [
+    {
+      "id": "vyanjan-001",
+      "brahmi": "𑀓",
+      "tamil": "க"
+    },
+    {
+      "id": "vyanjan-002",
+      "brahmi": "𑀔",
+      "tamil": "க"
+    },
+    {
+      "id": "vyanjan-003",
+      "brahmi": "𑀕",
+      "tamil": "க"
+    },
+    {
+      "id": "vyanjan-004",
+      "brahmi": "𑀖",
+      "tamil": "க"
+    },
+    {
+      "id": "vyanjan-005",
+      "brahmi": "𑀗",
+      "tamil": "ங"
+    },
+    {
+      "id": "vyanjan-006",
+      "brahmi": "𑀘",
+      "tamil": "ச"
+    },
+    {
+      "id": "vyanjan-007",
+      "brahmi": "𑀙",
+      "tamil": "ச"
+    },
+    {
+      "id": "vyanjan-008",
+      "brahmi": "𑀚",
+      "tamil": "ஜ"
+    },
+    {
+      "id": "vyanjan-009",
+      "brahmi": "𑀛",
+      "tamil": "ஜ"
+    },
+    {
+      "id": "vyanjan-010",
+      "brahmi": "𑀜",
+      "tamil": "ஞ"
+    },
+    {
+      "id": "vyanjan-011",
+      "brahmi": "𑀝",
+      "tamil": "ட"
+    },
+    {
+      "id": "vyanjan-012",
+      "brahmi": "𑀞",
+      "tamil": "ட"
+    },
+    {
+      "id": "vyanjan-013",
+      "brahmi": "𑀟",
+      "tamil": "ட"
+    },
+    {
+      "id": "vyanjan-014",
+      "brahmi": "𑀠",
+      "tamil": "ட"
+    },
+    {
+      "id": "vyanjan-015",
+      "brahmi": "𑀡",
+      "tamil": "ண"
+    },
+    {
+      "id": "vyanjan-016",
+      "brahmi": "𑀢",
+      "tamil": "த"
+    },
+    {
+      "id": "vyanjan-017",
+      "brahmi": "𑀣",
+      "tamil": "த"
+    },
+    {
+      "id": "vyanjan-018",
+      "brahmi": "𑀤",
+      "tamil": "த"
+    },
+    {
+      "id": "vyanjan-019",
+      "brahmi": "𑀥",
+      "tamil": "த"
+    },
+    {
+      "id": "vyanjan-020",
+      "brahmi": "𑀦",
+      "tamil": "ந"
+    },
+    {
+      "id": "vyanjan-021",
+      "brahmi": "𑀧",
+      "tamil": "ப"
+    },
+    {
+      "id": "vyanjan-022",
+      "brahmi": "𑀨",
+      "tamil": "ப"
+    },
+    {
+      "id": "vyanjan-023",
+      "brahmi": "𑀩",
+      "tamil": "ப"
+    },
+    {
+      "id": "vyanjan-024",
+      "brahmi": "𑀪",
+      "tamil": "ப"
+    },
+    {
+      "id": "vyanjan-025",
+      "brahmi": "𑀫",
+      "tamil": "ம"
+    },
+    {
+      "id": "vyanjan-026",
+      "brahmi": "𑀬",
+      "tamil": "ய"
+    },
+    {
+      "id": "vyanjan-027",
+      "brahmi": "𑀭",
+      "tamil": "ர"
+    },
+    {
+      "id": "vyanjan-028",
+      "brahmi": "𑀮",
+      "tamil": "ல"
+    },
+    {
+      "id": "vyanjan-029",
+      "brahmi": "𑀯",
+      "tamil": "வ"
+    },
+    {
+      "id": "vyanjan-030",
+      "brahmi": "𑀰",
+      "tamil": "ஶ"
+    },
+    {
+      "id": "vyanjan-031",
+      "brahmi": "𑀱",
+      "tamil": "ஷ"
+    },
+    {
+      "id": "vyanjan-032",
+      "brahmi": "𑀲",
+      "tamil": "ஸ"
+    },
+    {
+      "id": "vyanjan-033",
+      "brahmi": "𑀳",
+      "tamil": "ஹ"
+    }
+  ],
+  "consonantMatraCombinations": [
+    {
+      "consonantId": "vyanjan-001",
+      "consonantDevanagari": "க",
+      "consonantBrahmi": "𑀓",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀓",
+          "combinedTamil": "க"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀓𑀸",
+          "combinedTamil": "கா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀓𑀹",
+          "combinedTamil": "கி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀓𑀺",
+          "combinedTamil": "கீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀓𑀻",
+          "combinedTamil": "கு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀓𑀼",
+          "combinedTamil": "கூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀓𑁂",
+          "combinedTamil": "கே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀓𑁃",
+          "combinedTamil": "கை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀓𑁄",
+          "combinedTamil": "கோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀓𑁅",
+          "combinedTamil": "கௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀓𑁀",
+          "combinedTamil": "கம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀓𑀂",
+          "combinedTamil": "கஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-002",
+      "consonantDevanagari": "க",
+      "consonantBrahmi": "𑀔",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀔",
+          "combinedTamil": "க"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀔𑀸",
+          "combinedTamil": "க்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀔𑀹",
+          "combinedTamil": "க்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀔𑀺",
+          "combinedTamil": "க்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀔𑀻",
+          "combinedTamil": "க்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀔𑀼",
+          "combinedTamil": "க்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀔𑁂",
+          "combinedTamil": "க்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀔𑁃",
+          "combinedTamil": "க்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀔𑁄",
+          "combinedTamil": "க்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀔𑁅",
+          "combinedTamil": "க்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀔𑁀",
+          "combinedTamil": "க்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀔𑀂",
+          "combinedTamil": "க்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-003",
+      "consonantDevanagari": "க",
+      "consonantBrahmi": "𑀕",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀕",
+          "combinedTamil": "க"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀕𑀸",
+          "combinedTamil": "கா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀕𑀹",
+          "combinedTamil": "கி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀕𑀺",
+          "combinedTamil": "கீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀕𑀻",
+          "combinedTamil": "கு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀕𑀼",
+          "combinedTamil": "கூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀕𑁂",
+          "combinedTamil": "கே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀕𑁃",
+          "combinedTamil": "கை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀕𑁄",
+          "combinedTamil": "கோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀕𑁅",
+          "combinedTamil": "கௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀕𑁀",
+          "combinedTamil": "கம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀕𑀂",
+          "combinedTamil": "கஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-004",
+      "consonantDevanagari": "க",
+      "consonantBrahmi": "𑀖",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀖",
+          "combinedTamil": "க"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀖𑀸",
+          "combinedTamil": "க்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀖𑀹",
+          "combinedTamil": "க்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀖𑀺",
+          "combinedTamil": "க்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀖𑀻",
+          "combinedTamil": "க்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀖𑀼",
+          "combinedTamil": "க்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀖𑁂",
+          "combinedTamil": "க்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀖𑁃",
+          "combinedTamil": "க்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀖𑁄",
+          "combinedTamil": "க்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀖𑁅",
+          "combinedTamil": "க்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀖𑁀",
+          "combinedTamil": "க்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀖𑀂",
+          "combinedTamil": "க்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-005",
+      "consonantDevanagari": "ங",
+      "consonantBrahmi": "𑀗",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀗",
+          "combinedTamil": "ங"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀗𑀸",
+          "combinedTamil": "ஙா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀗𑀹",
+          "combinedTamil": "ஙி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀗𑀺",
+          "combinedTamil": "ஙீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀗𑀻",
+          "combinedTamil": "ஙு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀗𑀼",
+          "combinedTamil": "ஙூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀗𑁂",
+          "combinedTamil": "ஙே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀗𑁃",
+          "combinedTamil": "ஙை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀗𑁄",
+          "combinedTamil": "ஙோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀗𑁅",
+          "combinedTamil": "ஙௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀗𑁀",
+          "combinedTamil": "ஙம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀗𑀂",
+          "combinedTamil": "ஙஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-006",
+      "consonantDevanagari": "ச",
+      "consonantBrahmi": "𑀘",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀘",
+          "combinedTamil": "ச"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀘𑀸",
+          "combinedTamil": "சா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀘𑀹",
+          "combinedTamil": "சி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀘𑀺",
+          "combinedTamil": "சீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀘𑀻",
+          "combinedTamil": "சு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀘𑀼",
+          "combinedTamil": "சூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀘𑁂",
+          "combinedTamil": "சே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀘𑁃",
+          "combinedTamil": "சை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀘𑁄",
+          "combinedTamil": "சோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀘𑁅",
+          "combinedTamil": "சௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀘𑁀",
+          "combinedTamil": "சம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀘𑀂",
+          "combinedTamil": "சஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-007",
+      "consonantDevanagari": "ச",
+      "consonantBrahmi": "𑀙",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀙",
+          "combinedTamil": "ச"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀙𑀸",
+          "combinedTamil": "ச்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀙𑀹",
+          "combinedTamil": "ச்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀙𑀺",
+          "combinedTamil": "ச்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀙𑀻",
+          "combinedTamil": "ச்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀙𑀼",
+          "combinedTamil": "ச்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀙𑁂",
+          "combinedTamil": "ச்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀙𑁃",
+          "combinedTamil": "ச்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀙𑁄",
+          "combinedTamil": "ச்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀙𑁅",
+          "combinedTamil": "ச்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀙𑁀",
+          "combinedTamil": "ச்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀙𑀂",
+          "combinedTamil": "ச்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-008",
+      "consonantDevanagari": "ஜ",
+      "consonantBrahmi": "𑀚",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀚",
+          "combinedTamil": "ஜ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀚𑀸",
+          "combinedTamil": "ஜா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀚𑀹",
+          "combinedTamil": "ஜி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀚𑀺",
+          "combinedTamil": "ஜீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀚𑀻",
+          "combinedTamil": "ஜு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀚𑀼",
+          "combinedTamil": "ஜூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀚𑁂",
+          "combinedTamil": "ஜே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀚𑁃",
+          "combinedTamil": "ஜை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀚𑁄",
+          "combinedTamil": "ஜோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀚𑁅",
+          "combinedTamil": "ஜௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀚𑁀",
+          "combinedTamil": "ஜம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀚𑀂",
+          "combinedTamil": "ஜஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-009",
+      "consonantDevanagari": "ஜ",
+      "consonantBrahmi": "𑀛",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀛",
+          "combinedTamil": "ஜ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀛𑀸",
+          "combinedTamil": "ஜ்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀛𑀹",
+          "combinedTamil": "ஜ்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀛𑀺",
+          "combinedTamil": "ஜ்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀛𑀻",
+          "combinedTamil": "ஜ்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀛𑀼",
+          "combinedTamil": "ஜ்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀛𑁂",
+          "combinedTamil": "ஜ்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀛𑁃",
+          "combinedTamil": "ஜ்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀛𑁄",
+          "combinedTamil": "ஜ்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀛𑁅",
+          "combinedTamil": "ஜ்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀛𑁀",
+          "combinedTamil": "ஜ்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀛𑀂",
+          "combinedTamil": "ஜ்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-010",
+      "consonantDevanagari": "ஞ",
+      "consonantBrahmi": "𑀜",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀜",
+          "combinedTamil": "ஞ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀜𑀸",
+          "combinedTamil": "ஞா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀜𑀹",
+          "combinedTamil": "ஞி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀜𑀺",
+          "combinedTamil": "ஞீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀜𑀻",
+          "combinedTamil": "ஞு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀜𑀼",
+          "combinedTamil": "ஞூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀜𑁂",
+          "combinedTamil": "ஞே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀜𑁃",
+          "combinedTamil": "ஞை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀜𑁄",
+          "combinedTamil": "ஞோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀜𑁅",
+          "combinedTamil": "ஞௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀜𑁀",
+          "combinedTamil": "ஞம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀜𑀂",
+          "combinedTamil": "ஞஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-011",
+      "consonantDevanagari": "ட",
+      "consonantBrahmi": "𑀝",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀝",
+          "combinedTamil": "ட"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀝𑀸",
+          "combinedTamil": "டா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀝𑀹",
+          "combinedTamil": "டி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀝𑀺",
+          "combinedTamil": "டீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀝𑀻",
+          "combinedTamil": "டு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀝𑀼",
+          "combinedTamil": "டூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀝𑁂",
+          "combinedTamil": "டே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀝𑁃",
+          "combinedTamil": "டை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀝𑁄",
+          "combinedTamil": "டோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀝𑁅",
+          "combinedTamil": "டௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀝𑁀",
+          "combinedTamil": "டம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀝𑀂",
+          "combinedTamil": "டஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-012",
+      "consonantDevanagari": "ட",
+      "consonantBrahmi": "𑀞",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀞",
+          "combinedTamil": "ட"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀞𑀸",
+          "combinedTamil": "ட்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀞𑀹",
+          "combinedTamil": "ட்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀞𑀺",
+          "combinedTamil": "ட்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀞𑀻",
+          "combinedTamil": "ட்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀞𑀼",
+          "combinedTamil": "ட்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀞𑁂",
+          "combinedTamil": "ட்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀞𑁃",
+          "combinedTamil": "ட்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀞𑁄",
+          "combinedTamil": "ட்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀞𑁅",
+          "combinedTamil": "ட்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀞𑁀",
+          "combinedTamil": "ட்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀞𑀂",
+          "combinedTamil": "ட்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-013",
+      "consonantDevanagari": "ட",
+      "consonantBrahmi": "𑀟",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀟",
+          "combinedTamil": "ட"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀟𑀸",
+          "combinedTamil": "டா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀟𑀹",
+          "combinedTamil": "டி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀟𑀺",
+          "combinedTamil": "டீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀟𑀻",
+          "combinedTamil": "டு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀟𑀼",
+          "combinedTamil": "டூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀟𑁂",
+          "combinedTamil": "டே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀟𑁃",
+          "combinedTamil": "டை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀟𑁄",
+          "combinedTamil": "டோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀟𑁅",
+          "combinedTamil": "டௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀟𑁀",
+          "combinedTamil": "டம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀟𑀂",
+          "combinedTamil": "டஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-014",
+      "consonantDevanagari": "ட",
+      "consonantBrahmi": "𑀠",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀠",
+          "combinedTamil": "ட"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀠𑀸",
+          "combinedTamil": "ட்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀠𑀹",
+          "combinedTamil": "ட்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀠𑀺",
+          "combinedTamil": "ட்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀠𑀻",
+          "combinedTamil": "ட்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀠𑀼",
+          "combinedTamil": "ட்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀠𑁂",
+          "combinedTamil": "ட்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀠𑁃",
+          "combinedTamil": "ட்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀠𑁄",
+          "combinedTamil": "ட்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀠𑁅",
+          "combinedTamil": "ட்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀠𑁀",
+          "combinedTamil": "ட்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀠𑀂",
+          "combinedTamil": "ட்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-015",
+      "consonantDevanagari": "ண",
+      "consonantBrahmi": "𑀡",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀡",
+          "combinedTamil": "ண"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀡𑀸",
+          "combinedTamil": "ணா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀡𑀹",
+          "combinedTamil": "ணி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀡𑀺",
+          "combinedTamil": "ணீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀡𑀻",
+          "combinedTamil": "ணு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀡𑀼",
+          "combinedTamil": "ணூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀡𑁂",
+          "combinedTamil": "ணே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀡𑁃",
+          "combinedTamil": "ணை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀡𑁄",
+          "combinedTamil": "ணோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀡𑁅",
+          "combinedTamil": "ணௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀡𑁀",
+          "combinedTamil": "ணம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀡𑀂",
+          "combinedTamil": "ணஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-016",
+      "consonantDevanagari": "த",
+      "consonantBrahmi": "𑀢",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀢",
+          "combinedTamil": "த"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀢𑀸",
+          "combinedTamil": "தா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀢𑀹",
+          "combinedTamil": "தி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀢𑀺",
+          "combinedTamil": "தீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀢𑀻",
+          "combinedTamil": "து"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀢𑀼",
+          "combinedTamil": "தூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀢𑁂",
+          "combinedTamil": "தே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀢𑁃",
+          "combinedTamil": "தை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀢𑁄",
+          "combinedTamil": "தோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀢𑁅",
+          "combinedTamil": "தௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀢𑁀",
+          "combinedTamil": "தம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀢𑀂",
+          "combinedTamil": "தஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-017",
+      "consonantDevanagari": "த",
+      "consonantBrahmi": "𑀣",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀣",
+          "combinedTamil": "த"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀣𑀸",
+          "combinedTamil": "த்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀣𑀹",
+          "combinedTamil": "த்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀣𑀺",
+          "combinedTamil": "த்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀣𑀻",
+          "combinedTamil": "த்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀣𑀼",
+          "combinedTamil": "த்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀣𑁂",
+          "combinedTamil": "த்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀣𑁃",
+          "combinedTamil": "த்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀣𑁄",
+          "combinedTamil": "த்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀣𑁅",
+          "combinedTamil": "த்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀣𑁀",
+          "combinedTamil": "த்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀣𑀂",
+          "combinedTamil": "த்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-018",
+      "consonantDevanagari": "த",
+      "consonantBrahmi": "𑀤",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀤",
+          "combinedTamil": "த"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀤𑀸",
+          "combinedTamil": "தா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀤𑀹",
+          "combinedTamil": "தி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀤𑀺",
+          "combinedTamil": "தீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀤𑀻",
+          "combinedTamil": "து"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀤𑀼",
+          "combinedTamil": "தூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀤𑁂",
+          "combinedTamil": "தே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀤𑁃",
+          "combinedTamil": "தை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀤𑁄",
+          "combinedTamil": "தோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀤𑁅",
+          "combinedTamil": "தௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀤𑁀",
+          "combinedTamil": "தம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀤𑀂",
+          "combinedTamil": "தஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-019",
+      "consonantDevanagari": "த",
+      "consonantBrahmi": "𑀥",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀥",
+          "combinedTamil": "த"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀥𑀸",
+          "combinedTamil": "த்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀥𑀹",
+          "combinedTamil": "த்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀥𑀺",
+          "combinedTamil": "த்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀥𑀻",
+          "combinedTamil": "த்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀥𑀼",
+          "combinedTamil": "த்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀥𑁂",
+          "combinedTamil": "த்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀥𑁃",
+          "combinedTamil": "த்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀥𑁄",
+          "combinedTamil": "த்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀥𑁅",
+          "combinedTamil": "த்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀥𑁀",
+          "combinedTamil": "த்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀥𑀂",
+          "combinedTamil": "த்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-020",
+      "consonantDevanagari": "ந",
+      "consonantBrahmi": "𑀦",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀦",
+          "combinedTamil": "ந"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀦𑀸",
+          "combinedTamil": "நா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀦𑀹",
+          "combinedTamil": "நி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀦𑀺",
+          "combinedTamil": "நீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀦𑀻",
+          "combinedTamil": "நு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀦𑀼",
+          "combinedTamil": "நூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀦𑁂",
+          "combinedTamil": "நே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀦𑁃",
+          "combinedTamil": "நை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀦𑁄",
+          "combinedTamil": "நோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀦𑁅",
+          "combinedTamil": "நௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀦𑁀",
+          "combinedTamil": "நம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀦𑀂",
+          "combinedTamil": "நஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-021",
+      "consonantDevanagari": "ப",
+      "consonantBrahmi": "𑀧",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀧",
+          "combinedTamil": "ப"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀧𑀸",
+          "combinedTamil": "பா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀧𑀹",
+          "combinedTamil": "பி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀧𑀺",
+          "combinedTamil": "பீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀧𑀻",
+          "combinedTamil": "பு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀧𑀼",
+          "combinedTamil": "பூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀧𑁂",
+          "combinedTamil": "பே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀧𑁃",
+          "combinedTamil": "பை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀧𑁄",
+          "combinedTamil": "போ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀧𑁅",
+          "combinedTamil": "பௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀧𑁀",
+          "combinedTamil": "பம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀧𑀂",
+          "combinedTamil": "பஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-022",
+      "consonantDevanagari": "ப",
+      "consonantBrahmi": "𑀨",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀨",
+          "combinedTamil": "ப"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀨𑀸",
+          "combinedTamil": "ப்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀨𑀹",
+          "combinedTamil": "ப்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀨𑀺",
+          "combinedTamil": "ப்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀨𑀻",
+          "combinedTamil": "ப்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀨𑀼",
+          "combinedTamil": "ப்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀨𑁂",
+          "combinedTamil": "ப்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀨𑁃",
+          "combinedTamil": "ப்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀨𑁄",
+          "combinedTamil": "ப்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀨𑁅",
+          "combinedTamil": "ப்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀨𑁀",
+          "combinedTamil": "ப்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀨𑀂",
+          "combinedTamil": "ப்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-023",
+      "consonantDevanagari": "ப",
+      "consonantBrahmi": "𑀩",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀩",
+          "combinedTamil": "ப"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀩𑀸",
+          "combinedTamil": "பா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀩𑀹",
+          "combinedTamil": "பி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀩𑀺",
+          "combinedTamil": "பீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀩𑀻",
+          "combinedTamil": "பு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀩𑀼",
+          "combinedTamil": "பூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀩𑁂",
+          "combinedTamil": "பே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀩𑁃",
+          "combinedTamil": "பை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀩𑁄",
+          "combinedTamil": "போ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀩𑁅",
+          "combinedTamil": "பௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀩𑁀",
+          "combinedTamil": "பம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀩𑀂",
+          "combinedTamil": "பஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-024",
+      "consonantDevanagari": "ப",
+      "consonantBrahmi": "𑀪",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀪",
+          "combinedTamil": "ப"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀪𑀸",
+          "combinedTamil": "ப்ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀪𑀹",
+          "combinedTamil": "ப்ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀪𑀺",
+          "combinedTamil": "ப்ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀪𑀻",
+          "combinedTamil": "ப்ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀪𑀼",
+          "combinedTamil": "ப்ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀪𑁂",
+          "combinedTamil": "ப்ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀪𑁃",
+          "combinedTamil": "ப்ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀪𑁄",
+          "combinedTamil": "ப்ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀪𑁅",
+          "combinedTamil": "ப்ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀪𑁀",
+          "combinedTamil": "ப்ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀪𑀂",
+          "combinedTamil": "ப்ஹஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-025",
+      "consonantDevanagari": "ம",
+      "consonantBrahmi": "𑀫",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀫",
+          "combinedTamil": "ம"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀫𑀸",
+          "combinedTamil": "மா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀫𑀹",
+          "combinedTamil": "மி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀫𑀺",
+          "combinedTamil": "மீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀫𑀻",
+          "combinedTamil": "மு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀫𑀼",
+          "combinedTamil": "மூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀫𑁂",
+          "combinedTamil": "மே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀫𑁃",
+          "combinedTamil": "மை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀫𑁄",
+          "combinedTamil": "மோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀫𑁅",
+          "combinedTamil": "மௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀫𑁀",
+          "combinedTamil": "மம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀫𑀂",
+          "combinedTamil": "மஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-026",
+      "consonantDevanagari": "ய",
+      "consonantBrahmi": "𑀬",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀬",
+          "combinedTamil": "ய"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀬𑀸",
+          "combinedTamil": "யா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀬𑀹",
+          "combinedTamil": "யி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀬𑀺",
+          "combinedTamil": "யீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀬𑀻",
+          "combinedTamil": "யு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀬𑀼",
+          "combinedTamil": "யூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀬𑁂",
+          "combinedTamil": "யே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀬𑁃",
+          "combinedTamil": "யை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀬𑁄",
+          "combinedTamil": "யோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀬𑁅",
+          "combinedTamil": "யௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀬𑁀",
+          "combinedTamil": "யம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀬𑀂",
+          "combinedTamil": "யஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-027",
+      "consonantDevanagari": "ர",
+      "consonantBrahmi": "𑀭",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀭",
+          "combinedTamil": "ர"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀭𑀸",
+          "combinedTamil": "ரா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀭𑀹",
+          "combinedTamil": "ரி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀭𑀺",
+          "combinedTamil": "ரீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀭𑀻",
+          "combinedTamil": "ரு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀭𑀼",
+          "combinedTamil": "ரூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀭𑁂",
+          "combinedTamil": "ரே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀭𑁃",
+          "combinedTamil": "ரை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀭𑁄",
+          "combinedTamil": "ரோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀭𑁅",
+          "combinedTamil": "ரௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀭𑁀",
+          "combinedTamil": "ரம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀭𑀂",
+          "combinedTamil": "ரஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-028",
+      "consonantDevanagari": "ல",
+      "consonantBrahmi": "𑀮",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀮",
+          "combinedTamil": "ல"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀮𑀸",
+          "combinedTamil": "லா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀮𑀹",
+          "combinedTamil": "லி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀮𑀺",
+          "combinedTamil": "லீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀮𑀻",
+          "combinedTamil": "லு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀮𑀼",
+          "combinedTamil": "லூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀮𑁂",
+          "combinedTamil": "லே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀮𑁃",
+          "combinedTamil": "லை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀮𑁄",
+          "combinedTamil": "லோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀮𑁅",
+          "combinedTamil": "லௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀮𑁀",
+          "combinedTamil": "லம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀮𑀂",
+          "combinedTamil": "லஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-029",
+      "consonantDevanagari": "வ",
+      "consonantBrahmi": "𑀯",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀯",
+          "combinedTamil": "வ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀯𑀸",
+          "combinedTamil": "வா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀯𑀹",
+          "combinedTamil": "வி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀯𑀺",
+          "combinedTamil": "வீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀯𑀻",
+          "combinedTamil": "வு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀯𑀼",
+          "combinedTamil": "வூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀯𑁂",
+          "combinedTamil": "வே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀯𑁃",
+          "combinedTamil": "வை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀯𑁄",
+          "combinedTamil": "வோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀯𑁅",
+          "combinedTamil": "வௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀯𑁀",
+          "combinedTamil": "வம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀯𑀂",
+          "combinedTamil": "வஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-030",
+      "consonantDevanagari": "ஶ",
+      "consonantBrahmi": "𑀰",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀰",
+          "combinedTamil": "ஶ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀰𑀸",
+          "combinedTamil": "ஶா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀰𑀹",
+          "combinedTamil": "ஶி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀰𑀺",
+          "combinedTamil": "ஶீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀰𑀻",
+          "combinedTamil": "ஶு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀰𑀼",
+          "combinedTamil": "ஶூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀰𑁂",
+          "combinedTamil": "ஶே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀰𑁃",
+          "combinedTamil": "ஶை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀰𑁄",
+          "combinedTamil": "ஶோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀰𑁅",
+          "combinedTamil": "ஶௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀰𑁀",
+          "combinedTamil": "ஶம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀰𑀂",
+          "combinedTamil": "ஶஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-031",
+      "consonantDevanagari": "ஷ",
+      "consonantBrahmi": "𑀱",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀱",
+          "combinedTamil": "ஷ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀱𑀸",
+          "combinedTamil": "ஷா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀱𑀹",
+          "combinedTamil": "ஷி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀱𑀺",
+          "combinedTamil": "ஷீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀱𑀻",
+          "combinedTamil": "ஷு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀱𑀼",
+          "combinedTamil": "ஷூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀱𑁂",
+          "combinedTamil": "ஷே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀱𑁃",
+          "combinedTamil": "ஷை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀱𑁄",
+          "combinedTamil": "ஷோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀱𑁅",
+          "combinedTamil": "ஷௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀱𑁀",
+          "combinedTamil": "ஷம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀱𑀂",
+          "combinedTamil": "ஷஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-032",
+      "consonantDevanagari": "ஸ",
+      "consonantBrahmi": "𑀲",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀲",
+          "combinedTamil": "ஸ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀲𑀸",
+          "combinedTamil": "ஸா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀲𑀹",
+          "combinedTamil": "ஸி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀲𑀺",
+          "combinedTamil": "ஸீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀲𑀻",
+          "combinedTamil": "ஸு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀲𑀼",
+          "combinedTamil": "ஸூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀲𑁂",
+          "combinedTamil": "ஸே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀲𑁃",
+          "combinedTamil": "ஸை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀲𑁄",
+          "combinedTamil": "ஸோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀲𑁅",
+          "combinedTamil": "ஸௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀲𑁀",
+          "combinedTamil": "ஸம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀲𑀂",
+          "combinedTamil": "ஸஃ"
+        }
+      ]
+    },
+    {
+      "consonantId": "vyanjan-033",
+      "consonantDevanagari": "ஹ",
+      "consonantBrahmi": "𑀳",
+      "forms": [
+        {
+          "matraOrder": 1,
+          "matraName": "None",
+          "matraDevanagari": "",
+          "matraSign": "",
+          "combinedBrahmi": "𑀳",
+          "combinedTamil": "ஹ"
+        },
+        {
+          "matraOrder": 2,
+          "matraName": "ஆ",
+          "matraDevanagari": "ா",
+          "matraSign": "𑀸",
+          "combinedBrahmi": "𑀳𑀸",
+          "combinedTamil": "ஹா"
+        },
+        {
+          "matraOrder": 3,
+          "matraName": "இ",
+          "matraDevanagari": "ி",
+          "matraSign": "𑀹",
+          "combinedBrahmi": "𑀳𑀹",
+          "combinedTamil": "ஹி"
+        },
+        {
+          "matraOrder": 4,
+          "matraName": "ஈ",
+          "matraDevanagari": "ீ",
+          "matraSign": "𑀺",
+          "combinedBrahmi": "𑀳𑀺",
+          "combinedTamil": "ஹீ"
+        },
+        {
+          "matraOrder": 5,
+          "matraName": "உ",
+          "matraDevanagari": "ு",
+          "matraSign": "𑀻",
+          "combinedBrahmi": "𑀳𑀻",
+          "combinedTamil": "ஹு"
+        },
+        {
+          "matraOrder": 6,
+          "matraName": "ஊ",
+          "matraDevanagari": "ூ",
+          "matraSign": "𑀼",
+          "combinedBrahmi": "𑀳𑀼",
+          "combinedTamil": "ஹூ"
+        },
+        {
+          "matraOrder": 7,
+          "matraName": "ஏ",
+          "matraDevanagari": "ே",
+          "matraSign": "𑁂",
+          "combinedBrahmi": "𑀳𑁂",
+          "combinedTamil": "ஹே"
+        },
+        {
+          "matraOrder": 8,
+          "matraName": "ஐ",
+          "matraDevanagari": "ை",
+          "matraSign": "𑁃",
+          "combinedBrahmi": "𑀳𑁃",
+          "combinedTamil": "ஹை"
+        },
+        {
+          "matraOrder": 9,
+          "matraName": "ஓ",
+          "matraDevanagari": "ோ",
+          "matraSign": "𑁄",
+          "combinedBrahmi": "𑀳𑁄",
+          "combinedTamil": "ஹோ"
+        },
+        {
+          "matraOrder": 10,
+          "matraName": "ஔ",
+          "matraDevanagari": "ௌ",
+          "matraSign": "𑁅",
+          "combinedBrahmi": "𑀳𑁅",
+          "combinedTamil": "ஹௌ"
+        },
+        {
+          "matraOrder": 11,
+          "matraName": "அம்",
+          "matraDevanagari": "ம்",
+          "matraSign": "𑁀",
+          "combinedBrahmi": "𑀳𑁀",
+          "combinedTamil": "ஹம்"
+        },
+        {
+          "matraOrder": 12,
+          "matraName": "அஃ",
+          "matraDevanagari": "ஃ",
+          "matraSign": "𑀂",
+          "combinedBrahmi": "𑀳𑀂",
+          "combinedTamil": "ஹஃ"
+        }
+      ]
+    }
+  ],
+  "practiceExercises": {
+    "template": {
+      "exercise1": {
+        "title": "பூரா கீஜிஏ (Fill in the blank)",
+        "titleEnglish": "Fill in the Blank",
+        "description": "க்ஹாலீ ஜகஹ மேம் ஸஹீ மாத்ரா கா நாம ப்ஹரிஏ",
+        "instructions": "[consonant] + ___ = பரிணாம",
+        "format": "Fill in the matra name for each combination",
+        "questionCount": 3,
+        "sampleQuestions": [
+          {
+            "id": "ex1-q1",
+            "question": "[consonant] + இ-matra (𑀹) = ___",
+            "expectedAnswer": "[consonant]ி",
+            "format": "consonant + matra = result"
+          },
+          {
+            "id": "ex1-q2",
+            "question": "[consonant] + ஊ-matra (𑀼) = ___",
+            "expectedAnswer": "[consonant]ூ",
+            "format": "consonant + matra = result"
+          },
+          {
+            "id": "ex1-q3",
+            "question": "[consonant] + ஐ-matra (𑁃) = ___",
+            "expectedAnswer": "[consonant]ை",
+            "format": "consonant + matra = result"
+          }
+        ]
+      },
+      "exercise2": {
+        "title": "ஸஹீ மிலாந கீஜிஏ (Match the correct pair)",
+        "titleEnglish": "Match the Correct Pair",
+        "description": "ப்ராஹ்மீ ரூபோம் கோ தேவநாகரீ ஸே மேல கரேம்",
+        "instructions": "Match Brahmi matra combinations with Devanagari",
+        "format": "Matching pairs",
+        "pairCount": 3,
+        "samplePairs": [
+          {
+            "columnA": "[consonant] + ஆ-matra",
+            "columnB": "[brahmi_consonant𑀸]",
+            "answer": "[consonant]ா"
+          },
+          {
+            "columnA": "[consonant] + உ-matra",
+            "columnB": "[brahmi_consonant𑀻]",
+            "answer": "[consonant]ு"
+          },
+          {
+            "columnA": "[consonant] + ஓ-matra",
+            "columnB": "[brahmi_consonant𑁄]",
+            "answer": "[consonant]ோ"
+          }
+        ]
+      },
+      "exercise3": {
+        "title": "உல்டா அப்ஹ்யாஸ (Reverse exercise)",
+        "titleEnglish": "Reverse Exercise - Brahmi to Devanagari",
+        "description": "ப்ராஹ்மீ ரூப கோ தேக்ஹகர மாத்ரா கீ பஹசாந கரேம்",
+        "instructions": "Identify which matra is used in each Brahmi form",
+        "format": "Brahmi to Devanagari with matra identification",
+        "questionCount": 3,
+        "sampleQuestions": [
+          {
+            "id": "ex3-q1",
+            "brahmiForm": "[brahmi_consonant𑀹]",
+            "question": "யஹ கௌந ஸீ மாத்ரா ஹை?",
+            "expectedAnswer": "இ-மாத்ரா",
+            "options": [
+              "इ-मात्रा",
+              "ई-मात्रा",
+              "उ-मात्रा"
+            ]
+          },
+          {
+            "id": "ex3-q2",
+            "brahmiForm": "[brahmi_consonant𑁃]",
+            "question": "யஹ கௌந ஸீ மாத்ரா ஹை?",
+            "expectedAnswer": "ஐ-மாத்ரா",
+            "options": [
+              "ऐ-मात्रा",
+              "औ-मात्रा",
+              "ए-मात्रा"
+            ]
+          },
+          {
+            "id": "ex3-q3",
+            "brahmiForm": "[brahmi_consonant𑁀]",
+            "question": "யஹ கௌந ஸா சிஹ்ந ஹை?",
+            "expectedAnswer": "அநுஸ்வார",
+            "options": [
+              "अनुस्वार",
+              "विसर्ग",
+              "कोई नहीं"
+            ]
+          }
+        ]
+      },
+      "exercise4": {
+        "title": "ட்ரேஸிம்க அப்ஹ்யாஸ (Tracing practice)",
+        "titleEnglish": "Tracing Practice",
+        "description": "ப்ரத்யேக ரூப கோ 3 பார லிக்ஹநே கா அப்ஹ்யாஸ கரேம்",
+        "instructions": "Trace each form 3 times each",
+        "format": "Handwriting tracing",
+        "formsToTrace": 6,
+        "sampleForms": [
+          {
+            "form": "[consonant alone]",
+            "brahmi": "[consonant_brahmi]"
+          },
+          {
+            "form": "[consonant + ஆ]",
+            "brahmi": "[consonant_brahmi𑀸]"
+          },
+          {
+            "form": "[consonant + இ]",
+            "brahmi": "[consonant_brahmi𑀹]"
+          },
+          {
+            "form": "[consonant + உ]",
+            "brahmi": "[consonant_brahmi𑀻]"
+          },
+          {
+            "form": "[consonant + ஏ]",
+            "brahmi": "[consonant_brahmi𑁂]"
+          },
+          {
+            "form": "[consonant + அம்]",
+            "brahmi": "[consonant_brahmi𑁀]"
+          }
+        ]
+      }
+    }
+  },
+  "tracingSequence": [
+    {
+      "id": "tracing-001",
+      "order": 1,
+      "slideTitle": "கோஈ மாத்ரா நஹீம் - அம்தர்நிஹித அ",
+      "slideTitleEnglish": "No Matra - Inherent A",
+      "matraOrder": 1,
+      "matraName": "None",
+      "matraSign": "",
+      "example": "க",
+      "exampleBrahmi": "𑀓",
+      "description": "ப்ராஹ்மீ மாத்ரா ரூப: குச்ஹ ப்ஹீ நஹீம் லகதா। உதாஹரண: க (𑀓)",
+      "descriptionEnglish": "Brahmi matra form: Nothing is added. Example: க (𑀓)",
+      "instructions": "த்ஹ்யாந ஸே தேக்ஹேம் கி யஹ கைஸே லிக்ஹா ஜாதா ஹை"
+    },
+    {
+      "id": "tracing-002",
+      "order": 2,
+      "slideTitle": "ஆ - மாத்ரா",
+      "slideTitleEnglish": "AA Matra",
+      "matraOrder": 2,
+      "matraName": "ஆ",
+      "matraSign": "𑀸",
+      "example": "கா",
+      "exampleBrahmi": "𑀓𑀸",
+      "description": "ஆ-மாத்ரா: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கா (𑀓𑀸)",
+      "descriptionEnglish": "AA matra: Placed after consonant. Example: கா (𑀓𑀸)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந ஸே ஜோடகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-003",
+      "order": 3,
+      "slideTitle": "இ - மாத்ரா",
+      "slideTitleEnglish": "i Matra",
+      "matraOrder": 3,
+      "matraName": "இ",
+      "matraSign": "𑀹",
+      "example": "கி",
+      "exampleBrahmi": "𑀓𑀹",
+      "description": "இ-மாத்ரா: வ்யஞ்ஜந ஸே பஹலே/ஊபர லகதா ஹை। உதாஹரண: கி (𑀓𑀹)",
+      "descriptionEnglish": "i matra: Placed before/above consonant. Example: கி (𑀓𑀹)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந கே ஸாத்ஹ ஸஹீ ஜகஹ பர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-004",
+      "order": 4,
+      "slideTitle": "ஈ - மாத்ரா",
+      "slideTitleEnglish": "ee Matra",
+      "matraOrder": 4,
+      "matraName": "ஈ",
+      "matraSign": "𑀺",
+      "example": "கீ",
+      "exampleBrahmi": "𑀓𑀺",
+      "description": "ஈ-மாத்ரா: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கீ (𑀓𑀺)",
+      "descriptionEnglish": "ee matra: Placed after consonant. Example: கீ (𑀓𑀺)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந ஸே ஜோடகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-005",
+      "order": 5,
+      "slideTitle": "உ - மாத்ரா",
+      "slideTitleEnglish": "U Matra",
+      "matraOrder": 5,
+      "matraName": "உ",
+      "matraSign": "𑀻",
+      "example": "கு",
+      "exampleBrahmi": "𑀓𑀻",
+      "description": "உ-மாத்ரா: வ்யஞ்ஜந கே நீசே லகதா ஹை। உதாஹரண: கு (𑀓𑀻)",
+      "descriptionEnglish": "U matra: Placed below consonant. Example: கு (𑀓𑀻)",
+      "instructions": "வ்யஞ்ஜந கே நீசே மாத்ரா லகாகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-006",
+      "order": 6,
+      "slideTitle": "ஊ - மாத்ரா",
+      "slideTitleEnglish": "UU Matra",
+      "matraOrder": 6,
+      "matraName": "ஊ",
+      "matraSign": "𑀼",
+      "example": "கூ",
+      "exampleBrahmi": "𑀓𑀼",
+      "description": "ஊ-மாத்ரா: வ்யஞ்ஜந கே நீசே லகதா ஹை। உதாஹரண: கூ (𑀓𑀼)",
+      "descriptionEnglish": "UU matra: Placed below consonant. Example: கூ (𑀓𑀼)",
+      "instructions": "வ்யஞ்ஜந கே நீசே மாத்ரா லகாகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-007",
+      "order": 7,
+      "slideTitle": "ஏ - மாத்ரா",
+      "slideTitleEnglish": "E Matra",
+      "matraOrder": 7,
+      "matraName": "ஏ",
+      "matraSign": "𑁂",
+      "example": "கே",
+      "exampleBrahmi": "𑀓𑁂",
+      "description": "ஏ-மாத்ரா: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கே (𑀓𑁂)",
+      "descriptionEnglish": "E matra: Placed after consonant. Example: கே (𑀓𑁂)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந ஸே ஜோடகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-008",
+      "order": 8,
+      "slideTitle": "ஐ - மாத்ரா",
+      "slideTitleEnglish": "AI Matra",
+      "matraOrder": 8,
+      "matraName": "ஐ",
+      "matraSign": "𑁃",
+      "example": "கை",
+      "exampleBrahmi": "𑀓𑁃",
+      "description": "ஐ-மாத்ரா: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கை (𑀓𑁃)",
+      "descriptionEnglish": "AI matra: Placed after consonant. Example: கை (𑀓𑁃)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந ஸே ஜோடகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-009",
+      "order": 9,
+      "slideTitle": "ஓ - மாத்ரா",
+      "slideTitleEnglish": "O Matra",
+      "matraOrder": 9,
+      "matraName": "ஓ",
+      "matraSign": "𑁄",
+      "example": "கோ",
+      "exampleBrahmi": "𑀓𑁄",
+      "description": "ஓ-மாத்ரா: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கோ (𑀓𑁄)",
+      "descriptionEnglish": "O matra: Placed after consonant. Example: கோ (𑀓𑁄)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந ஸே ஜோடகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-010",
+      "order": 10,
+      "slideTitle": "ஔ - மாத்ரா",
+      "slideTitleEnglish": "AU Matra",
+      "matraOrder": 10,
+      "matraName": "ஔ",
+      "matraSign": "𑁅",
+      "example": "கௌ",
+      "exampleBrahmi": "𑀓𑁅",
+      "description": "ஔ-மாத்ரா: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கௌ (𑀓𑁅)",
+      "descriptionEnglish": "AU matra: Placed after consonant. Example: கௌ (𑀓𑁅)",
+      "instructions": "மாத்ரா கோ வ்யஞ்ஜந ஸே ஜோடகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-011",
+      "order": 11,
+      "slideTitle": "அம் - அநுஸ்வார",
+      "slideTitleEnglish": "Anusvara",
+      "matraOrder": 11,
+      "matraName": "அநுஸ்வார",
+      "matraSign": "𑁀",
+      "example": "கம்",
+      "exampleBrahmi": "𑀓𑁀",
+      "description": "அநுஸ்வார: வ்யஞ்ஜந கே ஊபர லகதா ஹை। உதாஹரண: கம் (𑀓𑁀)",
+      "descriptionEnglish": "Anusvara: Placed above consonant. Example: கம் (𑀓𑁀)",
+      "instructions": "வ்யஞ்ஜந கே ஊபர சிஹ்ந லகாகர லிக்ஹேம்"
+    },
+    {
+      "id": "tracing-012",
+      "order": 12,
+      "slideTitle": "அஃ - விஸர்க",
+      "slideTitleEnglish": "Visarga",
+      "matraOrder": 12,
+      "matraName": "விஸர்க",
+      "matraSign": "𑀂",
+      "example": "கஃ",
+      "exampleBrahmi": "𑀓𑀂",
+      "description": "விஸர்க: வ்யஞ்ஜந கே பாத லகதா ஹை। உதாஹரண: கஃ (𑀓𑀂)",
+      "descriptionEnglish": "Visarga: Placed after consonant. Example: கஃ (𑀓𑀂)",
+      "instructions": "வ்யஞ்ஜந கே பாத சிஹ்ந லகாகர லிக்ஹேம்"
     }
   ]
 }

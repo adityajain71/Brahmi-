@@ -1,0 +1,22 @@
+{
+  "type": "reverse_mcq",
+  "title": "उल्टा अभ्यास (ब्राह्मी → देवनागरी)",
+  "note": "PDF pages give 3 worked examples",
+  "examples": [
+    {
+      "prompt": "𑀓𑁃",
+      "answer": "कै"
+    },
+    {
+      "prompt": "𑀓𑀻",
+      "answer": "की"
+    },
+    {
+      "prompt": "𑀓𑁅",
+      "answer": "कौ"
+    }
+  ],
+  "consonant": "क",
+  "consonantBrahmi": "𑀓",
+  "page": 139
+}

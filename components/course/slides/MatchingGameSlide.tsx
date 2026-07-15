@@ -8,12 +8,13 @@ interface Props {
   columnA: string[] // Brahmi
   columnB: string[] // Devanagari
   note?: string
+  language?: string
   onNext: () => void
 }
 
 type Pair = { a: string; b: string }
 
-export default function MatchingGameSlide({ title, columnA, columnB, note, onNext }: Props) {
+export default function MatchingGameSlide({ title, columnA, columnB, note, language = 'hi', onNext }: Props) {
   const [selectedA, setSelectedA] = useState<string | null>(null)
   const [selectedB, setSelectedB] = useState<string | null>(null)
   const [matched, setMatched] = useState<Pair[]>([])
@@ -60,6 +61,46 @@ export default function MatchingGameSlide({ title, columnA, columnB, note, onNex
     }
   }
 
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      matching: 'Matching',
+      congrats: 'All matches correct!',
+      successMsg: 'Congratulations!',
+      next: 'Next →',
+      colA: 'Brahmi',
+      colB: 'Romanized',
+      instruction: 'Select one from each column — Match correct pairs'
+    },
+    kn: {
+      matching: 'ಹೊಂದಾಣಿಕೆ',
+      congrats: 'ಎಲ್ಲಾ ಹೊಂದಾಣಿಕೆಗಳು ಸರಿ!',
+      successMsg: 'ಅಭಿನಂದನೆಗಳು!',
+      next: 'ಮುಂದೆ →',
+      colA: 'ಬ್ರಾಹ್ಮಿ',
+      colB: 'ಕನ್ನಡ',
+      instruction: 'ಪ್ರತಿ ಕಾಲಮ್‌ನಿಂದ ಒಂದೊಂದನ್ನು ಆರಿಸಿ — ಸರಿಯಾದ ಜೋಡಿಯನ್ನು ಹೊಂದಿಸಿ'
+    },
+    ta: {
+      matching: 'பொருத்துக',
+      congrats: 'அனைத்து பொருத்தங்களும் சரி!',
+      successMsg: 'வாழ்த்துகள்!',
+      next: 'அடுத்து →',
+      colA: 'பிராமி',
+      colB: 'தமிழ்',
+      instruction: 'ஒவ்வொரு நிரலிலிருந்தும் ஒன்றைத் தேர்ந்தெடுக்கவும் — சரியான இணையை பொருத்தவும்'
+    },
+    hi: {
+      matching: 'मिलानी',
+      congrats: 'सभी मिलान सही!',
+      successMsg: 'बधाई हो!',
+      next: 'आगे →',
+      colA: 'ब्राह्मी',
+      colB: 'देवनागरी',
+      instruction: 'दोनों कॉलम से एक-एक चुनें — सही जोड़ मिलाएं'
+    }
+  }
+  const t = localMap[language] || localMap.hi
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -69,7 +110,7 @@ export default function MatchingGameSlide({ title, columnA, columnB, note, onNex
       {/* Header */}
       <div className="text-center">
         <div className="inline-flex items-center gap-2 bg-[#D4AF37]/10 border border-[#D4AF37]/25 rounded-full px-5 py-1.5 mb-2">
-          <span className="text-[#D4AF37] text-xs font-bold uppercase tracking-wider">मिलानी</span>
+          <span className="text-[#D4AF37] text-xs font-bold uppercase tracking-wider">{t.matching}</span>
         </div>
         <h2 className="text-xl md:text-2xl font-bold text-[#E6D8B8] font-serif">{title}</h2>
         {note && <p className="text-xs text-[#E6D8B8]/40 mt-1">{note}</p>}
@@ -100,20 +141,20 @@ export default function MatchingGameSlide({ title, columnA, columnB, note, onNex
             >
               🏅
             </motion.div>
-            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">सभी मिलान सही!</h3>
-            <p className="text-[#E6D8B8]/70 text-lg">बधाई हो!</p>
+            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">{t.congrats}</h3>
+            <p className="text-[#E6D8B8]/70 text-lg">{t.successMsg}</p>
             <button
               onClick={onNext}
               className="mt-2 px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#E69A47] text-[#1a1613] font-bold rounded-full text-lg hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)]"
             >
-              आगे →
+              {t.next}
             </button>
           </motion.div>
         ) : (
           <div className="w-full grid grid-cols-2 gap-4">
             {/* Column A — Brahmi */}
             <div className="flex flex-col gap-3">
-              <div className="text-center text-xs text-[#D4AF37]/50 uppercase tracking-wider font-bold mb-1">ब्राह्मी</div>
+              <div className="text-center text-xs text-[#D4AF37]/50 uppercase tracking-wider font-bold mb-1">{t.colA}</div>
               {columnA.map((a) => {
                 const matched_ = isMatchedA(a)
                 const isSelected = selectedA === a
@@ -142,7 +183,7 @@ export default function MatchingGameSlide({ title, columnA, columnB, note, onNex
 
             {/* Column B — Devanagari */}
             <div className="flex flex-col gap-3">
-              <div className="text-center text-xs text-[#D4AF37]/50 uppercase tracking-wider font-bold mb-1">देवनागरी</div>
+              <div className="text-center text-xs text-[#D4AF37]/50 uppercase tracking-wider font-bold mb-1">{t.colB}</div>
               {/* Shuffle display order for challenge */}
               {[...columnB].reverse().map((b) => {
                 const matched_ = isMatchedB(b)
@@ -176,7 +217,7 @@ export default function MatchingGameSlide({ title, columnA, columnB, note, onNex
       {/* Instruction */}
       {!allDone && (
         <p className="text-xs text-[#E6D8B8]/30 text-center">
-          दोनों कॉलम से एक-एक चुनें — सही जोड़ मिलाएं
+          {t.instruction}
         </p>
       )}
     </motion.div>

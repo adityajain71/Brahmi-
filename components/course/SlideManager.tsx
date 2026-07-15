@@ -88,6 +88,7 @@ export function SlideManager({
         consonant={data.consonant || ''}
         consonantBrahmi={data.consonantBrahmi || ''}
         forms={data.forms || []}
+        language={language}
       />
     )
   }
@@ -107,6 +108,7 @@ export function SlideManager({
         allForms={allForms}
         consonant={data.consonant || ''}
         consonantBrahmi={data.consonantBrahmi || ''}
+        language={language}
         onNext={onNext}
       />
     )
@@ -126,6 +128,7 @@ export function SlideManager({
         allForms={allForms}
         consonant={data.consonant || ''}
         consonantBrahmi={data.consonantBrahmi || ''}
+        language={language}
         onNext={onNext}
       />
     )
@@ -139,6 +142,7 @@ export function SlideManager({
         columnA={data.columnA || []}
         columnB={data.columnB || []}
         note={data.note}
+        language={language}
         onNext={onNext}
       />
     )
@@ -158,6 +162,7 @@ export function SlideManager({
         allForms={allForms}
         consonant={data.consonant || ''}
         consonantBrahmi={data.consonantBrahmi || ''}
+        language={language}
         onNext={onNext}
       />
     )
@@ -172,6 +177,7 @@ export function SlideManager({
         consonant={data.consonant || ''}
         consonantBrahmi={data.consonantBrahmi || ''}
         bonusUnlock={data.bonusUnlock}
+        language={language}
         onNext={onNext}
       />
     )

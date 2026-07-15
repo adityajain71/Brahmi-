@@ -4,6 +4,22 @@ import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { CompiledSlide } from '@/app/learn/[module]/page'
 
+const renderMixedText = (text: string) => {
+  if (!text) return ''
+  const regex = /([\u{11000}-\u{1107F}]+)/gu
+  const parts = text.split(regex)
+  return parts.map((part, i) => {
+    if (/[\u{11000}-\u{1107F}]/u.test(part)) {
+      return (
+        <span key={i} className="font-brahmi" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>
+          {part}
+        </span>
+      )
+    }
+    return <span key={i}>{part}</span>
+  })
+}
+
 export default function TFSlide({ slide, language, onNext }: { slide: CompiledSlide, language: string, onNext: () => void }) {
   const data = slide.content
   
@@ -76,7 +92,7 @@ export default function TFSlide({ slide, language, onNext }: { slide: CompiledSl
         </div>
 
         <h2 className="text-3xl md:text-4xl font-bold text-[#E6D8B8] text-center leading-relaxed">
-          {question}
+          {renderMixedText(question)}
         </h2>
 
         <div className="flex gap-4 md:gap-8 w-full justify-center">
@@ -119,7 +135,7 @@ export default function TFSlide({ slide, language, onNext }: { slide: CompiledSl
             >
               {explanation && (
                 <div className="bg-[#1a1613] p-5 rounded-2xl border border-[#D4AF37]/20 text-[#E6D8B8] text-center max-w-lg w-full">
-                  <p className="text-lg leading-relaxed">{explanation}</p>
+                  <p className="text-lg leading-relaxed">{renderMixedText(explanation)}</p>
                 </div>
               )}
               

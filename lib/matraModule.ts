@@ -140,24 +140,14 @@ export async function getMatraLessons(identity: Identity, language: string = 'hi
     }, {})
   }
 
-  const isTamil = language === 'ta';
-
-  const applyProgress = (lesson: MatraLesson): MatraLesson => ({
+  return sortedLessons.map((lesson) => ({
     ...lesson,
+    title: lesson.title,
+    subtitle: lesson.subtitle,
+    description: lesson.description,
     status: progressByLessonId[lesson.lesson_id]?.status || 'not_started',
     progress_percentage: progressByLessonId[lesson.lesson_id]?.progress_percentage || 0
-  })
-
-  if (language !== 'hi') {
-    return sortedLessons.map((lesson) => ({
-      ...lesson,
-      title: isTamil ? (lesson.title_tamil || lesson.title || lesson.title_english || '') : (lesson.title_english || lesson.title),
-      subtitle: isTamil ? (lesson.subtitle || getEnglishMatraSubtitle(lesson.lesson_id, lesson.subtitle) || '') : getEnglishMatraSubtitle(lesson.lesson_id, lesson.subtitle),
-      description: isTamil ? (lesson.description_tamil || lesson.description || lesson.description_english || '') : (lesson.description_english || lesson.description || ''),
-      status: progressByLessonId[lesson.lesson_id]?.status || 'not_started',
-      progress_percentage: progressByLessonId[lesson.lesson_id]?.progress_percentage || 0
-    }));
-  }
+  }));
 
   return sortedLessons.map(applyProgress);
 }
@@ -178,17 +168,12 @@ export async function getMatraLessonInfo(lessonId: string, language: string = 'h
 export async function getMatraLessonContent(lessonId: string, language: string = 'hi'): Promise<MatraLessonContent[]> {
   const data = getDataForLanguage(language);
   const matraData = data.matras;
-  const isTamil = language === 'ta';
-  
+
   const lesson = (matraData.lessons as unknown as MatraLesson[]).find(l => l.lesson_id === lessonId)
   if (!lesson) return []
 
-  const displayTitle = language === 'hi'
-    ? lesson.title
-    : (isTamil ? (lesson.title_tamil || lesson.title || lesson.title_english || '') : (lesson.title_english || lesson.title))
-  const displayDescription = language === 'hi'
-    ? (lesson.description || '')
-    : (isTamil ? (lesson.description_tamil || lesson.description || lesson.description_english || '') : (lesson.description_english || lesson.description || ''))
+  const displayTitle = lesson.title || '';
+  const displayDescription = lesson.description || '';
   
   const content: MatraLessonContent[] = []
   
@@ -220,14 +205,12 @@ export async function getMatraLessonContent(lessonId: string, language: string =
   })
   
   if (matra) {
-    const matraDescription = language === 'hi'
-      ? (matra.description || '')
-      : (isTamil ? (matra.descriptionTamil || matra.description || matra.descriptionEnglish || '') : (matra.descriptionEnglish || matra.description || ''))
+    const matraDescription = matra.description || matra.descriptionEnglish || matra.descriptionHindi || '';
     content.push({
       id: 2,
       lesson_id: lessonId,
       content_type: 'pronunciation',
-      title: language === 'hi' ? 'मात्रा संयोजन' : (language === 'kn' ? 'ಮಾತ್ರಾ ಸಂಯೋಜನೆ' : (isTamil ? 'மாத்ரா இணைவு' : 'Matra Combination')),
+      title: lesson.pronunciation_title || 'Matra Combination',
       content: matraDescription,
       audio_url: null,
       metadata: (function(){
@@ -298,8 +281,8 @@ export async function getMatraLessonContent(lessonId: string, language: string =
         id: 3,
         lesson_id: lessonId,
         content_type: 'writing_practice',
-        title: language === 'hi' ? 'मात्रा अभ्यास' : (language === 'kn' ? 'ಮಾತ್ರಾ ಅಭ್ಯಾಸ' : 'Matra Practice'),
-        content: language === 'hi' ? `अभ्यास करें` : (language === 'kn' ? `ಬ್ರಾಹ್ಮಿ ಮಾತ್ರೆಯ '${matra.matraSign}' ಅಭ್ಯಾಸ ಮಾಡಿ` : (isTamil ? `பிராமி மாத்ரை '${matra.matraSign}'-ஐப் பயிற்சி செய்யுங்கள்` : `Practice the Brahmi matra '${matra.matraSign}'`)),
+        title: lesson.practice_title || 'Matra Practice',
+        content: lesson.practice_content || `Practice the Brahmi matra '${matra.matraSign}'`,
         audio_url: null,
         metadata: { character: matra.exampleBrahmi },
         order_no: 3,
@@ -312,8 +295,8 @@ export async function getMatraLessonContent(lessonId: string, language: string =
   // Add rules slide for introduction lesson
   if (lessonId === 'matras-lesson-001') {
     (matraData.matraRules as unknown as any[]).forEach((rule: any, idx: number) => {
-      const title = language === 'hi' ? (rule.title || '') : (isTamil ? (rule.titleTamil || rule.title || rule.titleEnglish || '') : (rule.titleEnglish || rule.title || ''))
-      const description = language === 'hi' ? (rule.description || '') : (isTamil ? (rule.descriptionTamil || rule.description || rule.descriptionEnglish || '') : (rule.descriptionEnglish || rule.description || ''))
+      const title = rule.title || rule.titleEnglish || rule.titleTamil || '';
+      const description = rule.description || rule.descriptionEnglish || rule.descriptionTamil || '';
       content.push({
         id: 10 + idx,
         lesson_id: lessonId,
@@ -334,8 +317,8 @@ export async function getMatraLessonContent(lessonId: string, language: string =
     id: 100,
     lesson_id: lessonId,
     content_type: 'summary',
-    title: language === 'hi' ? 'सारांश' : (isTamil ? 'சுருக்கம்' : 'Summary'),
-    content: language === 'hi' ? `${lesson.title} को सफलतापूर्वक पूरा किया!` : (isTamil ? `${displayTitle} வெற்றிகரமாக முடிக்கப்பட்டது!` : `Successfully completed ${displayTitle}!`),
+    title: lesson.summary_title || 'Summary',
+    content: lesson.summary_content || `Successfully completed ${displayTitle}!`,
     audio_url: null,
     metadata: null,
     order_no: 50,

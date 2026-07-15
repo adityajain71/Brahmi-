@@ -1411,7 +1411,7 @@
           "brahmi": "𑀇",
           "vowel_id": "swar-003",
           "title_hindi": "इ → 𑀇",
-          "title_english": "I → 𑀇",
+          "title_english": "i → 𑀇",
           "instruction_hindi": "इ को ब्राह्मी में लिखें",
           "instruction_english": "Write इ in Brahmi script"
         },
@@ -1422,7 +1422,7 @@
           "brahmi": "𑀈",
           "vowel_id": "swar-004",
           "title_hindi": "ई → 𑀈",
-          "title_english": "II → 𑀈",
+          "title_english": "ee → 𑀈",
           "instruction_hindi": "ई को ब्राह्मी में लिखें",
           "instruction_english": "Write ई in Brahmi script"
         },

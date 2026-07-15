@@ -25,6 +25,22 @@ const getCongratsText = (lang: string) => {
   }
 }
 
+const renderMixedText = (text: string) => {
+  if (!text) return ''
+  const regex = /([\u{11000}-\u{1107F}]+)/gu
+  const parts = text.split(regex)
+  return parts.map((part, i) => {
+    if (/[\u{11000}-\u{1107F}]/u.test(part)) {
+      return (
+        <span key={i} className="font-brahmi" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>
+          {part}
+        </span>
+      )
+    }
+    return <span key={i}>{part}</span>
+  })
+}
+
 export default function InfoSlide({ slide, language = 'hi', onNext }: { slide: CompiledSlide, language?: string, onNext?: () => void }) {
   const data = typeof slide.content === 'object' ? slide.content : { content: slide.content }
   
@@ -50,19 +66,19 @@ export default function InfoSlide({ slide, language = 'hi', onNext }: { slide: C
         
         {title && (
           <h2 className="text-3xl md:text-4xl font-bold text-[#E6D8B8] leading-relaxed drop-shadow-sm">
-            {title}
+            {renderMixedText(title)}
           </h2>
         )}
         
         {content && (
           <p className="text-xl md:text-2xl text-[#E6D8B8]/90 leading-relaxed max-w-2xl whitespace-pre-wrap font-medium">
-            {content}
+            {renderMixedText(content)}
           </p>
         )}
 
         {note && (
           <p className="text-sm md:text-base text-[#D4AF37]/80 leading-relaxed max-w-2xl whitespace-pre-wrap italic">
-            {note}
+            {renderMixedText(note)}
           </p>
         )}
 

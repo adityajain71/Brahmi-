@@ -4,927 +4,828 @@
       "id": "vyanjan-001",
       "order": 1,
       "category": "kanthya",
-      "categoryHindi": "कण्ठ्य",
+      "categoryHindi": "ಕಣ್ಠ್ಯ",
       "categoryEnglish": "Guttural",
-      "categoryDescription": "कण्ठ से उच्चरित",
-      "devanagari": "क",
+      "categoryDescription": "ಕಣ್ಠ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀓",
       "unicode_codepoint": "U+11013",
       "romanized": "ka",
-      "pronunciationNote": "कठोर 'क' ध्वनि",
+      "pronunciationNote": "ಕಠೋರ 'ಕ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "कमल",
           "romanized": "kamal",
-          "english": "कमल"
+          "english": "ಕಮಲ",
+          "kannada": "ಕಮಲ"
         },
         {
-          "devanagari": "कक्षा",
           "romanized": "kaksha",
-          "english": "कक्षा"
+          "english": "ಕಕ್ಷಾ",
+          "kannada": "ಕಕ್ಷಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಕ",
-      "categoryKannada": "ಕಂಠ್ಯ",
-      "categoryDescriptionKannada": "ಕಂಠದಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಕ"
     },
     {
       "id": "vyanjan-002",
       "order": 2,
       "category": "kanthya",
-      "categoryHindi": "कण्ठ्य",
+      "categoryHindi": "ಕಣ್ಠ್ಯ",
       "categoryEnglish": "Guttural",
-      "categoryDescription": "कण्ठ से उच्चरित",
-      "devanagari": "ख",
+      "categoryDescription": "ಕಣ್ಠ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀔",
       "unicode_codepoint": "U+11014",
       "romanized": "kha",
-      "pronunciationNote": "महाप्राण 'क' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ 'ಕ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "खट",
           "romanized": "khat",
-          "english": "खटिया/खाट"
+          "english": "ಖಟಿಯಾ/ಖಾಟ",
+          "kannada": "ಖಟ"
         },
         {
-          "devanagari": "खेल",
           "romanized": "khel",
-          "english": "खेल"
+          "english": "ಖೇಲ",
+          "kannada": "ಖೇಲ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಖ",
-      "categoryKannada": "ಕಂಠ್ಯ",
-      "categoryDescriptionKannada": "ಕಂಠದಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಖ"
     },
     {
       "id": "vyanjan-003",
       "order": 3,
       "category": "kanthya",
-      "categoryHindi": "कण्ठ्य",
+      "categoryHindi": "ಕಣ್ಠ್ಯ",
       "categoryEnglish": "Guttural",
-      "categoryDescription": "कण्ठ से उच्चरित",
-      "devanagari": "ग",
+      "categoryDescription": "ಕಣ್ಠ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀕",
       "unicode_codepoint": "U+11015",
       "romanized": "ga",
-      "pronunciationNote": "मृदु 'ग' ध्वनि",
+      "pronunciationNote": "ಮृದು 'ಗ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "गाय",
           "romanized": "gaay",
-          "english": "गाय"
+          "english": "ಗಾಯ",
+          "kannada": "ಗಾಯ"
         },
         {
-          "devanagari": "गमन",
           "romanized": "gaman",
-          "english": "गमन"
+          "english": "ಗಮನ",
+          "kannada": "ಗಮನ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಗ",
-      "categoryKannada": "ಕಂಠ್ಯ",
-      "categoryDescriptionKannada": "ಕಂಠದಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಗ"
     },
     {
       "id": "vyanjan-004",
       "order": 4,
       "category": "kanthya",
-      "categoryHindi": "कण्ठ्य",
+      "categoryHindi": "ಕಣ್ಠ್ಯ",
       "categoryEnglish": "Guttural",
-      "categoryDescription": "कण्ठ से उच्चरित",
-      "devanagari": "घ",
+      "categoryDescription": "ಕಣ್ಠ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀖",
       "unicode_codepoint": "U+11016",
       "romanized": "gha",
-      "pronunciationNote": "महाप्राण 'ग' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ 'ಗ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "घर",
           "romanized": "ghar",
-          "english": "घर"
+          "english": "ಘರ",
+          "kannada": "ಘರ"
         },
         {
-          "devanagari": "घड़ी",
           "romanized": "ghadi",
-          "english": "घड़ी"
+          "english": "ಘಡೀ",
+          "kannada": "ಘಡೀ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಘ",
-      "categoryKannada": "ಕಂಠ್ಯ",
-      "categoryDescriptionKannada": "ಕಂಠದಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಘ"
     },
     {
       "id": "vyanjan-005",
       "order": 5,
       "category": "kanthya",
-      "categoryHindi": "कण्ठ्य",
+      "categoryHindi": "ಕಣ್ಠ್ಯ",
       "categoryEnglish": "Guttural",
-      "categoryDescription": "कण्ठ से उच्चरित",
-      "devanagari": "ङ",
+      "categoryDescription": "ಕಣ್ಠ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀗",
       "unicode_codepoint": "U+11017",
       "romanized": "nga",
-      "pronunciationNote": "अनुनासिक ध्वनि, स्वतंत्र रूप से कम प्रयुक्त",
+      "pronunciationNote": "ಅನುನಾಸಿಕ ಧ್ವನಿ, ಸ್ವತಂತ್ರ ರೂಪ ಸೇ ಕಮ ಪ್ರಯುಕ್ತ",
       "exampleWords": [],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಙ",
-      "categoryKannada": "ಕಂಠ್ಯ",
-      "categoryDescriptionKannada": "ಕಂಠದಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಙ"
     },
     {
       "id": "vyanjan-006",
       "order": 6,
       "category": "talavya",
-      "categoryHindi": "तालव्य",
+      "categoryHindi": "ತಾಲವ್ಯ",
       "categoryEnglish": "Palatal",
-      "categoryDescription": "जिह्वा तालु को स्पर्श करती है",
-      "devanagari": "च",
+      "categoryDescription": "ಜಿಹ್ವಾ ತಾಲು ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀘",
       "unicode_codepoint": "U+11018",
       "romanized": "cha",
-      "pronunciationNote": "मृदु 'च' ध्वनि",
+      "pronunciationNote": "ಮृದು 'ಚ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "चाय",
           "romanized": "chaay",
-          "english": "चाय"
+          "english": "ಚಾಯ",
+          "kannada": "ಚಾಯ"
         },
         {
-          "devanagari": "चलना",
           "romanized": "chalna",
-          "english": "चलना"
+          "english": "ಚಲನಾ",
+          "kannada": "ಚಲನಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಚ",
-      "categoryKannada": "ತಾಲವ್ಯ",
-      "categoryDescriptionKannada": "ತಾಲುವಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಚ"
     },
     {
       "id": "vyanjan-007",
       "order": 7,
       "category": "talavya",
-      "categoryHindi": "तालव्य",
+      "categoryHindi": "ತಾಲವ್ಯ",
       "categoryEnglish": "Palatal",
-      "categoryDescription": "जिह्वा तालु को स्पर्श करती है",
-      "devanagari": "छ",
+      "categoryDescription": "ಜಿಹ್ವಾ ತಾಲು ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀙",
       "unicode_codepoint": "U+11019",
       "romanized": "chha",
-      "pronunciationNote": "महाप्राण 'च' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ 'ಚ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "छाता",
           "romanized": "chhata",
-          "english": "छाता"
+          "english": "ಛಾತಾ",
+          "kannada": "ಛಾತಾ"
         },
         {
-          "devanagari": "छोटा",
           "romanized": "chhota",
-          "english": "छोटा"
+          "english": "ಛೋಟಾ",
+          "kannada": "ಛೋಟಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಛ",
-      "categoryKannada": "ತಾಲವ್ಯ",
-      "categoryDescriptionKannada": "ತಾಲುವಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಛ"
     },
     {
       "id": "vyanjan-008",
       "order": 8,
       "category": "talavya",
-      "categoryHindi": "तालव्य",
+      "categoryHindi": "ತಾಲವ್ಯ",
       "categoryEnglish": "Palatal",
-      "categoryDescription": "जिह्वा तालु को स्पर्श करती है",
-      "devanagari": "ज",
+      "categoryDescription": "ಜಿಹ್ವಾ ತಾಲು ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀚",
       "unicode_codepoint": "U+1101A",
       "romanized": "ja",
-      "pronunciationNote": "मृदु 'ज' ध्वनि",
+      "pronunciationNote": "ಮृದು 'ಜ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "जल",
           "romanized": "jal",
-          "english": "जल"
+          "english": "ಜಲ",
+          "kannada": "ಜಲ"
         },
         {
-          "devanagari": "जग",
           "romanized": "jag",
-          "english": "जग"
+          "english": "ಜಗ",
+          "kannada": "ಜಗ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಜ",
-      "categoryKannada": "ತಾಲವ್ಯ",
-      "categoryDescriptionKannada": "ತಾಲುವಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಜ"
     },
     {
       "id": "vyanjan-009",
       "order": 9,
       "category": "talavya",
-      "categoryHindi": "तालव्य",
+      "categoryHindi": "ತಾಲವ್ಯ",
       "categoryEnglish": "Palatal",
-      "categoryDescription": "जिह्वा तालु को स्पर्श करती है",
-      "devanagari": "झ",
+      "categoryDescription": "ಜಿಹ್ವಾ ತಾಲು ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀛",
       "unicode_codepoint": "U+1101B",
       "romanized": "jha",
-      "pronunciationNote": "महाप्राण 'ज' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ 'ಜ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "झरना",
           "romanized": "jharna",
-          "english": "झरना"
+          "english": "ಝರನಾ",
+          "kannada": "ಝರನಾ"
         },
         {
-          "devanagari": "झूला",
           "romanized": "jhoola",
-          "english": "झूला"
+          "english": "ಝೂಲಾ",
+          "kannada": "ಝೂಲಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಝ",
-      "categoryKannada": "ತಾಲವ್ಯ",
-      "categoryDescriptionKannada": "ತಾಲುವಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಝ"
     },
     {
       "id": "vyanjan-010",
       "order": 10,
       "category": "talavya",
-      "categoryHindi": "तालव्य",
+      "categoryHindi": "ತಾಲವ್ಯ",
       "categoryEnglish": "Palatal",
-      "categoryDescription": "जिह्वा तालु को स्पर्श करती है",
-      "devanagari": "ञ",
+      "categoryDescription": "ಜಿಹ್ವಾ ತಾಲು ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀜",
       "unicode_codepoint": "U+1101C",
       "romanized": "nya",
-      "pronunciationNote": "अनुनासिक ध्वनि, स्वतंत्र रूप से कम प्रयुक्त",
+      "pronunciationNote": "ಅನುನಾಸಿಕ ಧ್ವನಿ, ಸ್ವತಂತ್ರ ರೂಪ ಸೇ ಕಮ ಪ್ರಯುಕ್ತ",
       "exampleWords": [],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಞ",
-      "categoryKannada": "ತಾಲವ್ಯ",
-      "categoryDescriptionKannada": "ತಾಲುವಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಞ"
     },
     {
       "id": "vyanjan-011",
       "order": 11,
       "category": "murdhanya",
-      "categoryHindi": "मूर्धन्य",
+      "categoryHindi": "ಮೂರ್ಧನ್ಯ",
       "categoryEnglish": "Retroflex",
-      "categoryDescription": "जिह्वा पीछे की ओर मुड़ती है",
-      "devanagari": "ट",
+      "categoryDescription": "ಜಿಹ್ವಾ ಪೀಛೇ ಕೀ ಓರ ಮುಡತೀ ಹೈ",
       "brahmi": "𑀝",
       "unicode_codepoint": "U+1101D",
       "romanized": "ta",
-      "pronunciationNote": "मूर्धन्य 'ट' ध्वनि",
+      "pronunciationNote": "ಮೂರ್ಧನ್ಯ 'ಟ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "टोपी",
           "romanized": "topi",
-          "english": "टोपी"
+          "english": "ಟೋಪೀ",
+          "kannada": "ಟೋಪೀ"
         },
         {
-          "devanagari": "टमाटर",
           "romanized": "tamatar",
-          "english": "टमाटर"
+          "english": "ಟಮಾಟರ",
+          "kannada": "ಟಮಾಟರ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಟ",
-      "categoryKannada": "ಮೂರ್ಧನ್ಯ",
-      "categoryDescriptionKannada": "ಜಿಹ್ವೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ಮಡಚಿ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಟ"
     },
     {
       "id": "vyanjan-012",
       "order": 12,
       "category": "murdhanya",
-      "categoryHindi": "मूर्धन्य",
+      "categoryHindi": "ಮೂರ್ಧನ್ಯ",
       "categoryEnglish": "Retroflex",
-      "categoryDescription": "जिह्वा पीछे की ओर मुड़ती है",
-      "devanagari": "ठ",
+      "categoryDescription": "ಜಿಹ್ವಾ ಪೀಛೇ ಕೀ ಓರ ಮುಡತೀ ಹೈ",
       "brahmi": "𑀞",
       "unicode_codepoint": "U+1101E",
       "romanized": "tha",
-      "pronunciationNote": "महाप्राण मूर्धन्य 'ट' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ ಮೂರ್ಧನ್ಯ 'ಟ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "ठंडा",
           "romanized": "thanda",
-          "english": "ठंडा"
+          "english": "ಠಂಡಾ",
+          "kannada": "ಠಂಡಾ"
         },
         {
-          "devanagari": "ठग",
           "romanized": "thag",
-          "english": "ठग"
+          "english": "ಠಗ",
+          "kannada": "ಠಗ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಠ",
-      "categoryKannada": "ಮೂರ್ಧನ್ಯ",
-      "categoryDescriptionKannada": "ಜಿಹ್ವೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ಮಡಚಿ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಠ"
     },
     {
       "id": "vyanjan-013",
       "order": 13,
       "category": "murdhanya",
-      "categoryHindi": "मूर्धन्य",
+      "categoryHindi": "ಮೂರ್ಧನ್ಯ",
       "categoryEnglish": "Retroflex",
-      "categoryDescription": "जिह्वा पीछे की ओर मुड़ती है",
-      "devanagari": "ड",
+      "categoryDescription": "ಜಿಹ್ವಾ ಪೀಛೇ ಕೀ ಓರ ಮುಡತೀ ಹೈ",
       "brahmi": "𑀟",
       "unicode_codepoint": "U+1101F",
       "romanized": "da",
-      "pronunciationNote": "मूर्धन्य 'ड' ध्वनि",
+      "pronunciationNote": "ಮೂರ್ಧನ್ಯ 'ಡ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "डाकिया",
           "romanized": "dakiya",
-          "english": "डाकिया"
+          "english": "ಡಾಕಿಯಾ",
+          "kannada": "ಡಾಕಿಯಾ"
         },
         {
-          "devanagari": "डमरू",
           "romanized": "damroo",
-          "english": "डमरू/ढोल"
+          "english": "ಡಮರೂ/ಢೋಲ",
+          "kannada": "ಡಮರೂ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಡ",
-      "categoryKannada": "ಮೂರ್ಧನ್ಯ",
-      "categoryDescriptionKannada": "ಜಿಹ್ವೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ಮಡಚಿ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಡ"
     },
     {
       "id": "vyanjan-014",
       "order": 14,
       "category": "murdhanya",
-      "categoryHindi": "मूर्धन्य",
+      "categoryHindi": "ಮೂರ್ಧನ್ಯ",
       "categoryEnglish": "Retroflex",
-      "categoryDescription": "जिह्वा पीछे की ओर मुड़ती है",
-      "devanagari": "ढ",
+      "categoryDescription": "ಜಿಹ್ವಾ ಪೀಛೇ ಕೀ ಓರ ಮುಡತೀ ಹೈ",
       "brahmi": "𑀠",
       "unicode_codepoint": "U+11020",
       "romanized": "dha",
-      "pronunciationNote": "महाप्राण मूर्धन्य 'ड' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ ಮೂರ್ಧನ್ಯ 'ಡ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "ढोल",
           "romanized": "dhol",
-          "english": "डमरू/ढोल"
+          "english": "ಡಮರೂ/ಢೋಲ",
+          "kannada": "ಢೋಲ"
         },
         {
-          "devanagari": "ढक्कन",
           "romanized": "dhakkan",
-          "english": "ढक्कन"
+          "english": "ಢಕ್ಕನ",
+          "kannada": "ಢಕ್ಕನ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಢ",
-      "categoryKannada": "ಮೂರ್ಧನ್ಯ",
-      "categoryDescriptionKannada": "ಜಿಹ್ವೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ಮಡಚಿ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಢ"
     },
     {
       "id": "vyanjan-015",
       "order": 15,
       "category": "murdhanya",
-      "categoryHindi": "मूर्धन्य",
+      "categoryHindi": "ಮೂರ್ಧನ್ಯ",
       "categoryEnglish": "Retroflex",
-      "categoryDescription": "जिह्वा पीछे की ओर मुड़ती है",
-      "devanagari": "ण",
+      "categoryDescription": "ಜಿಹ್ವಾ ಪೀಛೇ ಕೀ ಓರ ಮುಡತೀ ಹೈ",
       "brahmi": "𑀡",
       "unicode_codepoint": "U+11021",
       "romanized": "na",
-      "pronunciationNote": "मूर्धन्य 'ण' ध्वनि, स्वतंत्र रूप से कम प्रयुक्त",
+      "pronunciationNote": "ಮೂರ್ಧನ್ಯ 'ಣ' ಧ್ವನಿ, ಸ್ವತಂತ್ರ ರೂಪ ಸೇ ಕಮ ಪ್ರಯುಕ್ತ",
       "exampleWords": [],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಣ",
-      "categoryKannada": "ಮೂರ್ಧನ್ಯ",
-      "categoryDescriptionKannada": "ಜಿಹ್ವೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ಮಡಚಿ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಣ"
     },
     {
       "id": "vyanjan-016",
       "order": 16,
       "category": "dantya",
-      "categoryHindi": "दन्त्य",
+      "categoryHindi": "ದನ್ತ್ಯ",
       "categoryEnglish": "Dental",
-      "categoryDescription": "जिह्वा दांतों को स्पर्श करती है",
-      "devanagari": "त",
+      "categoryDescription": "ಜಿಹ್ವಾ ದಾಂತೋಂ ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀢",
       "unicode_codepoint": "U+11022",
       "romanized": "ta",
-      "pronunciationNote": "दन्त्य 'त' ध्वनि",
+      "pronunciationNote": "ದನ್ತ್ಯ 'ತ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "तन",
           "romanized": "tan",
-          "english": "तन"
+          "english": "ತನ",
+          "kannada": "ತನ"
         },
         {
-          "devanagari": "तरण",
           "romanized": "taran",
-          "english": "तरण"
+          "english": "ತರಣ",
+          "kannada": "ತರಣ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ತ",
-      "categoryKannada": "ದಂತ್ಯ",
-      "categoryDescriptionKannada": "ಹಲ್ಲಿನ ಹತ್ತಿರ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ತ"
     },
     {
       "id": "vyanjan-017",
       "order": 17,
       "category": "dantya",
-      "categoryHindi": "दन्त्य",
+      "categoryHindi": "ದನ್ತ್ಯ",
       "categoryEnglish": "Dental",
-      "categoryDescription": "जिह्वा दांतों को स्पर्श करती है",
-      "devanagari": "थ",
+      "categoryDescription": "ಜಿಹ್ವಾ ದಾಂತೋಂ ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀣",
       "unicode_codepoint": "U+11023",
       "romanized": "tha",
-      "pronunciationNote": "महाप्राण दन्त्य 'त' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ ದನ್ತ್ಯ 'ತ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "थल",
           "romanized": "thal",
-          "english": "थल"
+          "english": "ಥಲ",
+          "kannada": "ಥಲ"
         },
         {
-          "devanagari": "थाली",
           "romanized": "thali",
-          "english": "थाली"
+          "english": "ಥಾಲೀ",
+          "kannada": "ಥಾಲೀ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಥ",
-      "categoryKannada": "ದಂತ್ಯ",
-      "categoryDescriptionKannada": "ಹಲ್ಲಿನ ಹತ್ತಿರ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಥ"
     },
     {
       "id": "vyanjan-018",
       "order": 18,
       "category": "dantya",
-      "categoryHindi": "दन्त्य",
+      "categoryHindi": "ದನ್ತ್ಯ",
       "categoryEnglish": "Dental",
-      "categoryDescription": "जिह्वा दांतों को स्पर्श करती है",
-      "devanagari": "द",
+      "categoryDescription": "ಜಿಹ್ವಾ ದಾಂತೋಂ ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀤",
       "unicode_codepoint": "U+11024",
       "romanized": "da",
-      "pronunciationNote": "दन्त्य 'द' ध्वनि",
+      "pronunciationNote": "ದನ್ತ್ಯ 'ದ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "दल",
           "romanized": "dal",
-          "english": "दाल"
+          "english": "ದಾಲ",
+          "kannada": "ದಲ"
         },
         {
-          "devanagari": "दान",
           "romanized": "daan",
-          "english": "दान"
+          "english": "ದಾನ",
+          "kannada": "ದಾನ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ದ",
-      "categoryKannada": "ದಂತ್ಯ",
-      "categoryDescriptionKannada": "ಹಲ್ಲಿನ ಹತ್ತಿರ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ದ"
     },
     {
       "id": "vyanjan-019",
       "order": 19,
       "category": "dantya",
-      "categoryHindi": "दन्त्य",
+      "categoryHindi": "ದನ್ತ್ಯ",
       "categoryEnglish": "Dental",
-      "categoryDescription": "जिह्वा दांतों को स्पर्श करती है",
-      "devanagari": "ध",
+      "categoryDescription": "ಜಿಹ್ವಾ ದಾಂತೋಂ ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀥",
       "unicode_codepoint": "U+11025",
       "romanized": "dha",
-      "pronunciationNote": "महाप्राण दन्त्य 'द' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ ದನ್ತ್ಯ 'ದ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "धन",
           "romanized": "dhan",
-          "english": "धन"
+          "english": "ಧನ",
+          "kannada": "ಧನ"
         },
         {
-          "devanagari": "धरती",
           "romanized": "dharti",
-          "english": "धरती"
+          "english": "ಧರತೀ",
+          "kannada": "ಧರತೀ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಧ",
-      "categoryKannada": "ದಂತ್ಯ",
-      "categoryDescriptionKannada": "ಹಲ್ಲಿನ ಹತ್ತಿರ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಧ"
     },
     {
       "id": "vyanjan-020",
       "order": 20,
       "category": "dantya",
-      "categoryHindi": "दन्त्य",
+      "categoryHindi": "ದನ್ತ್ಯ",
       "categoryEnglish": "Dental",
-      "categoryDescription": "जिह्वा दांतों को स्पर्श करती है",
-      "devanagari": "न",
+      "categoryDescription": "ಜಿಹ್ವಾ ದಾಂತೋಂ ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "brahmi": "𑀦",
       "unicode_codepoint": "U+11026",
       "romanized": "na",
-      "pronunciationNote": "दन्त्य 'न' ध्वनि",
+      "pronunciationNote": "ದನ್ತ್ಯ 'ನ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "नल",
           "romanized": "nal",
-          "english": "नल"
+          "english": "ನಲ",
+          "kannada": "ನಲ"
         },
         {
-          "devanagari": "नाम",
           "romanized": "naam",
-          "english": "नाम"
+          "english": "ನಾಮ",
+          "kannada": "ನಾಮ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ನ",
-      "categoryKannada": "ದಂತ್ಯ",
-      "categoryDescriptionKannada": "ಹಲ್ಲಿನ ಹತ್ತಿರ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ನ"
     },
     {
       "id": "vyanjan-021",
       "order": 21,
       "category": "osthya",
-      "categoryHindi": "ओष्ठ्य",
+      "categoryHindi": "ಓಷ್ಠ್ಯ",
       "categoryEnglish": "Labial",
-      "categoryDescription": "ओठों से उच्चरित",
-      "devanagari": "प",
+      "categoryDescription": "ಓಠೋಂ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀧",
       "unicode_codepoint": "U+11027",
       "romanized": "pa",
-      "pronunciationNote": "कठोर 'प' ध्वनि",
+      "pronunciationNote": "ಕಠೋರ 'ಪ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "पल",
           "romanized": "pal",
-          "english": "पल"
+          "english": "ಪಲ",
+          "kannada": "ಪಲ"
         },
         {
-          "devanagari": "पानी",
           "romanized": "paani",
-          "english": "जल"
+          "english": "ಜಲ",
+          "kannada": "ಪಾನೀ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಪ",
-      "categoryKannada": "ಓಷ್ಟ್ಯ",
-      "categoryDescriptionKannada": "ತುಟಿಗಳಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಪ"
     },
     {
       "id": "vyanjan-022",
       "order": 22,
       "category": "osthya",
-      "categoryHindi": "ओष्ठ्य",
+      "categoryHindi": "ಓಷ್ಠ್ಯ",
       "categoryEnglish": "Labial",
-      "categoryDescription": "ओठों से उच्चरित",
-      "devanagari": "फ",
+      "categoryDescription": "ಓಠೋಂ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀨",
       "unicode_codepoint": "U+11028",
       "romanized": "pha",
-      "pronunciationNote": "महाप्राण 'प' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ 'ಪ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "फल",
           "romanized": "phal",
-          "english": "फल"
+          "english": "ಫಲ",
+          "kannada": "ಫಲ"
         },
         {
-          "devanagari": "फूल",
           "romanized": "phool",
-          "english": "फूल"
+          "english": "ಫೂಲ",
+          "kannada": "ಫೂಲ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಫ",
-      "categoryKannada": "ಓಷ್ಟ್ಯ",
-      "categoryDescriptionKannada": "ತುಟಿಗಳಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಫ"
     },
     {
       "id": "vyanjan-023",
       "order": 23,
       "category": "osthya",
-      "categoryHindi": "ओष्ठ्य",
+      "categoryHindi": "ಓಷ್ಠ್ಯ",
       "categoryEnglish": "Labial",
-      "categoryDescription": "ओठों से उच्चरित",
-      "devanagari": "ब",
+      "categoryDescription": "ಓಠೋಂ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀩",
       "unicode_codepoint": "U+11029",
       "romanized": "ba",
-      "pronunciationNote": "मृदु 'ब' ध्वनि",
+      "pronunciationNote": "ಮृದು 'ಬ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "बल",
           "romanized": "bal",
-          "english": "बल"
+          "english": "ಬಲ",
+          "kannada": "ಬಲ"
         },
         {
-          "devanagari": "बादल",
           "romanized": "baadal",
-          "english": "बादल"
+          "english": "ಬಾದಲ",
+          "kannada": "ಬಾದಲ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಬ",
-      "categoryKannada": "ಓಷ್ಟ್ಯ",
-      "categoryDescriptionKannada": "ತುಟಿಗಳಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಬ"
     },
     {
       "id": "vyanjan-024",
       "order": 24,
       "category": "osthya",
-      "categoryHindi": "ओष्ठ्य",
+      "categoryHindi": "ಓಷ್ಠ್ಯ",
       "categoryEnglish": "Labial",
-      "categoryDescription": "ओठों से उच्चरित",
-      "devanagari": "भ",
+      "categoryDescription": "ಓಠೋಂ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀪",
       "unicode_codepoint": "U+1102A",
       "romanized": "bha",
-      "pronunciationNote": "महाप्राण 'ब' ध्वनि",
+      "pronunciationNote": "ಮಹಾಪ್ರಾಣ 'ಬ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "भवन",
           "romanized": "bhavan",
-          "english": "भवन"
+          "english": "ಭವನ",
+          "kannada": "ಭವನ"
         },
         {
-          "devanagari": "भाषा",
           "romanized": "bhasha",
-          "english": "भाषा"
+          "english": "ಭಾಷಾ",
+          "kannada": "ಭಾಷಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಭ",
-      "categoryKannada": "ಓಷ್ಟ್ಯ",
-      "categoryDescriptionKannada": "ತುಟಿಗಳಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಭ"
     },
     {
       "id": "vyanjan-025",
       "order": 25,
       "category": "osthya",
-      "categoryHindi": "ओष्ठ्य",
+      "categoryHindi": "ಓಷ್ಠ್ಯ",
       "categoryEnglish": "Labial",
-      "categoryDescription": "ओठों से उच्चरित",
-      "devanagari": "म",
+      "categoryDescription": "ಓಠೋಂ ಸೇ ಉಚ್ಚರಿತ",
       "brahmi": "𑀫",
       "unicode_codepoint": "U+1102B",
       "romanized": "ma",
-      "pronunciationNote": "अनुनासिक 'म' ध्वनि",
+      "pronunciationNote": "ಅನುನಾಸಿಕ 'ಮ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "मन",
           "romanized": "man",
-          "english": "मन"
+          "english": "ಮನ",
+          "kannada": "ಮನ"
         },
         {
-          "devanagari": "माता",
           "romanized": "maata",
-          "english": "माता"
+          "english": "ಮಾತಾ",
+          "kannada": "ಮಾತಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಮ",
-      "categoryKannada": "ಓಷ್ಟ್ಯ",
-      "categoryDescriptionKannada": "ತುಟಿಗಳಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಮ"
     },
     {
       "id": "vyanjan-026",
       "order": 26,
       "category": "antahstha",
-      "categoryHindi": "अन्तःस्थ",
+      "categoryHindi": "ಅನ್ತಃಸ್ಥ",
       "categoryEnglish": "Semi-vowel",
-      "categoryDescription": "अर्ध-स्वर",
-      "devanagari": "य",
+      "categoryDescription": "ಅರ್ಧ-ಸ್ವರ",
       "brahmi": "𑀬",
       "unicode_codepoint": "U+1102C",
       "romanized": "ya",
-      "pronunciationNote": "'य' ध्वनि",
+      "pronunciationNote": "'ಯ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "यज्ञ",
           "romanized": "yagna",
-          "english": "यज्ञ"
+          "english": "ಯಜ್ಞ",
+          "kannada": "ಯಜ್ಞ"
         },
         {
-          "devanagari": "यात्रा",
           "romanized": "yatra",
-          "english": "यात्रा"
+          "english": "ಯಾತ್ರಾ",
+          "kannada": "ಯಾತ್ರಾ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಯ",
-      "categoryKannada": "ಅಂತಃಸ್ಥ",
-      "categoryDescriptionKannada": "ಅರ್ಧಸ್ವರಗಳು"
+      "kannada": "ಯ"
     },
     {
       "id": "vyanjan-027",
       "order": 27,
       "category": "antahstha",
-      "categoryHindi": "अन्तःस्थ",
+      "categoryHindi": "ಅನ್ತಃಸ್ಥ",
       "categoryEnglish": "Semi-vowel",
-      "categoryDescription": "अर्ध-स्वर",
-      "devanagari": "र",
+      "categoryDescription": "ಅರ್ಧ-ಸ್ವರ",
       "brahmi": "𑀭",
       "unicode_codepoint": "U+1102D",
       "romanized": "ra",
-      "pronunciationNote": "लुंठित 'र' ध्वनि",
+      "pronunciationNote": "ಲುಂಠಿತ 'ರ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "रस",
           "romanized": "ras",
-          "english": "रस"
+          "english": "ರಸ",
+          "kannada": "ರಸ"
         },
         {
-          "devanagari": "राज",
           "romanized": "raaj",
-          "english": "राज"
+          "english": "ರಾಜ",
+          "kannada": "ರಾಜ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ರ",
-      "categoryKannada": "ಅಂತಃಸ್ಥ",
-      "categoryDescriptionKannada": "ಅರ್ಧಸ್ವರಗಳು"
+      "kannada": "ರ"
     },
     {
       "id": "vyanjan-028",
       "order": 28,
       "category": "antahstha",
-      "categoryHindi": "अन्तःस्थ",
+      "categoryHindi": "ಅನ್ತಃಸ್ಥ",
       "categoryEnglish": "Semi-vowel",
-      "categoryDescription": "अर्ध-स्वर",
-      "devanagari": "ल",
+      "categoryDescription": "ಅರ್ಧ-ಸ್ವರ",
       "brahmi": "𑀮",
       "unicode_codepoint": "U+1102E",
       "romanized": "la",
-      "pronunciationNote": "मृदु 'ल' ध्वनि",
+      "pronunciationNote": "ಮृದು 'ಲ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "लता",
           "romanized": "lata",
-          "english": "लता"
+          "english": "ಲತಾ",
+          "kannada": "ಲತಾ"
         },
         {
-          "devanagari": "लहर",
           "romanized": "lahar",
-          "english": "लहर"
+          "english": "ಲಹರ",
+          "kannada": "ಲಹರ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಲ",
-      "categoryKannada": "ಅಂತಃಸ್ಥ",
-      "categoryDescriptionKannada": "ಅರ್ಧಸ್ವರಗಳು"
+      "kannada": "ಲ"
     },
     {
       "id": "vyanjan-029",
       "order": 29,
       "category": "antahstha",
-      "categoryHindi": "अन्तःस्थ",
+      "categoryHindi": "ಅನ್ತಃಸ್ಥ",
       "categoryEnglish": "Semi-vowel",
-      "categoryDescription": "अर्ध-स्वर",
-      "devanagari": "व",
+      "categoryDescription": "ಅರ್ಧ-ಸ್ವರ",
       "brahmi": "𑀯",
       "unicode_codepoint": "U+1102F",
       "romanized": "va",
-      "pronunciationNote": "'व' ध्वनि",
+      "pronunciationNote": "'ವ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "वन",
           "romanized": "van",
-          "english": "वन"
+          "english": "ವನ",
+          "kannada": "ವನ"
         },
         {
-          "devanagari": "वायु",
           "romanized": "vayu",
-          "english": "वायु"
+          "english": "ವಾಯು",
+          "kannada": "ವಾಯು"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ವ",
-      "categoryKannada": "ಅಂತಃಸ್ಥ",
-      "categoryDescriptionKannada": "ಅರ್ಧಸ್ವರಗಳು"
+      "kannada": "ವ"
     },
     {
       "id": "vyanjan-030",
       "order": 30,
       "category": "ushma",
-      "categoryHindi": "उष्म",
+      "categoryHindi": "ಉಷ್ಮ",
       "categoryEnglish": "Sibilant",
-      "categoryDescription": "ऊष्म या घर्षण व्यंजन",
-      "devanagari": "श",
+      "categoryDescription": "ಊಷ್ಮ ಯಾ ಘರ್ಷಣ ವ್ಯಂಜನ",
       "brahmi": "𑀰",
       "unicode_codepoint": "U+11030",
       "romanized": "sha",
-      "pronunciationNote": "तालव्य 'श' ध्वनि",
+      "pronunciationNote": "ತಾಲವ್ಯ 'ಶ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "शक्ति",
           "romanized": "shakti",
-          "english": "शक्ति"
+          "english": "ಶಕ್ತಿ",
+          "kannada": "ಶಕ್ತಿ"
         },
         {
-          "devanagari": "शब्द",
           "romanized": "shabd",
-          "english": "शब्द"
+          "english": "ಶಬ್ದ",
+          "kannada": "ಶಬ್ದ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಶ",
-      "categoryKannada": "ಉಷ್ಮ",
-      "categoryDescriptionKannada": "ತೀವ್ರ ಉಸಿರಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಶ"
     },
     {
       "id": "vyanjan-031",
       "order": 31,
       "category": "ushma",
-      "categoryHindi": "उष्म",
+      "categoryHindi": "ಉಷ್ಮ",
       "categoryEnglish": "Sibilant",
-      "categoryDescription": "ऊष्म या घर्षण व्यंजन",
-      "devanagari": "ष",
+      "categoryDescription": "ಊಷ್ಮ ಯಾ ಘರ್ಷಣ ವ್ಯಂಜನ",
       "brahmi": "𑀱",
       "unicode_codepoint": "U+11031",
       "romanized": "sha",
-      "pronunciationNote": "मूर्धन्य 'ष' ध्वनि",
+      "pronunciationNote": "ಮೂರ್ಧನ್ಯ 'ಷ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "षट्",
           "romanized": "shat",
-          "english": "छह"
+          "english": "ಛಹ",
+          "kannada": "ಷಟ್"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಷ",
-      "categoryKannada": "ಉಷ್ಮ",
-      "categoryDescriptionKannada": "ತೀವ್ರ ಉಸಿರಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಷ"
     },
     {
       "id": "vyanjan-032",
       "order": 32,
       "category": "ushma",
-      "categoryHindi": "उष्म",
+      "categoryHindi": "ಉಷ್ಮ",
       "categoryEnglish": "Sibilant",
-      "categoryDescription": "ऊष्म या घर्षण व्यंजन",
-      "devanagari": "स",
+      "categoryDescription": "ಊಷ್ಮ ಯಾ ಘರ್ಷಣ ವ್ಯಂಜನ",
       "brahmi": "𑀲",
       "unicode_codepoint": "U+11032",
       "romanized": "sa",
-      "pronunciationNote": "दन्त्य 'स' ध्वनि",
+      "pronunciationNote": "ದನ್ತ್ಯ 'ಸ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "सत्य",
           "romanized": "satya",
-          "english": "सत्य"
+          "english": "ಸತ್ಯ",
+          "kannada": "ಸತ್ಯ"
         },
         {
-          "devanagari": "सरल",
           "romanized": "saral",
-          "english": "सरल"
+          "english": "ಸರಲ",
+          "kannada": "ಸರಲ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಸ",
-      "categoryKannada": "ಉಷ್ಮ",
-      "categoryDescriptionKannada": "ತೀವ್ರ ಉಸಿರಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಸ"
     },
     {
       "id": "vyanjan-033",
       "order": 33,
       "category": "ushma",
-      "categoryHindi": "उष्म",
+      "categoryHindi": "ಉಷ್ಮ",
       "categoryEnglish": "Sibilant",
-      "categoryDescription": "ऊष्म या घर्षण व्यंजन",
-      "devanagari": "ह",
+      "categoryDescription": "ಊಷ್ಮ ಯಾ ಘರ್ಷಣ ವ್ಯಂಜನ",
       "brahmi": "𑀳",
       "unicode_codepoint": "U+11033",
       "romanized": "ha",
-      "pronunciationNote": "कण्ठ्य 'ह' ध्वनि",
+      "pronunciationNote": "ಕಣ್ಠ್ಯ 'ಹ' ಧ್ವನಿ",
       "exampleWords": [
         {
-          "devanagari": "हस्त",
           "romanized": "hasta",
-          "english": "हाथ"
+          "english": "ಹಾಥ",
+          "kannada": "ಹಸ್ತ"
         },
         {
-          "devanagari": "हरि",
           "romanized": "hari",
-          "english": "भगवान"
+          "english": "ಭಗವಾನ",
+          "kannada": "ಹರಿ"
         }
       ],
       "pronunciationNoteEnglish": "",
-      "title_kannada": "ಹ",
-      "categoryKannada": "ಉಷ್ಮ",
-      "categoryDescriptionKannada": "ತೀವ್ರ ಉಸಿರಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      "kannada": "ಹ"
     }
   ],
   "categories": {
     "kanthya": {
-      "name": "कण्ठ्य",
+      "name": "ಕಣ್ಠ್ಯ",
       "english": "Guttural",
-      "description": "कण्ठ से उच्चरित होने वाले व्यंजन",
+      "description": "ಕಣ್ಠ ಸೇ ಉಚ್ಚರಿತ ಹೋನೇ ವಾಲೇ ವ್ಯಂಜನ",
       "order": 1,
       "consonantIds": [
         "vyanjan-001",
@@ -932,14 +833,12 @@
         "vyanjan-003",
         "vyanjan-004",
         "vyanjan-005"
-      ],
-      "nameKannada": "ಕಂಠ್ಯ",
-      "descriptionKannada": "ಕಂಠದಿಂದ ಉಚ್ಚಾರಣೆ"
+      ]
     },
     "talavya": {
-      "name": "तालव्य",
+      "name": "ತಾಲವ್ಯ",
       "english": "Palatal",
-      "description": "वे व्यंजन जहाँ जिह्वा तालु को स्पर्श करती है",
+      "description": "ವೇ ವ್ಯಂಜನ ಜಹಾಂ ಜಿಹ್ವಾ ತಾಲು ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "order": 2,
       "consonantIds": [
         "vyanjan-006",
@@ -947,14 +846,12 @@
         "vyanjan-008",
         "vyanjan-009",
         "vyanjan-010"
-      ],
-      "nameKannada": "ತಾಲವ್ಯ",
-      "descriptionKannada": "ತಾಲುವಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      ]
     },
     "murdhanya": {
-      "name": "मूर्धन्य",
+      "name": "ಮೂರ್ಧನ್ಯ",
       "english": "Retroflex",
-      "description": "वे व्यंजन जहाँ जिह्वा पीछे की ओर मुड़ती है",
+      "description": "ವೇ ವ್ಯಂಜನ ಜಹಾಂ ಜಿಹ್ವಾ ಪೀಛೇ ಕೀ ಓರ ಮುಡತೀ ಹೈ",
       "order": 3,
       "consonantIds": [
         "vyanjan-011",
@@ -962,14 +859,12 @@
         "vyanjan-013",
         "vyanjan-014",
         "vyanjan-015"
-      ],
-      "nameKannada": "ಮೂರ್ಧನ್ಯ",
-      "descriptionKannada": "ಜಿಹ್ವೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ಮಡಚಿ ಉಚ್ಚಾರಣೆ"
+      ]
     },
     "dantya": {
-      "name": "दन्त्य",
+      "name": "ದನ್ತ್ಯ",
       "english": "Dental",
-      "description": "वे व्यंजन जहाँ जिह्वा दांतों को स्पर्श करती है",
+      "description": "ವೇ ವ್ಯಂಜನ ಜಹಾಂ ಜಿಹ್ವಾ ದಾಂತೋಂ ಕೋ ಸ್ಪರ್ಶ ಕರತೀ ಹೈ",
       "order": 4,
       "consonantIds": [
         "vyanjan-016",
@@ -977,14 +872,12 @@
         "vyanjan-018",
         "vyanjan-019",
         "vyanjan-020"
-      ],
-      "nameKannada": "ದಂತ್ಯ",
-      "descriptionKannada": "ಹಲ್ಲಿನ ಹತ್ತಿರ ಉಚ್ಚಾರಣೆ"
+      ]
     },
     "osthya": {
-      "name": "ओष्ठ्य",
+      "name": "ಓಷ್ಠ್ಯ",
       "english": "Labial",
-      "description": "ओठों से उच्चरित होने वाले व्यंजन",
+      "description": "ಓಠೋಂ ಸೇ ಉಚ್ಚರಿತ ಹೋನೇ ವಾಲೇ ವ್ಯಂಜನ",
       "order": 5,
       "consonantIds": [
         "vyanjan-021",
@@ -992,37 +885,31 @@
         "vyanjan-023",
         "vyanjan-024",
         "vyanjan-025"
-      ],
-      "nameKannada": "ಓಷ್ಟ್ಯ",
-      "descriptionKannada": "ತುಟಿಗಳಿಂದ ಉಚ್ಚಾರಣೆ"
+      ]
     },
     "antahstha": {
-      "name": "अन्तःस्थ",
+      "name": "ಅನ್ತಃಸ್ಥ",
       "english": "Semi-vowel",
-      "description": "अर्ध-स्वर व्यंजन",
+      "description": "ಅರ್ಧ-ಸ್ವರ ವ್ಯಂಜನ",
       "order": 6,
       "consonantIds": [
         "vyanjan-026",
         "vyanjan-027",
         "vyanjan-028",
         "vyanjan-029"
-      ],
-      "nameKannada": "ಅಂತಃಸ್ಥ",
-      "descriptionKannada": "ಅರ್ಧಸ್ವರಗಳು"
+      ]
     },
     "ushma": {
-      "name": "उष्म",
+      "name": "ಉಷ್ಮ",
       "english": "Sibilant",
-      "description": "तीव्र श्वास के साथ उच्चरित ऊष्म व्यंजन",
+      "description": "ತೀವ್ರ ಶ್ವಾಸ ಕೇ ಸಾಥ ಉಚ್ಚರಿತ ಊಷ್ಮ ವ್ಯಂಜನ",
       "order": 7,
       "consonantIds": [
         "vyanjan-030",
         "vyanjan-031",
         "vyanjan-032",
         "vyanjan-033"
-      ],
-      "nameKannada": "ಉಷ್ಮ",
-      "descriptionKannada": "ತೀವ್ರ ಉಸಿರಿನಿಂದ ಉಚ್ಚಾರಣೆ"
+      ]
     }
   },
   "lessons": [
@@ -1030,137 +917,113 @@
       "id": "vyanjan-lesson-001",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-001",
-      "title": "व्यञ्जन का परिचय",
+      "title": "ವ್ಯಞ್ಜನ ಕಾ ಪರಿಚಯ",
       "title_english": "Introduction to Consonants",
       "subtitle": "",
-      "description": "7 वर्गों में व्यवस्थित 33 ब्राह्मी व्यंजनों के बारे में जानें",
+      "description": "7 ವರ್ಗೋಂ ಮೇಂ ವ್ಯವಸ್ಥಿತ 33 ಬ್ರಾಹ್ಮೀ ವ್ಯಂಜನೋಂ ಕೇ ಬಾರೇ ಮೇಂ ಜಾನೇಂ",
       "category": "introduction",
       "consonant_group": "all",
       "order_no": 1,
       "estimated_time_minutes": 15,
-      "thumbnail_icon": "अ",
-      "title_kannada": "ವ್ಯಂಜನಗಳ ಪರಿಚಯ",
-      "subtitle_kannada": "",
-      "description_kannada": "7 ವರ್ಗಗಳಲ್ಲಿ ವ್ಯವಸ್ಥಿತವಾದ 33 ಬ್ರಾಹ್ಮೀ ವ್ಯಂಜನಗಳ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ"
+      "thumbnail_icon": "ಅ"
     },
     {
       "id": "vyanjan-lesson-002",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-002",
-      "title": "क वर्ग",
+      "title": "ಕ ವರ್ಗ",
       "title_english": "Ka-Varga - Guttural Consonants",
-      "subtitle": "कण्ठ्य",
-      "description": "5 कण्ठ्य व्यंजनों (क, ख, ग, घ, ङ) को सीखें",
+      "subtitle": "ಕಣ್ಠ್ಯ",
+      "description": "5 ಕಣ್ಠ್ಯ ವ್ಯಂಜನೋಂ (ಕ, ಖ, ಗ, ಘ, ಙ) ಕೋ ಸೀಖೇಂ",
       "category": "kanthya",
       "consonant_group": "kanthya",
       "order_no": 2,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ಕ",
-      "title_kannada": "ಕ ವರ್ಗ",
-      "subtitle_kannada": "ಕಂಠ್ಯ",
-      "description_kannada": "5 ಕಂಠ್ಯ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ಕ, ಖ, ಗ, ಘ, ಙ)"
+      "thumbnail_icon": "ಕ"
     },
     {
       "id": "vyanjan-lesson-003",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-003",
-      "title": "च वर्ग",
+      "title": "ಚ ವರ್ಗ",
       "title_english": "Cha-Varga - Palatal Consonants",
-      "subtitle": "तालव्य",
-      "description": "5 तालव्य व्यंजनों (च, छ, ज, झ, ञ) को सीखें",
+      "subtitle": "ತಾಲವ್ಯ",
+      "description": "5 ತಾಲವ್ಯ ವ್ಯಂಜನೋಂ (ಚ, ಛ, ಜ, ಝ, ಞ) ಕೋ ಸೀಖೇಂ",
       "category": "talavya",
       "consonant_group": "talavya",
       "order_no": 3,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ಚ",
-      "title_kannada": "ಚ ವರ್ಗ",
-      "subtitle_kannada": "ತಾಲವ್ಯ",
-      "description_kannada": "5 ತಾಲವ್ಯ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ಚ, ಛ, ಜ, ಝ, ಞ)"
+      "thumbnail_icon": "ಚ"
     },
     {
       "id": "vyanjan-lesson-004",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-004",
-      "title": "ट वर्ग (मूर्धन्य)",
+      "title": "ಟ ವರ್ಗ (ಮೂರ್ಧನ್ಯ)",
       "title_english": "Ta-Varga - Retroflex Consonants",
-      "subtitle": "मूर्धन्य",
-      "description": "5 मूर्धन्य व्यंजनों (ट, ठ, ड, ढ, ण) को सीखें",
+      "subtitle": "ಮೂರ್ಧನ್ಯ",
+      "description": "5 ಮೂರ್ಧನ್ಯ ವ್ಯಂಜನೋಂ (ಟ, ಠ, ಡ, ಢ, ಣ) ಕೋ ಸೀಖೇಂ",
       "category": "murdhanya",
       "consonant_group": "murdhanya",
       "order_no": 4,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ಟ",
-      "title_kannada": "ಟ ವರ್ಗ (ಮೂರ್ಧನ್ಯ)",
-      "subtitle_kannada": "ಮೂರ್ಧನ್ಯ",
-      "description_kannada": "5 ಮೂರ್ಧನ್ಯ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ಟ, ಠ, ಡ, ಢ, ಣ)"
+      "thumbnail_icon": "ಟ"
     },
     {
       "id": "vyanjan-lesson-005",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-005",
-      "title": "त वर्ग (दन्त्य)",
+      "title": "ತ ವರ್ಗ (ದನ್ತ್ಯ)",
       "title_english": "Ta-Varga - Dental Consonants",
-      "subtitle": "दन्त्य",
-      "description": "5 दन्त्य व्यंजनों (त, थ, द, ध, न) को सीखें",
+      "subtitle": "ದನ್ತ್ಯ",
+      "description": "5 ದನ್ತ್ಯ ವ್ಯಂಜನೋಂ (ತ, ಥ, ದ, ಧ, ನ) ಕೋ ಸೀಖೇಂ",
       "category": "dantya",
       "consonant_group": "dantya",
       "order_no": 5,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ತ",
-      "title_kannada": "ತ ವರ್ಗ (ದಂತ್ಯ)",
-      "subtitle_kannada": "ದಂತ್ಯ",
-      "description_kannada": "5 ದಂತ್ಯ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ತ, ಥ, ದ, ಧ, ನ)"
+      "thumbnail_icon": "ತ"
     },
     {
       "id": "vyanjan-lesson-006",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-006",
-      "title": "प वर्ग",
+      "title": "ಪ ವರ್ಗ",
       "title_english": "Pa-Varga - Labial Consonants",
-      "subtitle": "ओष्ठ्य",
-      "description": "5 ओष्ठ्य व्यंजनों (प, फ, ब, भ, म) को सीखें",
+      "subtitle": "ಓಷ್ಠ್ಯ",
+      "description": "5 ಓಷ್ಠ್ಯ ವ್ಯಂಜನೋಂ (ಪ, ಫ, ಬ, ಭ, ಮ) ಕೋ ಸೀಖೇಂ",
       "category": "osthya",
       "consonant_group": "osthya",
       "order_no": 6,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ಪ",
-      "title_kannada": "ಪ ವರ್ಗ",
-      "subtitle_kannada": "ಓಷ್ಟ್ಯ",
-      "description_kannada": "5 ಓಷ್ಟ್ಯ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ಪ, ಫ, ಬ, ಭ, ಮ)"
+      "thumbnail_icon": "ಪ"
     },
     {
       "id": "vyanjan-lesson-007",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-007",
-      "title": "अन्तःस्थ",
+      "title": "ಅನ್ತಃಸ್ಥ",
       "title_english": "Antahstha - Semi-vowels",
-      "subtitle": "अन्तःस्थ",
-      "description": "4 अन्तःस्थ (अर्ध-स्वर) व्यंजनों (य, र, ल, व) को सीखें",
+      "subtitle": "ಅನ್ತಃಸ್ಥ",
+      "description": "4 ಅನ್ತಃಸ್ಥ (ಅರ್ಧ-ಸ್ವರ) ವ್ಯಂಜನೋಂ (ಯ, ರ, ಲ, ವ) ಕೋ ಸೀಖೇಂ",
       "category": "antahstha",
       "consonant_group": "antahstha",
       "order_no": 7,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ಯ",
-      "title_kannada": "ಅಂತಃಸ್ಥ",
-      "subtitle_kannada": "ಅಂತಃಸ್ಥ",
-      "description_kannada": "4 ಅರ್ಧಸ್ವರ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ಯ, ರ, ಲ, ವ)"
+      "thumbnail_icon": "ಯ"
     },
     {
       "id": "vyanjan-lesson-008",
       "module_id": "vyanjan",
       "lesson_id": "vyanjan-lesson-008",
-      "title": "ऊष्म",
+      "title": "ಊಷ್ಮ",
       "title_english": "Ushma - Sibilants",
-      "subtitle": "उष्म",
-      "description": "4 ऊष्म व्यंजनों (श, ष, स, ह) को सीखें",
+      "subtitle": "ಉಷ್ಮ",
+      "description": "4 ಊಷ್ಮ ವ್ಯಂಜನೋಂ (ಶ, ಷ, ಸ, ಹ) ಕೋ ಸೀಖೇಂ",
       "category": "ushma",
       "consonant_group": "ushma",
       "order_no": 8,
       "estimated_time_minutes": 20,
-      "thumbnail_icon": "ಶ",
-      "title_kannada": "ಉಷ್ಮ",
-      "subtitle_kannada": "ಉಷ್ಮ",
-      "description_kannada": "4 ಉಷ್ಮ ವ್ಯಂಜನಗಳನ್ನು ಕಲಿಯಿರಿ (ಶ, ಷ, ಸ, ಹ)"
+      "thumbnail_icon": "ಶ"
     }
   ],
   "bonusLessonStructure": {
@@ -1169,134 +1032,133 @@
         {
           "id": "bonus-intro",
           "type": "title_slide",
-          "title": "आपने व्यञ्जन का चयन किया है!",
+          "title": "ಆಪನೇ ವ್ಯಞ್ಜನ ಕಾ ಚಯನ ಕಿಯಾ ಹೈ!",
           "content": "You have selected a consonant to study in depth!",
           "order": 1
         },
         {
           "id": "bonus-independent-form",
           "type": "consonant_intro",
-          "title": "स्वतंत्र रूप",
-          "content": "ब्राह्मी लिपि में इस व्यञ्जन का रूप",
+          "title": "ಸ್ವತಂತ್ರ ರೂಪ",
+          "content": "ಬ್ರಾಹ್ಮೀ ಲಿಪಿ ಮೇಂ ಇಸ ವ್ಯಞ್ಜನ ಕಾ ರೂಪ",
           "order": 2
         },
         {
           "id": "bonus-pronunciation",
           "type": "pronunciation",
-          "title": "उच्चारण",
-          "content": "इस व्यञ्जन का सही उच्चारण कैसे करें",
+          "title": "ಉಚ್ಚಾರಣ",
+          "content": "ಇಸ ವ್ಯಞ್ಜನ ಕಾ ಸಹೀ ಉಚ್ಚಾರಣ ಕೈಸೇ ಕರೇಂ",
           "order": 3
         },
         {
           "id": "bonus-pronunciation-drill",
           "type": "text",
-          "title": "प्रयास कीजिए",
-          "content": "जोर से बोलें - व्यञ्जन को दोहराएं",
+          "title": "ಪ್ರಯಾಸ ಕೀಜಿಏ",
+          "content": "ಜೋರ ಸೇ ಬೋಲೇಂ - ವ್ಯಞ್ಜನ ಕೋ ದೋಹರಾಏಂ",
           "order": 4
         },
         {
           "id": "bonus-inherent-vowel",
           "type": "text",
-          "title": "अंतर्निहित स्वर",
-          "content": "बिना मात्रा के, अंतर्निहित 'अ' स्वर होता है",
+          "title": "ಅಂತರ್ನಿಹಿತ ಸ್ವರ",
+          "content": "ಬಿನಾ ಮಾತ್ರಾ ಕೇ, ಅಂತರ್ನಿಹಿತ 'ಅ' ಸ್ವರ ಹೋತಾ ಹೈ",
           "order": 5
         },
         {
           "id": "bonus-matching-game",
           "type": "mcq",
-          "title": "मेल करने का खेल",
-          "content": "Brahmi forms को Devanagari से मेल करें",
+          "title": "ಮೇಲ ಕರನೇ ಕಾ ಖೇಲ",
+          "content": "Brahmi forms ಕೋ Devanagari ಸೇ ಮೇಲ ಕರೇಂ",
           "order": 6
         },
         {
           "id": "bonus-fill-in-blank",
           "type": "text",
-          "title": "खाली जगह भरें",
-          "content": "व्यञ्जन + मात्रा = अलग शब्द",
+          "title": "ಖಾಲೀ ಜಗಹ ಭರೇಂ",
+          "content": "ವ್ಯಞ್ಜನ + ಮಾತ್ರಾ = ಅಲಗ ಶಬ್ದ",
           "order": 7
         },
         {
           "id": "bonus-practice-1",
           "type": "writing_practice",
-          "title": "अभ्यास 1 - मूल लिखावट",
-          "content": "व्यञ्जन के मूल रूप को लिखने का अभ्यास करें",
+          "title": "ಅಭ್ಯಾಸ 1 - ಮೂಲ ಲಿಖಾವಟ",
+          "content": "ವ್ಯಞ್ಜನ ಕೇ ಮೂಲ ರೂಪ ಕೋ ಲಿಖನೇ ಕಾ ಅಭ್ಯಾಸ ಕರೇಂ",
           "order": 8
         },
         {
           "id": "bonus-practice-2",
           "type": "writing_practice",
-          "title": "अभ्यास 2 - अक्षर संयोजन",
-          "content": "व्यञ्जन को अन्य अक्षरों के साथ लिखने का अभ्यास",
+          "title": "ಅಭ್ಯಾಸ 2 - ಅಕ್ಷರ ಸಂಯೋಜನ",
+          "content": "ವ್ಯಞ್ಜನ ಕೋ ಅನ್ಯ ಅಕ್ಷರೋಂ ಕೇ ಸಾಥ ಲಿಖನೇ ಕಾ ಅಭ್ಯಾಸ",
           "order": 9
         },
         {
           "id": "bonus-practice-3",
           "type": "writing_practice",
-          "title": "अभ्यास 3 - शब्द लेखन",
-          "content": "इस व्यञ्जन वाले शब्दों को लिखने का अभ्यास",
+          "title": "ಅಭ್ಯಾಸ 3 - ಶಬ್ದ ಲೇಖನ",
+          "content": "ಇಸ ವ್ಯಞ್ಜನ ವಾಲೇ ಶಬ್ದೋಂ ಕೋ ಲಿಖನೇ ಕಾ ಅಭ್ಯಾಸ",
           "order": 10
         },
         {
           "id": "bonus-practice-4",
           "type": "writing_practice",
-          "title": "अभ्यास 4 - गति अभ्यास",
-          "content": "तेजी से और सटीकता से लिखने का प्रशिक्षण",
+          "title": "ಅಭ್ಯಾಸ 4 - ಗತಿ ಅಭ್ಯಾಸ",
+          "content": "ತೇಜೀ ಸೇ ಔರ ಸಟೀಕತಾ ಸೇ ಲಿಖನೇ ಕಾ ಪ್ರಶಿಕ್ಷಣ",
           "order": 11
         },
         {
           "id": "bonus-summary",
           "type": "summary",
-          "title": "सारांश",
-          "content": "इस पाठ का सारांश और मुख्य बिंदु",
+          "title": "ಸಾರಾಂಶ",
+          "content": "ಇಸ ಪಾಠ ಕಾ ಸಾರಾಂಶ ಔರ ಮುಖ್ಯ ಬಿಂದು",
           "order": 12
         }
       ],
       "matchingGameTemplate": {
-        "columnA_title": "ब्राह्मी रूप",
-        "columnB_title": "देवनागरी",
+        "columnA_title": "ಬ್ರಾಹ್ಮೀ ರೂಪ",
+        "columnB_title": "ದೇವನಾಗರೀ",
         "pairs": 4,
-        "description": "ब्राह्मी लिपि के रूपों को देवनागरी से मेल करें"
+        "description": "ಬ್ರಾಹ್ಮೀ ಲಿಪಿ ಕೇ ರೂಪೋಂ ಕೋ ದೇವನಾಗರೀ ಸೇ ಮೇಲ ಕರೇಂ"
       },
       "fillInBlanksTemplate": {
         "questions": 5,
-        "format": "व्यञ्जन + ___ = परिणाम",
-        "description": "खाली जगह में सही मात्रा का चयन करें"
+        "format": "ವ್ಯಞ್ಜನ + ___ = ಪರಿಣಾಮ",
+        "description": "ಖಾಲೀ ಜಗಹ ಮೇಂ ಸಹೀ ಮಾತ್ರಾ ಕಾ ಚಯನ ಕರೇಂ"
       },
       "tracingFormsTemplate": {
         "forms": 4,
-        "description": "व्यञ्जन के विभिन्न रूपों को लिखने का अभ्यास करें"
+        "description": "ವ್ಯಞ್ಜನ ಕೇ ವಿಭಿನ್ನ ರೂಪೋಂ ಕೋ ಲಿಖನೇ ಕಾ ಅಭ್ಯಾಸ ಕರೇಂ"
       }
     },
     "exampleForKa": {
       "consonantId": "vyanjan-001",
-      "devanagari": "क",
       "brahmi": "𑀓",
       "matchingPairs": [
         {
           "brahmi": "𑀓",
-          "devanagari": "क",
-          "position": "independent"
+          "position": "independent",
+          "kannada": "ಕ"
         },
         {
           "brahmi": "𑀓𑁄",
-          "devanagari": "का",
-          "position": "with_aa_matra"
+          "position": "with_aa_matra",
+          "kannada": "ಕಾ"
         },
         {
           "brahmi": "𑀓𑁆",
-          "devanagari": "कि",
-          "position": "with_i_matra"
+          "position": "with_i_matra",
+          "kannada": "ಕಿ"
         },
         {
           "brahmi": "𑀓𑁇",
-          "devanagari": "को",
-          "position": "with_o_matra"
+          "position": "with_o_matra",
+          "kannada": "ಕೋ"
         }
       ],
       "fillInBlanksQuestions": [
         {
-          "question": "𑀓 + ___ = कि",
-          "correctAnswer": "इ-मात्रा",
+          "question": "𑀓 + ___ = ಕಿ",
+          "correctAnswer": "ಇ-ಮಾತ್ರಾ",
           "options": [
             "इ-मात्रा",
             "ई-मात्रा",
@@ -1304,8 +1166,8 @@
           ]
         },
         {
-          "question": "𑀓 + ___ = कौ",
-          "correctAnswer": "औ-मात्रा",
+          "question": "𑀓 + ___ = ಕೌ",
+          "correctAnswer": "ಔ-ಮಾತ್ರಾ",
           "options": [
             "औ-मात्रा",
             "ओ-मात्रा",
@@ -1313,8 +1175,8 @@
           ]
         },
         {
-          "question": "𑀓 + ___ = के",
-          "correctAnswer": "ए-मात्रा",
+          "question": "𑀓 + ___ = ಕೇ",
+          "correctAnswer": "ಏ-ಮಾತ್ರಾ",
           "options": [
             "ए-मात्रा",
             "ऐ-मात्रा",
@@ -1322,8 +1184,8 @@
           ]
         },
         {
-          "question": "𑀓 + ___ = कः",
-          "correctAnswer": "विसर्ग",
+          "question": "𑀓 + ___ = ಕಃ",
+          "correctAnswer": "ವಿಸರ್ಗ",
           "options": [
             "विसर्ग",
             "अनुस्वार",
@@ -1331,16 +1193,16 @@
           ]
         },
         {
-          "question": "𑀓 + ___ = कं",
-          "correctAnswer": "अनुस्वार",
+          "question": "𑀓 + ___ = ಕಂ",
+          "correctAnswer": "ಅನುಸ್ವಾರ",
           "options": [
             "अनुस्वार",
             "विसर्ग",
             "चंद्रबिंदु"
           ]
         }
-      ]
+      ],
+      "kannada": "ಕ"
     }
-  },
-  "module_title": "ವ್ಯಂಜನಗಳು"
+  }
 }

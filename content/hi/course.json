@@ -1411,7 +1411,7 @@
           "brahmi": "𑀇",
           "vowel_id": "swar-003",
           "title_hindi": "इ → 𑀇",
-          "title_english": "I → 𑀇",
+          "title_english": "i → 𑀇",
           "instruction_hindi": "इ को ब्राह्मी में लिखें",
           "instruction_english": "Write इ in Brahmi script"
         },
@@ -1422,7 +1422,7 @@
           "brahmi": "𑀈",
           "vowel_id": "swar-004",
           "title_hindi": "ई → 𑀈",
-          "title_english": "II → 𑀈",
+          "title_english": "ee → 𑀈",
           "instruction_hindi": "ई को ब्राह्मी में लिखें",
           "instruction_english": "Write ई in Brahmi script"
         },
@@ -1686,7 +1686,7 @@
     {
       "page": 118,
       "type": "text",
-      "content": "(मोशन + इंट्रो) बधाई हो! आप यहां तक शानदार तरीके से पहुंचे हैं – आपकी परिश्रम और जिज्ञासा सराहनीय है!"
+      "content": "बधाई हो! आप यहां तक शानदार तरीके से पहुंचे हैं – आपकी परिश्रम और जिज्ञासा सराहनीय है!"
     },
     {
       "page": 119,
@@ -1706,8 +1706,7 @@
     {
       "page": 122,
       "type": "choice_screen",
-      "prompt": "चयन करें — आपको किस वर्ग चाहिए?",
-      "note": "This is the same screen already captured as vyanjan.intro — user picks a consonant from the वर्गानुसार सूची that follows (pages 122-128)."
+      "prompt": "चयन करें — आपको किस वर्ग चाहिए?"
     },
     {
       "page": 123,
@@ -2020,7 +2019,12 @@
       "drill": "कोशिश कर – जोर से बोलें: क… क… क",
       "consonant": "क",
       "consonantBrahmi": "𑀓",
-      "page": 132
+      "page": 132,
+      "speechSequence": [
+        "क",
+        "कमल",
+        "कक्षा"
+      ]
     },
     {
       "type": "bina_matra",
@@ -2028,7 +2032,10 @@
       "content": "जब \"क\" अकेला होता है → 𑀓 (ध्वनि: क)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।",
       "consonant": "क",
       "consonantBrahmi": "𑀓",
-      "page": 133
+      "page": 133,
+      "speechSequence": [
+        "क"
+      ]
     },
     {
       "type": "matra_combinations",
@@ -2121,7 +2128,21 @@
       "content": "ऑडियो सुनें और दोहराएं: क – का – कि – की – कु – कू – के – कै – को – कौ – कं – कः",
       "consonant": "क",
       "consonantBrahmi": "𑀓",
-      "page": 137
+      "page": 137,
+      "speechSequence": [
+        "क",
+        "का",
+        "कि",
+        "की",
+        "कु",
+        "कू",
+        "के",
+        "कै",
+        "को",
+        "कौ",
+        "कं",
+        "कः"
+      ]
     },
     {
       "type": "recognition_mcq",
@@ -2130,15 +2151,24 @@
       "examples": [
         {
           "prompt": "का",
-          "answer": "𑀓𑀸"
+          "answer": "𑀓𑀸",
+          "speechSequence": [
+            "का"
+          ]
         },
         {
           "prompt": "कि",
-          "answer": "𑀓𑀺"
+          "answer": "𑀓𑀺",
+          "speechSequence": [
+            "कि"
+          ]
         },
         {
           "prompt": "कं",
-          "answer": "𑀓𑀁"
+          "answer": "𑀓𑀁",
+          "speechSequence": [
+            "कं"
+          ]
         }
       ],
       "consonant": "क",
@@ -2152,15 +2182,24 @@
       "examples": [
         {
           "prompt": "𑀓𑁃",
-          "answer": "कै"
+          "answer": "कै",
+          "speechSequence": [
+            "कै"
+          ]
         },
         {
           "prompt": "𑀓𑀻",
-          "answer": "की"
+          "answer": "की",
+          "speechSequence": [
+            "की"
+          ]
         },
         {
           "prompt": "𑀓𑁅",
-          "answer": "कौ"
+          "answer": "कौ",
+          "speechSequence": [
+            "कौ"
+          ]
         }
       ],
       "consonant": "क",
@@ -2178,8 +2217,8 @@
       ],
       "columnB": [
         "का",
-        "को",
         "कु",
+        "को",
         "कं"
       ],
       "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)",
@@ -2292,7 +2331,13 @@
       "drill": "कोशिश कर – जोर से बोलें: ख… ख… ख",
       "consonant": "ख",
       "consonantBrahmi": "𑀔",
-      "page": 149
+      "page": 149,
+      "speechSequence": [
+        "ख",
+        "खट",
+        "खेल (PDF shows खड़गा",
+        "खेल"
+      ]
     },
     {
       "type": "bina_matra",
@@ -2300,7 +2345,10 @@
       "content": "जब \"ख\" अकेला होता है → 𑀔 (ध्वनि: ख)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।",
       "consonant": "ख",
       "consonantBrahmi": "𑀔",
-      "page": 150
+      "page": 150,
+      "speechSequence": [
+        "ख"
+      ]
     },
     {
       "type": "matra_combinations",
@@ -2393,7 +2441,21 @@
       "content": "ऑडियो सुनें और दोहराएं: ख – खा – खि – खी – खु – खू – खे – खै – खो – खौ – खं – खः",
       "consonant": "ख",
       "consonantBrahmi": "𑀔",
-      "page": 154
+      "page": 154,
+      "speechSequence": [
+        "ख",
+        "खा",
+        "खि",
+        "खी",
+        "खु",
+        "खू",
+        "खे",
+        "खै",
+        "खो",
+        "खौ",
+        "खं",
+        "खः"
+      ]
     },
     {
       "type": "recognition_mcq",
@@ -2402,15 +2464,24 @@
       "examples": [
         {
           "prompt": "खा",
-          "answer": "𑀔𑀸"
+          "answer": "𑀔𑀸",
+          "speechSequence": [
+            "खा"
+          ]
         },
         {
           "prompt": "खु",
-          "answer": "𑀔𑀼"
+          "answer": "𑀔𑀼",
+          "speechSequence": [
+            "खु"
+          ]
         },
         {
           "prompt": "खं",
-          "answer": "𑀔𑀁"
+          "answer": "𑀔𑀁",
+          "speechSequence": [
+            "खं"
+          ]
         }
       ],
       "consonant": "ख",
@@ -2424,15 +2495,24 @@
       "examples": [
         {
           "prompt": "𑀔𑁃",
-          "answer": "खै"
+          "answer": "खै",
+          "speechSequence": [
+            "खै"
+          ]
         },
         {
           "prompt": "𑀔𑀻",
-          "answer": "खी"
+          "answer": "खी",
+          "speechSequence": [
+            "खी"
+          ]
         },
         {
           "prompt": "𑀔𑁅",
-          "answer": "खौ"
+          "answer": "खौ",
+          "speechSequence": [
+            "खौ"
+          ]
         }
       ],
       "consonant": "ख",
@@ -2450,8 +2530,8 @@
       ],
       "columnB": [
         "खा",
-        "खो",
         "खु",
+        "खो",
         "खं"
       ],
       "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)",
@@ -2528,7 +2608,13 @@
       "drill": "कोशिश कर – जोर से बोलें: ग… ग… ग",
       "consonant": "ग",
       "consonantBrahmi": "𑀕",
-      "page": 163
+      "page": 163,
+      "speechSequence": [
+        "ग",
+        "गाय",
+        "गमन (PDF shows गमला",
+        "गद"
+      ]
     },
     {
       "type": "bina_matra",
@@ -2536,7 +2622,10 @@
       "content": "जब \"ग\" अकेला होता है → 𑀕 (ध्वनि: ग)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।",
       "consonant": "ग",
       "consonantBrahmi": "𑀕",
-      "page": 164
+      "page": 164,
+      "speechSequence": [
+        "ग"
+      ]
     },
     {
       "type": "matra_combinations",
@@ -2629,7 +2718,21 @@
       "content": "ऑडियो सुनें और दोहराएं: ग – गा – गि – गी – गु – गू – गे – गै – गो – गौ – गं – गः",
       "consonant": "ग",
       "consonantBrahmi": "𑀕",
-      "page": 168
+      "page": 168,
+      "speechSequence": [
+        "ग",
+        "गा",
+        "गि",
+        "गी",
+        "गु",
+        "गू",
+        "गे",
+        "गै",
+        "गो",
+        "गौ",
+        "गं",
+        "गः"
+      ]
     },
     {
       "type": "recognition_mcq",
@@ -2638,15 +2741,24 @@
       "examples": [
         {
           "prompt": "गा",
-          "answer": "𑀕𑀸"
+          "answer": "𑀕𑀸",
+          "speechSequence": [
+            "गा"
+          ]
         },
         {
           "prompt": "गु",
-          "answer": "𑀕𑀼"
+          "answer": "𑀕𑀼",
+          "speechSequence": [
+            "गु"
+          ]
         },
         {
           "prompt": "गं",
-          "answer": "𑀕𑀁"
+          "answer": "𑀕𑀁",
+          "speechSequence": [
+            "गं"
+          ]
         }
       ],
       "consonant": "ग",
@@ -2660,15 +2772,24 @@
       "examples": [
         {
           "prompt": "𑀕𑁃",
-          "answer": "गै"
+          "answer": "गै",
+          "speechSequence": [
+            "गै"
+          ]
         },
         {
           "prompt": "𑀕𑀻",
-          "answer": "गी"
+          "answer": "गी",
+          "speechSequence": [
+            "गी"
+          ]
         },
         {
           "prompt": "𑀕𑁅",
-          "answer": "गौ"
+          "answer": "गौ",
+          "speechSequence": [
+            "गौ"
+          ]
         }
       ],
       "consonant": "ग",
@@ -2686,8 +2807,8 @@
       ],
       "columnB": [
         "गा",
-        "गो",
         "गु",
+        "गो",
         "गं"
       ],
       "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)",
@@ -2764,7 +2885,12 @@
       "drill": "कोशिश कर – जोर से बोलें: घ… घ… घ",
       "consonant": "घ",
       "consonantBrahmi": "𑀖",
-      "page": 177
+      "page": 177,
+      "speechSequence": [
+        "घ",
+        "घर",
+        "घड़ी"
+      ]
     },
     {
       "type": "bina_matra",
@@ -2772,7 +2898,10 @@
       "content": "जब \"घ\" अकेला होता है → 𑀖 (ध्वनि: घ)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।",
       "consonant": "घ",
       "consonantBrahmi": "𑀖",
-      "page": 178
+      "page": 178,
+      "speechSequence": [
+        "घ"
+      ]
     },
     {
       "type": "matra_combinations",
@@ -2865,7 +2994,21 @@
       "content": "ऑडियो सुनें और दोहराएं: घ – घा – घि – घी – घु – घू – घे – घै – घो – घौ – घं – घः",
       "consonant": "घ",
       "consonantBrahmi": "𑀖",
-      "page": 182
+      "page": 182,
+      "speechSequence": [
+        "घ",
+        "घा",
+        "घि",
+        "घी",
+        "घु",
+        "घू",
+        "घे",
+        "घै",
+        "घो",
+        "घौ",
+        "घं",
+        "घः"
+      ]
     },
     {
       "type": "recognition_mcq",
@@ -2874,15 +3017,24 @@
       "examples": [
         {
           "prompt": "घा",
-          "answer": "𑀖𑀸"
+          "answer": "𑀖𑀸",
+          "speechSequence": [
+            "घा"
+          ]
         },
         {
           "prompt": "घु",
-          "answer": "𑀖𑀼"
+          "answer": "𑀖𑀼",
+          "speechSequence": [
+            "घु"
+          ]
         },
         {
           "prompt": "घं",
-          "answer": "𑀖𑀁"
+          "answer": "𑀖𑀁",
+          "speechSequence": [
+            "घं"
+          ]
         }
       ],
       "consonant": "घ",
@@ -2896,15 +3048,24 @@
       "examples": [
         {
           "prompt": "𑀖𑁃",
-          "answer": "घै"
+          "answer": "घै",
+          "speechSequence": [
+            "घै"
+          ]
         },
         {
           "prompt": "𑀖𑀻",
-          "answer": "घी"
+          "answer": "घी",
+          "speechSequence": [
+            "घी"
+          ]
         },
         {
           "prompt": "𑀖𑁅",
-          "answer": "घौ"
+          "answer": "घौ",
+          "speechSequence": [
+            "घौ"
+          ]
         }
       ],
       "consonant": "घ",
@@ -2922,8 +3083,8 @@
       ],
       "columnB": [
         "घा",
-        "घो",
         "घु",
+        "घो",
         "घं"
       ],
       "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)",
@@ -3000,7 +3161,12 @@
       "drill": "कोशिश कर – जोर से बोलें: ङ… ङ… ङ",
       "consonant": "ङ",
       "consonantBrahmi": "𑀗",
-      "page": 191
+      "page": 191,
+      "speechSequence": [
+        "ङ",
+        "अंग",
+        "पंख"
+      ]
     },
     {
       "type": "bina_matra",
@@ -3008,7 +3174,10 @@
       "content": "जब \"ङ\" अकेला होता है → 𑀗 (ध्वनि: ङ)। बिना मात्रा = सिर्फ व्यंजन ध्वनि + 'अ' स्वर स्वतः जुड़ा रहता है।",
       "consonant": "ङ",
       "consonantBrahmi": "𑀗",
-      "page": 192
+      "page": 192,
+      "speechSequence": [
+        "ङ"
+      ]
     },
     {
       "type": "matra_combinations",
@@ -3101,7 +3270,21 @@
       "content": "ऑडियो सुनें और दोहराएं: ङ – ङा – ङि – ङी – ङु – ङू – ङे – ङै – ङो – ङौ – ङं – ङः",
       "consonant": "ङ",
       "consonantBrahmi": "𑀗",
-      "page": 196
+      "page": 196,
+      "speechSequence": [
+        "ङ",
+        "ङा",
+        "ङि",
+        "ङी",
+        "ङु",
+        "ङू",
+        "ङे",
+        "ङै",
+        "ङो",
+        "ङौ",
+        "ङं",
+        "ङः"
+      ]
     },
     {
       "type": "recognition_mcq",
@@ -3110,15 +3293,24 @@
       "examples": [
         {
           "prompt": "ङा",
-          "answer": "𑀗𑀸"
+          "answer": "𑀗𑀸",
+          "speechSequence": [
+            "ङा"
+          ]
         },
         {
           "prompt": "ङु",
-          "answer": "𑀗𑀼"
+          "answer": "𑀗𑀼",
+          "speechSequence": [
+            "ङु"
+          ]
         },
         {
           "prompt": "ङं",
-          "answer": "𑀗𑀁"
+          "answer": "𑀗𑀁",
+          "speechSequence": [
+            "ङं"
+          ]
         }
       ],
       "consonant": "ङ",
@@ -3132,15 +3324,24 @@
       "examples": [
         {
           "prompt": "𑀗𑁃",
-          "answer": "ङै"
+          "answer": "ङै",
+          "speechSequence": [
+            "ङै"
+          ]
         },
         {
           "prompt": "𑀗𑀻",
-          "answer": "ङी"
+          "answer": "ङी",
+          "speechSequence": [
+            "ङी"
+          ]
         },
         {
           "prompt": "𑀗𑁅",
-          "answer": "ङौ"
+          "answer": "ङौ",
+          "speechSequence": [
+            "ङौ"
+          ]
         }
       ],
       "consonant": "ङ",
@@ -3158,8 +3359,8 @@
       ],
       "columnB": [
         "ङा",
-        "ङो",
         "ङु",
+        "ङो",
         "ङं"
       ],
       "note": "सही जोड़ मिलाएं (4 pairs, PDF-verified)",

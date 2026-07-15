@@ -27,6 +27,22 @@ export interface QuizResult {
   answers: Array<{ questionId: string; selected: string; correct: boolean }>
 }
 
+const renderMixedText = (text: string) => {
+  if (!text) return ''
+  const regex = /([\u{11000}-\u{1107F}]+)/gu
+  const parts = text.split(regex)
+  return parts.map((part, i) => {
+    if (/[\u{11000}-\u{1107F}]/u.test(part)) {
+      return (
+        <span key={i} className="font-brahmi" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>
+          {part}
+        </span>
+      )
+    }
+    return <span key={i}>{part}</span>
+  })
+}
+
 // ── Option button ──────────────────────────────────────────────
 
 interface OptionButtonProps {
@@ -63,7 +79,7 @@ function OptionButton({ option, selected, showAnswer, onClick }: OptionButtonPro
         {option.brahmi && (
           <span className="text-2xl text-[#D4AF37] font-brahmi shrink-0">{option.brahmi}</span>
         )}
-        <span>{option.text}</span>
+        <span>{renderMixedText(option.text)}</span>
       </div>
 
       {showAnswer && (
@@ -270,7 +286,7 @@ export default function QuizEngine({ questions, onComplete, onExit, title }: Qui
             {/* Question */}
             <div className="text-center">
               <p className="text-lg md:text-xl font-medium text-[#E6D8B8]/90 leading-relaxed">
-                {current.question}
+                {renderMixedText(current.question)}
               </p>
             </div>
 

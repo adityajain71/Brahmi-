@@ -10,6 +10,7 @@ interface Props {
   allForms: MatraCombinationForm[]
   consonant: string
   consonantBrahmi: string
+  language?: string
   onNext: () => void
 }
 
@@ -22,7 +23,7 @@ function parsePrompt(prompt: string) {
   return { base: left, result: right }
 }
 
-export default function FillBlankSlide({ title, questions, allForms, consonant, consonantBrahmi, onNext }: Props) {
+export default function FillBlankSlide({ title, questions, allForms, consonant, consonantBrahmi, language = 'hi', onNext }: Props) {
   const [qIdx, setQIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
   const [allDone, setAllDone] = useState(false)
@@ -59,6 +60,58 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
 
   if (!q) return null
 
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      quest: 'Question',
+      congrats: 'Great Job!',
+      successMsg: 'Filled all blanks correctly!',
+      next: 'Next →',
+      consonant: 'Consonant',
+      matra: 'Matra',
+      target: 'Target',
+      correctLabel: 'Correct Answer: ',
+      tryAgain: 'Try Again',
+      instruction: 'Choose the correct matra sign'
+    },
+    kn: {
+      quest: 'ಪ್ರಶ್ನೆ',
+      congrats: 'ಬಹಳ ಒಳ್ಳೆಯದು!',
+      successMsg: 'ಎಲ್ಲಾ ಖಾಲಿ ಜಾಗಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿದ್ದೀರಿ!',
+      next: 'ಮುಂದೆ →',
+      consonant: 'ವ್ಯಂಜನ',
+      matra: 'ಮಾತ್ರಾ',
+      target: 'ಗುರಿ',
+      correctLabel: 'ಸರಿಯಾದ ಉತ್ತರ: ',
+      tryAgain: 'ಪುನಃ ಪ್ರಯತ್ನಿಸಿ',
+      instruction: 'ಸರಿಯಾದ ಮಾತ್ರಾ ಚಿಹ್ನೆಯನ್ನು ಆರಿಸಿ'
+    },
+    ta: {
+      quest: 'கேள்வி',
+      congrats: 'மிகவும் நன்று!',
+      successMsg: 'அனைத்து கோடிட்ட இடங்களையும் நிரப்பியுள்ளீர்கள்!',
+      next: 'அடுத்து →',
+      consonant: 'மெய்யெழுத்து',
+      matra: 'மாத்ரா',
+      target: 'இலக்கு',
+      correctLabel: 'சரியான பதில்: ',
+      tryAgain: 'மீண்டும் முயற்சி செய்',
+      instruction: 'சரியான மாத்ரா குறியீட்டைத் தேர்ந்தெடுக்கவும்'
+    },
+    hi: {
+      quest: 'प्रश्न',
+      congrats: 'बहुत बढ़िया!',
+      successMsg: 'सभी रिक्त स्थान भरे!',
+      next: 'आगे →',
+      consonant: 'व्यंजन',
+      matra: 'मात्रा',
+      target: 'लक्ष्य',
+      correctLabel: 'सही उत्तर: ',
+      tryAgain: 'फिर कोशिश',
+      instruction: 'सही मात्रा चिह्न चुनें'
+    }
+  }
+  const t = localMap[language] || localMap.hi
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -68,7 +121,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
       {/* Header */}
       <div className="text-center w-full">
         <div className="text-xs text-[#D4AF37]/60 uppercase tracking-widest mb-1">
-          प्रश्न {qIdx + 1} / {questions.length}
+          {t.quest} {qIdx + 1} / {questions.length}
         </div>
         <h2 className="text-xl md:text-2xl font-bold text-[#E6D8B8] font-serif">{title}</h2>
       </div>
@@ -92,13 +145,13 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
             className="flex flex-col items-center gap-6 text-center py-8"
           >
             <div className="text-6xl">🌟</div>
-            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">बहुत बढ़िया!</h3>
-            <p className="text-[#E6D8B8]/70 text-lg">सभी रिक्त स्थान भरे!</p>
+            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">{t.congrats}</h3>
+            <p className="text-[#E6D8B8]/70 text-lg">{t.successMsg}</p>
             <button
               onClick={onNext}
               className="mt-2 px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#E69A47] text-[#1a1613] font-bold rounded-full text-lg hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)]"
             >
-              आगे →
+              {t.next}
             </button>
           </motion.div>
         ) : (
@@ -121,7 +174,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
                     {base}
                   </span>
                 </div>
-                <span className="text-[9px] text-[#E6D8B8]/30 uppercase tracking-wider">व्यंजन</span>
+                <span className="text-[9px] text-[#E6D8B8]/30 uppercase tracking-wider">{t.consonant}</span>
               </div>
 
               <span className="text-2xl text-[#D4AF37]/40">+</span>
@@ -144,7 +197,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
                     <span className="text-3xl text-[#D4AF37]/30">?</span>
                   )}
                 </motion.div>
-                <span className="text-[9px] text-[#E6D8B8]/30 uppercase tracking-wider">मात्रा</span>
+                <span className="text-[9px] text-[#E6D8B8]/30 uppercase tracking-wider">{t.matra}</span>
               </div>
 
               <span className="text-2xl text-[#D4AF37]/40">=</span>
@@ -156,7 +209,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
                     {result}
                   </span>
                 </div>
-                <span className="text-[9px] text-[#E6D8B8]/30 uppercase tracking-wider">लक्ष्य</span>
+                <span className="text-[9px] text-[#E6D8B8]/30 uppercase tracking-wider">{t.target}</span>
               </div>
             </div>
 
@@ -171,7 +224,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
                 >
                   <span className="text-red-400 text-lg">✗</span>
                   <span className="text-[#E6D8B8]/70 text-sm">
-                    सही उत्तर:{' '}
+                    {t.correctLabel}{' '}
                     <span className="text-[#FFD6A5]" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>
                       {q.answer.replace('◌', '')}
                     </span>
@@ -180,7 +233,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
                     onClick={() => setSelected(null)}
                     className="ml-auto text-[#D4AF37]/60 hover:text-[#D4AF37] text-xs border border-[#D4AF37]/20 rounded-lg px-2 py-1 transition-colors"
                   >
-                    फिर कोशिश
+                    {t.tryAgain}
                   </button>
                 </motion.div>
               )}
@@ -188,7 +241,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
 
             {/* Matra options grid */}
             <div className="w-full">
-              <p className="text-xs text-[#E6D8B8]/40 text-center mb-3">सही मात्रा चिह्न चुनें</p>
+              <p className="text-xs text-[#E6D8B8]/40 text-center mb-3">{t.instruction}</p>
               <div className="grid grid-cols-3 gap-3">
                 {options.map((opt, i) => {
                   let cls = 'border-[#D4AF37]/25 bg-[#2a2420] hover:border-[#D4AF37]/60 hover:bg-[#332a24] cursor-pointer'

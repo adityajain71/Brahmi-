@@ -11,6 +11,7 @@ interface Props {
   allForms: MatraCombinationForm[]
   consonant: string
   consonantBrahmi: string
+  language?: string
   onNext: () => void
 }
 
@@ -34,7 +35,7 @@ function buildQuestion(
   return { prompt: example.prompt, correct, options }
 }
 
-export default function RecognitionMCQSlide({ title, examples, allForms, consonant, consonantBrahmi, onNext }: Props) {
+export default function RecognitionMCQSlide({ title, examples, allForms, consonant, consonantBrahmi, language = 'hi', onNext }: Props) {
   const questions = useMemo(
     () => examples.map((ex, i) => buildQuestion(ex, allForms, i)),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -44,6 +45,42 @@ export default function RecognitionMCQSlide({ title, examples, allForms, consona
   const [qIdx, setQIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
   const [allDone, setAllDone] = useState(false)
+
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      congrats: 'Well Done!',
+      successMsg: 'Answered all questions correctly!',
+      next: 'Next →',
+      choosePrompt: 'Choose its Brahmi form',
+      correctLabel: 'Correct Answer: ',
+      tryAgain: 'Try Again'
+    },
+    kn: {
+      congrats: 'ಅದ್ಭುತ!',
+      successMsg: 'ಎಲ್ಲಾ ಪ್ರಶ್ನೆಗಳಿಗೂ ಸರಿಯಾಗಿ ಉತ್ತರಿಸಿದ್ದೀರಿ!',
+      next: 'ಮುಂದೆ →',
+      choosePrompt: 'ಇದರ ಬ್ರಾಹ್ಮಿ ರೂಪವನ್ನು ಆರಿಸಿ',
+      correctLabel: 'ಸರಿಯಾದ ಉತ್ತರ: ',
+      tryAgain: 'ಪುನಃ ಪ್ರಯತ್ನಿಸಿ'
+    },
+    ta: {
+      congrats: 'நன்று!',
+      successMsg: 'அனைத்து கேள்விகளுக்கும் சரியாக பதிலளித்துள்ளீர்கள்!',
+      next: 'அடுத்து →',
+      choosePrompt: 'இதன் பிராமி வடிவத்தைத் தேர்ந்தெடுக்கவும்',
+      correctLabel: 'சரியான பதில்: ',
+      tryAgain: 'மீண்டும் முயற்சி செய்'
+    },
+    hi: {
+      congrats: 'शाबाश!',
+      successMsg: 'सभी प्रश्न सही किए!',
+      next: 'आगे →',
+      choosePrompt: 'इसका ब्राह्मी रूप चुनें',
+      correctLabel: 'सही उत्तर: ',
+      tryAgain: 'फिर कोशिश'
+    }
+  }
+  const t = localMap[language] || localMap.hi
 
   const q = questions[qIdx]
   const isCorrect = selected === q?.correct
@@ -99,13 +136,13 @@ export default function RecognitionMCQSlide({ title, examples, allForms, consona
             className="flex flex-col items-center gap-6 text-center py-8"
           >
             <div className="text-6xl">🎉</div>
-            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">शाबाश!</h3>
-            <p className="text-[#E6D8B8]/70 text-lg">सभी प्रश्न सही किए!</p>
+            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">{t.congrats}</h3>
+            <p className="text-[#E6D8B8]/70 text-lg">{t.successMsg}</p>
             <button
               onClick={onNext}
               className="mt-2 px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#E69A47] text-[#1a1613] font-bold rounded-full text-lg hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)]"
             >
-              आगे →
+              {t.next}
             </button>
           </motion.div>
         ) : (
@@ -122,7 +159,7 @@ export default function RecognitionMCQSlide({ title, examples, allForms, consona
                 {q.prompt}
               </span>
             </div>
-            <p className="text-sm text-[#E6D8B8]/50">इसका ब्राह्मी रूप चुनें</p>
+            <p className="text-sm text-[#E6D8B8]/50">{t.choosePrompt}</p>
 
             {/* Options */}
             <div className="grid grid-cols-2 gap-3 w-full">
@@ -160,13 +197,13 @@ export default function RecognitionMCQSlide({ title, examples, allForms, consona
                 >
                   <span className="text-red-400">✗</span>
                   <span className="text-[#E6D8B8]/70 text-sm">
-                    सही उत्तर: <span className="text-[#FFD6A5]" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>{q.correct}</span>
+                    {t.correctLabel}<span className="text-[#FFD6A5]" style={{ fontFamily: "'Noto Sans Brahmi', serif" }}>{q.correct}</span>
                   </span>
                   <button
                     onClick={() => setSelected(null)}
                     className="ml-auto text-[#D4AF37]/60 hover:text-[#D4AF37] text-xs border border-[#D4AF37]/20 rounded-lg px-2 py-1 transition-colors"
                   >
-                    फिर कोशिश
+                    {t.tryAgain}
                   </button>
                 </motion.div>
               )}

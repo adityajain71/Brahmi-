@@ -10,6 +10,7 @@ interface Props {
   allForms: MatraCombinationForm[]
   consonant: string
   consonantBrahmi: string
+  language?: string
   onNext: () => void
 }
 
@@ -27,7 +28,7 @@ function buildQuestion(example: MCQExample, allForms: MatraCombinationForm[]) {
   return { prompt: example.prompt, correct, options }
 }
 
-export default function ReverseMCQSlide({ title, examples, allForms, consonant, consonantBrahmi, onNext }: Props) {
+export default function ReverseMCQSlide({ title, examples, allForms, consonant, consonantBrahmi, language = 'hi', onNext }: Props) {
   const questions = useMemo(
     () => examples.map(ex => buildQuestion(ex, allForms)),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -37,6 +38,42 @@ export default function ReverseMCQSlide({ title, examples, allForms, consonant, 
   const [qIdx, setQIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
   const [allDone, setAllDone] = useState(false)
+
+  const localMap: Record<string, Record<string, string>> = {
+    en: {
+      congrats: 'Excellent!',
+      successMsg: 'Reverse practice completed!',
+      next: 'Next →',
+      choosePrompt: 'Choose its romanized form',
+      correctLabel: 'Correct Answer: ',
+      tryAgain: 'Try Again'
+    },
+    kn: {
+      congrats: 'ಉತ್ತಮ!',
+      successMsg: 'ವಿರುದ್ಧ ಅಭ್ಯಾಸ ಪೂರ್ಣಗೊಂಡಿದೆ!',
+      next: 'ಮುಂದೆ →',
+      choosePrompt: 'ಇದರ ಕನ್ನಡ ರೂಪವನ್ನು ಆರಿಸಿ',
+      correctLabel: 'ಸರಿಯಾದ ಉತ್ತರ: ',
+      tryAgain: 'ಪುನಃ ಪ್ರಯತ್ನಿಸಿ'
+    },
+    ta: {
+      congrats: 'அருமை!',
+      successMsg: 'தலைகீழ் பயிற்சி நிறைவடைந்தது!',
+      next: 'அடுத்து →',
+      choosePrompt: 'இதன் தமிழ் வடிவத்தைத் தேர்ந்தெடுக்கவும்',
+      correctLabel: 'சரியான பதில்: ',
+      tryAgain: 'மீண்டும் முயற்சி செய்'
+    },
+    hi: {
+      congrats: 'उत्तम!',
+      successMsg: 'उल्टा अभ्यास पूरा हुआ!',
+      next: 'आगे →',
+      choosePrompt: 'इसका देवनागरी रूप चुनें',
+      correctLabel: 'सही उत्तर: ',
+      tryAgain: 'फिर कोशिश'
+    }
+  }
+  const t = localMap[language] || localMap.hi
 
   const q = questions[qIdx]
 
@@ -90,13 +127,13 @@ export default function ReverseMCQSlide({ title, examples, allForms, consonant, 
             className="flex flex-col items-center gap-6 text-center py-8"
           >
             <div className="text-6xl">✨</div>
-            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">उत्तम!</h3>
-            <p className="text-[#E6D8B8]/70 text-lg">उल्टा अभ्यास पूरा हुआ!</p>
+            <h3 className="text-3xl font-bold text-[#D4AF37] font-serif">{t.congrats}</h3>
+            <p className="text-[#E6D8B8]/70 text-lg">{t.successMsg}</p>
             <button
               onClick={onNext}
               className="mt-2 px-8 py-4 bg-gradient-to-r from-[#D4AF37] to-[#E69A47] text-[#1a1613] font-bold rounded-full text-lg hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)]"
             >
-              आगे →
+              {t.next}
             </button>
           </motion.div>
         ) : (
@@ -116,7 +153,7 @@ export default function ReverseMCQSlide({ title, examples, allForms, consonant, 
                 {q.prompt}
               </span>
             </div>
-            <p className="text-sm text-[#E6D8B8]/50">इसका देवनागरी रूप चुनें</p>
+            <p className="text-sm text-[#E6D8B8]/50">{t.choosePrompt}</p>
 
             {/* Options */}
             <div className="grid grid-cols-2 gap-3 w-full">
@@ -153,13 +190,13 @@ export default function ReverseMCQSlide({ title, examples, allForms, consonant, 
                 >
                   <span className="text-red-400 text-lg">✗</span>
                   <span className="text-[#E6D8B8]/70 text-sm">
-                    सही उत्तर: <span className="text-[#FFD6A5] font-serif font-bold text-base">{q.correct}</span>
+                    {t.correctLabel}<span className="text-[#FFD6A5] font-serif font-bold text-base">{q.correct}</span>
                   </span>
                   <button
                     onClick={() => setSelected(null)}
                     className="ml-auto text-[#D4AF37]/60 hover:text-[#D4AF37] text-xs border border-[#D4AF37]/20 rounded-lg px-2 py-1 transition-colors"
                   >
-                    फिर कोशिश
+                    {t.tryAgain}
                   </button>
                 </motion.div>
               )}
