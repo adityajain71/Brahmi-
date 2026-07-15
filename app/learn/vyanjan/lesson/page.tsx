@@ -112,11 +112,25 @@ function VyanjanLessonContent() {
   const { total: totalConsonants, completed: completedConsonants } = getConsonantProgress(slides, currentSlide)
 
   // Find the current consonant for the sticky header
+  const getLocLabel = (c: string, lang: string) => {
+    const rm: Record<string,string> = {'क': 'ka', 'ख': 'kha', 'ग': 'ga', 'घ': 'gha', 'ङ': 'nga', 'च': 'cha', 'छ': 'chha', 'ज': 'ja', 'झ': 'jha', 'ञ': 'nya', 'ट': 'ta', 'ठ': 'tha', 'ड': 'da', 'ढ': 'dha', 'ण': 'na', 'त': 'ta', 'थ': 'tha', 'द': 'da', 'ध': 'dha', 'न': 'na', 'प': 'pa', 'फ': 'pha', 'ब': 'ba', 'भ': 'bha', 'म': 'ma', 'य': 'ya', 'र': 'ra', 'ल': 'la', 'व': 'va', 'श': 'sha', 'ष': 'sha', 'स': 'sa', 'ह': 'ha'};
+    const km: Record<string,string> = {'क': 'ಕ', 'ख': 'ಖ', 'ग': 'ಗ', 'घ': 'ಘ', 'ङ': 'ಙ', 'च': 'ಚ', 'छ': 'ಛ', 'ज': 'ಜ', 'झ': 'ಝ', 'ञ': 'ಞ', 'ट': 'ಟ', 'ठ': 'ಠ', 'ड': 'ಡ', 'ढ': 'ಢ', 'ण': 'ಣ', 'त': 'ತ', 'थ': 'ಥ', 'द': 'ದ', 'ध': 'ಧ', 'न': 'ನ', 'प': 'ಪ', 'फ': 'ಫ', 'ब': 'ಬ', 'भ': 'ಭ', 'म': 'ಮ', 'य': 'ಯ', 'र': 'ರ', 'ल': 'ಲ', 'व': 'ವ', 'श': 'ಶ', 'ष': 'ಷ', 'स': 'ಸ', 'ह': 'ಹ'};
+    const tm: Record<string,string> = {'क': 'க', 'ख': 'க்ஹ', 'ग': 'க', 'घ': 'க்ஹ', 'ङ': 'ங', 'च': 'ச', 'छ': 'ச்ஹ', 'ज': 'ஜ', 'झ': 'ஜ்ஹ', 'ञ': 'ஞ', 'ट': 'ட', 'ठ': 'ட்ஹ', 'ड': 'ட', 'ढ': 'ட்ஹ', 'ण': 'ண', 'त': 'த', 'थ': 'த்ஹ', 'द': 'த', 'ध': 'த்ஹ', 'न': 'ந', 'प': 'ப', 'फ': 'ப்ஹ', 'ब': 'ப', 'भ': 'ப்ஹ', 'म': 'ம', 'य': 'ய', 'र': 'ர', 'ल': 'ல', 'व': 'வ', 'श': 'ஶ', 'ष': 'ஷ', 'स': 'ஸ', 'ह': 'ஹ'};
+    if (lang === 'en') return rm[c] ? rm[c].toUpperCase() : c;
+    if (lang === 'kn') return km[c] || c;
+    if (lang === 'ta') return tm[c] || c;
+    return c;
+  };
+
   const currentConsonant = (() => {
     for (let i = currentSlide; i >= 0; i--) {
       const s = slides[i]?.content
       if (s?.type === 'bonus_title' && s.consonant) {
-        return { devanagari: s.consonant, brahmi: s.consonantBrahmi || '' }
+        return { 
+          devanagari: s.consonant, 
+          brahmi: s.consonantBrahmi || '',
+          localizedLabel: getLocLabel(s.consonant, language)
+        }
       }
     }
     return null

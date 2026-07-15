@@ -25,6 +25,12 @@ export type MatraLesson = {
   description?: string
   description_english?: string
   description_tamil?: string
+  pronunciation_title?: string
+  practice_title?: string
+  practice_content?: string
+  summary_title?: string
+  summary_content?: string
+  [key: string]: any
   matra_symbol: string | null
   order_no: number
   estimated_time: number
@@ -148,8 +154,6 @@ export async function getMatraLessons(identity: Identity, language: string = 'hi
     status: progressByLessonId[lesson.lesson_id]?.status || 'not_started',
     progress_percentage: progressByLessonId[lesson.lesson_id]?.progress_percentage || 0
   }));
-
-  return sortedLessons.map(applyProgress);
 }
 
 /**

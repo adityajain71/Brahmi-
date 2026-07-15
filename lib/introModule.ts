@@ -5,6 +5,10 @@ import { loadAccountLessonProgress, saveAccountLessonProgress } from './supabase
 
 const GUEST_INTRO_PROGRESS_KEY = 'brahmi_guest_intro_progress'
 
+const getVowelDisplayLabel = (vowel: any) => {
+  return (vowel.romanized || vowel.title_english || vowel.devanagari || '').toUpperCase()
+}
+
 type GuestIntroProgress = {
   completedIds: string[]
   progressMap: Record<string, number>
