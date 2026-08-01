@@ -5,11 +5,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-001",
       "title": "ಮಾತ್ರಾ ಚಿಹ್ನ ಪರಿಚಯ",
-      "title_english": "",
+      "title_english": "Introduction to Matra Signs",
       "subtitle": "Matra Chinh Parichay",
       "matra_symbol": null,
       "description": "ಸ್ವರೋಂ ಕೇ ಅಕೇಲೇ ಲಿಖನೇ ಪರ ಉನಕೀ ಅಪನೀ ಅಲಗ ಪಹಚಾನ ಹೋತೀ ಹೈ, ಲೇಕಿನ ಜಬ ವೇ ಕಿಸೀ ವ್ಯಞ್ಜನ ಕೇ ಸಾಥ ಮಿಲತೇ ಹೈಂ, ತೋ ವೇ ಮಾತ್ರಾ ಚಿಹ್ನ ಬನ ಜಾತೇ ಹೈಂ।",
-      "description_english": "",
+      "description_english": "When vowels are written independently they have their own distinct form, but when they combine with a consonant, they become matra signs.",
       "order_no": 1,
       "estimated_time": 15,
       "language": "hi",
@@ -22,11 +22,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-002",
       "title": "ಅ - ಕೋಈ ಮಾತ್ರಾ ನಹೀಂ",
-      "title_english": "",
+      "title_english": "A — No Matra",
       "subtitle": "ಅ-ಧ್ವನಿ",
       "matra_symbol": "None",
       "description": "ಜಬ ಕೋಈ ವ್ಯಞ್ಜನ ಅಕೇಲಾ ಖಡಾ ಹೋತಾ ಹೈ, ತೋ ಉಸಕೇ ಸಾಥ ಅಂತರ್ನಿಹಿತ 'ಅ' ಧ್ವನಿ ಹೋತೀ ಹೈ",
-      "description_english": "",
+      "description_english": "When a consonant stands alone, it carries the inherent 'a' sound with no visible matra sign.",
       "order_no": 2,
       "estimated_time": 10,
       "language": "hi",
@@ -39,11 +39,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-003",
       "title": "ಆ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "AA — Matra Sign",
       "subtitle": "ಆ-ಮಾತ್ರಾ",
       "matra_symbol": "𑀸",
       "description": "ಆ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'aa' sound is placed after the consonant.",
       "order_no": 3,
       "estimated_time": 12,
       "language": "hi",
@@ -56,11 +56,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-004",
       "title": "ಇ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "I — Matra Sign",
       "subtitle": "ಇ-ಮಾತ್ರಾ",
       "matra_symbol": "𑀹",
       "description": "ಇ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಸೇ ಪಹಲೇ/ಊಪರ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'i' sound is placed before or above the consonant.",
       "order_no": 4,
       "estimated_time": 12,
       "language": "hi",
@@ -73,11 +73,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-005",
       "title": "ಈ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "EE — Matra Sign",
       "subtitle": "ಈ-ಮಾತ್ರಾ",
       "matra_symbol": "𑀺",
       "description": "ಈ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'ee' sound is placed after the consonant.",
       "order_no": 5,
       "estimated_time": 12,
       "language": "hi",
@@ -90,11 +90,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-006",
       "title": "ಉ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "U — Matra Sign",
       "subtitle": "ಉ-ಮಾತ್ರಾ",
       "matra_symbol": "𑀻",
       "description": "ಉ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ನೀಚೇ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'u' sound is placed below the consonant.",
       "order_no": 6,
       "estimated_time": 12,
       "language": "hi",
@@ -107,11 +107,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-007",
       "title": "ಊ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "UU — Matra Sign",
       "subtitle": "ಊ-ಮಾತ್ರಾ",
       "matra_symbol": "𑀼",
       "description": "ಊ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ನೀಚೇ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'uu' sound is placed below the consonant.",
       "order_no": 7,
       "estimated_time": 12,
       "language": "hi",
@@ -124,11 +124,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-008",
       "title": "ಏ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "E — Matra Sign",
       "subtitle": "ಏ-ಮಾತ್ರಾ",
       "matra_symbol": "𑁂",
       "description": "ಏ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'e' sound is placed after the consonant.",
       "order_no": 8,
       "estimated_time": 12,
       "language": "hi",
@@ -141,11 +141,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-009",
       "title": "ಐ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "AI — Matra Sign",
       "subtitle": "ಐ-ಮಾತ್ರಾ",
       "matra_symbol": "𑁃",
       "description": "ಐ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'ai' sound is placed after the consonant.",
       "order_no": 9,
       "estimated_time": 12,
       "language": "hi",
@@ -158,11 +158,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-010",
       "title": "ಓ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "O — Matra Sign",
       "subtitle": "ಓ-ಮಾತ್ರಾ",
       "matra_symbol": "𑁄",
       "description": "ಓ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'o' sound is placed after the consonant.",
       "order_no": 10,
       "estimated_time": 12,
       "language": "hi",
@@ -175,11 +175,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-011",
       "title": "ಔ - ಮಾತ್ರಾ ಚಿಹ್ನ",
-      "title_english": "",
+      "title_english": "AU — Matra Sign",
       "subtitle": "ಔ-ಮಾತ್ರಾ",
       "matra_symbol": "𑁅",
       "description": "ಔ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "The matra sign for the 'au' sound is placed after the consonant.",
       "order_no": 11,
       "estimated_time": 12,
       "language": "hi",
@@ -192,11 +192,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-012",
       "title": "ಅಂ - ಅನುಸ್ವಾರ",
-      "title_english": "",
+      "title_english": "Anusvara",
       "subtitle": "ಅನುಸ್ವಾರ",
       "matra_symbol": "𑁀",
       "description": "ಅನುಸ್ವಾರ - ನಾಸಿಕಾ ಧ್ವನಿ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಊಪರ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "Anusvara — a nasal sound sign placed above the consonant.",
       "order_no": 12,
       "estimated_time": 12,
       "language": "hi",
@@ -209,11 +209,11 @@
       "module_id": "matras",
       "lesson_id": "matras-lesson-013",
       "title": "ಅಃ - ವಿಸರ್ಗ",
-      "title_english": "",
+      "title_english": "Visarga",
       "subtitle": "ವಿಸರ್ಗ",
       "matra_symbol": "𑀂",
       "description": "ವಿಸರ್ಗ - ದೂಸರೀ ನಾಸಿಕಾ ಧ್ವನಿ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "description_english": "",
+      "description_english": "Visarga — an aspirate sound sign placed after the consonant.",
       "order_no": 13,
       "estimated_time": 12,
       "language": "hi",
@@ -283,8 +283,16 @@
       "titleEnglish": "Special Note",
       "description": "ಬ್ರಾಹ್ಮೀ ಮೇಂ ಮಾತ್ರಾಓಂ ಕಾ ಆಕಾರ ಔರ ಸ್ಥಾನ, ದೇವನಾಗರೀ ಸೇ ಕುಛ ಪृಥಕ್ ಹೈ। ಧ್ಯಾನ ಸೇ ದೇಖೇಂ, ಟ್ರೇಸ ಕರೇಂ ಔರ ಪಹಚಾನೇಂ।",
       "descriptionEnglish": "In Brahmi, the shape and position of matras differ slightly from Devanagari. Look carefully, trace, and practice recognizing them.",
-      "examples": [],
-      "examplesDevanagari": []
+      "examples": [
+        "Devanagari: कि (i-matra before consonant) → Brahmi: 𑀓𑀹 (placed above/before consonant)",
+        "Devanagari: कु (u-matra below consonant) → Brahmi: 𑀓𑀻 (placed below consonant)",
+        "Devanagari: का (aa-matra after consonant) → Brahmi: 𑀓𑀸 (placed after consonant)"
+      ],
+      "examplesDevanagari": [
+        "कि → 𑀓𑀹",
+        "कु → 𑀓𑀻",
+        "का → 𑀓𑀸"
+      ]
     }
   ],
   "matras": [
@@ -302,9 +310,9 @@
       "exampleBrahmi": "𑀓",
       "example_combination": "Consonant alone",
       "description": "ಬಿನಾ ಕಿಸೀ ಮಾತ್ರಾ ಕೇ, ವ್ಯಞ್ಜನ ಮೇಂ ಅಂತರ್ನಿಹಿತ 'ಅ' ಧ್ವನಿ ಹೋತೀ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "Without any matra sign, the consonant carries the inherent 'a' sound.",
+      "englishName": "Inherent A (no matra)",
+      "matraPositionLabel": "None (Inherent)"
     },
     {
       "id": "matra-002",
@@ -320,9 +328,9 @@
       "exampleBrahmi": "𑀓𑀸",
       "example_combination": "ಕ + 𑀸 = ಕಾ",
       "description": "ಆ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'aa' sound is placed after the consonant.",
+      "englishName": "AA Matra (Long A)",
+      "matraPositionLabel": "After (right side)"
     },
     {
       "id": "matra-003",
@@ -338,9 +346,9 @@
       "exampleBrahmi": "𑀓𑀹",
       "example_combination": "ಕ + 𑀹 = ಕಿ",
       "description": "ಇ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಸೇ ಪಹಲೇ/ಊಪರ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'i' sound is placed before or above the consonant.",
+      "englishName": "I Matra (Short I)",
+      "matraPositionLabel": "Before (left side / above)"
     },
     {
       "id": "matra-004",
@@ -356,9 +364,9 @@
       "exampleBrahmi": "𑀓𑀺",
       "example_combination": "ಕ + 𑀺 = ಕೀ",
       "description": "ಈ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'ee' sound is placed after the consonant.",
+      "englishName": "EE Matra (Long I)",
+      "matraPositionLabel": "After (right side)"
     },
     {
       "id": "matra-005",
@@ -374,9 +382,9 @@
       "exampleBrahmi": "𑀓𑀻",
       "example_combination": "ಕ + 𑀻 = ಕು",
       "description": "ಉ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ನೀಚೇ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'u' sound is placed below the consonant.",
+      "englishName": "U Matra (Short U)",
+      "matraPositionLabel": "Below"
     },
     {
       "id": "matra-006",
@@ -392,9 +400,9 @@
       "exampleBrahmi": "𑀓𑀼",
       "example_combination": "ಕ + 𑀼 = ಕೂ",
       "description": "ಊ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ನೀಚೇ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'uu' sound is placed below the consonant.",
+      "englishName": "UU Matra (Long U)",
+      "matraPositionLabel": "Below"
     },
     {
       "id": "matra-007",
@@ -410,9 +418,9 @@
       "exampleBrahmi": "𑀓𑁂",
       "example_combination": "ಕ + 𑁂 = ಕೇ",
       "description": "ಏ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'e' sound is placed after the consonant.",
+      "englishName": "E Matra",
+      "matraPositionLabel": "After (right side)"
     },
     {
       "id": "matra-008",
@@ -428,9 +436,9 @@
       "exampleBrahmi": "𑀓𑁃",
       "example_combination": "ಕ + 𑁃 = ಕೈ",
       "description": "ಐ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'ai' sound is placed after the consonant.",
+      "englishName": "AI Matra (Diphthong)",
+      "matraPositionLabel": "After (right side)"
     },
     {
       "id": "matra-009",
@@ -446,9 +454,9 @@
       "exampleBrahmi": "𑀓𑁄",
       "example_combination": "ಕ + 𑁄 = ಕೋ",
       "description": "ಓ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'o' sound is placed after the consonant.",
+      "englishName": "O Matra",
+      "matraPositionLabel": "After (right side)"
     },
     {
       "id": "matra-010",
@@ -464,9 +472,9 @@
       "exampleBrahmi": "𑀓𑁅",
       "example_combination": "ಕ + 𑁅 = ಕೌ",
       "description": "ಔ ಧ್ವನಿ ಕಾ ಮಾತ್ರಾ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "The matra sign for the 'au' sound is placed after the consonant.",
+      "englishName": "AU Matra (Diphthong)",
+      "matraPositionLabel": "After (right side)"
     },
     {
       "id": "matra-011",
@@ -482,9 +490,9 @@
       "exampleBrahmi": "𑀓𑁀",
       "example_combination": "ಕ + 𑁀 = ಕಂ",
       "description": "ಅನುಸ್ವಾರ - ನಾಸಿಕಾ ಧ್ವನಿ ಚಿಹ್ನ, ವ್ಯಞ್ಜನ ಕೇ ಊಪರ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "Anusvara — a nasal sound sign placed above the consonant.",
+      "englishName": "Anusvara (Nasal)",
+      "matraPositionLabel": "Above"
     },
     {
       "id": "matra-012",
@@ -500,9 +508,9 @@
       "exampleBrahmi": "𑀓𑀂",
       "example_combination": "ಕ + 𑀂 = ಕಃ",
       "description": "ವಿಸರ್ಗ - ದೂಸರೀ ನಾಸಿಕಾ ಧ್ವನಿ, ವ್ಯಞ್ಜನ ಕೇ ಬಾದ ಲಗತಾ ಹೈ",
-      "descriptionEnglish": "",
-      "englishName": "",
-      "matraPositionLabel": ""
+      "descriptionEnglish": "Visarga — an aspirate sound sign placed after the consonant.",
+      "englishName": "Visarga (Aspirate)",
+      "matraPositionLabel": "After (right side)"
     }
   ],
   "consonants": [

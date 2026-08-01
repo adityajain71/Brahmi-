@@ -14,16 +14,16 @@
       "exampleWords": [
         {
           "romanized": "kamal",
-          "english": "kamala",
+          "english": "lotus",
           "iast": "kamala"
         },
         {
           "romanized": "kaksha",
-          "english": "kakaṣaā",
+          "english": "classroom",
           "iast": "kakaṣaā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate.",
       "iast": "ka"
     },
     {
@@ -40,16 +40,16 @@
       "exampleWords": [
         {
           "romanized": "khat",
-          "english": "khaṭaiyaā/khaāṭa",
+          "english": "cot / wooden bed",
           "iast": "khaṭa"
         },
         {
           "romanized": "khel",
-          "english": "khaela",
+          "english": "game / play",
           "iast": "khaela"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated guttural stop produced at the back of the throat with a strong puff of air accompanying the release.",
       "iast": "kha"
     },
     {
@@ -66,16 +66,16 @@
       "exampleWords": [
         {
           "romanized": "gaay",
-          "english": "gaāya",
+          "english": "cow",
           "iast": "gaāya"
         },
         {
           "romanized": "gaman",
-          "english": "gamana",
+          "english": "movement / journey",
           "iast": "gamana"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate.",
       "iast": "ga"
     },
     {
@@ -92,16 +92,16 @@
       "exampleWords": [
         {
           "romanized": "ghar",
-          "english": "ghara",
+          "english": "house / home",
           "iast": "ghara"
         },
         {
           "romanized": "ghadi",
-          "english": "ghaḍaī",
+          "english": "watch / clock",
           "iast": "ghaḍaī"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated guttural stop produced at the back of the throat with a breathy puff of air.",
       "iast": "gha"
     },
     {
@@ -115,8 +115,14 @@
       "unicode_codepoint": "U+11017",
       "romanized": "nga",
       "pronunciationNote": "anaunaāsaika dhavanai, savataṃtara raūpa sae kama parayaukata",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "ank",
+          "english": "number / digit (ṅa as nasal conjunct)",
+          "iast": "aṅka"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced guttural nasal stop produced by blocking airflow at the back of the throat; rarely appears word-initially in Sanskrit or Hindi.",
       "iast": "ṅa"
     },
     {
@@ -133,16 +139,16 @@
       "exampleWords": [
         {
           "romanized": "chaay",
-          "english": "caāya",
+          "english": "tea",
           "iast": "caāya"
         },
         {
           "romanized": "chalna",
-          "english": "calanaā",
+          "english": "to walk",
           "iast": "calanaā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated palatal affricate produced with the front of the tongue touching the hard palate.",
       "iast": "ca"
     },
     {
@@ -159,16 +165,16 @@
       "exampleWords": [
         {
           "romanized": "chhata",
-          "english": "chaātaā",
+          "english": "umbrella",
           "iast": "chaātaā"
         },
         {
           "romanized": "chhota",
-          "english": "chaoṭaā",
+          "english": "small / little",
           "iast": "chaoṭaā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated palatal affricate produced with the tongue at the hard palate with a strong puff of air.",
       "iast": "cha"
     },
     {
@@ -185,16 +191,16 @@
       "exampleWords": [
         {
           "romanized": "jal",
-          "english": "jala",
+          "english": "water",
           "iast": "jala"
         },
         {
           "romanized": "jag",
-          "english": "jaga",
+          "english": "world / jug",
           "iast": "jaga"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated palatal affricate produced with the tongue touching the hard palate.",
       "iast": "ja"
     },
     {
@@ -211,16 +217,16 @@
       "exampleWords": [
         {
           "romanized": "jharna",
-          "english": "jharanaā",
+          "english": "waterfall",
           "iast": "jharanaā"
         },
         {
           "romanized": "jhoola",
-          "english": "jhaūlaā",
+          "english": "swing",
           "iast": "jhaūlaā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated palatal affricate produced with a breathy puff of air and the tongue at the hard palate.",
       "iast": "jha"
     },
     {
@@ -234,8 +240,14 @@
       "unicode_codepoint": "U+1101C",
       "romanized": "nya",
       "pronunciationNote": "anaunaāsaika dhavanai, savataṃtara raūpa sae kama parayaukata",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "gyaan",
+          "english": "knowledge (nya in conjunct form jña)",
+          "iast": "jñāna"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced palatal nasal stop produced with the tongue at the hard palate; rarely appears word-initially in Sanskrit or Hindi.",
       "iast": "ña"
     },
     {
@@ -252,16 +264,16 @@
       "exampleWords": [
         {
           "romanized": "topi",
-          "english": "ṭaopaī",
+          "english": "hat / cap",
           "iast": "ṭaopaī"
         },
         {
           "romanized": "tamatar",
-          "english": "ṭamaāṭara",
+          "english": "tomato",
           "iast": "ṭamaāṭara"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated retroflex stop produced with the tongue tip curled back to touch the roof of the mouth (cerebral position).",
       "iast": "ṭa"
     },
     {
@@ -278,16 +290,16 @@
       "exampleWords": [
         {
           "romanized": "thanda",
-          "english": "ṭhaṃḍaā",
+          "english": "cold",
           "iast": "ṭhaṃḍaā"
         },
         {
           "romanized": "thag",
-          "english": "ṭhaga",
+          "english": "thug / swindler",
           "iast": "ṭhaga"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated retroflex stop produced with the tongue curled back to the roof of the mouth with a puff of air.",
       "iast": "ṭha"
     },
     {
@@ -304,16 +316,16 @@
       "exampleWords": [
         {
           "romanized": "dakiya",
-          "english": "ḍaākaiyaā",
+          "english": "postman",
           "iast": "ḍaākaiyaā"
         },
         {
           "romanized": "damroo",
-          "english": "ḍamaraū/ḍhaola",
+          "english": "small drum",
           "iast": "ḍamaraū"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated retroflex stop produced with the tongue curled back to touch the roof of the mouth.",
       "iast": "ḍa"
     },
     {
@@ -330,16 +342,16 @@
       "exampleWords": [
         {
           "romanized": "dhol",
-          "english": "ḍamaraū/ḍhaola",
+          "english": "drum",
           "iast": "ḍhaola"
         },
         {
           "romanized": "dhakkan",
-          "english": "ḍhakakana",
+          "english": "lid / cover",
           "iast": "ḍhakakana"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated retroflex stop produced with a breathy puff of air and the tongue curled back to the roof of the mouth.",
       "iast": "ḍha"
     },
     {
@@ -353,8 +365,14 @@
       "unicode_codepoint": "U+11021",
       "romanized": "na",
       "pronunciationNote": "maūradhanaya 'ṇa' dhavanai, savataṃtara raūpa sae kama parayaukata",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "ganit",
+          "english": "mathematics (ṇa in medial position)",
+          "iast": "gaṇita"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced retroflex nasal stop produced with the tongue curled back to the roof of the mouth; rarely appears word-initially in Sanskrit or Hindi.",
       "iast": "ṇa"
     },
     {
@@ -371,16 +389,16 @@
       "exampleWords": [
         {
           "romanized": "tan",
-          "english": "tana",
+          "english": "body",
           "iast": "tana"
         },
         {
           "romanized": "taran",
-          "english": "taraṇa",
+          "english": "crossing / swimming",
           "iast": "taraṇa"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth.",
       "iast": "ta"
     },
     {
@@ -397,16 +415,16 @@
       "exampleWords": [
         {
           "romanized": "thal",
-          "english": "thala",
+          "english": "land / ground",
           "iast": "thala"
         },
         {
           "romanized": "thali",
-          "english": "thaālaī",
+          "english": "plate / thali",
           "iast": "thaālaī"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated dental stop produced with the tongue at the back of the upper teeth with a puff of air.",
       "iast": "tha"
     },
     {
@@ -423,16 +441,16 @@
       "exampleWords": [
         {
           "romanized": "dal",
-          "english": "daāla",
+          "english": "lentils",
           "iast": "dala"
         },
         {
           "romanized": "daan",
-          "english": "daāna",
+          "english": "donation / gift",
           "iast": "daāna"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth.",
       "iast": "da"
     },
     {
@@ -449,16 +467,16 @@
       "exampleWords": [
         {
           "romanized": "dhan",
-          "english": "dhana",
+          "english": "wealth / money",
           "iast": "dhana"
         },
         {
           "romanized": "dharti",
-          "english": "dharataī",
+          "english": "earth / land",
           "iast": "dharataī"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated dental stop produced with a breathy puff of air and the tongue at the upper teeth.",
       "iast": "dha"
     },
     {
@@ -475,16 +493,16 @@
       "exampleWords": [
         {
           "romanized": "nal",
-          "english": "nala",
+          "english": "tap / pipe",
           "iast": "nala"
         },
         {
           "romanized": "naam",
-          "english": "naāma",
+          "english": "name",
           "iast": "naāma"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced dental nasal stop produced with the tip of the tongue touching the back of the upper teeth, directing airflow through the nose.",
       "iast": "na"
     },
     {
@@ -501,16 +519,16 @@
       "exampleWords": [
         {
           "romanized": "pal",
-          "english": "pala",
+          "english": "moment / instant",
           "iast": "pala"
         },
         {
           "romanized": "paani",
-          "english": "jala",
+          "english": "water",
           "iast": "paānaī"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated labial stop produced by pressing both lips firmly together and then releasing.",
       "iast": "pa"
     },
     {
@@ -527,16 +545,16 @@
       "exampleWords": [
         {
           "romanized": "phal",
-          "english": "phala",
+          "english": "fruit",
           "iast": "phala"
         },
         {
           "romanized": "phool",
-          "english": "phaūla",
+          "english": "flower",
           "iast": "phaūla"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated labial stop produced by pressing both lips together and releasing with a puff of air.",
       "iast": "pha"
     },
     {
@@ -553,16 +571,16 @@
       "exampleWords": [
         {
           "romanized": "bal",
-          "english": "bala",
+          "english": "strength / power",
           "iast": "bala"
         },
         {
           "romanized": "baadal",
-          "english": "baādala",
+          "english": "cloud",
           "iast": "baādala"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated labial stop produced by pressing both lips firmly together and then releasing.",
       "iast": "ba"
     },
     {
@@ -579,16 +597,16 @@
       "exampleWords": [
         {
           "romanized": "bhavan",
-          "english": "bhavana",
+          "english": "building",
           "iast": "bhavana"
         },
         {
           "romanized": "bhasha",
-          "english": "bhaāṣaā",
+          "english": "language",
           "iast": "bhaāṣaā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated labial stop produced by pressing both lips together and releasing with a breathy puff of air.",
       "iast": "bha"
     },
     {
@@ -605,16 +623,16 @@
       "exampleWords": [
         {
           "romanized": "man",
-          "english": "mana",
+          "english": "mind",
           "iast": "mana"
         },
         {
           "romanized": "maata",
-          "english": "maātaā",
+          "english": "mother",
           "iast": "maātaā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced labial nasal stop produced with both lips pressed together, directing airflow through the nose.",
       "iast": "ma"
     },
     {
@@ -631,16 +649,16 @@
       "exampleWords": [
         {
           "romanized": "yagna",
-          "english": "yajaña",
+          "english": "sacred fire ritual",
           "iast": "yajaña"
         },
         {
           "romanized": "yatra",
-          "english": "yaātaraā",
+          "english": "journey / pilgrimage",
           "iast": "yaātaraā"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A palatal semi-vowel produced with the tongue near the hard palate, functioning similarly to the 'y' in the English word 'yes'.",
       "iast": "ya"
     },
     {
@@ -657,16 +675,16 @@
       "exampleWords": [
         {
           "romanized": "ras",
-          "english": "rasa",
+          "english": "juice / essence",
           "iast": "rasa"
         },
         {
           "romanized": "raaj",
-          "english": "raāja",
+          "english": "kingdom / rule",
           "iast": "raāja"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A trilled semi-vowel produced with one or more rapid taps of the tongue tip against the alveolar ridge (the ridge just behind the upper front teeth).",
       "iast": "ra"
     },
     {
@@ -683,16 +701,16 @@
       "exampleWords": [
         {
           "romanized": "lata",
-          "english": "lataā",
+          "english": "vine / creeper",
           "iast": "lataā"
         },
         {
           "romanized": "lahar",
-          "english": "lahara",
+          "english": "wave",
           "iast": "lahara"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A lateral semi-vowel (liquid) produced with the tongue tip touching the alveolar ridge while air flows around the sides of the tongue.",
       "iast": "la"
     },
     {
@@ -709,16 +727,16 @@
       "exampleWords": [
         {
           "romanized": "van",
-          "english": "vana",
+          "english": "forest",
           "iast": "vana"
         },
         {
           "romanized": "vayu",
-          "english": "vaāyau",
+          "english": "wind / air",
           "iast": "vaāyau"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A labiodental or bilabial semi-vowel produced with the lower lip lightly approaching the upper teeth or upper lip, similar to English 'v' or 'w'.",
       "iast": "va"
     },
     {
@@ -735,16 +753,16 @@
       "exampleWords": [
         {
           "romanized": "shakti",
-          "english": "śakatai",
+          "english": "power / strength",
           "iast": "śakatai"
         },
         {
           "romanized": "shabd",
-          "english": "śabada",
+          "english": "word",
           "iast": "śabada"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A palatal sibilant fricative produced with the tongue blade near the hard palate, similar to the 'sh' in the English word 'shoe'.",
       "iast": "śa"
     },
     {
@@ -761,11 +779,11 @@
       "exampleWords": [
         {
           "romanized": "shat",
-          "english": "chaha",
+          "english": "six",
           "iast": "ṣaṭa"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A retroflex sibilant fricative produced with the tongue blade curled back toward the roof of the mouth, a sound not found in English.",
       "iast": "ṣa"
     },
     {
@@ -782,16 +800,16 @@
       "exampleWords": [
         {
           "romanized": "satya",
-          "english": "sataya",
+          "english": "truth",
           "iast": "sataya"
         },
         {
           "romanized": "saral",
-          "english": "sarala",
+          "english": "simple / easy",
           "iast": "sarala"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A dental sibilant fricative produced with the tongue near the back of the upper teeth, similar to the 's' in the English word 'sun'.",
       "iast": "sa"
     },
     {
@@ -808,16 +826,16 @@
       "exampleWords": [
         {
           "romanized": "hasta",
-          "english": "haātha",
+          "english": "hand",
           "iast": "hasata"
         },
         {
           "romanized": "hari",
-          "english": "bhagavaāna",
+          "english": "Lord Vishnu / God",
           "iast": "harai"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A glottal fricative produced at the glottis (the opening of the vocal tract), similar to the English 'h' in 'house' but slightly more breathy.",
       "iast": "ha"
     }
   ],

@@ -14,16 +14,16 @@
       "exampleWords": [
         {
           "romanized": "kamal",
-          "english": "கமல",
+          "english": "lotus",
           "tamil": "கமல"
         },
         {
           "romanized": "kaksha",
-          "english": "கக்ஷா",
+          "english": "classroom",
           "tamil": "கக்ஷா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate.",
       "tamilExact": true,
       "tamil": "க"
     },
@@ -41,16 +41,16 @@
       "exampleWords": [
         {
           "romanized": "khat",
-          "english": "க்ஹடியா/க்ஹாட",
+          "english": "cot / wooden bed",
           "tamil": "க்ஹட"
         },
         {
           "romanized": "khel",
-          "english": "க்ஹேல",
+          "english": "game / play",
           "tamil": "க்ஹேல"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated guttural stop produced at the back of the throat with a strong puff of air accompanying the release.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from க; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "க"
@@ -69,16 +69,16 @@
       "exampleWords": [
         {
           "romanized": "gaay",
-          "english": "காய",
+          "english": "cow",
           "tamil": "காய"
         },
         {
           "romanized": "gaman",
-          "english": "கமந",
+          "english": "movement / journey",
           "tamil": "கமந"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from க; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "க"
@@ -97,16 +97,16 @@
       "exampleWords": [
         {
           "romanized": "ghar",
-          "english": "க்ஹர",
+          "english": "house / home",
           "tamil": "க்ஹர"
         },
         {
           "romanized": "ghadi",
-          "english": "க்ஹடீ",
+          "english": "watch / clock",
           "tamil": "க்ஹடீ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated guttural stop produced at the back of the throat with a breathy puff of air.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from க; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "க"
@@ -122,8 +122,14 @@
       "unicode_codepoint": "U+11017",
       "romanized": "nga",
       "pronunciationNote": "அநுநாஸிக த்ஹ்வநி, ஸ்வதம்த்ர ரூப ஸே கம ப்ரயுக்த",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "ank",
+          "english": "number / digit (ṅa as nasal conjunct)",
+          "tamil": "அங்க"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced guttural nasal stop produced by blocking airflow at the back of the throat; rarely appears word-initially in Sanskrit or Hindi.",
       "tamilExact": true,
       "tamil": "ங"
     },
@@ -141,16 +147,16 @@
       "exampleWords": [
         {
           "romanized": "chaay",
-          "english": "சாய",
+          "english": "tea",
           "tamil": "சாய"
         },
         {
           "romanized": "chalna",
-          "english": "சலநா",
+          "english": "to walk",
           "tamil": "சலநா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated palatal affricate produced with the front of the tongue touching the hard palate.",
       "tamilExact": true,
       "tamil": "ச"
     },
@@ -168,16 +174,16 @@
       "exampleWords": [
         {
           "romanized": "chhata",
-          "english": "ச்ஹாதா",
+          "english": "umbrella",
           "tamil": "ச்ஹாதா"
         },
         {
           "romanized": "chhota",
-          "english": "ச்ஹோடா",
+          "english": "small / little",
           "tamil": "ச்ஹோடா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated palatal affricate produced with the tongue at the hard palate with a strong puff of air.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ச; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ச"
@@ -196,16 +202,16 @@
       "exampleWords": [
         {
           "romanized": "jal",
-          "english": "ஜல",
+          "english": "water",
           "tamil": "ஜல"
         },
         {
           "romanized": "jag",
-          "english": "ஜக",
+          "english": "world / jug",
           "tamil": "ஜக"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated palatal affricate produced with the tongue touching the hard palate.",
       "tamilExact": true,
       "tamil": "ஜ"
     },
@@ -223,16 +229,16 @@
       "exampleWords": [
         {
           "romanized": "jharna",
-          "english": "ஜ்ஹரநா",
+          "english": "waterfall",
           "tamil": "ஜ்ஹரநா"
         },
         {
           "romanized": "jhoola",
-          "english": "ஜ்ஹூலா",
+          "english": "swing",
           "tamil": "ஜ்ஹூலா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated palatal affricate produced with a breathy puff of air and the tongue at the hard palate.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ச; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ஜ"
@@ -248,8 +254,14 @@
       "unicode_codepoint": "U+1101C",
       "romanized": "nya",
       "pronunciationNote": "அநுநாஸிக த்ஹ்வநி, ஸ்வதம்த்ர ரூப ஸே கம ப்ரயுக்த",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "gyaan",
+          "english": "knowledge (nya in conjunct form jña)",
+          "tamil": "ஞானம்"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced palatal nasal stop produced with the tongue at the hard palate; rarely appears word-initially in Sanskrit or Hindi.",
       "tamilExact": true,
       "tamil": "ஞ"
     },
@@ -267,16 +279,16 @@
       "exampleWords": [
         {
           "romanized": "topi",
-          "english": "டோபீ",
+          "english": "hat / cap",
           "tamil": "டோபீ"
         },
         {
           "romanized": "tamatar",
-          "english": "டமாடர",
+          "english": "tomato",
           "tamil": "டமாடர"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated retroflex stop produced with the tongue tip curled back to touch the roof of the mouth (cerebral position).",
       "tamilExact": true,
       "tamil": "ட"
     },
@@ -294,16 +306,16 @@
       "exampleWords": [
         {
           "romanized": "thanda",
-          "english": "ட்ஹம்டா",
+          "english": "cold",
           "tamil": "ட்ஹம்டா"
         },
         {
           "romanized": "thag",
-          "english": "ட்ஹக",
+          "english": "thug / swindler",
           "tamil": "ட்ஹக"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated retroflex stop produced with the tongue curled back to the roof of the mouth with a puff of air.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ட; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ட"
@@ -322,16 +334,16 @@
       "exampleWords": [
         {
           "romanized": "dakiya",
-          "english": "டாகியா",
+          "english": "postman",
           "tamil": "டாகியா"
         },
         {
           "romanized": "damroo",
-          "english": "டமரூ/ட்ஹோல",
+          "english": "small drum",
           "tamil": "டமரூ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated retroflex stop produced with the tongue curled back to touch the roof of the mouth.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ட; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ட"
@@ -350,16 +362,16 @@
       "exampleWords": [
         {
           "romanized": "dhol",
-          "english": "டமரூ/ட்ஹோல",
+          "english": "drum",
           "tamil": "ட்ஹோல"
         },
         {
           "romanized": "dhakkan",
-          "english": "ட்ஹக்கந",
+          "english": "lid / cover",
           "tamil": "ட்ஹக்கந"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated retroflex stop produced with a breathy puff of air and the tongue curled back to the roof of the mouth.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ட; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ட"
@@ -375,8 +387,14 @@
       "unicode_codepoint": "U+11021",
       "romanized": "na",
       "pronunciationNote": "மூர்த்ஹந்ய 'ண' த்ஹ்வநி, ஸ்வதம்த்ர ரூப ஸே கம ப்ரயுக்த",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "ganit",
+          "english": "mathematics (ṇa in medial position)",
+          "tamil": "கணிதம்"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced retroflex nasal stop produced with the tongue curled back to the roof of the mouth; rarely appears word-initially in Sanskrit or Hindi.",
       "tamilExact": true,
       "tamil": "ண"
     },
@@ -394,16 +412,16 @@
       "exampleWords": [
         {
           "romanized": "tan",
-          "english": "தந",
+          "english": "body",
           "tamil": "தந"
         },
         {
           "romanized": "taran",
-          "english": "தரண",
+          "english": "crossing / swimming",
           "tamil": "தரண"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth.",
       "tamilExact": true,
       "tamil": "த"
     },
@@ -421,16 +439,16 @@
       "exampleWords": [
         {
           "romanized": "thal",
-          "english": "த்ஹல",
+          "english": "land / ground",
           "tamil": "த்ஹல"
         },
         {
           "romanized": "thali",
-          "english": "த்ஹாலீ",
+          "english": "plate / thali",
           "tamil": "த்ஹாலீ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated dental stop produced with the tongue at the back of the upper teeth with a puff of air.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from த; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "த"
@@ -449,16 +467,16 @@
       "exampleWords": [
         {
           "romanized": "dal",
-          "english": "தால",
+          "english": "lentils",
           "tamil": "தல"
         },
         {
           "romanized": "daan",
-          "english": "தாந",
+          "english": "donation / gift",
           "tamil": "தாந"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from த; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "த"
@@ -477,16 +495,16 @@
       "exampleWords": [
         {
           "romanized": "dhan",
-          "english": "த்ஹந",
+          "english": "wealth / money",
           "tamil": "த்ஹந"
         },
         {
           "romanized": "dharti",
-          "english": "த்ஹரதீ",
+          "english": "earth / land",
           "tamil": "த்ஹரதீ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated dental stop produced with a breathy puff of air and the tongue at the upper teeth.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from த; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "த"
@@ -505,16 +523,16 @@
       "exampleWords": [
         {
           "romanized": "nal",
-          "english": "நல",
+          "english": "tap / pipe",
           "tamil": "நல"
         },
         {
           "romanized": "naam",
-          "english": "நாம",
+          "english": "name",
           "tamil": "நாம"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced dental nasal stop produced with the tip of the tongue touching the back of the upper teeth, directing airflow through the nose.",
       "tamilExact": true,
       "tamil": "ந"
     },
@@ -532,16 +550,16 @@
       "exampleWords": [
         {
           "romanized": "pal",
-          "english": "பல",
+          "english": "moment / instant",
           "tamil": "பல"
         },
         {
           "romanized": "paani",
-          "english": "ஜல",
+          "english": "water",
           "tamil": "பாநீ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated labial stop produced by pressing both lips firmly together and then releasing.",
       "tamilExact": true,
       "tamil": "ப"
     },
@@ -559,16 +577,16 @@
       "exampleWords": [
         {
           "romanized": "phal",
-          "english": "ப்ஹல",
+          "english": "fruit",
           "tamil": "ப்ஹல"
         },
         {
           "romanized": "phool",
-          "english": "ப்ஹூல",
+          "english": "flower",
           "tamil": "ப்ஹூல"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated labial stop produced by pressing both lips together and releasing with a puff of air.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ப; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ப"
@@ -587,16 +605,16 @@
       "exampleWords": [
         {
           "romanized": "bal",
-          "english": "பல",
+          "english": "strength / power",
           "tamil": "பல"
         },
         {
           "romanized": "baadal",
-          "english": "பாதல",
+          "english": "cloud",
           "tamil": "பாதல"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated labial stop produced by pressing both lips firmly together and then releasing.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ப; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ப"
@@ -615,16 +633,16 @@
       "exampleWords": [
         {
           "romanized": "bhavan",
-          "english": "ப்ஹவந",
+          "english": "building",
           "tamil": "ப்ஹவந"
         },
         {
           "romanized": "bhasha",
-          "english": "ப்ஹாஷா",
+          "english": "language",
           "tamil": "ப்ஹாஷா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated labial stop produced by pressing both lips together and releasing with a breathy puff of air.",
       "tamilExact": false,
       "note": "Tamil script does not distinguish this sound from ப; shown for reference, pronunciation follows the IAST/Brahmi form.",
       "tamil": "ப"
@@ -643,16 +661,16 @@
       "exampleWords": [
         {
           "romanized": "man",
-          "english": "மந",
+          "english": "mind",
           "tamil": "மந"
         },
         {
           "romanized": "maata",
-          "english": "மாதா",
+          "english": "mother",
           "tamil": "மாதா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced labial nasal stop produced with both lips pressed together, directing airflow through the nose.",
       "tamilExact": true,
       "tamil": "ம"
     },
@@ -670,16 +688,16 @@
       "exampleWords": [
         {
           "romanized": "yagna",
-          "english": "யஜ்ஞ",
+          "english": "sacred fire ritual",
           "tamil": "யஜ்ஞ"
         },
         {
           "romanized": "yatra",
-          "english": "யாத்ரா",
+          "english": "journey / pilgrimage",
           "tamil": "யாத்ரா"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A palatal semi-vowel produced with the tongue near the hard palate, functioning similarly to the 'y' in the English word 'yes'.",
       "tamilExact": true,
       "tamil": "ய"
     },
@@ -697,16 +715,16 @@
       "exampleWords": [
         {
           "romanized": "ras",
-          "english": "ரஸ",
+          "english": "juice / essence",
           "tamil": "ரஸ"
         },
         {
           "romanized": "raaj",
-          "english": "ராஜ",
+          "english": "kingdom / rule",
           "tamil": "ராஜ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A trilled semi-vowel produced with one or more rapid taps of the tongue tip against the alveolar ridge (the ridge just behind the upper front teeth).",
       "tamilExact": true,
       "tamil": "ர"
     },
@@ -724,16 +742,16 @@
       "exampleWords": [
         {
           "romanized": "lata",
-          "english": "லதா",
+          "english": "vine / creeper",
           "tamil": "லதா"
         },
         {
           "romanized": "lahar",
-          "english": "லஹர",
+          "english": "wave",
           "tamil": "லஹர"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A lateral semi-vowel (liquid) produced with the tongue tip touching the alveolar ridge while air flows around the sides of the tongue.",
       "tamilExact": true,
       "tamil": "ல"
     },
@@ -751,16 +769,16 @@
       "exampleWords": [
         {
           "romanized": "van",
-          "english": "வந",
+          "english": "forest",
           "tamil": "வந"
         },
         {
           "romanized": "vayu",
-          "english": "வாயு",
+          "english": "wind / air",
           "tamil": "வாயு"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A labiodental or bilabial semi-vowel produced with the lower lip lightly approaching the upper teeth or upper lip, similar to English 'v' or 'w'.",
       "tamilExact": true,
       "tamil": "வ"
     },
@@ -778,16 +796,16 @@
       "exampleWords": [
         {
           "romanized": "shakti",
-          "english": "ஶக்தி",
+          "english": "power / strength",
           "tamil": "ஶக்தி"
         },
         {
           "romanized": "shabd",
-          "english": "ஶப்த",
+          "english": "word",
           "tamil": "ஶப்த"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A palatal sibilant fricative produced with the tongue blade near the hard palate, similar to the 'sh' in the English word 'shoe'.",
       "tamilExact": true,
       "tamil": "ஶ"
     },
@@ -805,11 +823,11 @@
       "exampleWords": [
         {
           "romanized": "shat",
-          "english": "ச்ஹஹ",
+          "english": "six",
           "tamil": "ஷட்"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A retroflex sibilant fricative produced with the tongue blade curled back toward the roof of the mouth, a sound not found in English.",
       "tamilExact": true,
       "tamil": "ஷ"
     },
@@ -827,16 +845,16 @@
       "exampleWords": [
         {
           "romanized": "satya",
-          "english": "ஸத்ய",
+          "english": "truth",
           "tamil": "ஸத்ய"
         },
         {
           "romanized": "saral",
-          "english": "ஸரல",
+          "english": "simple / easy",
           "tamil": "ஸரல"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A dental sibilant fricative produced with the tongue near the back of the upper teeth, similar to the 's' in the English word 'sun'.",
       "tamilExact": true,
       "tamil": "ஸ"
     },
@@ -854,16 +872,16 @@
       "exampleWords": [
         {
           "romanized": "hasta",
-          "english": "ஹாத்ஹ",
+          "english": "hand",
           "tamil": "ஹஸ்த"
         },
         {
           "romanized": "hari",
-          "english": "ப்ஹகவாந",
+          "english": "Lord Vishnu / God",
           "tamil": "ஹரி"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A glottal fricative produced at the glottis (the opening of the vocal tract), similar to the English 'h' in 'house' but slightly more breathy.",
       "tamilExact": true,
       "tamil": "ஹ"
     }

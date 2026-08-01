@@ -14,12 +14,16 @@ interface Props {
   onNext: () => void
 }
 
-/** Extract the Brahmi portion from a prompt like "𑀓 ___ = कि" */
+/** Extract the Brahmi base and result from prompt like "𑀓 ___ = कि" */
 function parsePrompt(prompt: string) {
-  // Format: "{brahmi_base} ___ = {devanagari_result}"
+  // Format: "{brahmi_base} ___ = {result}"
   const parts = prompt.split('=')
   const left = parts[0]?.trim().replace('___', '').trim() || ''
-  const right = parts[1]?.trim() || ''
+  let right = parts[1]?.trim() || ''
+  // Ensure if short-i was inverted as 'ि' + consonant, it is normalized to consonant + 'ि'
+  if (right.startsWith('ि') && right.length >= 2) {
+    right = right.slice(1) + 'ि'
+  }
   return { base: left, result: right }
 }
 

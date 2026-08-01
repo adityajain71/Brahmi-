@@ -10,13 +10,14 @@ export default function MCQSlide({ slide, language }: { slide: CompiledSlide, la
   
   const [selected, setSelected] = useState<string | null>(null)
 
-  // Shuffle options on mount
+  // Shuffle options on mount, deduplicating wrong options that match the correct answer
   const options = useMemo(() => {
     if (!data.correct_answer || !data.wrong_options) return []
-    const opts = [
-      { text: data.correct_answer, isCorrect: true },
-      ...data.wrong_options.map((w: any) => ({ text: w.brahmi || w.text || w.devanagari, isCorrect: false }))
-    ]
+    const correct = data.correct_answer
+    const wrongOpts = data.wrong_options
+      .map((w: any) => ({ text: w.brahmi || w.text || w.devanagari, isCorrect: false }))
+      .filter((w: { text: string; isCorrect: boolean }) => w.text && w.text !== correct)
+    const opts = [{ text: correct, isCorrect: true }, ...wrongOpts]
     return opts.sort(() => Math.random() - 0.5)
   }, [data])
 

@@ -16,15 +16,15 @@
         {
           "devanagari": "कमल",
           "romanized": "kamal",
-          "english": "कमल"
+          "english": "lotus"
         },
         {
           "devanagari": "कक्षा",
           "romanized": "kaksha",
-          "english": "वर्ग"
+          "english": "classroom"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate."
     },
     {
       "id": "vyanjan-002",
@@ -42,15 +42,15 @@
         {
           "devanagari": "खट",
           "romanized": "khat",
-          "english": "खटिया"
+          "english": "cot / wooden bed"
         },
         {
           "devanagari": "खेल",
           "romanized": "khel",
-          "english": "खेळ"
+          "english": "game / play"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An aspirated guttural stop produced at the back of the throat with a strong puff of air accompanying the release."
     },
     {
       "id": "vyanjan-003",
@@ -68,15 +68,15 @@
         {
           "devanagari": "गाय",
           "romanized": "gaay",
-          "english": "गाय"
+          "english": "cow"
         },
         {
           "devanagari": "गमन",
           "romanized": "gaman",
-          "english": "गमन"
+          "english": "movement / journey"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate."
     },
     {
       "id": "vyanjan-004",
@@ -94,15 +94,15 @@
         {
           "devanagari": "घर",
           "romanized": "ghar",
-          "english": "घर"
+          "english": "house / home"
         },
         {
           "devanagari": "घड़ी",
           "romanized": "ghadi",
-          "english": "घड़ी"
+          "english": "watch / clock"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced aspirated guttural stop produced at the back of the throat with a breathy puff of air."
     },
     {
       "id": "vyanjan-005",
@@ -116,8 +116,14 @@
       "unicode_codepoint": "U+11017",
       "romanized": "nga",
       "pronunciationNote": "अनुनासिक ध्वनि, स्वतंत्र रूपातून कमी वापरली जाते",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": ""
+      "exampleWords": [
+        {
+          "devanagari": "अंक",
+          "romanized": "ank",
+          "english": "number / digit (ṅa as nasal conjunct)"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced guttural nasal stop produced by blocking airflow at the back of the throat; rarely appears word-initially in Sanskrit or Hindi."
     },
     {
       "id": "vyanjan-006",
@@ -135,15 +141,15 @@
         {
           "devanagari": "चाय",
           "romanized": "chaay",
-          "english": "चहा"
+          "english": "tea"
         },
         {
           "devanagari": "चलना",
           "romanized": "chalna",
-          "english": "चालणे"
+          "english": "to walk"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An unaspirated palatal affricate produced with the front of the tongue touching the hard palate."
     },
     {
       "id": "vyanjan-007",
@@ -161,15 +167,15 @@
         {
           "devanagari": "छाता",
           "romanized": "chhata",
-          "english": "छत्र"
+          "english": "umbrella"
         },
         {
           "devanagari": "छोटा",
           "romanized": "chhota",
-          "english": "लहान"
+          "english": "small / little"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An aspirated palatal affricate produced with the tongue at the hard palate with a strong puff of air."
     },
     {
       "id": "vyanjan-008",
@@ -187,15 +193,15 @@
         {
           "devanagari": "जल",
           "romanized": "jal",
-          "english": "जल"
+          "english": "water"
         },
         {
           "devanagari": "जग",
           "romanized": "jag",
-          "english": "जग"
+          "english": "world / jug"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced unaspirated palatal affricate produced with the tongue touching the hard palate."
     },
     {
       "id": "vyanjan-009",
@@ -213,15 +219,15 @@
         {
           "devanagari": "झरना",
           "romanized": "jharna",
-          "english": "झरणा"
+          "english": "waterfall"
         },
         {
           "devanagari": "झूला",
           "romanized": "jhoola",
-          "english": "झूले"
+          "english": "swing"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced aspirated palatal affricate produced with a breathy puff of air and the tongue at the hard palate."
     },
     {
       "id": "vyanjan-010",
@@ -235,8 +241,14 @@
       "unicode_codepoint": "U+1101C",
       "romanized": "nya",
       "pronunciationNote": "अनुनासिक ध्वनि, स्वतंत्र रूपातून कमी वापरली जाते",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": ""
+      "exampleWords": [
+        {
+          "devanagari": "ज्ञान",
+          "romanized": "gyaan",
+          "english": "knowledge (ञ in conjunct form ज्ञ)"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced palatal nasal stop produced with the tongue at the hard palate; rarely appears word-initially in Sanskrit or Hindi."
     },
     {
       "id": "vyanjan-011",
@@ -254,15 +266,15 @@
         {
           "devanagari": "टोपी",
           "romanized": "topi",
-          "english": "टोपी"
+          "english": "hat / cap"
         },
         {
           "devanagari": "टमाटर",
           "romanized": "tamatar",
-          "english": "टोमेटो"
+          "english": "tomato"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An unaspirated retroflex stop produced with the tongue tip curled back to touch the roof of the mouth (cerebral position)."
     },
     {
       "id": "vyanjan-012",
@@ -280,15 +292,15 @@
         {
           "devanagari": "ठंडा",
           "romanized": "thanda",
-          "english": "थंडी"
+          "english": "cold"
         },
         {
           "devanagari": "ठग",
           "romanized": "thag",
-          "english": "ठग"
+          "english": "thug / swindler"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An aspirated retroflex stop produced with the tongue curled back to the roof of the mouth with a puff of air."
     },
     {
       "id": "vyanjan-013",
@@ -306,15 +318,15 @@
         {
           "devanagari": "डाकिया",
           "romanized": "dakiya",
-          "english": "डाकपटू"
+          "english": "postman"
         },
         {
           "devanagari": "डमरू",
           "romanized": "damroo",
-          "english": "डमरू"
+          "english": "small drum"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced unaspirated retroflex stop produced with the tongue curled back to touch the roof of the mouth."
     },
     {
       "id": "vyanjan-014",
@@ -332,15 +344,15 @@
         {
           "devanagari": "ढोल",
           "romanized": "dhol",
-          "english": "ढोळ"
+          "english": "drum"
         },
         {
           "devanagari": "ढक्कन",
           "romanized": "dhakkan",
-          "english": "झाकण"
+          "english": "lid / cover"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced aspirated retroflex stop produced with a breathy puff of air and the tongue curled back to the roof of the mouth."
     },
     {
       "id": "vyanjan-015",
@@ -354,8 +366,14 @@
       "unicode_codepoint": "U+11021",
       "romanized": "na",
       "pronunciationNote": "मूर्धन्य 'ण' ध्वनि, स्वतंत्र रूपातून कमी वापरली जाते",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": ""
+      "exampleWords": [
+        {
+          "devanagari": "गणित",
+          "romanized": "ganit",
+          "english": "mathematics (ण in medial position)"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced retroflex nasal stop produced with the tongue curled back to the roof of the mouth; rarely appears word-initially in Sanskrit or Hindi."
     },
     {
       "id": "vyanjan-016",
@@ -373,15 +391,15 @@
         {
           "devanagari": "तन",
           "romanized": "tan",
-          "english": "शरीर"
+          "english": "body"
         },
         {
           "devanagari": "तरण",
           "romanized": "taran",
-          "english": "तरण"
+          "english": "crossing / swimming"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth."
     },
     {
       "id": "vyanjan-017",
@@ -399,15 +417,15 @@
         {
           "devanagari": "थल",
           "romanized": "thal",
-          "english": "थर्र"
+          "english": "land / ground"
         },
         {
           "devanagari": "थाली",
           "romanized": "thali",
-          "english": "थाळी"
+          "english": "plate / thali"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An aspirated dental stop produced with the tongue at the back of the upper teeth with a puff of air."
     },
     {
       "id": "vyanjan-018",
@@ -425,15 +443,15 @@
         {
           "devanagari": "दल",
           "romanized": "dal",
-          "english": "दाळ"
+          "english": "lentils"
         },
         {
           "devanagari": "दान",
           "romanized": "daan",
-          "english": "दान"
+          "english": "donation / gift"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth."
     },
     {
       "id": "vyanjan-019",
@@ -451,15 +469,15 @@
         {
           "devanagari": "धन",
           "romanized": "dhan",
-          "english": "धन"
+          "english": "wealth / money"
         },
         {
           "devanagari": "धरती",
           "romanized": "dharti",
-          "english": "पृथ्वी"
+          "english": "earth / land"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced aspirated dental stop produced with a breathy puff of air and the tongue at the upper teeth."
     },
     {
       "id": "vyanjan-020",
@@ -477,15 +495,15 @@
         {
           "devanagari": "नल",
           "romanized": "nal",
-          "english": "नळ"
+          "english": "tap / pipe"
         },
         {
           "devanagari": "नाम",
           "romanized": "naam",
-          "english": "नाव"
+          "english": "name"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced dental nasal stop produced with the tip of the tongue touching the back of the upper teeth, directing airflow through the nose."
     },
     {
       "id": "vyanjan-021",
@@ -503,15 +521,15 @@
         {
           "devanagari": "पल",
           "romanized": "pal",
-          "english": "क्षण"
+          "english": "moment / instant"
         },
         {
           "devanagari": "पानी",
           "romanized": "paani",
-          "english": "पाणी"
+          "english": "water"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An unaspirated labial stop produced by pressing both lips firmly together and then releasing."
     },
     {
       "id": "vyanjan-022",
@@ -529,15 +547,15 @@
         {
           "devanagari": "फल",
           "romanized": "phal",
-          "english": "फळ"
+          "english": "fruit"
         },
         {
           "devanagari": "फूल",
           "romanized": "phool",
-          "english": "फूल"
+          "english": "flower"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "An aspirated labial stop produced by pressing both lips together and releasing with a puff of air."
     },
     {
       "id": "vyanjan-023",
@@ -555,15 +573,15 @@
         {
           "devanagari": "बल",
           "romanized": "bal",
-          "english": "शक्ती"
+          "english": "strength / power"
         },
         {
           "devanagari": "बादल",
           "romanized": "baadal",
-          "english": "ढग"
+          "english": "cloud"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced unaspirated labial stop produced by pressing both lips firmly together and then releasing."
     },
     {
       "id": "vyanjan-024",
@@ -581,15 +599,15 @@
         {
           "devanagari": "भवन",
           "romanized": "bhavan",
-          "english": "इमारत"
+          "english": "building"
         },
         {
           "devanagari": "भाषा",
           "romanized": "bhasha",
-          "english": "भाषा"
+          "english": "language"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced aspirated labial stop produced by pressing both lips together and releasing with a breathy puff of air."
     },
     {
       "id": "vyanjan-025",
@@ -607,15 +625,15 @@
         {
           "devanagari": "मन",
           "romanized": "man",
-          "english": "मन"
+          "english": "mind"
         },
         {
           "devanagari": "माता",
           "romanized": "maata",
-          "english": "आई"
+          "english": "mother"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A voiced labial nasal stop produced with both lips pressed together, directing airflow through the nose."
     },
     {
       "id": "vyanjan-026",
@@ -633,15 +651,15 @@
         {
           "devanagari": "यज्ञ",
           "romanized": "yagna",
-          "english": "यज्ञ"
+          "english": "sacred fire ritual"
         },
         {
           "devanagari": "यात्रा",
           "romanized": "yatra",
-          "english": "प्रवास"
+          "english": "journey / pilgrimage"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A palatal semi-vowel produced with the tongue near the hard palate, functioning similarly to the 'y' in the English word 'yes'."
     },
     {
       "id": "vyanjan-027",
@@ -659,15 +677,15 @@
         {
           "devanagari": "रस",
           "romanized": "ras",
-          "english": "रस"
+          "english": "juice / essence"
         },
         {
           "devanagari": "राज",
           "romanized": "raaj",
-          "english": "राज्य"
+          "english": "kingdom / rule"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A trilled semi-vowel produced with one or more rapid taps of the tongue tip against the alveolar ridge (the ridge just behind the upper front teeth)."
     },
     {
       "id": "vyanjan-028",
@@ -685,15 +703,15 @@
         {
           "devanagari": "लता",
           "romanized": "lata",
-          "english": "वेली"
+          "english": "vine / creeper"
         },
         {
           "devanagari": "लहर",
           "romanized": "lahar",
-          "english": "लहर"
+          "english": "wave"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A lateral semi-vowel (liquid) produced with the tongue tip touching the alveolar ridge while air flows around the sides of the tongue."
     },
     {
       "id": "vyanjan-029",
@@ -711,15 +729,15 @@
         {
           "devanagari": "वन",
           "romanized": "van",
-          "english": "जंगल"
+          "english": "forest"
         },
         {
           "devanagari": "वायु",
           "romanized": "vayu",
-          "english": "हवा"
+          "english": "wind / air"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A labiodental or bilabial semi-vowel produced with the lower lip lightly approaching the upper teeth or upper lip, similar to English 'v' or 'w'."
     },
     {
       "id": "vyanjan-030",
@@ -737,15 +755,15 @@
         {
           "devanagari": "शक्ति",
           "romanized": "shakti",
-          "english": "शक्ती"
+          "english": "power / strength"
         },
         {
           "devanagari": "शब्द",
           "romanized": "shabd",
-          "english": "शब्द"
+          "english": "word"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A palatal sibilant fricative produced with the tongue blade near the hard palate, similar to the 'sh' in the English word 'shoe'."
     },
     {
       "id": "vyanjan-031",
@@ -763,10 +781,10 @@
         {
           "devanagari": "षट्",
           "romanized": "shat",
-          "english": "सहा"
+          "english": "six"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A retroflex sibilant fricative produced with the tongue blade curled back toward the roof of the mouth, a sound not found in English."
     },
     {
       "id": "vyanjan-032",
@@ -784,15 +802,15 @@
         {
           "devanagari": "सत्य",
           "romanized": "satya",
-          "english": "सत्य"
+          "english": "truth"
         },
         {
           "devanagari": "सरल",
           "romanized": "saral",
-          "english": "सोपे"
+          "english": "simple / easy"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A dental sibilant fricative produced with the tongue near the back of the upper teeth, similar to the 's' in the English word 'sun'."
     },
     {
       "id": "vyanjan-033",
@@ -810,15 +828,15 @@
         {
           "devanagari": "हस्त",
           "romanized": "hasta",
-          "english": "हात"
+          "english": "hand"
         },
         {
           "devanagari": "हरि",
           "romanized": "hari",
-          "english": "भगवान"
+          "english": "Lord Vishnu / God"
         }
       ],
-      "pronunciationNoteEnglish": ""
+      "pronunciationNoteEnglish": "A glottal fricative produced at the glottis (the opening of the vocal tract), similar to the English 'h' in 'house' but slightly more breathy."
     }
   ],
   "categories": {

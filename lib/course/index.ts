@@ -210,7 +210,7 @@ export function getMatraCombinations(
   const devanagariMap: Record<string, string> = {
     'अ': consonant.devanagari,
     'आ': consonant.devanagari + 'ा',
-    'इ': 'ि' + consonant.devanagari,
+    'इ': consonant.devanagari + 'ि',
     'ई': consonant.devanagari + 'ी',
     'उ': consonant.devanagari + 'ु',
     'ऊ': consonant.devanagari + 'ू',

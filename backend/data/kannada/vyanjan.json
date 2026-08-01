@@ -14,16 +14,16 @@
       "exampleWords": [
         {
           "romanized": "kamal",
-          "english": "ಕಮಲ",
+          "english": "lotus",
           "kannada": "ಕಮಲ"
         },
         {
           "romanized": "kaksha",
-          "english": "ಕಕ್ಷಾ",
+          "english": "classroom",
           "kannada": "ಕಕ್ಷಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate.",
       "kannada": "ಕ"
     },
     {
@@ -40,16 +40,16 @@
       "exampleWords": [
         {
           "romanized": "khat",
-          "english": "ಖಟಿಯಾ/ಖಾಟ",
+          "english": "cot / wooden bed",
           "kannada": "ಖಟ"
         },
         {
           "romanized": "khel",
-          "english": "ಖೇಲ",
+          "english": "game / play",
           "kannada": "ಖೇಲ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated guttural stop produced at the back of the throat with a strong puff of air accompanying the release.",
       "kannada": "ಖ"
     },
     {
@@ -66,16 +66,16 @@
       "exampleWords": [
         {
           "romanized": "gaay",
-          "english": "ಗಾಯ",
+          "english": "cow",
           "kannada": "ಗಾಯ"
         },
         {
           "romanized": "gaman",
-          "english": "ಗಮನ",
+          "english": "movement / journey",
           "kannada": "ಗಮನ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated guttural stop produced at the back of the throat with the back of the tongue touching the soft palate.",
       "kannada": "ಗ"
     },
     {
@@ -92,16 +92,16 @@
       "exampleWords": [
         {
           "romanized": "ghar",
-          "english": "ಘರ",
+          "english": "house / home",
           "kannada": "ಘರ"
         },
         {
           "romanized": "ghadi",
-          "english": "ಘಡೀ",
+          "english": "watch / clock",
           "kannada": "ಘಡೀ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated guttural stop produced at the back of the throat with a breathy puff of air.",
       "kannada": "ಘ"
     },
     {
@@ -115,8 +115,14 @@
       "unicode_codepoint": "U+11017",
       "romanized": "nga",
       "pronunciationNote": "ಅನುನಾಸಿಕ ಧ್ವನಿ, ಸ್ವತಂತ್ರ ರೂಪ ಸೇ ಕಮ ಪ್ರಯುಕ್ತ",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "ank",
+          "english": "number / digit (ṅa as nasal conjunct)",
+          "kannada": "ಅಂಕ"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced guttural nasal stop produced by blocking airflow at the back of the throat; rarely appears word-initially in Sanskrit or Hindi.",
       "kannada": "ಙ"
     },
     {
@@ -133,16 +139,16 @@
       "exampleWords": [
         {
           "romanized": "chaay",
-          "english": "ಚಾಯ",
+          "english": "tea",
           "kannada": "ಚಾಯ"
         },
         {
           "romanized": "chalna",
-          "english": "ಚಲನಾ",
+          "english": "to walk",
           "kannada": "ಚಲನಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated palatal affricate produced with the front of the tongue touching the hard palate.",
       "kannada": "ಚ"
     },
     {
@@ -159,16 +165,16 @@
       "exampleWords": [
         {
           "romanized": "chhata",
-          "english": "ಛಾತಾ",
+          "english": "umbrella",
           "kannada": "ಛಾತಾ"
         },
         {
           "romanized": "chhota",
-          "english": "ಛೋಟಾ",
+          "english": "small / little",
           "kannada": "ಛೋಟಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated palatal affricate produced with the tongue at the hard palate with a strong puff of air.",
       "kannada": "ಛ"
     },
     {
@@ -185,16 +191,16 @@
       "exampleWords": [
         {
           "romanized": "jal",
-          "english": "ಜಲ",
+          "english": "water",
           "kannada": "ಜಲ"
         },
         {
           "romanized": "jag",
-          "english": "ಜಗ",
+          "english": "world / jug",
           "kannada": "ಜಗ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated palatal affricate produced with the tongue touching the hard palate.",
       "kannada": "ಜ"
     },
     {
@@ -211,16 +217,16 @@
       "exampleWords": [
         {
           "romanized": "jharna",
-          "english": "ಝರನಾ",
+          "english": "waterfall",
           "kannada": "ಝರನಾ"
         },
         {
           "romanized": "jhoola",
-          "english": "ಝೂಲಾ",
+          "english": "swing",
           "kannada": "ಝೂಲಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated palatal affricate produced with a breathy puff of air and the tongue at the hard palate.",
       "kannada": "ಝ"
     },
     {
@@ -234,8 +240,14 @@
       "unicode_codepoint": "U+1101C",
       "romanized": "nya",
       "pronunciationNote": "ಅನುನಾಸಿಕ ಧ್ವನಿ, ಸ್ವತಂತ್ರ ರೂಪ ಸೇ ಕಮ ಪ್ರಯುಕ್ತ",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "gyaan",
+          "english": "knowledge (nya in conjunct form jña)",
+          "kannada": "ಜ್ಞಾನ"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced palatal nasal stop produced with the tongue at the hard palate; rarely appears word-initially in Sanskrit or Hindi.",
       "kannada": "ಞ"
     },
     {
@@ -252,16 +264,16 @@
       "exampleWords": [
         {
           "romanized": "topi",
-          "english": "ಟೋಪೀ",
+          "english": "hat / cap",
           "kannada": "ಟೋಪೀ"
         },
         {
           "romanized": "tamatar",
-          "english": "ಟಮಾಟರ",
+          "english": "tomato",
           "kannada": "ಟಮಾಟರ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated retroflex stop produced with the tongue tip curled back to touch the roof of the mouth (cerebral position).",
       "kannada": "ಟ"
     },
     {
@@ -278,16 +290,16 @@
       "exampleWords": [
         {
           "romanized": "thanda",
-          "english": "ಠಂಡಾ",
+          "english": "cold",
           "kannada": "ಠಂಡಾ"
         },
         {
           "romanized": "thag",
-          "english": "ಠಗ",
+          "english": "thug / swindler",
           "kannada": "ಠಗ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated retroflex stop produced with the tongue curled back to the roof of the mouth with a puff of air.",
       "kannada": "ಠ"
     },
     {
@@ -304,16 +316,16 @@
       "exampleWords": [
         {
           "romanized": "dakiya",
-          "english": "ಡಾಕಿಯಾ",
+          "english": "postman",
           "kannada": "ಡಾಕಿಯಾ"
         },
         {
           "romanized": "damroo",
-          "english": "ಡಮರೂ/ಢೋಲ",
+          "english": "small drum",
           "kannada": "ಡಮರೂ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated retroflex stop produced with the tongue curled back to touch the roof of the mouth.",
       "kannada": "ಡ"
     },
     {
@@ -330,16 +342,16 @@
       "exampleWords": [
         {
           "romanized": "dhol",
-          "english": "ಡಮರೂ/ಢೋಲ",
+          "english": "drum",
           "kannada": "ಢೋಲ"
         },
         {
           "romanized": "dhakkan",
-          "english": "ಢಕ್ಕನ",
+          "english": "lid / cover",
           "kannada": "ಢಕ್ಕನ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated retroflex stop produced with a breathy puff of air and the tongue curled back to the roof of the mouth.",
       "kannada": "ಢ"
     },
     {
@@ -353,8 +365,14 @@
       "unicode_codepoint": "U+11021",
       "romanized": "na",
       "pronunciationNote": "ಮೂರ್ಧನ್ಯ 'ಣ' ಧ್ವನಿ, ಸ್ವತಂತ್ರ ರೂಪ ಸೇ ಕಮ ಪ್ರಯುಕ್ತ",
-      "exampleWords": [],
-      "pronunciationNoteEnglish": "",
+      "exampleWords": [
+        {
+          "romanized": "ganit",
+          "english": "mathematics (ṇa in medial position)",
+          "kannada": "ಗಣಿತ"
+        }
+      ],
+      "pronunciationNoteEnglish": "A voiced retroflex nasal stop produced with the tongue curled back to the roof of the mouth; rarely appears word-initially in Sanskrit or Hindi.",
       "kannada": "ಣ"
     },
     {
@@ -371,16 +389,16 @@
       "exampleWords": [
         {
           "romanized": "tan",
-          "english": "ತನ",
+          "english": "body",
           "kannada": "ತನ"
         },
         {
           "romanized": "taran",
-          "english": "ತರಣ",
+          "english": "crossing / swimming",
           "kannada": "ತರಣ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth.",
       "kannada": "ತ"
     },
     {
@@ -397,16 +415,16 @@
       "exampleWords": [
         {
           "romanized": "thal",
-          "english": "ಥಲ",
+          "english": "land / ground",
           "kannada": "ಥಲ"
         },
         {
           "romanized": "thali",
-          "english": "ಥಾಲೀ",
+          "english": "plate / thali",
           "kannada": "ಥಾಲೀ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated dental stop produced with the tongue at the back of the upper teeth with a puff of air.",
       "kannada": "ಥ"
     },
     {
@@ -423,16 +441,16 @@
       "exampleWords": [
         {
           "romanized": "dal",
-          "english": "ದಾಲ",
+          "english": "lentils",
           "kannada": "ದಲ"
         },
         {
           "romanized": "daan",
-          "english": "ದಾನ",
+          "english": "donation / gift",
           "kannada": "ದಾನ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated dental stop produced with the tip of the tongue touching the back of the upper teeth.",
       "kannada": "ದ"
     },
     {
@@ -449,16 +467,16 @@
       "exampleWords": [
         {
           "romanized": "dhan",
-          "english": "ಧನ",
+          "english": "wealth / money",
           "kannada": "ಧನ"
         },
         {
           "romanized": "dharti",
-          "english": "ಧರತೀ",
+          "english": "earth / land",
           "kannada": "ಧರತೀ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated dental stop produced with a breathy puff of air and the tongue at the upper teeth.",
       "kannada": "ಧ"
     },
     {
@@ -475,16 +493,16 @@
       "exampleWords": [
         {
           "romanized": "nal",
-          "english": "ನಲ",
+          "english": "tap / pipe",
           "kannada": "ನಲ"
         },
         {
           "romanized": "naam",
-          "english": "ನಾಮ",
+          "english": "name",
           "kannada": "ನಾಮ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced dental nasal stop produced with the tip of the tongue touching the back of the upper teeth, directing airflow through the nose.",
       "kannada": "ನ"
     },
     {
@@ -501,16 +519,16 @@
       "exampleWords": [
         {
           "romanized": "pal",
-          "english": "ಪಲ",
+          "english": "moment / instant",
           "kannada": "ಪಲ"
         },
         {
           "romanized": "paani",
-          "english": "ಜಲ",
+          "english": "water",
           "kannada": "ಪಾನೀ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An unaspirated labial stop produced by pressing both lips firmly together and then releasing.",
       "kannada": "ಪ"
     },
     {
@@ -527,16 +545,16 @@
       "exampleWords": [
         {
           "romanized": "phal",
-          "english": "ಫಲ",
+          "english": "fruit",
           "kannada": "ಫಲ"
         },
         {
           "romanized": "phool",
-          "english": "ಫೂಲ",
+          "english": "flower",
           "kannada": "ಫೂಲ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "An aspirated labial stop produced by pressing both lips together and releasing with a puff of air.",
       "kannada": "ಫ"
     },
     {
@@ -553,16 +571,16 @@
       "exampleWords": [
         {
           "romanized": "bal",
-          "english": "ಬಲ",
+          "english": "strength / power",
           "kannada": "ಬಲ"
         },
         {
           "romanized": "baadal",
-          "english": "ಬಾದಲ",
+          "english": "cloud",
           "kannada": "ಬಾದಲ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced unaspirated labial stop produced by pressing both lips firmly together and then releasing.",
       "kannada": "ಬ"
     },
     {
@@ -579,16 +597,16 @@
       "exampleWords": [
         {
           "romanized": "bhavan",
-          "english": "ಭವನ",
+          "english": "building",
           "kannada": "ಭವನ"
         },
         {
           "romanized": "bhasha",
-          "english": "ಭಾಷಾ",
+          "english": "language",
           "kannada": "ಭಾಷಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced aspirated labial stop produced by pressing both lips together and releasing with a breathy puff of air.",
       "kannada": "ಭ"
     },
     {
@@ -605,16 +623,16 @@
       "exampleWords": [
         {
           "romanized": "man",
-          "english": "ಮನ",
+          "english": "mind",
           "kannada": "ಮನ"
         },
         {
           "romanized": "maata",
-          "english": "ಮಾತಾ",
+          "english": "mother",
           "kannada": "ಮಾತಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A voiced labial nasal stop produced with both lips pressed together, directing airflow through the nose.",
       "kannada": "ಮ"
     },
     {
@@ -631,16 +649,16 @@
       "exampleWords": [
         {
           "romanized": "yagna",
-          "english": "ಯಜ್ಞ",
+          "english": "sacred fire ritual",
           "kannada": "ಯಜ್ಞ"
         },
         {
           "romanized": "yatra",
-          "english": "ಯಾತ್ರಾ",
+          "english": "journey / pilgrimage",
           "kannada": "ಯಾತ್ರಾ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A palatal semi-vowel produced with the tongue near the hard palate, functioning similarly to the 'y' in the English word 'yes'.",
       "kannada": "ಯ"
     },
     {
@@ -657,16 +675,16 @@
       "exampleWords": [
         {
           "romanized": "ras",
-          "english": "ರಸ",
+          "english": "juice / essence",
           "kannada": "ರಸ"
         },
         {
           "romanized": "raaj",
-          "english": "ರಾಜ",
+          "english": "kingdom / rule",
           "kannada": "ರಾಜ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A trilled semi-vowel produced with one or more rapid taps of the tongue tip against the alveolar ridge (the ridge just behind the upper front teeth).",
       "kannada": "ರ"
     },
     {
@@ -683,16 +701,16 @@
       "exampleWords": [
         {
           "romanized": "lata",
-          "english": "ಲತಾ",
+          "english": "vine / creeper",
           "kannada": "ಲತಾ"
         },
         {
           "romanized": "lahar",
-          "english": "ಲಹರ",
+          "english": "wave",
           "kannada": "ಲಹರ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A lateral semi-vowel (liquid) produced with the tongue tip touching the alveolar ridge while air flows around the sides of the tongue.",
       "kannada": "ಲ"
     },
     {
@@ -709,16 +727,16 @@
       "exampleWords": [
         {
           "romanized": "van",
-          "english": "ವನ",
+          "english": "forest",
           "kannada": "ವನ"
         },
         {
           "romanized": "vayu",
-          "english": "ವಾಯು",
+          "english": "wind / air",
           "kannada": "ವಾಯು"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A labiodental or bilabial semi-vowel produced with the lower lip lightly approaching the upper teeth or upper lip, similar to English 'v' or 'w'.",
       "kannada": "ವ"
     },
     {
@@ -735,16 +753,16 @@
       "exampleWords": [
         {
           "romanized": "shakti",
-          "english": "ಶಕ್ತಿ",
+          "english": "power / strength",
           "kannada": "ಶಕ್ತಿ"
         },
         {
           "romanized": "shabd",
-          "english": "ಶಬ್ದ",
+          "english": "word",
           "kannada": "ಶಬ್ದ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A palatal sibilant fricative produced with the tongue blade near the hard palate, similar to the 'sh' in the English word 'shoe'.",
       "kannada": "ಶ"
     },
     {
@@ -761,11 +779,11 @@
       "exampleWords": [
         {
           "romanized": "shat",
-          "english": "ಛಹ",
+          "english": "six",
           "kannada": "ಷಟ್"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A retroflex sibilant fricative produced with the tongue blade curled back toward the roof of the mouth, a sound not found in English.",
       "kannada": "ಷ"
     },
     {
@@ -782,16 +800,16 @@
       "exampleWords": [
         {
           "romanized": "satya",
-          "english": "ಸತ್ಯ",
+          "english": "truth",
           "kannada": "ಸತ್ಯ"
         },
         {
           "romanized": "saral",
-          "english": "ಸರಲ",
+          "english": "simple / easy",
           "kannada": "ಸರಲ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A dental sibilant fricative produced with the tongue near the back of the upper teeth, similar to the 's' in the English word 'sun'.",
       "kannada": "ಸ"
     },
     {
@@ -808,16 +826,16 @@
       "exampleWords": [
         {
           "romanized": "hasta",
-          "english": "ಹಾಥ",
+          "english": "hand",
           "kannada": "ಹಸ್ತ"
         },
         {
           "romanized": "hari",
-          "english": "ಭಗವಾನ",
+          "english": "Lord Vishnu / God",
           "kannada": "ಹರಿ"
         }
       ],
-      "pronunciationNoteEnglish": "",
+      "pronunciationNoteEnglish": "A glottal fricative produced at the glottis (the opening of the vocal tract), similar to the English 'h' in 'house' but slightly more breathy.",
       "kannada": "ಹ"
     }
   ],

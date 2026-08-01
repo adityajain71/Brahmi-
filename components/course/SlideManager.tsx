@@ -218,10 +218,13 @@ export function SlideManager({
   const INFO_TYPES = [
     'info', 'pathchoice', 'gameoutro', 'encouragementslides', 'matraintro', 'tracingnote',
     'text', 'path_choice_confirmation', 'bonus_title', 'matra_recap_intro',
-    'group_list', 'consonant_selection_recap',
     'form_pronunciation', 'bina_matra', 'pronunciation_drill', 'practice_modes',
     'quiz_modes', 'trace_loop_reference', 'mixed_quiz', 'choice_screen'
   ]
+
+  if (t.includes('group_list') || t.includes('consonant_selection_recap')) {
+    return null
+  }
 
   if (INFO_TYPES.some(type => t.includes(type))) {
     return <InfoSlide slide={slide} language={language} onNext={onNext} />
