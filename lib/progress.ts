@@ -1,4 +1,4 @@
-import { Identity } from './guestIdentity'
+import { Identity, clearGuestIdentity } from './guestIdentity'
 import { loadAccountLessonProgress, saveAccountLessonProgress } from './supabase/lessonProgress'
 
 const GUEST_PROGRESS_KEY = 'brahmi_guest_progress'
@@ -90,8 +90,6 @@ export async function markLessonComplete(identity: Identity, letterId: string) {
             completedIds.push(letterId)
         }
 
-        // For guests, we'll determine the next letter on the client side
-        // This is a simplified version - the full logic would require fetching letters
         saveGuestProgressToStorage(completedIds, null)
         return
     }
@@ -107,7 +105,6 @@ export async function markLessonComplete(identity: Identity, letterId: string) {
 
 /**
  * Get guest progress for migration to authenticated user
- * Returns the raw progress data that can be sent to backend
  */
 export function getGuestProgressForMigration(): GuestProgress | null {
     try {
@@ -122,13 +119,62 @@ export function getGuestProgressForMigration(): GuestProgress | null {
 
 /**
  * Clear guest progress from sessionStorage
- * Called after successful migration
+ * Called ONLY after verifying DB write
  */
 export function clearGuestProgress(): void {
     try {
         sessionStorage.removeItem(GUEST_PROGRESS_KEY)
-        console.log('Guest progress cleared')
+        console.log('Guest progress cleared from sessionStorage')
     } catch (error) {
         console.warn('Failed to clear guest progress:', error)
+    }
+}
+
+/**
+ * Resiliently migrates guest progress from sessionStorage to Supabase.
+ * - Uses upsert to prevent duplicate records.
+ * - Does NOT touch badges or streaks.
+ * - Verifies that Supabase actually received the data by reading it back before clearing sessionStorage.
+ */
+export async function migrateGuestProgressToSupabase(userId: string): Promise<boolean> {
+    if (!userId) return false
+
+    const guestProgress = getGuestProgressForMigration()
+    if (!guestProgress || !guestProgress.completedIds || guestProgress.completedIds.length === 0) {
+        return false
+    }
+
+    const completedIds = guestProgress.completedIds
+
+    try {
+        // 1. Perform upserts into Supabase for each completed guest item
+        for (const lessonId of completedIds) {
+            await saveAccountLessonProgress('module-swar', lessonId, 'completed', 100, userId)
+        }
+
+        // 2. Read back from Supabase to verify data was successfully written
+        const dbProgress = await loadAccountLessonProgress('module-swar', userId)
+        const dbCompletedSet = new Set(
+            Object.values(dbProgress)
+                .filter((r) => r.status === 'completed')
+                .map((r) => r.lesson_id)
+        )
+
+        // 3. Check if all items in completedIds are present in Supabase
+        const isVerified = completedIds.every((id) => dbCompletedSet.has(id))
+
+        if (isVerified) {
+            // Irreversible cleanup ONLY after verification
+            clearGuestProgress()
+            clearGuestIdentity()
+            console.log('Guest progress successfully migrated and verified in Supabase.')
+            return true
+        } else {
+            console.warn('Guest progress migration verification failed. Retaining guest progress in sessionStorage.')
+            return false
+        }
+    } catch (error) {
+        console.error('Error during guest progress migration:', error)
+        return false
     }
 }

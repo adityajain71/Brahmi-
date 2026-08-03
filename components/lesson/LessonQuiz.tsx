@@ -40,7 +40,7 @@ const QUIZ_TEXT: Record<QuizLanguage, {
     hi: {
         correctTitle: 'सही!'
         , wrongTitle: 'गलत',
-        correctBody: 'बहुत बढ़िया।',
+        correctBody: 'बहुत बढ़यिा।',
         wrongBodyPrefix: 'सही उत्तर:',
         continue: 'आगे',
         completedTitle: 'पाठ पूरा हुआ!',

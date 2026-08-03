@@ -103,7 +103,7 @@ export default function FillBlankSlide({ title, questions, allForms, consonant, 
     },
     hi: {
       quest: 'प्रश्न',
-      congrats: 'बहुत बढ़िया!',
+      congrats: 'बहुत बढ़यिा!',
       successMsg: 'सभी रिक्त स्थान भरे!',
       next: 'आगे →',
       consonant: 'व्यंजन',

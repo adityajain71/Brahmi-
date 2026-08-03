@@ -7,6 +7,7 @@ import { getAvatarUrl } from '@/lib/getAvatarUrl';
 import SignInPopup from './SignInPopup';
 import { getSupabaseBrowserClient } from '@/lib/supabase/client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AuthButton() {
     const router = useRouter();
@@ -78,28 +79,20 @@ export default function AuthButton() {
 
     if (identity.type === 'user') {
         return (
-            <>
-                <div className="flex items-center gap-2 md:gap-3">
-                    {avatarUrl && (
-                        <Image src={avatarUrl} alt={userName || 'User'} width={36} height={36} className="h-7 w-7 md:h-9 md:w-9 rounded-full border border-[#D4AF37]/40 object-cover" unoptimized />
-                    )}
-                    <div className="hidden md:block text-right">
-                        <div className="text-xs text-[#E6D8B8] font-semibold">{userName || 'Signed in'}</div>
-                        <button onClick={handleSignOut} className="text-[10px] uppercase tracking-wider text-[#D4AF37] hover:text-[#E69A47]">Sign out</button>
+            <Link href="/profile" className="flex items-center gap-2 md:gap-3 group cursor-pointer">
+                {avatarUrl ? (
+                    <Image src={avatarUrl} alt={userName || 'User'} width={36} height={36} className="h-8 w-8 md:h-9 md:w-9 rounded-full border border-[#D4AF37]/40 group-hover:border-[#D4AF37] object-cover transition-all" unoptimized />
+                ) : (
+                    <div className="h-8 w-8 md:h-9 md:w-9 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37]/40 text-[#D4AF37] flex items-center justify-center font-bold text-xs">
+                        {(userName || 'U').substring(0, 1).toUpperCase()}
                     </div>
-                    <button
-                        onClick={handleSignOut}
-                        className="md:hidden text-sm font-bold text-[#EDEDED] hover:text-[#D4AF37] hover:bg-[#D4AF37]/10 px-3 py-1.5 md:px-4 md:py-2 rounded-md transition-all uppercase tracking-widest border border-transparent hover:border-[#D4AF37]/50"
-                    >
-                        Sign out
-                    </button>
+                )}
+                <div className="hidden sm:block text-left">
+                    <div className="text-xs text-[#E6D8B8] font-semibold group-hover:text-[#D4AF37] transition-colors">{userName || 'Profile'}</div>
+                    <div className="text-[10px] text-gray-400">View Profile</div>
                 </div>
-                <SignInPopup
-                    isVisible={showSignInPopup}
-                    onClose={() => setShowSignInPopup(false)}
-                />
-            </>
-        );
+            </Link>
+        )
     }
 
     return (

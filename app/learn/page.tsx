@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { getCourseModules } from '@/lib/course'
 import { getCurrentIdentity, Identity } from '@/lib/guestIdentity'
+import { migrateGuestProgressToSupabase } from '@/lib/progress'
 import { updateLoginStreak, type StreakData } from '@/lib/streak'
 import StreakDisplay from '@/components/StreakDisplay'
 import StreakCelebration from '@/components/StreakCelebration'
@@ -126,6 +127,9 @@ export default function LearnPage() {
             setIdentity(currentIdentity)
             
             if (currentIdentity.type === 'user' && currentIdentity.id) {
+                // Perform resilient migration after user has entered the application
+                await migrateGuestProgressToSupabase(currentIdentity.id)
+
                 const data = await updateLoginStreak(currentIdentity.id)
                 setStreakData(data)
                 
