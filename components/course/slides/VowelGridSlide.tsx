@@ -27,7 +27,7 @@ export default function VowelGridSlide({ slide, moduleData }: { slide: CompiledS
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: i * 0.15 }}
-            className="flex flex-col items-center gap-4 bg-[#2a2420] p-6 md:p-8 rounded-3xl border-2 border-[#D4AF37]/30 shadow-2xl hover:border-[#D4AF37] transition-all group w-40 md:w-48"
+            className="flex flex-col items-center gap-4 bg-[#2a2420] p-4 sm:p-6 md:p-8 rounded-3xl border-2 border-[#D4AF37]/30 shadow-2xl hover:border-[#D4AF37] transition-all group w-[calc(50%-0.75rem)] sm:w-40 md:w-48"
           >
             {/* Brahmi Character */}
             <div className="text-6xl md:text-8xl text-[#D4AF37] font-brahmi drop-shadow-[0_0_15px_rgba(212,175,55,0.4)] group-hover:scale-110 transition-transform">

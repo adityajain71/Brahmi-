@@ -71,7 +71,7 @@ export function HowItWorks() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="relative h-[500px] bg-background rounded-2xl border border-border shadow-lg p-8 flex items-center justify-center overflow-hidden"
+                    className="relative min-h-[350px] sm:h-[500px] bg-background rounded-2xl border border-border shadow-lg p-4 sm:p-8 flex items-center justify-center overflow-hidden"
                 >
                     {/* Abstract representation of the learning interface */}
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-accent-gold/5 to-transparent" />

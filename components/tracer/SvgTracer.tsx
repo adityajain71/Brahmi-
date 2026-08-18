@@ -377,11 +377,12 @@ export default function SvgTracer({
     <div className="flex flex-col items-center gap-4 w-full select-none">
       {/* SVG Tracer Canvas */}
       <div 
-        className="relative w-full max-w-[340px] aspect-square rounded-2xl overflow-hidden"
+        className="relative w-full max-w-[min(340px,85vw)] aspect-square rounded-2xl overflow-hidden"
         style={{
           background: '#2a2420', // Updated to match website theme (was #13122a)
           border: '2px solid rgba(212, 175, 55, 0.3)', // Made border match gold theme
           boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4)',
+          touchAction: 'none',
         }}
       >
         <svg
@@ -463,7 +464,7 @@ export default function SvgTracer({
       </div>
       
       {/* Controls */}
-      <div className="flex gap-3 w-full max-w-[340px]">
+      <div className="flex gap-3 w-full max-w-[min(340px,85vw)]">
         {/* Clear button */}
         <button
           onClick={handleClear}

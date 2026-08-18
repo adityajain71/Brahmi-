@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/landing/Header";
@@ -22,6 +22,12 @@ export const metadata: Metadata = {
   description: "Learn the ancient Brahmi Lipi script through structured lessons inspired by Jain philosophy.",
 };
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,7 +42,7 @@ export default function RootLayout({
           <Header />
           <LanguagePreferenceModal />
           <DevAttributeGuard />
-          <main className="min-h-screen">
+          <main className="min-h-dvh">
             {children}
           </main>
         </LanguageProvider>

@@ -201,7 +201,7 @@ export default function MatraPage() {
   const slide = slides[currentSlide]
 
   return (
-    <div className="min-h-screen bg-[#1C1C1C] text-[#E6D8B8] flex flex-col relative overflow-hidden">
+    <div className="min-h-dvh bg-[#1C1C1C] text-[#E6D8B8] flex flex-col relative overflow-x-hidden">
 
       {/* Back button */}
       <Link
@@ -234,7 +234,7 @@ export default function MatraPage() {
       </div>
 
       {/* Slide area */}
-      <div className="flex-1 flex items-center justify-center md:p-6 relative pt-20 pb-28 md:pb-8 overflow-x-hidden">
+      <div className="flex-1 flex items-center justify-center md:p-6 relative pt-20 pb-28 md:pb-8 overflow-x-hidden overflow-y-auto">
 
         {/* Left nav — desktop */}
         <button
@@ -273,7 +273,7 @@ export default function MatraPage() {
       </div>
 
       {/* Mobile bottom nav */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-gradient-to-t from-[#1C1C1C] via-[#1C1C1C]/95 to-transparent pointer-events-none">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 px-4 pt-4 bg-gradient-to-t from-[#1C1C1C] via-[#1C1C1C]/95 to-transparent pointer-events-none" style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom, 0px))' }}>
         <div className="flex justify-between items-center gap-3 pointer-events-auto">
           <button
             onClick={handlePrev}

@@ -45,10 +45,10 @@ export function Header() {
                                 />
                             </div>
                             <div className="flex flex-col justify-center min-w-0">
-                                <span className="text-sm sm:text-base md:text-xl font-serif font-bold text-[#D4AF37] leading-tight tracking-wide group-hover:text-[#E6D8B8] transition-colors duration-300 truncate max-w-[165px] sm:max-w-none">
+                                <span className="text-xs sm:text-base md:text-xl font-serif font-bold text-[#D4AF37] leading-tight tracking-wide group-hover:text-[#E6D8B8] transition-colors duration-300">
                                     {t('header.brandName')}
                                 </span>
-                                <span className="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#B8AFA0] tracking-wider leading-none mt-0.5 truncate max-w-[165px] sm:max-w-none">
+                                <span className="text-[9px] sm:text-[10px] md:text-xs font-medium text-[#B8AFA0] tracking-wider leading-none mt-0.5">
                                     {t('header.brandTagline')}
                                 </span>
                             </div>

@@ -579,7 +579,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
     }
 
     return (
-        <div className="min-h-screen bg-[#1C1C1C] text-white flex flex-col relative overflow-hidden">
+        <div className="min-h-dvh bg-[#1C1C1C] text-white flex flex-col relative overflow-x-hidden">
             {/* Floating Back Button */}
             <button
                 onClick={() => router.push(getReturnRoute())}
@@ -606,7 +606,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
             </div>
 
             {/* Main Content */}
-            <div className="flex-1 flex items-center justify-center md:p-6 relative md:mx-0 pt-16 md:pt-16 pb-24 md:pb-0 overflow-x-hidden">
+            <div className="flex-1 flex items-center justify-center md:p-6 relative md:mx-0 pt-16 md:pt-16 pb-24 md:pb-0 overflow-x-hidden overflow-y-auto">
                 {/* Navigation Buttons (Left/Right) - Desktop Only */}
                 <button
                     onClick={handlePrevious}
@@ -637,7 +637,7 @@ export default function LessonPage({ params }: { params: Promise<{ letter_id: st
             </div>
 
             {/* Mobile Navigation Buttons (Bottom) - Only visible on mobile */}
-            <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-gradient-to-t from-[#1C1C1C] via-[#1C1C1C]/95 to-transparent pointer-events-none">
+            <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 px-4 pt-4 bg-gradient-to-t from-[#1C1C1C] via-[#1C1C1C]/95 to-transparent pointer-events-none" style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom, 0px))' }}>
                 <div className="flex justify-between items-center gap-3 pointer-events-auto">
                     {/* Previous Button - Bottom Left */}
                     <button

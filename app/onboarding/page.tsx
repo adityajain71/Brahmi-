@@ -229,7 +229,7 @@ export default function OnboardingPage() {
     : '/mascot/bramhi_greeting.png'
 
   return (
-    <div className="min-h-screen bg-[#1C1C1C] text-[#E6D8B8] flex flex-col relative overflow-hidden">
+    <div className="min-h-dvh bg-[#1C1C1C] text-[#E6D8B8] flex flex-col relative overflow-x-hidden">
       {/* Floating Back Button */}
       <Link 
         href="/learn"
@@ -332,7 +332,7 @@ export default function OnboardingPage() {
       </div>
 
       {/* Mobile Navigation Buttons (Bottom) - Only visible on mobile */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-linear-to-t from-[#1C1C1C] via-[#1C1C1C]/95 to-transparent pointer-events-none">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 px-4 pt-4 bg-linear-to-t from-[#1C1C1C] via-[#1C1C1C]/95 to-transparent pointer-events-none" style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom, 0px))' }}>
         <div className="flex justify-between items-center gap-3 pointer-events-auto">
           {/* Previous Button - Bottom Left */}
           <button

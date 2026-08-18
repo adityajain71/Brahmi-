@@ -36,7 +36,7 @@ export function AnimatedBird({
     const birdSize = sizeMap[size]
     const birdColor = colorMap[color]
     
-    const [screenWidth, setScreenWidth] = useState<number | null>(typeof window !== 'undefined' ? window.innerWidth : null)
+    const [screenWidth, setScreenWidth] = useState<number | null>(null)
 
     useEffect(() => {
         const update = () => setScreenWidth(window.innerWidth)

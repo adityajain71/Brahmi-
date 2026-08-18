@@ -244,7 +244,7 @@ export default function QuizEngine({ questions, onComplete, onExit, title }: Qui
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#1C1C1C] text-[#E6D8B8]">
+    <div className="flex flex-col min-h-dvh bg-[#1C1C1C] text-[#E6D8B8]">
 
       {/* ── Header ─────────────────────────────────────────── */}
       <div className="sticky top-0 z-40 bg-[#1C1C1C]/90 backdrop-blur-sm border-b border-[#D4AF37]/10">

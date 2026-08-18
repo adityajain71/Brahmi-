@@ -139,7 +139,7 @@ export default function LessonPlayer({
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#1C1C1C] text-[#E6D8B8] relative overflow-hidden">
+    <div className="flex flex-col min-h-dvh bg-[#1C1C1C] text-[#E6D8B8] relative overflow-x-hidden">
 
       {/* ── Top Progress Bar ──────────────────────────────────── */}
       <div className="fixed top-0 left-0 right-0 z-50">
@@ -191,7 +191,7 @@ export default function LessonPlayer({
       </div>
 
       {/* ── Mobile Bottom Nav ────────────────────────────────── */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-gradient-to-t from-[#1C1C1C] via-[#1C1C1C]/90 to-transparent pointer-events-none">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 px-4 pt-4 bg-gradient-to-t from-[#1C1C1C] via-[#1C1C1C]/90 to-transparent pointer-events-none" style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom, 0px))' }}>
         <div className="pointer-events-auto flex justify-between items-center gap-3">
           <button
             onClick={handleBack}
