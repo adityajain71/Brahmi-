@@ -42,7 +42,7 @@ export default function RootLayout({
           <Header />
           <LanguagePreferenceModal />
           <DevAttributeGuard />
-          <main className="min-h-dvh">
+          <main className="min-h-dvh w-full max-w-full overflow-x-hidden">
             {children}
           </main>
         </LanguageProvider>
